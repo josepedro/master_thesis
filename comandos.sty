@@ -1,0 +1,157 @@
+%----------------------------------------------------------------------
+% Comandos criados pelo usuário
+\newcommand{\com}[1]{{\color{red}{#1}}} % Para destacar uma parte no texto (fazer um comentário em vermelho)
+\newcommand{\inputTikZ}[2]{%  
+     \scalebox{#1}{\input{/figuras/#2}}  
+} % Comando para inserir figuras em TikZ
+
+
+
+%%Matheus comandos
+\newcommand{\soft}{{\it software}\xspace} % ao escrever \soft escreve software em itálico
+
+\newcommand{\rfs}{\text{ref}\xspace}
+
+\newcommand{\maxx}{\text{max}\xspace}
+
+
+\newcommand{\mfs}{microfones\xspace}
+\newcommand{\Mics}{{Microfones}\xspace}
+\newcommand{\Mic}{{Microfone}\xspace}
+\newcommand{\mics}{{microfones}\xspace}
+\newcommand{\mic}{{microfone}\xspace}
+\newcommand{\micr}{{mic.}\@\xspace}
+\newcommand{\micrs}{{mics.}\@\xspace}
+\newcommand{\Micr}{{Mic.}\@\xspace}
+\newcommand{\Micrs}{{Mics.}\@\xspace}
+
+\newcommand{\Freq}{Frequência\xspace} 
+\newcommand{\freq}{frequência\xspace} 
+\newcommand{\freqs}{frequências\xspace} 
+\newcommand{\Freqs}{frequências\xspace}
+
+\newcommand{\mat}{MATLAB\xspace}
+\newcommand{\BK}{B\&K\xspace}
+\newcommand{\Bruel}{Brüel\&Kj\ae r\xspace}
+
+%%%%%%%%%%%%%%
+\newcommand{\figura}[1]{Figura~\ref{#1}\xspace} %\figura{g1}  --> Figura X 
+\newcommand{\fign}[1]{\ref{#1}\xspace} 
+\newcommand{\Fig}[1]{Fig.~\ref{#1}}
+\newcommand{\Figura}[1]{Figura~\ref{#1}\xspace}
+\newcommand{\figuras}[1]{Figuras~\ref{#1}\xspace}
+\newcommand{\Figuras}[1]{Figuras~\ref{#1}\xspace}
+\newcommand{\subfigura}[1]{Figura~\subref*{#1}\xspace} %\subfigura{g1}  --> Figura X (a)
+%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%
+\newcommand{\tabela}[1]{Tabela~\ref{#1}\xspace}
+\newcommand{\Tabela}[1]{Tabela~\ref{#1}\xspace}
+\newcommand{\tabelas}[1]{Tabela~\ref{#1}\xspace}
+\newcommand{\Tabelas}[1]{Tabela~\ref{#1}\xspace}
+\newcommand{\Tab}[1]{Tab.~\ref{#1}}
+\newcommand{\tabn}[1]{\ref{#1}\xspace}
+%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%
+\newcommand{\equacao}[1]{Equação~\eqref{#1}\xspace}
+\newcommand{\eq}[1]{eq.~\eqref{#1}\xspace}
+\newcommand{\Eq}[1]{Eq.~\eqref{#1}}
+\newcommand{\eqn}[1]{\eqref{#1}\xspace}
+\newcommand{\Equacao}[1]{Equação~\eqref{#1}\xspace}
+\newcommand{\equacoes}[1]{Equações~\eqref{#1}\xspace}
+\newcommand{\Equacoes}[1]{Equações~\eqref{#1}\xspace}
+%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%
+\newcommand{\secao}[1]{Section~\ref{#1}\xspace}
+\newcommand{\Secao}[1]{Section~\ref{#1}\xspace}
+\newcommand{\secoes}[1]{Sections~\ref{#1}\xspace}
+\newcommand{\Secoes}[1]{Sections~\ref{#1}\xspace}
+%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%
+\newcommand{\itemref}[1]{item~\ref{#1}\xspace}
+\newcommand{\Item}[1]{Item~\ref{#1}\xspace}
+\newcommand{\itens}[1]{items~\ref{#1}\xspace}
+\newcommand{\Itens}[1]{Items~\ref{#1}\xspace}
+%%%%%%%%%%%%%%
+\newcommand{\capitulo}[1]{Chapter~\ref{#1}\xspace}
+\newcommand{\pagina}[1]{page~\pageref{#1}\xspace}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Math
+\usepackage{amsmath}
+\usepackage{graphicx} % Possibilita o uso de figuras e gráficos
+\usepackage{pstricks}
+\usepackage{tikz,xspace}
+\usepackage{comandos}
+\usepackage{pgf,tikz}
+\usepackage{graphicx}
+\DeclareMathOperator{\ji}{j\!}
+\DeclareMathOperator{\dt}{d\!}
+\DeclareMathOperator{\e}{e}
+
+\newcommand{\dif}{\mathrm{d} } 		%Novo comando o operador diferencial `d'
+\newcommand{\ex}{\mathrm{e} }			%Novo comando para a função exp
+\newcommand{\im}{\mathrm{i} }			%Novo comando para a função imaginario
+\renewcommand{\Re}{\mbox{Re}}
+\renewcommand{\Im}{\mbox{Im}}
+\newcommand{\sen}{\operatorname{sen}} %\sen \thau   --> sen thau
+\newcommand{\senh}{\operatorname{senh}}
+\newcommand{\hada}{\operatorname{HAD}}
+\newcommand{\F}{\mathscr{F}} % F de Fourier
+
+%% Vector options
+\newcommand{\vecb}[1]{\mathbf{#1}}					 % Vetores como boldface
+\newcommand{\vecl}[1]{\overrightarrow{#1}}	 % Vetores como flexa longa
+
+
+
+
+
+
+
+%\theoremstyle{definition}
+\newtheorem{example}{Example} % Definindo ambiente Exemplo
+\definecolor{Gray}{gray}{0.9} % Definindo uma cor para usar em tabelas, etc
+% Quando o latex separa a palavra de forma incorreta da para definir aqui qual é a forma correta.
+\hyphenation{co-nhe-ci-men-to}
+\hyphenation{me-to-do-lo-gi-as}
+\hyphenation{ca-rac-te-ris-ti-cas}
+\hyphenation{iso-mor-phic}
+\hyphenation{non-iso-mor-phic}
+\hyphenation{me-ca-nis-mos}
+\hyphenation{me-ca-nis-mo}
+\hyphenation{an-a-lyse}
+
+
+
+% defining the new dimensions and parameters
+\newlength{\hatchspread}
+\newlength{\hatchthickness}
+\newlength{\hatchshift}
+\newcommand{\hatchcolor}{}
+% declaring the keys in tikz
+\tikzset{hatchspread/.code={\setlength{\hatchspread}{#1}},
+         hatchthickness/.code={\setlength{\hatchthickness}{#1}},
+         hatchshift/.code={\setlength{\hatchshift}{#1}},% must be >= 0
+         hatchcolor/.code={\renewcommand{\hatchcolor}{#1}}}
+% setting the default values
+\tikzset{hatchspread=3pt,
+         hatchthickness=0.4pt,
+         hatchshift=0pt,% must be >= 0
+         hatchcolor=black}
+% declaring the pattern
+\pgfdeclarepatternformonly[\hatchspread,\hatchthickness,\hatchshift,\hatchcolor]% variables
+   {custom north west lines}% name
+   {\pgfqpoint{\dimexpr-2\hatchthickness}{\dimexpr-2\hatchthickness}}% lower left corner
+   {\pgfqpoint{\dimexpr\hatchspread+2\hatchthickness}{\dimexpr\hatchspread+2\hatchthickness}}% upper right corner
+   {\pgfqpoint{\dimexpr\hatchspread}{\dimexpr\hatchspread}}% tile size
+   {% shape description
+    \pgfsetlinewidth{\hatchthickness}
+    \pgfpathmoveto{\pgfqpoint{0pt}{\dimexpr\hatchspread+\hatchshift}}
+    \pgfpathlineto{\pgfqpoint{\dimexpr\hatchspread+0.15pt+\hatchshift}{-0.15pt}}
+    \ifdim \hatchshift > 0pt
+      \pgfpathmoveto{\pgfqpoint{0pt}{\hatchshift}}
+      \pgfpathlineto{\pgfqpoint{\dimexpr0.15pt+\hatchshift}{-0.15pt}}
+    \fi
+    \pgfsetstrokecolor{\hatchcolor}
+%    \pgfsetdash{{1pt}{1pt}}{0pt}% dashing cannot work correctly in all situation this way
+    \pgfusepath{stroke}
+   }

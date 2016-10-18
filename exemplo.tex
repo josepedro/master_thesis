@@ -1,0 +1,121 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Universidade Federal de Santa Catarina             
+% Biblioteca Universitária                     
+%----------------------------------------------------------------------
+% Exemplo de utilização da documentclass ufscThesis
+%----------------------------------------------------------------------                                                           
+% (c)2013 Roberto Simoni (roberto.emc@gmail.com)
+%         Carlos R Rocha (cticarlo@gmail.com)
+%         Rafael M Casali (rafaelmcasali@yahoo.com.br)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{ufscThesis} % Definicao do documentclass ufscThesis	
+
+%----------------------------------------------------------------------
+% Pacotes usados especificamente neste documento
+\usepackage{graphicx} % Possibilita o uso de figuras e gráficos
+\usepackage{color}    % Possibilita o uso de cores no documento
+\usepackage{pdfpages} % Possibilita a inclusão da ficha catalográfica
+\usepackage{listings}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{subcaption}
+
+
+%----------------------------------------------------------------------
+% Comandos criados pelo usuário
+\newcommand{\afazer}[1]{{\color{red}{#1}}} % Para destacar uma parte a ser trabalhada
+\newcommand{\ABNTbibliographyname}{REFERÊNCIAS} % Necessário para abnTeX 0.8.2
+
+
+%----------------------------------------------------------------------
+% Identificadores do trabalho
+% Usados para preencher os elementos pré-textuais
+\instituicao[a]{Universidade Federal de Santa Catarina} % Opcional
+\departamento[a]{Engenharia Mecânica}
+\curso[o]{Programa de Pós-Graduação}
+\documento[o]{Dissertação} % [o] para dissertação [a] para tese
+\titulo{Irradiação normal de dutos com escoamento subsônico e diferentes condições de contorno}
+\subtitulo{análise numérico-experimental} % Opcional
+\autor{José Pedro de Santana Neto}
+\grau{Mestre em Engenharia Mecânica}
+\local{Florianópolis} % Opcional (Florianópolis é o padrão)
+\data{15}{Junho}{2016}
+\orientador[Orientador]{Andrey Ricardo da Silva, Ph.D.}
+%\coorientador[Coorientador]{Henrique Simas, Dr. Eng.}
+\coordenador[Coordenador]{Armando Albertazzi Gonçalves Júnior, Dr. Eng.}
+
+\numerodemembrosnabanca{3} % Isso decide se haverá uma folha adicional
+\orientadornabanca{sim} % Se faz parte da banca definir como sim
+\coorientadornabanca{nao} % Se faz parte da banca definir como sim
+\bancaMembroA{Primeiro membro\\Universidade ...} %Nome do presidente da banca
+\bancaMembroB{Segundo membro\\Universidade ...}      % Nome do membro da Banca
+\bancaMembroC{Terceiro membro\\Universidade ...}     % Nome do membro da Banca
+\bancaMembroD{Quarto membro\\Universidade ...}       % Nome do membro da Banca
+%\bancaMembroE{Quinto membro\\Universidade ...}       % Nome do membro da Banca
+%\bancaMembroF{Sexto membro\\Universidade ...}        % Nome do membro da Banca
+%\bancaMembroG{Sétimo membro\\Universidade ...}       % Nome do membro da Banca
+
+\dedicatoria{Este trabalho é dedicado aos meus colegas de classe e aos meus queridos pais.}
+
+\agradecimento{Inserir os agradecimentos aos colaboradores à execução do trabalho.}
+
+\epigrafe{Texto da Epígrafe. Citação relativa ao tema do trabalho. É opcional. A epígrafe pode também aparecer na abertura de cada seção ou capítulo.}
+{(Autor da epígrafe, ano)}
+
+\textoResumo {O texto do resumo deve ser digitado, em um único bloco, sem espaço de parágrafo. O resumo deve ser significativo, composto de uma sequência de frases concisas, afirmativas e não de uma enumeração de tópicos. Não deve conter citações. Deve usar o verbo na voz passiva. Abaixo do resumo, deve-se informar as palavras-chave (palavras ou expressões significativas retiradas do texto) ou, termos retirados de thesaurus da área.}
+\palavrasChave {Palavra-chave 1. Palavra-chave 2.  Palavra-chave 3. }
+ 
+\textAbstract {Resumo traduzido para outros idiomas, neste caso, inglês. Segue o formato do resumo feito na língua vernácula. As palavras-chave traduzidas, versão em língua estrangeira, são colocadas abaixo do texto precedidas pela expressão ``Keywords'', separadas por ponto.}
+\keywords {Keyword 1. Keyword 2. Keyword 3.}
+
+%----------------------------------------------------------------------
+% Início do documento                                
+\usepackage{comandos}
+
+\begin{document}
+%--------------------------------------------------------
+% Elementos pré-textuais
+\capa  
+%\folhaderosto[comficha] % Se nao quiser imprimir a ficha, é só não usar o parâmetro
+%\folhaaprovacao
+%\paginadedicatoria
+%\paginaagradecimento
+%\paginaepigrafe
+%\paginaresumo
+%\paginaabstract
+%\pretextuais % Substitui todos os elementos pre-textuais acima
+%\listadefiguras % as listas dependem da necessidade do usuário
+%\listadetabelas 
+%\listadeabreviaturas
+%\listadesimbolos
+%%%%%%
+%\f
+\sumario
+%--------------------------------------------------------
+% Elementos textuais
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{capitulos/1_introduction.tex} 
+%\input{capitulos/2_bibliographic_review.tex}
+%\input{capitulos/3_Metodoogia.tex}
+%\input{capitulos/4_Etapas_trabalho.tex}
+%\input{capitulos/5_Cronograma.tex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\bibliographystyle{ufscThesis/ufsc-alf}
+\bibliography{bibliografia}
+%%%%%%%%%%%%%%%%%%%%%	REFERÊNCIAS    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%--------------------------------------------------------
+% Elementos pós-textuais
+%\apendice
+%\chapter{Exemplificando um Apêndice}
+%Texto do Apêndice aqui. 
+
+%\anexo
+%\chapter{Exemplificando um Anexo}
+%Texto do anexo aqui.
+\end{document}
