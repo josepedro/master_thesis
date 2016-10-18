@@ -1,0 +1,156 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{1.45.2.1 }
+
+\bibitem[Allam e {\AA}bom 2006]{allam2006investigation}
+\abntrefinfo{Allam e {\AA}bom}{ALLAM; {\AA}BOM}{2006}
+{ALLAM, S.; {\AA}BOM, M. Investigation of damping and radiation using full
+  plane wave decomposition in ducts.
+\emph{Journal of sound and vibration}, Elsevier, v.~292, n.~3, p. 519--534,
+  2006.}
+
+\bibitem[Bouzidi et al. 2001]{bouzidi2001momentum}
+\abntrefinfo{Bouzidi et al.}{BOUZIDI et al.}{2001}
+{BOUZIDI, M.; FIRDAOUSS, M.; LALLEMAND, P. Momentum transfer of a
+  boltzmann-lattice fluid with boundaries.
+\emph{Physics of Fluids (1994-present)}, AIP Publishing, v.~13, n.~11, p.
+  3452--3459, 2001.}
+
+\bibitem[Carrier 1955]{carrier1955sound}
+\abntrefinfo{Carrier}{CARRIER}{1955}
+{CARRIER, G. \emph{Sound transmission from a tube with flow}.
+[S.l.], 1955.}
+
+\bibitem[Crouse et al. 2006]{crouse2006fundamental}
+\abntrefinfo{Crouse et al.}{CROUSE et al.}{2006}
+{CROUSE, B.; FREED, D.; BALASUBRAMANIAN, G.; SENTHOORAN, S.; LEW, P.-T.;
+  MONGEAU, L. Fundamental aeroacoustic capabilities of the lattice-boltzmann
+  method.
+\emph{AIAA paper}, v.~2571, 2006.}
+
+\bibitem[Dalmont et al. 2001]{dalmont2001radiation}
+\abntrefinfo{Dalmont et al.}{DALMONT et al.}{2001}
+{DALMONT, J.-P.; NEDERVEEN, C.; JOLY, N. Radiation impedance of tubes with
+  different flanges: numerical and experimental investigations.
+\emph{Journal of sound and vibration}, Elsevier, v.~244, n.~3, p. 505--534,
+  2001.}
+
+\bibitem[Halliday et al. 2001]{halliday2001lattice}
+\abntrefinfo{Halliday et al.}{HALLIDAY et al.}{2001}
+{HALLIDAY, I.; HAMMOND, L.; CARE, C.; GOOD, K.; STEVENS, A. Lattice boltzmann
+  equation hydrodynamics.
+\emph{Physical review E}, APS, v.~64, n.~1, p. 011208, 2001.}
+
+\bibitem[Kam et al. 2006]{kam2006non}
+\abntrefinfo{Kam et al.}{KAM et al.}{2006}
+{KAM, E.; SO, R.; LEUNG, R. Non-reflecting boundary for one-step lbm simulation
+  of aeroacoustics. In:  \emph{27th AIAA Aeroacoustics Conference}. [S.l.:
+  s.n.], 2006. p.~1--9.}
+
+\bibitem[Levine e Schwinger 1948]{levine1948radiation}
+\abntrefinfo{Levine e Schwinger}{LEVINE; SCHWINGER}{1948}
+{LEVINE, H.; SCHWINGER, J. On the radiation of sound from an unflanged circular
+  pipe.
+\emph{Physical review}, APS, v.~73, n.~4, p.~383, 1948.}
+
+\bibitem[Lew et al. 2010]{lew2010noise}
+\abntrefinfo{Lew et al.}{LEW et al.}{2010}
+{LEW, P.-T.; MONGEAU, L.; LYRINTZIS, A. Noise prediction of a subsonic
+  turbulent round jet using the lattice-boltzmann method.
+\emph{The Journal of the Acoustical Society of America}, Acoustical Society of
+  America, v.~128, n.~3, p. 1118--1127, 2010.}
+
+\bibitem[Lockard 2000]{lockard2000efficient}
+\abntrefinfo{Lockard}{LOCKARD}{2000}
+{LOCKARD, D.~P. An efficient, two-dimensional implementation of the ffowcs
+  williams and hawkings equation.
+\emph{Journal of Sound and Vibration}, Elsevier, v.~229, n.~4, p. 897--911,
+  2000.}
+
+\bibitem[Mani 1973]{mani1973refraction}
+\abntrefinfo{Mani}{MANI}{1973}
+{MANI, R. Refraction of acoustic duct waveguide modes by exhaust jets.
+1973.}
+
+\bibitem[Munt 1977]{munt1977interaction}
+\abntrefinfo{Munt}{MUNT}{1977}
+{MUNT, R. The interaction of sound with a subsonic jet issuing from a
+  semi-infinite cylindrical pipe.
+\emph{Journal of Fluid Mechanics}, Cambridge Univ Press, v.~83, n.~04, p.
+  609--640, 1977.}
+
+\bibitem[Munt 1990]{munt1990acoustic}
+\abntrefinfo{Munt}{MUNT}{1990}
+{MUNT, R. Acoustic transmission properties of a jet pipe with subsonic jet
+  flow: I. the cold jet reflection coefficient.
+\emph{Journal of Sound and Vibration}, Elsevier, v.~142, n.~3, p. 413--436,
+  1990.}
+
+\bibitem[Najafi-Yazdi e Mongeau 2012]{najafi2012absorbing}
+\abntrefinfo{Najafi-Yazdi e Mongeau}{NAJAFI-YAZDI; MONGEAU}{2012}
+{NAJAFI-YAZDI, A.; MONGEAU, L. An absorbing boundary condition for the lattice
+  boltzmann method based on the perfectly matched layer.
+\emph{Computers \& fluids}, Elsevier, v.~68, p. 203--218, 2012.}
+
+\bibitem[Savkar 1975]{savkar1975radiation}
+\abntrefinfo{Savkar}{SAVKAR}{1975}
+{SAVKAR, S. Radiation of cylindrical duct acoustic modes with flow mismatch.
+\emph{Journal of Sound and Vibration}, Elsevier, v.~42, n.~3, p. 363--386,
+  1975.}
+
+\bibitem[Selamet et al. 2001]{selamet2001wave}
+\abntrefinfo{Selamet et al.}{SELAMET et al.}{2001}
+{SELAMET, A.; JI, Z.; KACH, R. Wave reflections from duct terminations.
+\emph{The Journal of the Acoustical Society of America}, Acoustical Society of
+  America, v.~109, n.~4, p. 1304--1311, 2001.}
+
+\bibitem[Silva e Scavone 2006]{da2006lattice}
+\abntrefinfo{Silva e Scavone}{SILVA; SCAVONE}{2006}
+{SILVA, A. D.; SCAVONE, G. Lattice boltzmann simulations of the acoustic
+  radiation from waveguides.
+\emph{Journal of Physics A: Mathematical and Theoretical}, IOP Publishing,
+  v.~40, n.~3, p.~397, 2006.}
+
+\bibitem[Silva et al. 2009]{da2009sound}
+\abntrefinfo{Silva et al.}{SILVA et al.}{2009}
+{SILVA, A. D.; SCAVONE, G.; LEFEBVRE, A. Sound reflection at the open end of
+  axisymmetric ducts issuing a subsonic mean flow: A numerical study.
+\emph{Journal of Sound and Vibration}, Elsevier, v.~327, n.~3, p. 507--528,
+  2009.}
+
+\bibitem[Silva et al. 2012]{silva2012approximate}
+\abntrefinfo{Silva et al.}{SILVA et al.}{2012}
+{SILVA, A. R.~D.; MAREZE, P.~H.; LENZI, A. Approximate expressions for the
+  reflection coefficient of ducts terminated by circular flanges.
+\emph{Journal of the Brazilian Society of Mechanical Sciences and Engineering},
+  SciELO Brasil, v.~34, n.~2, p. 219--224, 2012.}
+
+\bibitem[Silva et al. 2015]{da2015assessment}
+\abntrefinfo{Silva et al.}{SILVA et al.}{2015}
+{SILVA, F.~D. da; DESCHAMPS, C.~J.; SILVA, A.~R. da; SIM{\~O}ES, L.~G.
+  Assessment of jet-plate interaction noise using the lattice boltzmann method.
+  In:  \emph{21st AIAA/CEAS Aeroacoustics Conference}. [S.l.: s.n.], 2015.
+  p.~2207.}
+
+\bibitem[Viggen 2013]{viggen2013acoustic}
+\abntrefinfo{Viggen}{VIGGEN}{2013}
+{VIGGEN, E.~M. Acoustic multipole sources for the lattice boltzmann method.
+\emph{Physical Review E}, APS, v.~87, n.~2, p. 023306, 2013.}
+
+\bibitem[Viggen 2014]{viggen2014acoustic}
+\abntrefinfo{Viggen}{VIGGEN}{2014}
+{VIGGEN, E.~M. Acoustic equations of state for simple lattice boltzmann
+  velocity sets.
+\emph{Physical Review E}, APS, v.~90, n.~1, p. 013310, 2014.}
+
+\bibitem[Yong et al. 2013]{shi2013lattice}
+\abntrefinfo{Yong et al.}{YONG et al.}{2013}
+{YONG; SILVA, A.~R. da; SCAVONE, G.~P. Lattice boltzmann simulations of sound
+  directivity of a cylindrical pipe with mean flow.
+\emph{Journal of Physics A: Mathematical and Theoretical}, IOP Publishing,
+  v.~46, n.~31, p. 315501, 2013.}
+
+\end{thebibliography}
