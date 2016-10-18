@@ -992,9 +992,10 @@
     \begin{center}
 	\tituloformat{\agradecimentoname}
     \end{center}
-    \vspace{2.5cm}
+    %\vspace{2.5cm}
     \begin{espacosimples}
-	\agradecimentoformat\agradecimentodata
+	%\agradecimentoformat 
+  \agradecimentodata
     \end{espacosimples}
     }
 }% end of \agradecimento

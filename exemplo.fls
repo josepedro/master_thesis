@@ -281,6 +281,13 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 OUTPUT exemplo.pdf
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT exemplo.lof
+INPUT exemplo.lof
+OUTPUT exemplo.lof
+INPUT exemplo.lot
+INPUT exemplo.lot
+OUTPUT exemplo.lot
 INPUT exemplo.toc
 INPUT exemplo.toc
 OUTPUT exemplo.toc
@@ -288,7 +295,6 @@ INPUT capitulos/1_introduction.tex
 INPUT capitulos/1_introduction.tex
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT figuras/abs_r_comparacao.eps
 INPUT ./figuras/abs_r_comparacao.eps
 INPUT ./figuras/abs_r_comparacao.eps

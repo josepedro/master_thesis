@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  18 OCT 2016 19:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  18 OCT 2016 19:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1227,13 +1227,74 @@ Non-PDF special ignored!
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 [0
 
+]
+Overfull \hbox (14.995pt too wide) in paragraph at lines 79--79
+\OT1/cmr/m/n/9 Grau de Mes-tre em En-ge-nha-ria Mec^anica. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+
+ []
+
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+
+ []
+
+
+Overfull \hbox (3.33333pt too wide) in paragraph at lines 79--80
+[]
+ []
+
+[2] [3
+
+] [4
+
+] [5] [6
+
+] [7] [8
+
+] [9] [10
+
+] [11
+
+] [12
+
+] [13
+
+] [14
+
+] (./exemplo.lof
+Overfull \hbox (2.09966pt too wide) in paragraph at lines 3--3
+[] \OT1/cmr/m/n/10 Fi-gura []Resultados anal^^S^^Pticos exa-tos para o co-e-fi-
+ci-ente de corre^^Xc~ao 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15])
+\tf@lof=\write4
+\openout4 = `exemplo.lof'.
+
+
+[16] (./exemplo.lot)
+\tf@lot=\write5
+\openout5 = `exemplo.lot'.
+
+ [17
+
+] [18
+
 ] (./exemplo.toc)
-\tf@toc=\write4
-\openout4 = `exemplo.toc'.
+\tf@toc=\write6
+\openout6 = `exemplo.toc'.
 
- [1] [2
+ [19] [20
 
-] (./capitulos/1_introduction.tex
+]
+(./capitulos/1_introduction.tex
 Cap\'{\i }tulo 1.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 9.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
@@ -1241,7 +1302,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
- [3
+ [21
 
 ]
 Overfull \hbox (2.54419pt too wide) in paragraph at lines 33--34
@@ -1260,7 +1321,7 @@ pdf>
 ps-converted-to.pdf figuras/abs_r_comparacao.eps>
 (epstopdf)             \includegraphics on input line 37.
 Package epstopdf Info: Output file is already uptodate.
-<figuras/abs_r_comparacao-eps-converted-to.pdf, id=32, 578.16pt x 449.68pt>
+<figuras/abs_r_comparacao-eps-converted-to.pdf, id=89, 578.16pt x 449.68pt>
 File: figuras/abs_r_comparacao-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/abs_r_comparacao-eps-converted-to.pdf>
@@ -1270,7 +1331,7 @@ input line 37.
 
 Underfull \vbox (badness 7203) has occurred while \output is active []
 
- [4 <./figuras/abs_r_comparacao-eps-converted-to.pdf>]
+ [22 <./figuras/abs_r_comparacao-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/loa_comparacao.eps>
 (epstopdf)                    date: 2016-10-18 17:43:08
 (epstopdf)                    size: 23685 bytes
@@ -1283,7 +1344,7 @@ f>
 (epstopdf)             \includegraphics on input line 46.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/loa_comparacao-eps-converted-to.pdf, id=39, 578.16pt x 449.68pt>
+<figuras/loa_comparacao-eps-converted-to.pdf, id=96, 578.16pt x 449.68pt>
 File: figuras/loa_comparacao-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/loa_comparacao-eps-converted-to.pdf>
@@ -1302,7 +1363,7 @@ acao-eps-converted-to.pdf figuras/directivity_comparacao.eps>
 (epstopdf)             \includegraphics on input line 56.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/directivity_comparacao-eps-converted-to.pdf, id=40, 597.23125pt x 476.
+<figuras/directivity_comparacao-eps-converted-to.pdf, id=97, 597.23125pt x 476.
 78125pt>
 File: figuras/directivity_comparacao-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1310,10 +1371,10 @@ f)
 Package pdftex.def Info: figuras/directivity_comparacao-eps-converted-to.pdf us
 ed on input line 56.
 (pdftex.def)             Requested size: 276.55891pt x 220.78432pt.
- [5 <./figuras/loa_comparacao-eps-converted-to.pdf>]
+ [23 <./figuras/loa_comparacao-eps-converted-to.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6 <./figuras/directivity_comparacao-eps-converted-to.pdf>]
+ [24 <./figuras/directivity_comparacao-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/diferentes_dutos.eps>
 (epstopdf)                    date: 2016-10-18 17:43:49
 (epstopdf)                    size: 35424 bytes
@@ -1326,21 +1387,22 @@ ps-converted-to.pdf figuras/diferentes_dutos.eps>
 (epstopdf)             \includegraphics on input line 79.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/diferentes_dutos-eps-converted-to.pdf, id=54, 451.6875pt x 612.2875pt>
+<figuras/diferentes_dutos-eps-converted-to.pdf, id=111, 451.6875pt x 612.2875pt
+>
 File: figuras/diferentes_dutos-eps-converted-to.pdf Graphic file (type pdf)
-<use figuras/diferentes_dutos-eps-converted-to.pdf>
+ <use figuras/diferentes_dutos-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/diferentes_dutos-eps-converted-to.pdf used on 
 input line 79.
 (pdftex.def)             Requested size: 187.44695pt x 254.09457pt.
- [7] [8 <./figuras/diferentes_dutos-eps-converted-to.pdf>]
+ [25] [26 <./figuras/diferentes_dutos-eps-converted-to.pdf>]
 Cap\'{\i }tulo 2.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9
+ [27
 
 ]
-[10]
+[28]
 Cap\'{\i }tulo 3.
 
 Overfull \hbox (5.146pt too wide) in paragraph at lines 109--110
@@ -1348,7 +1410,7 @@ Overfull \hbox (5.146pt too wide) in paragraph at lines 109--110
 o. Para
  []
 
-[11
+[29
 
 ]
 Package epstopdf Info: Source file: <figuras/duto_abom.eps>
@@ -1361,7 +1423,7 @@ Package epstopdf Info: Source file: <figuras/duto_abom.eps>
 erted-to.pdf figuras/duto_abom.eps>
 (epstopdf)             \includegraphics on input line 138.
 Package epstopdf Info: Output file is already uptodate.
- <figuras/duto_abom-eps-converted-to.pdf, id=76, 911.405pt x 281.05pt>
+ <figuras/duto_abom-eps-converted-to.pdf, id=133, 911.405pt x 281.05pt>
 File: figuras/duto_abom-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/duto_abom-eps-converted-to.pdf>
@@ -1374,7 +1436,7 @@ Overfull \hbox (0.89603pt too wide) in paragraph at lines 145--146
 o, pode-
  []
 
-[12 <./figuras/duto_abom-eps-converted-to.pdf>]
+[30 <./figuras/duto_abom-eps-converted-to.pdf>]
 Cap\'{\i }tulo 4.
 Package epstopdf Info: Source file: <figuras/duto_1.eps>
 (epstopdf)                    date: 2016-10-18 17:44:33
@@ -1386,14 +1448,14 @@ Package epstopdf Info: Source file: <figuras/duto_1.eps>
 ed-to.pdf figuras/duto_1.eps>
 (epstopdf)             \includegraphics on input line 160.
 Package epstopdf Info: Output file is already uptodate.
-<figuras/duto_1-eps-converted-to.pdf, id=83, 658.46pt x 557.08125pt>
+<figuras/duto_1-eps-converted-to.pdf, id=140, 658.46pt x 557.08125pt>
 File: figuras/duto_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/duto_1-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/duto_1-eps-converted-to.pdf used on input line
  160.
 (pdftex.def)             Requested size: 270.30191pt x 270.30309pt.
- [13
+ [31
 
  <./figuras/duto_1-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/ka_074_0036.eps>
@@ -1407,7 +1469,7 @@ nverted-to.pdf figuras/ka_074_0036.eps>
 (epstopdf)             \includegraphics on input line 170.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/ka_074_0036-eps-converted-to.pdf, id=90, 421.575pt x 316.18124pt>
+<figuras/ka_074_0036-eps-converted-to.pdf, id=147, 421.575pt x 316.18124pt>
 File: figuras/ka_074_0036-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/ka_074_0036-eps-converted-to.pdf>
@@ -1425,7 +1487,7 @@ nverted-to.pdf figuras/ka_148_0036.eps>
 (epstopdf)             \includegraphics on input line 177.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/ka_148_0036-eps-converted-to.pdf, id=91, 421.575pt x 316.18124pt>
+<figuras/ka_148_0036-eps-converted-to.pdf, id=148, 421.575pt x 316.18124pt>
 File: figuras/ka_148_0036-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/ka_148_0036-eps-converted-to.pdf>
@@ -1443,7 +1505,7 @@ verted-to.pdf figuras/ka_074_015.eps>
 (epstopdf)             \includegraphics on input line 184.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/ka_074_015-eps-converted-to.pdf, id=92, 421.575pt x 316.18124pt>
+<figuras/ka_074_015-eps-converted-to.pdf, id=149, 421.575pt x 316.18124pt>
 File: figuras/ka_074_015-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/ka_074_015-eps-converted-to.pdf>
@@ -1461,33 +1523,33 @@ verted-to.pdf figuras/ka_148_015.eps>
 (epstopdf)             \includegraphics on input line 191.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/ka_148_015-eps-converted-to.pdf, id=93, 421.575pt x 316.18124pt>
+<figuras/ka_148_015-eps-converted-to.pdf, id=150, 421.575pt x 316.18124pt>
 File: figuras/ka_148_015-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/ka_148_015-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/ka_148_015-eps-converted-to.pdf used on input 
 line 191.
 (pdftex.def)             Requested size: 284.53154pt x 142.26576pt.
- [14 <./figuras/ka_074_0036-eps-converted-to.pdf> <./figuras/ka_148_0036-eps-co
-nverted-to.pdf>] [15 <./figuras/ka_074_015-eps-converted-to.pdf> <./figuras/ka_
+ [32 <./figuras/ka_074_0036-eps-converted-to.pdf> <./figuras/ka_148_0036-eps-co
+nverted-to.pdf>] [33 <./figuras/ka_074_015-eps-converted-to.pdf> <./figuras/ka_
 148_015-eps-converted-to.pdf>]
-[16
+[34
 
 ]
 Cap\'{\i }tulo 5.
-) (./exemplo.bbl [17] [18
+) (./exemplo.bbl [35] [36
 
-] [19] [20])
+] [37] [38])
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[21] (./exemplo.aux) ) 
+[39] (./exemplo.aux) ) 
 Here is how much of TeX's memory you used:
- 19504 strings out of 493029
- 351428 string characters out of 6136233
- 450419 words of memory out of 5000000
- 22589 multiletter control sequences out of 15000+600000
+ 19515 strings out of 493029
+ 351545 string characters out of 6136233
+ 450370 words of memory out of 5000000
+ 22594 multiletter control sequences out of 15000+600000
  5452 words of font info for 21 fonts, out of 8000000 for 9000
  1149 hyphenation exceptions out of 8191
  61i,9n,77p,1608b,445s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1504,10 +1566,10 @@ s/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmti10.pfb>
-Output written on exemplo.pdf (23 pages, 382096 bytes).
+Output written on exemplo.pdf (41 pages, 403469 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
+ 233 PDF objects out of 1000 (max. 8388607)
+ 155 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  63 words of extra memory for PDF output out of 10000 (max. 10000000)
 
