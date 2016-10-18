@@ -645,7 +645,7 @@
 \end{center}
 \vfill\vfill
 \begin{center}
-\tituloformat{Projeto de Dissertação de Mestrado}
+%\tituloformat{Projeto de Dissertação de Mestrado}
     \vspace{1cm}    
     \begin{espacosimples}
 	\ABNTifnotempty{\ABNTtitulodata}%
@@ -666,7 +666,7 @@
 
 \begin{center}
  {
- {\ABNTorientadordata}:\ {\ABNTorientadorname}\protect\\
+ %{\ABNTorientadordata}:\ {\ABNTorientadorname}\protect\\
  }
     \begin{espacosimples}
     \setlength{\parskip}{.3cm}
