@@ -321,7 +321,7 @@
        {\tablename~\normalfont #1}\nobreak \filltocentry{#2}}
 % Formato que fica sem página e a ordenação pode ser feita manualmente:
 \newcommand{\listadesimbolos}{
-    \pretextualchapter{List of Symbols}\@starttoc{lsb}}
+    \pretextualchapter{Lista de Símbolos}\@starttoc{lsb}}
 \newcommand{\simbolo}[2]{\addcontentsline{lsb}{simb}{\numberline{#1}{#2}}}
 \newcommand{\l@simb}[2]{
 	   \vskip -1em
@@ -345,7 +345,7 @@
 
 % Formato que fica sem página e a ordenação pode ser feita manualmente:
 \newcommand{\listadeabreviaturas}{
-    \pretextualchapter{List of Abbreviations}\@starttoc{las}}
+    \pretextualchapter{Lista de Abreviações}\@starttoc{las}}
 \newcommand{\abreviatura}[2]{\addcontentsline{las}{sig}{\numberline{#1}{#2}}}
 \newcommand{\sigla}{\abreviatura}
 \newcommand{\l@sig}[2]{

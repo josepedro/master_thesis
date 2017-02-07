@@ -288,6 +288,12 @@ OUTPUT exemplo.lof
 INPUT exemplo.lot
 INPUT exemplo.lot
 OUTPUT exemplo.lot
+INPUT exemplo.las
+INPUT exemplo.las
+OUTPUT exemplo.las
+INPUT exemplo.lsb
+INPUT exemplo.lsb
+OUTPUT exemplo.lsb
 INPUT exemplo.toc
 INPUT exemplo.toc
 OUTPUT exemplo.toc
