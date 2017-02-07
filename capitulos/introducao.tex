@@ -85,7 +85,7 @@ Tem-se como objetivos específicos:
 
 
 
-\chapter{Revisão Bibliográfica}
+\section{Revisão Bibliográfica}
 \label{chapter:revisao}
 
 Vários trabalhos foram feitos no contexto de irradiação normal de dutos, dentre os quais o mais canônico foi o trabalho de \citeonline{levine1948radiation}, que resolveu analiticamente o problema da radiação e da reflexão para terminação não-flangeada usando a técnica Wiener–Hopf. \citeonline{munt1977interaction} fez um trabalho similar desenvolvendo um modelo exato para a diretividade do som irradiado com escoamento subsônico. Posteriormente \citeonline{munt1990acoustic} complementou o modelo \\ adicionando o coeficiente de reflexão para números de Mach até 0,4. Usando teorias similares e considerando o escoamento como uniforme (\textit{plug}) o mesmo problema foi resolvido de maneira aproximada por  \citeonline{carrier1955sound} (usando o método de Prandtl-Glauert), \citeonline{mani1973refraction}, considerando o movimento transversal de ondas acústicas, e \citeonline{savkar1975radiation} considerando variações de temperatura. 
@@ -101,7 +101,7 @@ Ainda no contexto do LBM, \citeonline{shi2013lattice} usaram o método para vali
 
 Outra problemática relativa à modelagem numérica usando LBM é a implementação de uma condição anecóica. Essa condição consiste em, além de absorver o som gerado pelos processos aerodinâmicos, absorver também o escoamento e a vorticidade gerada. Algumas opções de condições anecóicas são a condição ABC de \citeonline{kam2006non} que se baseia numa região de amortecimento redirecionando os valores de densidade e velocidade das partículas para um valor alvo, e a condição de \citeonline{najafi2012absorbing} que implementa uma formulação de \textit{Perfectly Matched Layer} (PML) para LBM.
 
-\chapter{Metodologia}
+\section{Metodologia}
 \label{chapter:metodologia}
 
 Além da revisão bibliográfica apresentada, a condução do presente trabalho dar-se-á pelas seguintes etapas:
@@ -150,7 +150,7 @@ Além da revisão bibliográfica apresentada, a condução do presente trabalho 
 \end{enumerate}
  
 
-\chapter{Resultados Preliminares}
+\section{Resultados Preliminares}
 \label{chapter:resultados}
 
 No que diz respeito aos resultados preliminares, foi implementado e simulado o modelo numérico descrito no estudo de \citeonline{shi2013lattice}. Basicamente é um duto com a terminação aberta não-flangeada que teve os modos excitados junto com escoamento. A Figura \ref{fig:duto_1} mostra os resultados comparados para $\|R\|$ e correção da terminação $l/a$. Percebe-se que os resultados apresentam boa convergência com os resultados da literatura.
@@ -195,7 +195,7 @@ As Figuras \ref{fig:duto_2_1}, \ref{fig:duto_2_2}, \ref{fig:duto_2_3} e \ref{fig
 
 Em vista das simulações abordadas, pode-se verificar que a implementação dos modelos em LBM estão coerentes e gerando boas concordâncias com estudos anteriores, todavia ainda pode-se melhorar os resultados com o uso da superfície de FW-H aplicando-a num contexto de modelagem numérica em 3 dimensões.
 
-\chapter{Cronograma}
+\section{Cronograma}
 \label{chapter:cronograma}
 % Please add the following required packages to your document preamble:
 \begin{table}[ht!]
