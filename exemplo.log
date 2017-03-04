@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  7 FEB 2017 12:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  20 FEB 2017 23:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1265,27 +1265,18 @@ Overfull \hbox (3.33333pt too wide) in paragraph at lines 79--80
 
 ] [14
 
-] (./exemplo.lof
-Overfull \hbox (2.09966pt too wide) in paragraph at lines 3--3
-[] \OT1/cmr/m/n/10 Fi-gura []Resultados anal^^S^^Pticos exa-tos para o co-e-fi-
-ci-ente de corre^^Xc~ao 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15])
+] (./exemplo.lof)
 \tf@lof=\write4
 \openout4 = `exemplo.lof'.
 
 
-[16] (./exemplo.lot)
+[15] [16
+
+] (./exemplo.lot)
 \tf@lot=\write5
 \openout5 = `exemplo.lot'.
 
- [17
-
-] [18
+ [17] [18
 
 ] (./exemplo.las)
 \tf@las=\write6
@@ -1308,291 +1299,79 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ] (./capitulos/introducao.tex
 Cap\'{\i }tulo 1.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 9.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 16.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 16.
  [25
 
-]
-Overfull \hbox (2.54419pt too wide) in paragraph at lines 33--34
-\OT1/cmr/m/n/10 Para tais cir-cunst^ancias, Munt (1990) prop^os um mo-delo anal
-^^S^^Ptico exato,
- []
-
-Package epstopdf Info: Source file: <figuras/abs_r_comparacao.eps>
-(epstopdf)                    date: 2016-10-18 17:42:40
-(epstopdf)                    size: 23920 bytes
-(epstopdf)             Output file: <figuras/abs_r_comparacao-eps-converted-to.
-pdf>
-(epstopdf)                    date: 2016-10-18 17:46:33
-(epstopdf)                    size: 12554 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/abs_r_comparacao-e
-ps-converted-to.pdf figuras/abs_r_comparacao.eps>
-(epstopdf)             \includegraphics on input line 37.
-Package epstopdf Info: Output file is already uptodate.
-<figuras/abs_r_comparacao-eps-converted-to.pdf, id=102, 578.16pt x 449.68pt>
-File: figuras/abs_r_comparacao-eps-converted-to.pdf Graphic file (type pdf)
-
-<use figuras/abs_r_comparacao-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/abs_r_comparacao-eps-converted-to.pdf used on 
-input line 37.
-(pdftex.def)             Requested size: 276.55891pt x 215.09602pt.
-
-Underfull \vbox (badness 7203) has occurred while \output is active []
-
- [26 <./figuras/abs_r_comparacao-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <figuras/loa_comparacao.eps>
-(epstopdf)                    date: 2016-10-18 17:43:08
-(epstopdf)                    size: 23685 bytes
-(epstopdf)             Output file: <figuras/loa_comparacao-eps-converted-to.pd
-f>
-(epstopdf)                    date: 2016-10-18 17:46:34
-(epstopdf)                    size: 12137 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/loa_comparacao-eps
--converted-to.pdf figuras/loa_comparacao.eps>
-(epstopdf)             \includegraphics on input line 46.
-Package epstopdf Info: Output file is already uptodate.
-
-<figuras/loa_comparacao-eps-converted-to.pdf, id=109, 578.16pt x 449.68pt>
-File: figuras/loa_comparacao-eps-converted-to.pdf Graphic file (type pdf)
-
-<use figuras/loa_comparacao-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/loa_comparacao-eps-converted-to.pdf used on in
-put line 46.
-(pdftex.def)             Requested size: 276.55891pt x 215.09602pt.
-Package epstopdf Info: Source file: <figuras/directivity_comparacao.eps>
-(epstopdf)                    date: 2016-10-18 17:43:29
-(epstopdf)                    size: 26591 bytes
-(epstopdf)             Output file: <figuras/directivity_comparacao-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2016-10-18 17:46:34
-(epstopdf)                    size: 14785 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/directivity_compar
-acao-eps-converted-to.pdf figuras/directivity_comparacao.eps>
-(epstopdf)             \includegraphics on input line 56.
-Package epstopdf Info: Output file is already uptodate.
-
-<figuras/directivity_comparacao-eps-converted-to.pdf, id=110, 597.23125pt x 476
-.78125pt>
-File: figuras/directivity_comparacao-eps-converted-to.pdf Graphic file (type pd
-f)
- <use figuras/directivity_comparacao-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/directivity_comparacao-eps-converted-to.pdf us
-ed on input line 56.
-(pdftex.def)             Requested size: 276.55891pt x 220.78432pt.
- [27 <./figuras/loa_comparacao-eps-converted-to.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [28 <./figuras/directivity_comparacao-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <figuras/diferentes_dutos.eps>
-(epstopdf)                    date: 2016-10-18 17:43:49
-(epstopdf)                    size: 35424 bytes
-(epstopdf)             Output file: <figuras/diferentes_dutos-eps-converted-to.
-pdf>
-(epstopdf)                    date: 2016-10-18 17:46:34
-(epstopdf)                    size: 20221 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/diferentes_dutos-e
-ps-converted-to.pdf figuras/diferentes_dutos.eps>
-(epstopdf)             \includegraphics on input line 79.
-Package epstopdf Info: Output file is already uptodate.
-
-<figuras/diferentes_dutos-eps-converted-to.pdf, id=123, 451.6875pt x 612.2875pt
->
-File: figuras/diferentes_dutos-eps-converted-to.pdf Graphic file (type pdf)
- <use figuras/diferentes_dutos-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/diferentes_dutos-eps-converted-to.pdf used on 
-input line 79.
-(pdftex.def)             Requested size: 187.44695pt x 254.09457pt.
- [29]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [30 <./figuras/diferentes_dutos-eps-converted-to.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [31]
-Overfull \hbox (5.146pt too wide) in paragraph at lines 109--110
-[]\OT1/cmr/m/n/10 Modelagem num^^Serica do duto n~ao-flangeado sem es-co-a-ment
-o. Para
- []
-
-[32]
-Package epstopdf Info: Source file: <figuras/duto_abom.eps>
-(epstopdf)                    date: 2016-10-18 17:44:12
-(epstopdf)                    size: 99796 bytes
-(epstopdf)             Output file: <figuras/duto_abom-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-10-18 17:46:35
-(epstopdf)                    size: 51800 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/duto_abom-eps-conv
-erted-to.pdf figuras/duto_abom.eps>
-(epstopdf)             \includegraphics on input line 138.
-Package epstopdf Info: Output file is already uptodate.
- <figuras/duto_abom-eps-converted-to.pdf, id=142, 911.405pt x 281.05pt>
-File: figuras/duto_abom-eps-converted-to.pdf Graphic file (type pdf)
-
-<use figuras/duto_abom-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/duto_abom-eps-converted-to.pdf used on input l
-ine 138.
-(pdftex.def)             Requested size: 291.92435pt x 90.0193pt.
-
-Overfull \hbox (0.89603pt too wide) in paragraph at lines 145--146
-\OT1/cmr/m/n/10 com es-co-a-mento su-gado. Dado o mo-delo num^^Serico va-li-dad
-o, pode-
- []
-
-[33 <./figuras/duto_abom-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <figuras/duto_1.eps>
-(epstopdf)                    date: 2016-10-18 17:44:33
-(epstopdf)                    size: 79941 bytes
-(epstopdf)             Output file: <figuras/duto_1-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-10-18 17:46:35
-(epstopdf)                    size: 71165 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/duto_1-eps-convert
-ed-to.pdf figuras/duto_1.eps>
-(epstopdf)             \includegraphics on input line 160.
-Package epstopdf Info: Output file is already uptodate.
-
-<figuras/duto_1-eps-converted-to.pdf, id=149, 658.46pt x 557.08125pt>
-File: figuras/duto_1-eps-converted-to.pdf Graphic file (type pdf)
-
-<use figuras/duto_1-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/duto_1-eps-converted-to.pdf used on input line
- 160.
-(pdftex.def)             Requested size: 270.30191pt x 270.30309pt.
- [34 <./figuras/duto_1-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <figuras/ka_074_0036.eps>
-(epstopdf)                    date: 2016-10-18 17:44:51
-(epstopdf)                    size: 19424 bytes
-(epstopdf)             Output file: <figuras/ka_074_0036-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-10-18 17:46:35
-(epstopdf)                    size: 10826 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/ka_074_0036-eps-co
-nverted-to.pdf figuras/ka_074_0036.eps>
-(epstopdf)             \includegraphics on input line 170.
-Package epstopdf Info: Output file is already uptodate.
-
-<figuras/ka_074_0036-eps-converted-to.pdf, id=156, 421.575pt x 316.18124pt>
-File: figuras/ka_074_0036-eps-converted-to.pdf Graphic file (type pdf)
-
-<use figuras/ka_074_0036-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/ka_074_0036-eps-converted-to.pdf used on input
- line 170.
-(pdftex.def)             Requested size: 284.53154pt x 142.26576pt.
-Package epstopdf Info: Source file: <figuras/ka_148_0036.eps>
-(epstopdf)                    date: 2016-10-18 17:45:42
-(epstopdf)                    size: 19548 bytes
-(epstopdf)             Output file: <figuras/ka_148_0036-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-10-18 17:46:36
-(epstopdf)                    size: 11072 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/ka_148_0036-eps-co
-nverted-to.pdf figuras/ka_148_0036.eps>
-(epstopdf)             \includegraphics on input line 177.
-Package epstopdf Info: Output file is already uptodate.
-
-<figuras/ka_148_0036-eps-converted-to.pdf, id=157, 421.575pt x 316.18124pt>
-File: figuras/ka_148_0036-eps-converted-to.pdf Graphic file (type pdf)
-
-<use figuras/ka_148_0036-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/ka_148_0036-eps-converted-to.pdf used on input
- line 177.
-(pdftex.def)             Requested size: 284.53154pt x 142.26576pt.
-Package epstopdf Info: Source file: <figuras/ka_074_015.eps>
-(epstopdf)                    date: 2016-10-18 17:46:03
-(epstopdf)                    size: 19591 bytes
-(epstopdf)             Output file: <figuras/ka_074_015-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-10-18 17:46:36
-(epstopdf)                    size: 11197 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/ka_074_015-eps-con
-verted-to.pdf figuras/ka_074_015.eps>
-(epstopdf)             \includegraphics on input line 184.
-Package epstopdf Info: Output file is already uptodate.
-
-<figuras/ka_074_015-eps-converted-to.pdf, id=158, 421.575pt x 316.18124pt>
-File: figuras/ka_074_015-eps-converted-to.pdf Graphic file (type pdf)
-
-<use figuras/ka_074_015-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/ka_074_015-eps-converted-to.pdf used on input 
-line 184.
-(pdftex.def)             Requested size: 284.53154pt x 142.26576pt.
-Package epstopdf Info: Source file: <figuras/ka_148_015.eps>
-(epstopdf)                    date: 2016-10-18 17:46:21
-(epstopdf)                    size: 20215 bytes
-(epstopdf)             Output file: <figuras/ka_148_015-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-10-18 17:46:36
-(epstopdf)                    size: 11736 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/ka_148_015-eps-con
-verted-to.pdf figuras/ka_148_015.eps>
-(epstopdf)             \includegraphics on input line 191.
-Package epstopdf Info: Output file is already uptodate.
-
-<figuras/ka_148_015-eps-converted-to.pdf, id=159, 421.575pt x 316.18124pt>
-File: figuras/ka_148_015-eps-converted-to.pdf Graphic file (type pdf)
-
-<use figuras/ka_148_015-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/ka_148_015-eps-converted-to.pdf used on input 
-line 191.
-(pdftex.def)             Requested size: 284.53154pt x 142.26576pt.
- [35 <./figuras/ka_074_0036-eps-converted-to.pdf> <./figuras/ka_148_0036-eps-co
-nverted-to.pdf>] [36 <./figuras/ka_074_015-eps-converted-to.pdf> <./figuras/ka_
-148_015-eps-converted-to.pdf>])
-(./capitulos/fundamentacao_teorica.tex [37] [38
-
-]
+])
+(./capitulos/revisao_bibliografica.tex [26]
 Cap\'{\i }tulo 2.
-) (./capitulos/procedimentos_numericos.tex [39] [40
+) (./capitulos/lattice_boltzmann.tex [27
+
+] [28
 
 ]
 Cap\'{\i }tulo 3.
-) (./capitulos/resultados.tex [41] [42
+) (./capitulos/palabos.tex [29] [30
 
 ]
 Cap\'{\i }tulo 4.
-) (./capitulos/conclusoes.tex [43] [44
+) (./capitulos/modelos_numericos.tex [31] [32
 
 ]
 Cap\'{\i }tulo 5.
-<figuras/cronograma.png, id=205, 796.9775pt x 400.49625pt>
+) (./capitulos/validacoes.tex [33] [34
+
+]
+Cap\'{\i }tulo 6.
+) (./capitulos/resultados.tex [35] [36
+
+]
+Cap\'{\i }tulo 7.
+) (./capitulos/conclusoes.tex [37] [38
+
+]
+Cap\'{\i }tulo 8.
+<figuras/cronograma.png, id=140, 796.9775pt x 400.49625pt>
 File: figuras/cronograma.png Graphic file (type png)
 
 <use figuras/cronograma.png>
 Package pdftex.def Info: figuras/cronograma.png used on input line 6.
 (pdftex.def)             Requested size: 284.52756pt x 142.98076pt.
-) (./exemplo.bbl [45 <./figuras/cronograma.png>]
-[46
+) (./exemplo.bbl [39 <./figuras/cronograma.png>]
+[40
 
-] [47] [48])
+])
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[49] (./exemplo.aux) ) 
+[41] (./exemplo.aux) ) 
 Here is how much of TeX's memory you used:
- 19545 strings out of 493029
- 352080 string characters out of 6136233
- 452361 words of memory out of 5000000
- 22604 multiletter control sequences out of 15000+600000
- 5452 words of font info for 21 fonts, out of 8000000 for 9000
+ 19366 strings out of 493029
+ 347109 string characters out of 6136233
+ 440012 words of memory out of 5000000
+ 22428 multiletter control sequences out of 15000+600000
+ 5153 words of font info for 20 fonts, out of 8000000 for 9000
  1149 hyphenation exceptions out of 8191
- 61i,9n,77p,1604b,445s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 61i,8n,77p,868b,362s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cm
-ex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmti10.pfb>
-Output written on exemplo.pdf (51 pages, 421643 bytes).
+mex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on exemplo.pdf (43 pages, 144961 bytes).
 PDF statistics:
- 266 PDF objects out of 1000 (max. 8388607)
- 177 compressed objects within 2 object streams
+ 185 PDF objects out of 1000 (max. 8388607)
+ 128 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 68 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
