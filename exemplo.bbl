@@ -5,9 +5,44 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.45.2.1 }
 
+\bibitem[ANSYS 2017]{ansys}
+\abntrefinfo{ANSYS}{ANSYS}{2017}
+{ANSYS, I. \emph{ANSYS Home page}. 2017.
+Dispon{\'\i}vel em: \url{https://www.ansys.com}.}
+
+\bibitem[COMSOL 2017]{comsol}
+\abntrefinfo{COMSOL}{COMSOL}{2017}
+{COMSOL, I. \emph{COMSOL Home page}. 2017.
+Dispon{\'\i}vel em: \url{https://br.comsol.com}.}
+
+\bibitem[Dalmont et al. 2001]{dalmont2001radiation}
+\abntrefinfo{Dalmont et al.}{DALMONT et al.}{2001}
+{DALMONT, J.-P.; NEDERVEEN, C.; JOLY, N. Radiation impedance of tubes with
+  different flanges: numerical and experimental investigations.
+\emph{Journal of sound and vibration}, Elsevier, v.~244, n.~3, p. 505--534,
+  2001.}
+
+\bibitem[Levine e Schwinger 1948]{levine1948radiation}
+\abntrefinfo{Levine e Schwinger}{LEVINE; SCHWINGER}{1948}
+{LEVINE, H.; SCHWINGER, J. On the radiation of sound from an unflanged circular
+  pipe.
+\emph{Physical review}, APS, v.~73, n.~4, p.~383, 1948.}
+
 \bibitem[Munjal 1987]{munjal}
 \abntrefinfo{Munjal}{MUNJAL}{1987}
 {MUNJAL, M.~L. \emph{Acoustics of ducts and mufflers with application to
   exhaust and ventilation system design}. [S.l.]: John Wiley \& Sons, 1987.}
+
+\bibitem[Munt 1990]{munt1990acoustic}
+\abntrefinfo{Munt}{MUNT}{1990}
+{MUNT, R. Acoustic transmission properties of a jet pipe with subsonic jet
+  flow: I. the cold jet reflection coefficient.
+\emph{Journal of Sound and Vibration}, Elsevier, v.~142, n.~3, p. 413--436,
+  1990.}
+
+\bibitem[Project 2017]{openmpi}
+\abntrefinfo{Project}{PROJECT}{2017}
+{PROJECT, O.~M. \emph{Open MPI Project Home page}. 2017.
+Dispon{\'\i}vel em: \url{https://www.open-mpi.org/}.}
 
 \end{thebibliography}
