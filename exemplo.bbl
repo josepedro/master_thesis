@@ -15,13 +15,6 @@ Dispon{\'\i}vel em: \url{https://www.ansys.com}.}
 {COMSOL, I. \emph{COMSOL Home page}. 2017.
 Dispon{\'\i}vel em: \url{https://br.comsol.com}.}
 
-\bibitem[Dalmont et al. 2001]{dalmont2001radiation}
-\abntrefinfo{Dalmont et al.}{DALMONT et al.}{2001}
-{DALMONT, J.-P.; NEDERVEEN, C.; JOLY, N. Radiation impedance of tubes with
-  different flanges: numerical and experimental investigations.
-\emph{Journal of sound and vibration}, Elsevier, v.~244, n.~3, p. 505--534,
-  2001.}
-
 \bibitem[Levine e Schwinger 1948]{levine1948radiation}
 \abntrefinfo{Levine e Schwinger}{LEVINE; SCHWINGER}{1948}
 {LEVINE, H.; SCHWINGER, J. On the radiation of sound from an unflanged circular
@@ -40,9 +33,15 @@ Dispon{\'\i}vel em: \url{https://br.comsol.com}.}
 \emph{Journal of Sound and Vibration}, Elsevier, v.~142, n.~3, p. 413--436,
   1990.}
 
+\bibitem[PowerFLOW 2017]{powerflow}
+\abntrefinfo{PowerFLOW}{POWERFLOW}{2017}
+{POWERFLOW, I. \emph{EXA Home page}. 2017.
+Dispon{\'\i}vel em:
+  \url{http://exa.com/en/product/simulation-tools/powerflow-cfd-simulation}.}
+
 \bibitem[Project 2017]{openmpi}
 \abntrefinfo{Project}{PROJECT}{2017}
 {PROJECT, O.~M. \emph{Open MPI Project Home page}. 2017.
-Dispon{\'\i}vel em: \url{https://www.open-mpi.org/}.}
+Dispon{\'\i}vel em: \url{https://www.open-mpi.org}.}
 
 \end{thebibliography}

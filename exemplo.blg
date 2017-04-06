@@ -12,12 +12,14 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: abnt-options.bib
 Database file #2: bibliografia.bib
-Warning--entry type for "openmpi" isn't style-file defined
+Warning--entry type for "powerflow" isn't style-file defined
 --line 4 of file bibliografia.bib
+Warning--entry type for "openmpi" isn't style-file defined
+--line 11 of file bibliografia.bib
 Warning--entry type for "comsol" isn't style-file defined
---line 13 of file bibliografia.bib
+--line 18 of file bibliografia.bib
 Warning--entry type for "ansys" isn't style-file defined
---line 20 of file bibliografia.bib
+--line 25 of file bibliografia.bib
 Warning--I didn't find a database entry for "abnt-year-extra-label=yes"
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -31,43 +33,43 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 +---------------------------------------------------------+
 You've used 11 entries,
             6480 wiz_defined-function locations,
-            1201 strings with 10079 characters,
-and the built_in function-call counts, 6711 in all, are:
-= -- 593
-> -- 155
-< -- 15
-+ -- 103
-- -- 50
-* -- 405
-:= -- 913
-add.period$ -- 24
+            1198 strings with 9980 characters,
+and the built_in function-call counts, 6287 in all, are:
+= -- 566
+> -- 127
+< -- 11
++ -- 92
+- -- 43
+* -- 359
+:= -- 872
+add.period$ -- 25
 call.type$ -- 13
-change.case$ -- 68
-chr.to.int$ -- 29
+change.case$ -- 60
+chr.to.int$ -- 26
 cite$ -- 7
-duplicate$ -- 272
-empty$ -- 616
-format.name$ -- 223
-if$ -- 1651
+duplicate$ -- 247
+empty$ -- 610
+format.name$ -- 185
+if$ -- 1555
 int.to.chr$ -- 3
 int.to.str$ -- 3
-missing$ -- 160
+missing$ -- 156
 newline$ -- 42
 num.names$ -- 35
-pop$ -- 185
+pop$ -- 182
 preamble$ -- 1
-purify$ -- 36
+purify$ -- 34
 quote$ -- 0
-skip$ -- 535
+skip$ -- 523
 stack$ -- 1
-substring$ -- 272
-swap$ -- 123
-text.length$ -- 9
+substring$ -- 240
+swap$ -- 101
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 51
+while$ -- 48
 width$ -- 0
-write$ -- 118
-(There were 4 warnings)
+write$ -- 114
+(There were 5 warnings)
