@@ -10,6 +10,11 @@
 {ANSYS, I. \emph{ANSYS Home page}. 2017.
 Dispon{\'\i}vel em: \url{https://www.ansys.com}.}
 
+\bibitem[Carrier 1955]{carrier1955sound}
+\abntrefinfo{Carrier}{CARRIER}{1955}
+{CARRIER, G. \emph{Sound transmission from a tube with flow}.
+[S.l.], 1955.}
+
 \bibitem[COMSOL 2017]{comsol}
 \abntrefinfo{COMSOL}{COMSOL}{2017}
 {COMSOL, I. \emph{COMSOL Home page}. 2017.
@@ -20,6 +25,11 @@ Dispon{\'\i}vel em: \url{https://br.comsol.com}.}
 {LEVINE, H.; SCHWINGER, J. On the radiation of sound from an unflanged circular
   pipe.
 \emph{Physical review}, APS, v.~73, n.~4, p.~383, 1948.}
+
+\bibitem[Mani 1973]{mani1973refraction}
+\abntrefinfo{Mani}{MANI}{1973}
+{MANI, R. Refraction of acoustic duct waveguide modes by exhaust jets.
+1973.}
 
 \bibitem[Munjal 1987]{munjal}
 \abntrefinfo{Munjal}{MUNJAL}{1987}
