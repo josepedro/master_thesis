@@ -27,6 +27,13 @@ Dispon{\'\i}vel em: \url{https://www.ansys.com}.}
 {COMSOL, I. \emph{COMSOL Home page}. 2017.
 Dispon{\'\i}vel em: \url{https://br.comsol.com}.}
 
+\bibitem[Dalmont et al. 2001]{dalmont2001radiation}
+\abntrefinfo{Dalmont et al.}{DALMONT et al.}{2001}
+{DALMONT, J.-P.; NEDERVEEN, C.; JOLY, N. Radiation impedance of tubes with
+  different flanges: numerical and experimental investigations.
+\emph{Journal of sound and vibration}, Elsevier, v.~244, n.~3, p. 505--534,
+  2001.}
+
 \bibitem[Davies 1987]{davies1987}
 \abntrefinfo{Davies}{DAVIES}{1987}
 {DAVIES, P. Plane wave reflection at flow intakes.
@@ -91,5 +98,25 @@ Dispon{\'\i}vel em: \url{https://www.open-mpi.org}.}
 {SAVKAR, S. Radiation of cylindrical duct acoustic modes with flow mismatch.
 \emph{Journal of Sound and Vibration}, Elsevier, v.~42, n.~3, p. 363--386,
   1975.}
+
+\bibitem[Selamet et al. 2001]{selamet2001wave}
+\abntrefinfo{Selamet et al.}{SELAMET et al.}{2001}
+{SELAMET, A.; JI, Z.; KACH, R. Wave reflections from duct terminations.
+\emph{The Journal of the Acoustical Society of America}, Acoustical Society of
+  America, v.~109, n.~4, p. 1304--1311, 2001.}
+
+\bibitem[Silva e Scavone 2006]{da2006lattice}
+\abntrefinfo{Silva e Scavone}{SILVA; SCAVONE}{2006}
+{SILVA, A. D.; SCAVONE, G. Lattice boltzmann simulations of the acoustic
+  radiation from waveguides.
+\emph{Journal of Physics A: Mathematical and Theoretical}, IOP Publishing,
+  v.~40, n.~3, p.~397, 2006.}
+
+\bibitem[Silva et al. 2009]{da2009sound}
+\abntrefinfo{Silva et al.}{SILVA et al.}{2009}
+{SILVA, A. D.; SCAVONE, G.; LEFEBVRE, A. Sound reflection at the open end of
+  axisymmetric ducts issuing a subsonic mean flow: A numerical study.
+\emph{Journal of Sound and Vibration}, Elsevier, v.~327, n.~3, p. 507--528,
+  2009.}
 
 \end{thebibliography}
