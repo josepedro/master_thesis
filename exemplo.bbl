@@ -5,6 +5,13 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.45.2.1 }
 
+\bibitem[Allam e {\AA}bom 2006]{allam2006investigation}
+\abntrefinfo{Allam e {\AA}bom}{ALLAM; {\AA}BOM}{2006}
+{ALLAM, S.; {\AA}BOM, M. Investigation of damping and radiation using full
+  plane wave decomposition in ducts.
+\emph{Journal of sound and vibration}, Elsevier, v.~292, n.~3, p. 519--534,
+  2006.}
+
 \bibitem[ANSYS 2017]{ansys}
 \abntrefinfo{ANSYS}{ANSYS}{2017}
 {ANSYS, I. \emph{ANSYS Home page}. 2017.
@@ -19,6 +26,25 @@ Dispon{\'\i}vel em: \url{https://www.ansys.com}.}
 \abntrefinfo{COMSOL}{COMSOL}{2017}
 {COMSOL, I. \emph{COMSOL Home page}. 2017.
 Dispon{\'\i}vel em: \url{https://br.comsol.com}.}
+
+\bibitem[Davies 1987]{davies1987}
+\abntrefinfo{Davies}{DAVIES}{1987}
+{DAVIES, P. Plane wave reflection at flow intakes.
+\emph{Journal of sound and vibration}, Academic Press, v.~115, n.~3, p.
+  560--564, 1987.}
+
+\bibitem[English 2010]{english2010}
+\abntrefinfo{English}{ENGLISH}{2010}
+{ENGLISH, E.~J.
+\emph{A measurement based study of the acoustics of pipe systems with flow}.
+Tese (Doutorado) --- University of Southampton, 2010.}
+
+\bibitem[Ingard e Singhal 1975]{ingard1975}
+\abntrefinfo{Ingard e Singhal}{INGARD; SINGHAL}{1975}
+{INGARD, U.; SINGHAL, V.~K. Effect of flow on the acoustic resonances of an
+  open-ended duct.
+\emph{The Journal of the Acoustical Society of America}, ASA, v.~58, n.~4, p.
+  788--793, 1975.}
 
 \bibitem[Levine e Schwinger 1948]{levine1948radiation}
 \abntrefinfo{Levine e Schwinger}{LEVINE; SCHWINGER}{1948}
@@ -53,5 +79,17 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Project}{PROJECT}{2017}
 {PROJECT, O.~M. \emph{Open MPI Project Home page}. 2017.
 Dispon{\'\i}vel em: \url{https://www.open-mpi.org}.}
+
+\bibitem[Rienstra 1980]{rienstra1980}
+\abntrefinfo{Rienstra}{RIENSTRA}{1980}
+{RIENSTRA, S. On the acoustical implications of vortex shedding from an exhaust
+  pipe.
+\emph{American Society of Mechanical Engineers}, v.~1, p. 17--21, 1980.}
+
+\bibitem[Savkar 1975]{savkar1975radiation}
+\abntrefinfo{Savkar}{SAVKAR}{1975}
+{SAVKAR, S. Radiation of cylindrical duct acoustic modes with flow mismatch.
+\emph{Journal of Sound and Vibration}, Elsevier, v.~42, n.~3, p. 363--386,
+  1975.}
 
 \end{thebibliography}

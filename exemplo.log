@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  7 APR 2017 14:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  10 APR 2017 21:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1340,42 +1340,45 @@ File: figuras/loa_comparacao.png Graphic file (type png)
 <use figuras/loa_comparacao.png>
 Package pdftex.def Info: figuras/loa_comparacao.png used on input line 36.
 (pdftex.def)             Requested size: 276.55891pt x 215.33609pt.
- [30 <./figuras/abs_r_comparacao.png>])
-(./capitulos/metodologia.tex [31 <./figuras/loa_comparacao.png>] [32]
-Cap\'{\i }tulo 3.
-) (./capitulos/resultados.tex [33
+ [30 <./figuras/abs_r_comparacao.png>] [31 <./figuras/loa_comparacao.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [34
+ [32])
+(./capitulos/metodologia.tex [33] [34
+
+]
+Cap\'{\i }tulo 3.
+) (./capitulos/resultados.tex [35] [36
 
 ]
 Cap\'{\i }tulo 4.
-) (./capitulos/conclusoes.tex [35] [36
+) (./capitulos/conclusoes.tex [37] [38
 
 ]
 Cap\'{\i }tulo 5.
-<figuras/cronograma.png, id=140, 796.9775pt x 400.49625pt>
+<figuras/cronograma.png, id=146, 796.9775pt x 400.49625pt>
 File: figuras/cronograma.png Graphic file (type png)
 
 <use figuras/cronograma.png>
 Package pdftex.def Info: figuras/cronograma.png used on input line 6.
 (pdftex.def)             Requested size: 284.52756pt x 142.98076pt.
-) (./exemplo.bbl [37 <./figuras/cronograma.png>]
-[38
+) (./exemplo.bbl [39 <./figuras/cronograma.png>]
+[40
 
-])
+] [41])
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[39] (./exemplo.aux) ) 
+[42] (./exemplo.aux) ) 
 Here is how much of TeX's memory you used:
- 19418 strings out of 493029
- 348098 string characters out of 6136233
- 440356 words of memory out of 5000000
- 22486 multiletter control sequences out of 15000+600000
+ 19448 strings out of 493029
+ 348740 string characters out of 6136233
+ 440654 words of memory out of 5000000
+ 22516 multiletter control sequences out of 15000+600000
  5321 words of font info for 21 fonts, out of 8000000 for 9000
  1149 hyphenation exceptions out of 8191
- 61i,8n,77p,1038b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 61i,8n,77p,1045b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.
@@ -1386,10 +1389,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmtt10.pfb>
-Output written on exemplo.pdf (41 pages, 201534 bytes).
+Output written on exemplo.pdf (44 pages, 207649 bytes).
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
- 127 compressed objects within 2 object streams
+ 197 PDF objects out of 1000 (max. 8388607)
+ 134 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  28 words of extra memory for PDF output out of 10000 (max. 10000000)
 

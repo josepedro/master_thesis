@@ -5,7 +5,7 @@
 \contentsline {section}{\numberline {1.3}Objetivos}{27}
 \contentsline {section}{\numberline {1.4}Organiza\IeC {\c c}\IeC {\~a}o do Trabalho}{27}
 \contentsline {chapter}{\numberline {2}\MakeUppercase {Revis\IeC {\~a}o Bibliogr\IeC {\'a}fica}}{29}
-\contentsline {chapter}{\numberline {3}\MakeUppercase {Metodologia}}{33}
-\contentsline {chapter}{\numberline {4}\MakeUppercase {Resultados}}{35}
-\contentsline {chapter}{\numberline {5}\MakeUppercase {Conclus\IeC {\~o}es}}{37}
-\contentsline {chapter}{REFER\IeC {\^E}NCIAS}{39}
+\contentsline {chapter}{\numberline {3}\MakeUppercase {Metodologia}}{35}
+\contentsline {chapter}{\numberline {4}\MakeUppercase {Resultados}}{37}
+\contentsline {chapter}{\numberline {5}\MakeUppercase {Conclus\IeC {\~o}es}}{39}
+\contentsline {chapter}{REFER\IeC {\^E}NCIAS}{41}
