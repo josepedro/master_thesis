@@ -76,6 +76,13 @@ Tese (Doutorado) --- University of Southampton, 2010.}
 \emph{Journal of Sound and Vibration}, Elsevier, v.~142, n.~3, p. 413--436,
   1990.}
 
+\bibitem[Nomura et al. 1960]{nomura1960}
+\abntrefinfo{Nomura et al.}{NOMURA et al.}{1960}
+{NOMURA, Y.; YAMAMURA, I.; INAWASHIRO, S. On the acoustic radiation from a
+  flanged circular pipe.
+\emph{Journal of the Physical Society of Japan}, The Physical Society of Japan,
+  v.~15, n.~3, p. 510--517, 1960.}
+
 \bibitem[PowerFLOW 2017]{powerflow}
 \abntrefinfo{PowerFLOW}{POWERFLOW}{2017}
 {POWERFLOW, I. \emph{EXA Home page}. 2017.
@@ -118,5 +125,12 @@ Dispon{\'\i}vel em: \url{https://www.open-mpi.org}.}
   axisymmetric ducts issuing a subsonic mean flow: A numerical study.
 \emph{Journal of Sound and Vibration}, Elsevier, v.~327, n.~3, p. 507--528,
   2009.}
+
+\bibitem[Silva et al. 2012]{silva2012approximate}
+\abntrefinfo{Silva et al.}{SILVA et al.}{2012}
+{SILVA, A. R.~D.; MAREZE, P.~H.; LENZI, A. Approximate expressions for the
+  reflection coefficient of ducts terminated by circular flanges.
+\emph{Journal of the Brazilian Society of Mechanical Sciences and Engineering},
+  SciELO Brasil, v.~34, n.~2, p. 219--224, 2012.}
 
 \end{thebibliography}
