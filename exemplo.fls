@@ -296,12 +296,12 @@ INPUT exemplo.lsb
 OUTPUT exemplo.lsb
 INPUT exemplo.toc
 INPUT exemplo.toc
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 OUTPUT exemplo.toc
 INPUT capitulos/introducao.tex
 INPUT capitulos/introducao.tex
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT capitulos/revisao_bibliografica.tex
 INPUT capitulos/revisao_bibliografica.tex
 INPUT figuras/abs_r_comparacao.png

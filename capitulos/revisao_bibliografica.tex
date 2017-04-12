@@ -1,5 +1,9 @@
 \chapter{Revisão Bibliográfica}
 
+Nesse capítulo será apresentada uma revisão bibliográfica dos tópicos concernentes a acústica interna de dutos circulares. Os tópicos estão separados em modelos analíticos exatos, modelos analíticos aproximados, trabalhos experimentais, modelos numéricos e trabalhos relacionados ao desenvolvimento e aplicação do método de \textit{lattice} Boltzmann para problemas de acústica.
+
+\section{Modelos Analíticos Exatos} 
+
 A propagação de modos normais (ondas planas) é um problema clássico em acústica e continua tendo importância significativa mediante ao advento de novas tecnologias relacionadas a sistemas de exaustão e sucção. Em geral, pode-se utilizar dois parâmetros para caracterizar o fenômeno da acústica interna de dutos:
 
 \begin{itemize}
@@ -37,8 +41,10 @@ Como é mostrado na Figura \ref{fig:comp1}, a magnitude do coeficiente de reflex
   \caption[Coeficientes de correção de terminação $l/a$]{Resultados analíticos exatos para o coeficiente de correção da terminação normalizado pelo raio $l/a$ de um duto não flangeado. A linha contínua apresenta o resultado sem escoamento de \citeonline{levine1948radiation} e a linha tracejada apresenta o resultado com escoamento de Mach = 0,15 de \citeonline{munt1990acoustic}.}
   \label{fig:comp2}
 \end{figure}
-\newpage
+
 De acordo com a Figura \ref{fig:comp2}, a correção normalizada da terminação $l/a$ torna-se consideravelmente menor do que aquela obtida na ausência de escoamento, sobretudo para baixos números de Helmholtz ($ka$)\simbolo{$ka$}{Número de Helmholtz}. Em outras palavras, para baixas frequências e na presença de um escoamento a onda acústica é refletida em uma região mais próxima da abertura, em comparação à situação sem escoamento.
+
+\section{Modelos Analíticos Aproximados}
 
 No que diz respeito a modelos analíticos aproximados, o trabalho de \citeonline{carrier1955sound} foi um dos primeiros a abordar o cálculo do coeficiente de reflexão e correção da terminação com escoamento de exaustão num duto não flangeado. Para tal foi considerado um gás perfeito invíscido com o tipo de escoamento uniforme (\textit{plug}). Nessa abordagem usou-se a mesma metodologia que \citeonline{levine1948radiation} porém acoplando à formulação matemática o método de Prandtl-Glauert.
 
@@ -48,6 +54,8 @@ Também na mesma linha de desenvolvimento de \citeonline{carrier1955sound}, \cit
 
 \citeonline{rienstra1980} também desenvolveu um modelo matemático aproximado para o cálculo dos coeficientes de reflexão e terminação do duto não flangeado. A contribuição desse trabalho foi a inclusão dos parâmetros do meio externo ao duto como velocidade do som, densidade e velocidade de escoamento. Com esse modelo foi possível investigar como o meio externo influencia na acústica interna do duto e as limitações da condição de Kutta.
 
+\section{Trabalhos Experimentais}
+
 Em relação a trabalhos experimentais, \citeonline{ingard1975} investigaram o coeficiente de reflexão em dutos quadrados em regime de escoamento succionado de Mach 0,4. O método de medição se baseou na técnica de dois microfones e os mesmos foram ajustados para números de Helmholtz ($ka$) menores que 0,5. Em vista desse contexto experimental, o autor desenvolveu uma fórmula analítica para o cálculo do coeficiente de reflexão.
 
 Na mesma linha de investigação, \citeonline{davies1987} investigou o coeficiente de reflexão porém com dutos circulares não flangeados e flangeados. O autor destaca que a disposição geométrica da terminação do duto, quando submetida a fenômenos de escoamentos succionados, desenvolve a chamada \textit{vena} contracta, que pode ser estimada e associada com o fator de perda $Kp$\simbolo{$Kp$}{Fator de perda}. Em vista dos procedimentos desse trabalho, o autor compara os resultados com o estudo de \citeonline{ingard1975} e sugere um aperfeiçoamento na equação analítica do cálculo do coeficiente de reflexão.
@@ -55,6 +63,8 @@ Na mesma linha de investigação, \citeonline{davies1987} investigou o coeficien
 No que diz respeito a escoamentos de exaustão o trabalho de \citeonline{allam2006investigation} abordou um sistema super determinado de medição para investigação da acústica interna de um duto não flangeado. Para contornar a dificuldade de medição do coeficiente de correção da terminação do duto, surgiu-se como motivação o desenvolvimento de um sistema em que há mais microfones do que incógnitas a serem calculadas, em outras palavras, extendeu-se a metodologia de medição de 2 microfones para mais que 4 microfones. Há de se considerar também que a parte imaginária do número de onda, parte associada com a dissipação de energia por viscosidade, não pode ser obtida quando há escoamento e por isso foi incluída como incógnita. Em linhas gerais esse trabalho permitiu a validação experimental do trabalho de \citeonline{munt1990acoustic} e a consolidação de um sistema confiável de medição para esse tipo de problema.
 
 \citeonline{english2010} investigou também de forma experimental os coeficientes de reflexão e de terminação de dutos circulares com diferentes espessuras. Focando para números de Mach entre 0 e 0,3, seus resultados mostram que os coeficientes de reflexão estão com valores acima dos que são encontrados no trabalho de \citeonline{munt1990acoustic}. O autor explica esse fato relatando que a condição de Kutta subestima o surgimento de vórtices na saída do duto.
+
+\section{Modelos Numéricos}
 
 Já em relação a trabalhos envolvendo métodos numéricos, \citeonline{selamet2001wave} analisaram os coeficientes de reflexão e de terminação de dutos circulares com diferentes terminações sem escoamento. Para isso utilizaram método dos elementos de contorno e concluíram que, dentro dos casos analisados no estudo, dutos com terminações anulares possuem maiores coeficientes de reflexão numa certa faixa de frequência.
 
@@ -64,5 +74,7 @@ Tendo como motivação a validação do método de \textit{lattice} Boltzmann pa
 
 Complementando o trabalho anterior, \citeonline{da2009sound} investigaram os coeficientes de reflexão e de terminação de dutos circulares com terminações de corneta e com escoamento subsônico. Para isso implementaram o modelo usando o método de \textit{lattice} Boltzmann com condições de contorno absorventes e paredes curvas para a consolidação das terminações em cornetas. Com esse trabalho foram validados os dados teóricos dos estudos de \citeonline{munt1990acoustic} além de mostrar que na presença de cornetas o coeficiente de reflexão aumenta bastante no pico associado ao número de Strouhal ($St$)\simbolo{$St$}{Número de Strouhal}, ou seja, na frequência de desprendimento de vórtices na terminação do duto.
 
-\citeonline{silva2012approximate} usaram o método de elementos de contorno para analisar o comportamento acústico interno de dutos circulares flangeados sem escoamento. Para tanto validaram o modelo com os resultados de \citeonline{levine1948radiation}, dutos não flangeados, e de \citeonline{nomura1960}, dutos flangeados circulamente. Como resultado da análise propuseram expressões aproximadas para o cálculo dos coeficientes de reflexão e de terminação.   
+\citeonline{silva2012approximate} usaram o método de elementos de contorno para analisar o comportamento acústico interno de dutos circulares flangeados sem escoamento. Para tanto validaram o modelo com os resultados de \citeonline{levine1948radiation}, dutos não flangeados, e de \citeonline{nomura1960}, dutos flangeados circulamente. Como resultado da análise propuseram expressões aproximadas para o cálculo dos coeficientes de reflexão e de terminação.
+
+\section{Aplicação do Método de \textit{Lattice} Boltzmann}
 
