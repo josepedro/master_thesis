@@ -10,7 +10,7 @@
 \contentsline {section}{\numberline {2.3}Trabalhos Experimentais}{32}
 \contentsline {section}{\numberline {2.4}Modelos Num\IeC {\'e}ricos}{33}
 \contentsline {section}{\numberline {2.5}Aplica\IeC {\c c}\IeC {\~a}o do M\IeC {\'e}todo de \textit {Lattice} Boltzmann}{34}
-\contentsline {chapter}{\numberline {3}\MakeUppercase {Metodologia}}{35}
-\contentsline {chapter}{\numberline {4}\MakeUppercase {Resultados}}{37}
-\contentsline {chapter}{\numberline {5}\MakeUppercase {Conclus\IeC {\~o}es}}{39}
-\contentsline {chapter}{REFER\IeC {\^E}NCIAS}{41}
+\contentsline {chapter}{\numberline {3}\MakeUppercase {Metodologia}}{37}
+\contentsline {chapter}{\numberline {4}\MakeUppercase {Resultados}}{39}
+\contentsline {chapter}{\numberline {5}\MakeUppercase {Conclus\IeC {\~o}es}}{41}
+\contentsline {chapter}{REFER\IeC {\^E}NCIAS}{43}

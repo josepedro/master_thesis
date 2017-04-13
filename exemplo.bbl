@@ -27,6 +27,13 @@ Dispon{\'\i}vel em: \url{https://www.ansys.com}.}
 {COMSOL, I. \emph{COMSOL Home page}. 2017.
 Dispon{\'\i}vel em: \url{https://br.comsol.com}.}
 
+\bibitem[Crouse et al. 2006]{crouse2006fundamental}
+\abntrefinfo{Crouse et al.}{CROUSE et al.}{2006}
+{CROUSE, B.; FREED, D.; BALASUBRAMANIAN, G.; SENTHOORAN, S.; LEW, P.-T.;
+  MONGEAU, L. Fundamental aeroacoustic capabilities of the lattice-boltzmann
+  method.
+\emph{AIAA paper}, v.~2571, 2006.}
+
 \bibitem[Dalmont et al. 2001]{dalmont2001radiation}
 \abntrefinfo{Dalmont et al.}{DALMONT et al.}{2001}
 {DALMONT, J.-P.; NEDERVEEN, C.; JOLY, N. Radiation impedance of tubes with
@@ -46,6 +53,13 @@ Dispon{\'\i}vel em: \url{https://br.comsol.com}.}
 \emph{A measurement based study of the acoustics of pipe systems with flow}.
 Tese (Doutorado) --- University of Southampton, 2010.}
 
+\bibitem[Gabard e Astley 2006]{gabard2006}
+\abntrefinfo{Gabard e Astley}{GABARD; ASTLEY}{2006}
+{GABARD, G.; ASTLEY, R. Theoretical model for sound radiation from annular jet
+  pipes: far-and near-field solutions.
+\emph{Journal of Fluid Mechanics}, Cambridge University Press, v.~549, p.~315,
+  2006.}
+
 \bibitem[Ingard e Singhal 1975]{ingard1975}
 \abntrefinfo{Ingard e Singhal}{INGARD; SINGHAL}{1975}
 {INGARD, U.; SINGHAL, V.~K. Effect of flow on the acoustic resonances of an
@@ -53,16 +67,36 @@ Tese (Doutorado) --- University of Southampton, 2010.}
 \emph{The Journal of the Acoustical Society of America}, ASA, v.~58, n.~4, p.
   788--793, 1975.}
 
+\bibitem[Kam et al. 2006]{kam2006non}
+\abntrefinfo{Kam et al.}{KAM et al.}{2006}
+{KAM, E.; SO, R.; LEUNG, R. Non-reflecting boundary for one-step lbm simulation
+  of aeroacoustics. In:  \emph{27th AIAA Aeroacoustics Conference}. [S.l.:
+  s.n.], 2006. p.~1--9.}
+
 \bibitem[Levine e Schwinger 1948]{levine1948radiation}
 \abntrefinfo{Levine e Schwinger}{LEVINE; SCHWINGER}{1948}
 {LEVINE, H.; SCHWINGER, J. On the radiation of sound from an unflanged circular
   pipe.
 \emph{Physical review}, APS, v.~73, n.~4, p.~383, 1948.}
 
+\bibitem[Lew et al. 2010]{lew2010noise}
+\abntrefinfo{Lew et al.}{LEW et al.}{2010}
+{LEW, P.-T.; MONGEAU, L.; LYRINTZIS, A. Noise prediction of a subsonic
+  turbulent round jet using the lattice-boltzmann method.
+\emph{The Journal of the Acoustical Society of America}, Acoustical Society of
+  America, v.~128, n.~3, p. 1118--1127, 2010.}
+
 \bibitem[Mani 1973]{mani1973refraction}
 \abntrefinfo{Mani}{MANI}{1973}
 {MANI, R. Refraction of acoustic duct waveguide modes by exhaust jets.
 1973.}
+
+\bibitem[Mari{\'e} et al. 2009]{marie2009}
+\abntrefinfo{Mari{\'e} et al.}{MARI{\'E} et al.}{2009}
+{MARI{\'E}, S.; RICOT, D.; SAGAUT, P. Comparison between lattice boltzmann
+  method and navier--stokes high order schemes for computational aeroacoustics.
+\emph{Journal of Computational Physics}, Elsevier, v.~228, n.~4, p. 1056--1070,
+  2009.}
 
 \bibitem[Munjal 1987]{munjal}
 \abntrefinfo{Munjal}{MUNJAL}{1987}
@@ -82,6 +116,11 @@ Tese (Doutorado) --- University of Southampton, 2010.}
   flanged circular pipe.
 \emph{Journal of the Physical Society of Japan}, The Physical Society of Japan,
   v.~15, n.~3, p. 510--517, 1960.}
+
+\bibitem[Palabos 2017]{palabos}
+\abntrefinfo{Palabos}{PALABOS}{2017}
+{PALABOS, P. \emph{Palabos Home page}. 2017.
+Dispon{\'\i}vel em: \url{http://www.palabos.org}.}
 
 \bibitem[PowerFLOW 2017]{powerflow}
 \abntrefinfo{PowerFLOW}{POWERFLOW}{2017}
@@ -132,5 +171,24 @@ Dispon{\'\i}vel em: \url{https://www.open-mpi.org}.}
   reflection coefficient of ducts terminated by circular flanges.
 \emph{Journal of the Brazilian Society of Mechanical Sciences and Engineering},
   SciELO Brasil, v.~34, n.~2, p. 219--224, 2012.}
+
+\bibitem[Silva et al. 2015]{da2015assessment}
+\abntrefinfo{Silva et al.}{SILVA et al.}{2015}
+{SILVA, F.~D. da; DESCHAMPS, C.~J.; SILVA, A.~R. da; SIM{\~O}ES, L.~G.
+  Assessment of jet-plate interaction noise using the lattice boltzmann method.
+  In:  \emph{21st AIAA/CEAS Aeroacoustics Conference}. [S.l.: s.n.], 2015.
+  p.~2207.}
+
+\bibitem[Viggen 2013]{viggen2013acoustic}
+\abntrefinfo{Viggen}{VIGGEN}{2013}
+{VIGGEN, E.~M. Acoustic multipole sources for the lattice boltzmann method.
+\emph{Physical Review E}, APS, v.~87, n.~2, p. 023306, 2013.}
+
+\bibitem[Yong et al. 2013]{shi2013lattice}
+\abntrefinfo{Yong et al.}{YONG et al.}{2013}
+{YONG; SILVA, A.~R. da; SCAVONE, G.~P. Lattice boltzmann simulations of sound
+  directivity of a cylindrical pipe with mean flow.
+\emph{Journal of Physics A: Mathematical and Theoretical}, IOP Publishing,
+  v.~46, n.~31, p. 315501, 2013.}
 
 \end{thebibliography}
