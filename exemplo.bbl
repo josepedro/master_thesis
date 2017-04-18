@@ -53,6 +53,12 @@ Dispon{\'\i}vel em: \url{https://br.comsol.com}.}
 \emph{A measurement based study of the acoustics of pipe systems with flow}.
 Tese (Doutorado) --- University of Southampton, 2010.}
 
+\bibitem[Frisch et al. 1986]{frisch1986}
+\abntrefinfo{Frisch et al.}{FRISCH et al.}{1986}
+{FRISCH, U.; HASSLACHER, B.; POMEAU, Y. Lattice-gas automata for the
+  navier-stokes equation.
+\emph{Physical review letters}, APS, v.~56, n.~14, p.~1505, 1986.}
+
 \bibitem[Gabard e Astley 2006]{gabard2006}
 \abntrefinfo{Gabard e Astley}{GABARD; ASTLEY}{2006}
 {GABARD, G.; ASTLEY, R. Theoretical model for sound radiation from annular jet
@@ -179,10 +185,21 @@ Dispon{\'\i}vel em: \url{https://www.open-mpi.org}.}
   In:  \emph{21st AIAA/CEAS Aeroacoustics Conference}. [S.l.: s.n.], 2015.
   p.~2207.}
 
+\bibitem[Sterling e Chen 1996]{sterling1996}
+\abntrefinfo{Sterling e Chen}{STERLING; CHEN}{1996}
+{STERLING, J.~D.; CHEN, S. Stability analysis of lattice boltzmann methods.
+\emph{Journal of Computational Physics}, Elsevier, v.~123, n.~1, p. 196--206,
+  1996.}
+
 \bibitem[Viggen 2013]{viggen2013acoustic}
 \abntrefinfo{Viggen}{VIGGEN}{2013}
 {VIGGEN, E.~M. Acoustic multipole sources for the lattice boltzmann method.
 \emph{Physical Review E}, APS, v.~87, n.~2, p. 023306, 2013.}
+
+\bibitem[Wolf-Gladrow 2004]{wolf2004}
+\abntrefinfo{Wolf-Gladrow}{WOLF-GLADROW}{2004}
+{WOLF-GLADROW, D.~A. \emph{Lattice-gas cellular automata and lattice Boltzmann
+  models: an introduction}. [S.l.]: Springer, 2004.}
 
 \bibitem[Yong et al. 2013]{shi2013lattice}
 \abntrefinfo{Yong et al.}{YONG et al.}{2013}

@@ -11,6 +11,7 @@
 \contentsline {section}{\numberline {2.4}Modelos Num\IeC {\'e}ricos}{33}
 \contentsline {section}{\numberline {2.5}Aplica\IeC {\c c}\IeC {\~a}o do M\IeC {\'e}todo de \textit {Lattice} Boltzmann}{34}
 \contentsline {chapter}{\numberline {3}\MakeUppercase {Metodologia}}{37}
+\contentsline {section}{\numberline {3.1}O M\IeC {\'e}todo de Lattice Boltzmann}{38}
 \contentsline {chapter}{\numberline {4}\MakeUppercase {Resultados}}{39}
 \contentsline {chapter}{\numberline {5}\MakeUppercase {Conclus\IeC {\~o}es}}{41}
 \contentsline {chapter}{REFER\IeC {\^E}NCIAS}{43}

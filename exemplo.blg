@@ -13,15 +13,15 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: abnt-options.bib
 Database file #2: bibliografia.bib
 Warning--entry type for "palabos" isn't style-file defined
---line 4 of file bibliografia.bib
+--line 36 of file bibliografia.bib
 Warning--entry type for "powerflow" isn't style-file defined
---line 87 of file bibliografia.bib
+--line 119 of file bibliografia.bib
 Warning--entry type for "openmpi" isn't style-file defined
---line 94 of file bibliografia.bib
+--line 126 of file bibliografia.bib
 Warning--entry type for "comsol" isn't style-file defined
---line 101 of file bibliografia.bib
+--line 133 of file bibliografia.bib
 Warning--entry type for "ansys" isn't style-file defined
---line 108 of file bibliografia.bib
+--line 140 of file bibliografia.bib
 Warning--I didn't find a database entry for "abnt-year-extra-label=yes"
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -33,45 +33,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 34 entries,
+You've used 37 entries,
             6480 wiz_defined-function locations,
-            1336 strings with 13627 characters,
-and the built_in function-call counts, 25795 in all, are:
-= -- 1913
-> -- 876
-< -- 77
-+ -- 369
-- -- 261
-* -- 1850
-:= -- 3409
-add.period$ -- 99
-call.type$ -- 36
-change.case$ -- 317
-chr.to.int$ -- 100
-cite$ -- 30
-duplicate$ -- 1262
-empty$ -- 1972
-format.name$ -- 1270
-if$ -- 6145
+            1355 strings with 13999 characters,
+and the built_in function-call counts, 28244 in all, are:
+= -- 2085
+> -- 967
+< -- 85
++ -- 402
+- -- 288
+* -- 2031
+:= -- 3728
+add.period$ -- 108
+call.type$ -- 39
+change.case$ -- 348
+chr.to.int$ -- 109
+cite$ -- 33
+duplicate$ -- 1396
+empty$ -- 2150
+format.name$ -- 1401
+if$ -- 6726
 int.to.chr$ -- 3
 int.to.str$ -- 3
-missing$ -- 568
-newline$ -- 156
-num.names$ -- 150
-pop$ -- 665
+missing$ -- 624
+newline$ -- 170
+num.names$ -- 165
+pop$ -- 733
 preamble$ -- 1
-purify$ -- 129
+purify$ -- 141
 quote$ -- 0
-skip$ -- 1567
+skip$ -- 1698
 stack$ -- 1
-substring$ -- 1110
-swap$ -- 665
-text.length$ -- 55
+substring$ -- 1203
+swap$ -- 737
+text.length$ -- 61
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 4
 warning$ -- 0
-while$ -- 230
+while$ -- 252
 width$ -- 0
-write$ -- 502
+write$ -- 552
 (There were 6 warnings)
