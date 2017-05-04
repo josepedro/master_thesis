@@ -9,22 +9,20 @@ A propagação de modos normais (ondas planas) é um problema clássico em acús
 \begin{itemize}
     \item a magnitude do coeficiente de reflexão $\|R\|$, razão entre as componentes refletida e incidente da onda no duto, a qual é dada por
     \begin{equation}
-        R_{r}\simbolo{$R_{r}$}{Coeficiente de reflexão} =\frac{Z_{r} - Z_{0}}{Z_{r} + Z_{0}},
+        R_{r}\simbolo{$R_{r}$}{Coeficiente de reflexão na terminação do duto} =\frac{Z_{r} - Z_{0}}{Z_{r} + Z_{0}},
         \label{eq:R}
     \end{equation}
-    sendo $Z_{r}$\simbolo{$Z_{r}$}{Impedância de radiação} a impedância de radiação e $Z_{0}$\simbolo{$Z_{0}$}{Impedância característica do meio} a impedância característica do meio;
+    sendo $Z_{r}$\simbolo{$Z_{r}$}{Impedância de radiação} a impedância de radiação e $Z_{0}$\simbolo{$Z_{0}$}{Impedância característica do meio} a impedância característica do meio, definida por $Z_{0} = \rho_{0}c_{0}$, tal que $\rho_{0}$ e $c_{0}$ são, respectivamente, as constantes de densidade média do meio\simbolo{$\rho_{0}$}{Densidade média do meio} e velocidade do som\simbolo{$c_{0}$}{Velocidade do som};
     
     \item coeficiente de correção da terminação normalizado pelo raio do duto $l/a$ em que $a$ é o raio do duto. Tal parâmetro representa o comprimento acústico efetivo do duto. Em outras palavras, o fator $l$ é a quantidade adicional medida a partir da abertura do duto a qual deve propagar a onda incidente antes de ser refletida para o interior do duto com fase invertida. Tal coeficiente de correção da terminação $l$ é dado por
     \begin{equation}
-        l = \frac{1}{k} \arctan\!\left(\frac{Z_{r}}{Z_{0} \, \mathrm{i}\simbolo{$i$}{Número imaginário}}\right)
+        l = \frac{1}{k} \arctan\!\left(\frac{Z_{r}}{Z_{0} \, \mathrm{i}\simbolo{$i$}{Unidade imaginária}}\right)
         \label{eq:l}
     \end{equation}
     sendo $k$\simbolo{$k$}{Número de onda} o número de onda.
 \end{itemize}
 
-Em relação aos parâmetros discutidos acima, a solução exata para o problema de um duto não flangeado na ausência de escoamento foi proposta por \citeonline{levine1948radiation}. A solução assume que a espessura das paredes do duto são desprezíveis e o fluido é inviscido. A partir destas simplificações, as expressões exatas para $\|R\|$ e $l$ são obtidas utilizando-se a técnica de Wiener-Hopf.
-
-Apesar da utilidade do modelo de Levine e Schwinger, em boa parte das aplicações práticas, dutos transportam escoamentos médios. Para tais circunstâncias, \citeonline{munt1990acoustic} propôs um modelo analítico exato, também baseado na técnica de Wiener-Hopf, em que se considera a presença de um escoamento subsônico no interior do duto. Considera-se nesse modelo as premissas de que o escoamento é uniforme, invíscido e que a camada cisalhante do jato é infinitamente fina. Além disso, o modelo considera a condição de Kutta na borda do duto para lidar com a singularidade da velocidade de partícula nesta região. As Figuras \ref{fig:comp1} e \ref{fig:comp2} apresentam as comparações entre casos com e sem escoamento para um duto não flangeado em termos de $\|R\|$ e $l/a$.
+Em relação aos parâmetros discutidos acima, a solução exata para o problema de um duto não flangeado na ausência de escoamento foi proposta por \citeonline{levine1948radiation}, porém em boa parte das aplicações práticas dutos transportam escoamentos médios. Para tais circunstâncias, \citeonline{munt1990acoustic} propôs um modelo analítico exato, também baseado na técnica de Wiener-Hopf, em que se considera a presença de um escoamento subsônico no interior do duto. Considera-se nesse modelo as premissas de que o escoamento é uniforme, invíscido e que a camada cisalhante do jato é infinitamente fina. Além disso, o modelo considera a condição de Kutta na borda do duto para lidar com a singularidade da velocidade de partícula nesta região. As Figuras \ref{fig:comp1} e \ref{fig:comp2} apresentam as comparações entre casos com e sem escoamento para um duto não flangeado em termos de $\|R\|$ e $l/a$.
 
 \begin{figure}[ht!]
 \centering

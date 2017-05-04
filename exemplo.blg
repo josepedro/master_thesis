@@ -20,8 +20,6 @@ Warning--entry type for "openmpi" isn't style-file defined
 --line 126 of file bibliografia.bib
 Warning--entry type for "comsol" isn't style-file defined
 --line 133 of file bibliografia.bib
-Warning--entry type for "ansys" isn't style-file defined
---line 140 of file bibliografia.bib
 Warning--I didn't find a database entry for "abnt-year-extra-label=yes"
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -33,45 +31,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 37 entries,
+You've used 36 entries,
             6480 wiz_defined-function locations,
-            1355 strings with 13999 characters,
-and the built_in function-call counts, 28244 in all, are:
-= -- 2085
-> -- 967
+            1351 strings with 13948 characters,
+and the built_in function-call counts, 27656 in all, are:
+= -- 2039
+> -- 952
 < -- 85
-+ -- 402
-- -- 288
-* -- 2031
-:= -- 3728
-add.period$ -- 108
-call.type$ -- 39
-change.case$ -- 348
-chr.to.int$ -- 109
-cite$ -- 33
-duplicate$ -- 1396
-empty$ -- 2150
-format.name$ -- 1401
-if$ -- 6726
++ -- 397
+- -- 283
+* -- 1995
+:= -- 3643
+add.period$ -- 104
+call.type$ -- 38
+change.case$ -- 342
+chr.to.int$ -- 108
+cite$ -- 32
+duplicate$ -- 1371
+empty$ -- 2093
+format.name$ -- 1378
+if$ -- 6583
 int.to.chr$ -- 3
 int.to.str$ -- 3
-missing$ -- 624
-newline$ -- 170
-num.names$ -- 165
-pop$ -- 733
+missing$ -- 609
+newline$ -- 165
+num.names$ -- 160
+pop$ -- 713
 preamble$ -- 1
-purify$ -- 141
+purify$ -- 138
 quote$ -- 0
-skip$ -- 1698
+skip$ -- 1661
 stack$ -- 1
-substring$ -- 1203
-swap$ -- 737
+substring$ -- 1181
+swap$ -- 729
 text.length$ -- 61
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 4
 warning$ -- 0
-while$ -- 252
+while$ -- 246
 width$ -- 0
-write$ -- 552
-(There were 6 warnings)
+write$ -- 538
+(There were 5 warnings)
