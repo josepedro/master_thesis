@@ -123,6 +123,14 @@ Tese (Doutorado) --- University of Southampton, 2010.}
 {PALABOS, P. \emph{Palabos Home page}. 2017.
 Dispon{\'\i}vel em: \url{http://www.palabos.org}.}
 
+\bibitem[Peters et al. 1993]{peters1993}
+\abntrefinfo{Peters et al.}{PETERS et al.}{1993}
+{PETERS, M.; HIRSCHBERG, A.; REIJNEN, A.; WIJNANDS, A. Damping and reflection
+  coefficient measurements for an open pipe at low mach and low helmholtz
+  numbers.
+\emph{Journal of Fluid Mechanics}, Cambridge Univ Press, v.~256, p. 499--534,
+  1993.}
+
 \bibitem[PowerFLOW 2017]{powerflow}
 \abntrefinfo{PowerFLOW}{POWERFLOW}{2017}
 {POWERFLOW, I. \emph{EXA Home page}. 2017.

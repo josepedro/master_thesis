@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.10)  2 MAY 2017 02:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.10)  5 MAY 2017 03:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1327,21 +1327,27 @@ Overfull \hbox (2.29408pt too wide) in paragraph at lines 7--8
 is-te-mas de exaust~ao
  []
 
-[29] <figuras/abs_r_comparacao.png, id=113, 578.16pt x 450.18187pt>
+[29] <figuras/abs_r_comparacao.png, id=113, 584.93532pt x 484.05844pt>
 File: figuras/abs_r_comparacao.png Graphic file (type png)
 
 <use figuras/abs_r_comparacao.png>
 Package pdftex.def Info: figuras/abs_r_comparacao.png used on input line 29.
-(pdftex.def)             Requested size: 276.55891pt x 215.33609pt.
- [30 <./figuras/abs_r_comparacao.png>]
-<figuras/loa_comparacao.png, id=119, 578.16pt x 450.18187pt>
+(pdftex.def)             Requested size: 276.55891pt x 228.87393pt.
+
+Overfull \hbox (9.29414pt too wide) in paragraph at lines 34--35
+\OT1/cmr/m/n/10 do duto, a qual trans-forma ener-gia cin^^Setica ro-ta-ci-o-nal
+ em ener-gia ac^^Sustica,
+ []
+
+[30 <./figuras/abs_r_comparacao.png>]
+<figuras/loa_comparacao.png, id=119, 611.28375pt x 505.89pt>
 File: figuras/loa_comparacao.png Graphic file (type png)
 
 <use figuras/loa_comparacao.png>
 Package pdftex.def Info: figuras/loa_comparacao.png used on input line 38.
-(pdftex.def)             Requested size: 276.55891pt x 215.33609pt.
+(pdftex.def)             Requested size: 276.55891pt x 228.87575pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1152) has occurred while \output is active []
 
  [31 <./figuras/loa_comparacao.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1394,10 +1400,10 @@ Package pdftex.def Info: figuras/cronograma.png used on input line 6.
 +-------------------------------------------------------------------+
 [45] (./exemplo.aux) ) 
 Here is how much of TeX's memory you used:
- 19533 strings out of 493029
- 350524 string characters out of 6136234
- 441635 words of memory out of 5000000
- 22601 multiletter control sequences out of 15000+600000
+ 19538 strings out of 493029
+ 350611 string characters out of 6136234
+ 441695 words of memory out of 5000000
+ 22606 multiletter control sequences out of 15000+600000
  5321 words of font info for 21 fonts, out of 8000000 for 9000
  1149 hyphenation exceptions out of 8191
  61i,8n,77p,1081b,380s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1411,7 +1417,7 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmtt10.pfb>
-Output written on exemplo.pdf (47 pages, 224000 bytes).
+Output written on exemplo.pdf (47 pages, 234808 bytes).
 PDF statistics:
  206 PDF objects out of 1000 (max. 8388607)
  140 compressed objects within 2 object streams

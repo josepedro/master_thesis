@@ -13,13 +13,13 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: abnt-options.bib
 Database file #2: bibliografia.bib
 Warning--entry type for "palabos" isn't style-file defined
---line 36 of file bibliografia.bib
+--line 46 of file bibliografia.bib
 Warning--entry type for "powerflow" isn't style-file defined
---line 119 of file bibliografia.bib
+--line 129 of file bibliografia.bib
 Warning--entry type for "openmpi" isn't style-file defined
---line 126 of file bibliografia.bib
+--line 136 of file bibliografia.bib
 Warning--entry type for "comsol" isn't style-file defined
---line 133 of file bibliografia.bib
+--line 143 of file bibliografia.bib
 Warning--I didn't find a database entry for "abnt-year-extra-label=yes"
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -31,45 +31,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 36 entries,
+You've used 37 entries,
             6480 wiz_defined-function locations,
-            1351 strings with 13948 characters,
-and the built_in function-call counts, 27656 in all, are:
-= -- 2039
-> -- 952
-< -- 85
-+ -- 397
-- -- 283
-* -- 1995
-:= -- 3643
-add.period$ -- 104
-call.type$ -- 38
-change.case$ -- 342
-chr.to.int$ -- 108
-cite$ -- 32
-duplicate$ -- 1371
-empty$ -- 2093
-format.name$ -- 1378
-if$ -- 6583
+            1358 strings with 14159 characters,
+and the built_in function-call counts, 28725 in all, are:
+= -- 2111
+> -- 1002
+< -- 88
++ -- 417
+- -- 297
+* -- 2084
+:= -- 3778
+add.period$ -- 107
+call.type$ -- 39
+change.case$ -- 358
+chr.to.int$ -- 112
+cite$ -- 33
+duplicate$ -- 1422
+empty$ -- 2157
+format.name$ -- 1453
+if$ -- 6832
 int.to.chr$ -- 3
 int.to.str$ -- 3
-missing$ -- 609
-newline$ -- 165
-num.names$ -- 160
-pop$ -- 713
+missing$ -- 629
+newline$ -- 170
+num.names$ -- 165
+pop$ -- 736
 preamble$ -- 1
-purify$ -- 138
+purify$ -- 143
 quote$ -- 0
-skip$ -- 1661
+skip$ -- 1717
 stack$ -- 1
-substring$ -- 1181
-swap$ -- 729
-text.length$ -- 61
+substring$ -- 1231
+swap$ -- 759
+text.length$ -- 63
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 4
 warning$ -- 0
-while$ -- 246
+while$ -- 255
 width$ -- 0
-write$ -- 538
+write$ -- 555
 (There were 5 warnings)
