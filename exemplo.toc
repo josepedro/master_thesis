@@ -8,10 +8,12 @@
 \contentsline {section}{\numberline {2.1}Modelos Anal\IeC {\'\i }ticos Exatos}{29}
 \contentsline {section}{\numberline {2.2}Modelos Anal\IeC {\'\i }ticos Aproximados}{32}
 \contentsline {section}{\numberline {2.3}Trabalhos Experimentais}{32}
-\contentsline {section}{\numberline {2.4}Modelos Num\IeC {\'e}ricos}{33}
-\contentsline {section}{\numberline {2.5}Aplica\IeC {\c c}\IeC {\~a}o do M\IeC {\'e}todo de \textit {Lattice} Boltzmann}{34}
-\contentsline {chapter}{\numberline {3}\MakeUppercase {Metodologia}}{37}
-\contentsline {section}{\numberline {3.1}O M\IeC {\'e}todo de Lattice Boltzmann}{38}
-\contentsline {chapter}{\numberline {4}\MakeUppercase {Resultados}}{39}
-\contentsline {chapter}{\numberline {5}\MakeUppercase {Conclus\IeC {\~o}es}}{41}
-\contentsline {chapter}{REFER\IeC {\^E}NCIAS}{43}
+\contentsline {subsection}{\numberline {2.3.1}Escoamento Sugado}{32}
+\contentsline {subsection}{\numberline {2.3.2}Escoamento de Exaust\IeC {\~a}o}{35}
+\contentsline {section}{\numberline {2.4}Modelos Num\IeC {\'e}ricos}{35}
+\contentsline {section}{\numberline {2.5}Aplica\IeC {\c c}\IeC {\~a}o do M\IeC {\'e}todo de \textit {Lattice} Boltzmann}{36}
+\contentsline {chapter}{\numberline {3}\MakeUppercase {Metodologia}}{39}
+\contentsline {section}{\numberline {3.1}O M\IeC {\'e}todo de Lattice Boltzmann}{40}
+\contentsline {chapter}{\numberline {4}\MakeUppercase {Resultados}}{41}
+\contentsline {chapter}{\numberline {5}\MakeUppercase {Conclus\IeC {\~o}es}}{43}
+\contentsline {chapter}{REFER\IeC {\^E}NCIAS}{45}

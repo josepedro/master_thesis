@@ -11,4 +11,6 @@
 \contentsline {simb}{\hbox to\@tempdima {$ka$\hfil }{N\IeC {\'u}mero de Helmholtz}}{31}
 \contentsline {simb}{\hbox to\@tempdima {$M$\hfil }{N\IeC {\'u}mero de Mach}}{32}
 \contentsline {simb}{\hbox to\@tempdima {$Kp$\hfil }{Fator de perda}}{33}
-\contentsline {simb}{\hbox to\@tempdima {$St$\hfil }{N\IeC {\'u}mero de Strouhal}}{34}
+\contentsline {simb}{\hbox to\@tempdima {$R_{M}$\hfil }{Coeficiente de reflex\IeC {\~a}o em rela\IeC {\c c}\IeC {\~a}o ao Mach}}{33}
+\contentsline {simb}{\hbox to\@tempdima {$l_{M}$\hfil }{Coeficiente de corre\IeC {\c c}\IeC {\~a}o da termina\IeC {\c c}\IeC {\~a}o em rela\IeC {\c c}\IeC {\~a}o ao Mach}}{33}
+\contentsline {simb}{\hbox to\@tempdima {$St$\hfil }{N\IeC {\'u}mero de Strouhal}}{36}
