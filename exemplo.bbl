@@ -12,6 +12,13 @@
 \emph{Journal of sound and vibration}, Elsevier, v.~292, n.~3, p. 519--534,
   2006.}
 
+\bibitem[Bhatnagar et al. 1954]{bgk}
+\abntrefinfo{Bhatnagar et al.}{BHATNAGAR et al.}{1954}
+{BHATNAGAR, P.~L.; GROSS, E.~P.; KROOK, M. A model for collision processes in
+  gases. i. small amplitude processes in charged and neutral one-component
+  systems.
+\emph{Physical review}, APS, v.~94, n.~3, p.~511, 1954.}
+
 \bibitem[Carrier 1955]{carrier1955sound}
 \abntrefinfo{Carrier}{CARRIER}{1955}
 {CARRIER, G. \emph{Sound transmission from a tube with flow}.
@@ -60,6 +67,25 @@ Tese (Doutorado) --- University of Southampton, 2010.}
   pipes: far-and near-field solutions.
 \emph{Journal of Fluid Mechanics}, Cambridge University Press, v.~549, p.~315,
   2006.}
+
+\bibitem[He e Luo 1997]{he}
+\abntrefinfo{He e Luo}{HE; LUO}{1997}
+{HE, X.; LUO, L.-S. Theory of the lattice boltzmann method: From the boltzmann
+  equation to the lattice boltzmann equation.
+\emph{Physical Review E}, APS, v.~56, n.~6, p.~6811, 1997.}
+
+\bibitem[Hirschberg e Hoeijmakers 2014]{hirschberg2014}
+\abntrefinfo{Hirschberg e Hoeijmakers}{HIRSCHBERG; HOEIJMAKERS}{2014}
+{HIRSCHBERG, A.; HOEIJMAKERS, M. Comments on the low frequency radiation
+  impedance of a duct exhausting a hot gas.
+\emph{The Journal of the Acoustical Society of America}, ASA, v.~136, n.~2, p.
+  EL84--EL89, 2014.}
+
+\bibitem[Howe 1979]{howe1979}
+\abntrefinfo{Howe}{HOWE}{1979}
+{HOWE, M. Attenuation of sound in a low mach number nozzle flow.
+\emph{Journal of Fluid Mechanics}, Cambridge Univ Press, v.~91, n.~02, p.
+  209--229, 1979.}
 
 \bibitem[Ingard e Singhal 1975]{ingard1975}
 \abntrefinfo{Ingard e Singhal}{INGARD; SINGHAL}{1975}
@@ -142,6 +168,12 @@ Dispon{\'\i}vel em:
 {PROJECT, O.~M. \emph{Open MPI Project Home page}. 2017.
 Dispon{\'\i}vel em: \url{https://www.open-mpi.org}.}
 
+\bibitem[Reis e Phillips 2007]{reis2007}
+\abntrefinfo{Reis e Phillips}{REIS; PHILLIPS}{2007}
+{REIS, T.; PHILLIPS, T.~N. Modified lattice boltzmann model for axisymmetric
+  flows.
+\emph{Physical Review E}, APS, v.~75, n.~5, p. 056703, 2007.}
+
 \bibitem[Savkar 1975]{savkar1975radiation}
 \abntrefinfo{Savkar}{SAVKAR}{1975}
 {SAVKAR, S. Radiation of cylindrical duct acoustic modes with flow mismatch.
@@ -188,10 +220,26 @@ Dispon{\'\i}vel em: \url{https://www.open-mpi.org}.}
 \emph{Journal of Computational Physics}, Elsevier, v.~123, n.~1, p. 196--206,
   1996.}
 
+\bibitem[Tiikoja et al. 2014]{tiikoja2014}
+\abntrefinfo{Tiikoja et al.}{TIIKOJA et al.}{2014}
+{TIIKOJA, H.; LAVRENTJEV, J.; R{\"A}MMAL, H.; {\AA}BOM, M. Experimental
+  investigations of sound reflection from hot and subsonic flow duct
+  termination.
+\emph{Journal of Sound and Vibration}, Elsevier, v.~333, n.~3, p. 788--800,
+  2014.}
+
 \bibitem[Viggen 2013]{viggen2013acoustic}
 \abntrefinfo{Viggen}{VIGGEN}{2013}
 {VIGGEN, E.~M. Acoustic multipole sources for the lattice boltzmann method.
 \emph{Physical Review E}, APS, v.~87, n.~2, p. 023306, 2013.}
+
+\bibitem[Wolf-Gladrow 2000]{wolf}
+\abntrefinfo{Wolf-Gladrow}{WOLF-GLADROW}{2000}
+{WOLF-GLADROW, D.~A. Lattice-gas cellular automata and lattice boltzmann
+  models-introduction.
+\emph{LATTICE-GAS CELLULAR AUTOMATA AND LATTICE BOLTZMANN MODELS},
+  SPRINGER-VERLAG BERLIN HEIDELBERGER PLATZ 3, D-14197 BERLIN, GERMANY,
+  v.~1725, p. 1--13, 2000.}
 
 \bibitem[Wolf-Gladrow 2004]{wolf2004}
 \abntrefinfo{Wolf-Gladrow}{WOLF-GLADROW}{2004}

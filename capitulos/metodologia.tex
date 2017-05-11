@@ -1,15 +1,91 @@
 \chapter{Metodologia}
 
-Assim como foi discutido no capítulo anterior, o método de \textit{lattice} Boltzmann possui bastante utilidade quando se trata de problemas aeroacústicos, pequenas flutuações de pressão e fenômentos de turbulência. Isso se deve pelo fato do método ter surgido de uma outra abordagem de fenômenos mecânicos aplicados a fluidos - uma abordagem microscópica de interações entre moléculas.
+Assim como foi discutido no capítulo anterior, para obter os parâmetros de caracterização da acústica interna de dutos circulares com escoamento, é preciso de um modelo que suporte a interação fluxo de massa e variação de pressão. Portanto modelos baseados em métodos de fluido dinâmica computacional se mostram adequados, principalmente aqueles baseados no método de \textit{lattice} Boltzmann assim como foi mostrado anteriormente nos trabalhos de \citeonline{da2006lattice} e \citeonline{da2009sound}. Nesse sentido, há traballhos que validam, aplicam e desenvolvem metodologias de \textit{lattice} Boltzmann no campo de estudo da aeroacústica.
+
+Um desses estudos é o de \citeonline{crouse2006fundamental}, que mostraram a eficácia do método de \textit{lattice} Boltzmann em recuperar as equações de Navier-Stokes de transiente, compressível e viscosa. Há de se ressaltar que validaram também o modelo numérico de um ressonador de Helmholtz com um modelo experimental do mesmo, demonstrando assim a viabilidade da aplicação para problemas de acústica.
+
+No que se trata de desenvolvimento de ferramentas auxiliares para tratar problemas acústicos, \citeonline{kam2006non} desenvolveu uma condição de contorno que caracteriza dissipação de energia acústica e fluido dinâmica, ou seja, uma condição de contorno anecóica. Ela se baseia no acoplamento de mais um termo na equação de Boltzmann para gerar uma região de amortecimento, redirecionando os valores de densidade e velocidade das partículas para um valor alvo, que seria no caso valores médios de densidade e velocidade num fluido em repouso.
+
+\citeonline{marie2009} analisou e comparou esquemas de alta ordem das equações de Navier-Stokes linearizadas com o método de \textit{lattice} Boltzmann. O objeto de estudo para comparação foi análises de dispersão e dissipação de ondas acústicas em regime isotérmico. Conclui-se com esse trabalho que para um determinado erro de dispersão o método de \textit{lattice} Boltzmann se comportou como mais rápido.
+
+No que diz respeito a aplicação do método de \textit{lattice} Boltzmann num problema de aeroacústica, \citeonline{lew2010noise} desenvolveram um modelo numérico em 3D para predição de ruído em um jato turbulento subsônico. Como validação os resultados foram comparados com resultados experimentais e cálculos numéricos feitos a base de \textit{Large} \textit{Eddy} \textit{Simulation} (LES)\abreviatura{LES}{\textit{Large} \textit{Eddy} \textit{Simulation}}. Esse estudo demonstrou as principais vantagens de se trabalhar com o método de \textit{lattice} Boltzmann como por exemplo o baixo custo computacional e a facilidade em inserir \textit{nozzles} com formas complexas no domínio computacional.
+
+Também na área de aeroacústica computacional, o trabalho de \citeonline{shi2013lattice} propõe um modelo em \textit{lattice} Boltzmann para obter dados de diretividade da radiação sonora num duto circular submetido a escoamento subsônico. Os resultados de diretividade foram comparados com os modelos de \citeonline{levine1948radiation} e \citeonline{gabard2006}, mostrando uma boa convergência principalmente nas baixas frequências.
+
+Já no sentido de tratamento de fenômenos da acústica básica, \citeonline{viggen2013acoustic} investigou os efeitos da adição de termos fontes no método de \textit{lattice} Boltzmann, mapeando eles nos parâmetros macroscópicos através da ferramenta matemática de expansão de Chapman-Enskog. Como resultado conseguiu reproduzir fenômenos de diretivade de monopolos, dipolos e quadrupolos.
+
+\citeonline{da2015assessment} abordaram também o uso do método de \textit{lattice} Boltzmann acoplado com \textit{Large} \textit{Eddy} \textit{Simulation} (LES) na investigação do ruído gerado na interação do escoamento de um jato com uma placa plana. Os dados de níveis de pressão sonora em campo distante foram obtidos usando a superfície de Ffowcs-Williams e Hawkings (FW-H)\abreviatura{FW-H}{Superfície de Ffowcs-Williams e Hawkings} e os mesmos possuem uma boa convergência com dados experimentais.
+
+Investigar a acústica interna de dutos circulares com escoamentos é um processo que deve ter suporte de ferramentas bem específicas, como por exemplo o método numérico de \textit{lattice} Boltzmann. Esse capítulo portanto abordará esse método e as condições de uso implementadas, validadas e verificadas num \textit{software} de código aberto chamado \citeonline{palabos}. Abordar o uso de um \textit{software} de código aberto possibilita a verificação transparente dos processos de cálculo bem como adaptações com novas implementações dentro do projeto, focando a melhor aderência da ferramenta computacional para resolução do problema.
+
+
+\section{O Método de Lattice Boltzmann}
+
+O método de \textit{lattice} Boltzmann possui bastante utilidade quando se trata de problemas aeroacústicos, pequenas flutuações de pressão e fenômentos de turbulência. Isso se deve pelo fato do método ter surgido de uma outra abordagem de fenômenos mecânicos aplicados a fluidos - uma abordagem microscópica de interações entre moléculas.
 
 Essa abordagem se chama Dinâmica Molecular (DM)\abreviatura{DM}{Dinâmica Molecular} e é baseada nas formulações Newtonianas de choque e propagação de partículas, em outras palavras, as posições no espaço e as velocidades podem ser obtidas a partir da aplicação da segunda lei de Newton para cada partícula. Segundo essa ideia, outras propriedades do fluido como densidade, pressão e temperatura podem ser facilmente recuperadas através do cáculo da média correspondente a um conjunto de partículas. Porém o principal problema dessa abordagem é que há uma grande quantidade de equações para se resolver num pequeno volume de fluido, pois, considerando que, de acordo com o número de Avogrado, nesse mesmo volume há na ordem de $10^{23}$ moléculas para calular os movimentos cinéticos. Tal fato se torna inviável para implementação mesmo com computadores potentes como \textit{clusters} de alto desempenho.
 
-Uma solução para contornar o problema da grande quantidade de equações do movimento é abordar o fenômeno físico estatisticamente, ou seja, formular a evolução do movimento do fluido no tempo em termos de uma equação de transporte: uma função de distribuição de partículas. Uma equação de transporte bastante apropriada é a equação de Boltzmann que, ao ser discretizada, pode ser resolvida de forma numérica originando assim o método de \textit{lattice} Boltzmann ou \textit{lattice} \textit{Boltzmann} \textit{Method} (LBM)\abreviatura{LBM}{\textit{lattice} \textit{Boltzmann} \textit{Method}}.
+Uma solução para contornar o problema da grande quantidade de equações do movimento é abordar o fenômeno físico estatisticamente, ou seja, formular a evolução do movimento do fluido no tempo em termos de uma equação de transporte: uma função de distribuição de partículas. Uma equação de transporte bastante apropriada é a equação de Boltzmann que, ao ser discretizada, pode ser resolvida de forma numérica originando assim o método de \textit{lattice} Boltzmann ou \textit{lattice} \textit{Boltzmann} \textit{Method} (LBM)\abreviatura{LBM}{\textit{Lattice} \textit{Boltzmann} \textit{Method}}.
 
 Historicamente o método de \textit{lattice} Boltzmann se originou a partir de um modelo de DM chamada \textit{Lattice} \textit{Gas} \textit{Automata} (LGA)\abreviatura{LGA}{\textit{Lattice} \textit{Gas} \textit{Automata}}. Esse modelo surgiu nos anos 80 com o estudo de \citeonline{frisch1986} mostrando a recuperação das equações de Navier-Stokes para pequenos números de Knudsen. Como esse modelo funciona somente para choque de partículas singulares, houve a necessidade de um modelo mais sofisticado e completo, então nos anos 90 e 2000 os trabalhos de \citeonline{sterling1996} e \citeonline{wolf2004} consolidaram o LBM sanando essa limitação com um processo de choques de conjunto de partículas.
 
-O LBM possui muitas vantagens em relação a técnicas tradicionais de fluido dinâmica computacional aplicadas a aeroacústica: resolve o campo acústico e o campo fluido dinâmico ao mesmo tempo em cada incremento de tempo, extração direta do campo de pressão e fácil implementação paralela elevando assim a performance frente a outros métodos. Em vista do exposto, esse capítulo tratará o LBM como metodologia com detalhes de uso, implementação e aplicação para o desenvolvimendo do modelo de um duto com condições de contorno diversas.
+O LBM possui muitas vantagens em relação a técnicas tradicionais de fluido dinâmica computacional aplicadas a aeroacústica: resolve o campo acústico e o campo fluido dinâmico numa mesma iteração em cada incremento de tempo, extração direta do campo de pressão e fácil implementação paralela elevando assim a performance frente a outros métodos.
 
-\section{O Método de Lattice Boltzmann}
+\subsection{Modelo BGK}
+
+O LBM, baseado em operações de colisão e propagação de funções de distribuição de partículas com massa, é a equação de Boltzman discretizada no tempo e espaço. Cada conjunto de funções de distribuição localizadas num ponto no espaço $\textbf{x}$ e tempo $t$ pode ser chamada de célula e, segundo o trabalho de \citeonline{he}, a equação de Boltzman, que formula o comportamento de cada célula, pode ser escrita na expressão 
+\begin{equation}
+	f_{i}(\textbf{x} + c_{i}\Delta t, t + \Delta t) = f_{i}(\textbf{x}, t) + \Omega_{i}(f(\textbf{x}, t)),
+    \label{eq:f_i}
+\end{equation}
+sendo que $i$ é um número inteiro que delimita direções no espaço de propagação de partículas, $f_{i}$ são funções de distribuição na direção $i$, $c_{i}$ são velocidades de propagação na direção $i$ e $\Delta t$ é o incremento discreto de tempo. 
+\simbolo{$f_{i}$}{Função de distribuição LBM na direção $i$}
+\simbolo{$i$}{Direção de propagação LBM}
+\simbolo{$c_{i}$}{Velocidades de propagação na direção $i$}
+\simbolo{$\textbf{x}$}{Localização espacial de uma célula LBM}
+\simbolo{$t$}{Localização temporal de uma célula LBM}
+\simbolo{$\Delta t$}{Incremento discreto de tempo}
+
+A equação \ref{eq:f_i} é dividida nas duas operações básicas do método: propagação e colisão. O lado esquerdo dessa equação representa a operação de propagação, na qual os valores das funções de distribuição de cada célula são movidos para cada direção de propagação para uma próxima célula no espaço em cada iteração no tempo. Feita a operação de propagação, é realizada a operação de colisão, representada pelo lado direito da equação, na qual o termo $\Omega_{i}$\simbolo{$\Omega_{i}$}{Operador de colisão LBM} representa o operador de colisão.
+
+Uma das formas de calcular o operador de colisão $\Omega_{i}$ é usar a formulação proposta no estudo de \citeonline{bgk}. A aplicação dessa formulação consolida o modelo BGK (Bhatnagar–Gross–Krook) ou modelo de tempo de relaxação único: \textit{single}-\textit{relaxation}-\textit{time} (SRT)\abreviatura{SRT}{\textit{single}-\textit{relaxation}-\textit{time}}. Nesse sentido, o operador de colisão é definido por
+\begin{equation}
+	\Omega_{i} = -\frac{1}{\tau}[f_{i} - f_{i}^{M}],
+    \label{eq:omega_i}
+\end{equation}
+tal que $\tau$\simbolo{$\tau$}{Período de colisão LBM} é o período de colisão e $f_{i}^{M}$\simbolo{$f_{i}^{M}$}{Função de distribuição de Maxwell ou de equilíbrio} é a função de distribuição de Maxwell ou função de distribuição de equilíbrio.
+
+A função de distribuição de Maxwell $f_{i}^{M}$ pode ser calculada aplicando o princípio de máxima entropia de acordo com as retrições das leis de conservação de massa e quantidade de movimento, assim como é proposto pelo por \citeonline{wolf}. Dessa forma a função de distribuição de Maxwell é definida por
+\begin{equation}
+	f_{i}^{M} = \rho \varepsilon _{i}\bigg( 1 + \frac{\textbf{u}.c_{i}}{c_{s}^{2}} + \frac{\textbf{u}.c_{i}^{2} - c_{s}^{2}\textbf{u}}{2c_{s}^{4}}\bigg),
+    \label{eq:f_i_M}
+\end{equation}
+sendo que $\rho$ é a densidade local do fluido, $\varepsilon_{i}$ são pesos de velocidades para cada direção de propagação $i$, $\textbf{u}$ é a velocidade local do fluido e $c_{s}$ é a velocidade do som.
+\simbolo{$\rho$}{Densidade local do fluido}
+\simbolo{$\varepsilon_{i}$}{Pesos de velocidades para cada direção de propagação $i$}
+\simbolo{$\textbf{u}$}{Velocidade local do fluido}
+\simbolo{$c_{s}$}{Velocidade do som}
+
+\newpage
+Os parâmetros macroscópicos de densidade local do fluido $\rho$, velocidade local do fluido $\textbf{u}$, pressão local do fluido $p$ e a viscosidade cinemática $\nu$ podem ser obtidos a partir dos momentos da função de distribuição $f_{i}$ nas formas
+\begin{equation}
+	\rho = \sum{f_{i}},
+    \label{eq:rho}
+\end{equation}
+\begin{equation}
+	\rho \textbf{u} = \sum{f_{i} c_{i}},
+    \label{eq:u}
+\end{equation}
+\begin{equation}
+	p = \rho c^{2}_{s} \text{ e }
+    \label{eq:p}
+\end{equation}
+\begin{equation}
+	\nu = c^{2}_{s} \bigg(\tau - \frac{1}{2}\bigg).
+    \label{eq:nu}
+\end{equation}
+\simbolo{$p$}{Pressão local do fluido}
+\simbolo{$\nu$}{viscosidade cinemática do fluido}
+
 
 

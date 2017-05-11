@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  6 MAY 2017 03:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.10)  11 MAY 2017 03:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1438,18 +1438,17 @@ File: figuras/abs_r_comparacao.png Graphic file (type png)
 <use figuras/abs_r_comparacao.png>
 Package pdftex.def Info: figuras/abs_r_comparacao.png used on input line 29.
 (pdftex.def)             Requested size: 276.55891pt x 228.87393pt.
-
-Overfull \hbox (9.29414pt too wide) in paragraph at lines 34--35
+ [30 <./figuras/abs_r_comparacao.png>]
+Overfull \hbox (9.29414pt too wide) in paragraph at lines 35--36
 \OT1/cmr/m/n/10 do duto, a qual trans-forma ener-gia cin^^Setica ro-ta-ci-o-nal
  em ener-gia ac^^Sustica,
  []
 
-[30 <./figuras/abs_r_comparacao.png>]
 <figuras/loa_comparacao.png, id=119, 611.28375pt x 505.89pt>
 File: figuras/loa_comparacao.png Graphic file (type png)
 
 <use figuras/loa_comparacao.png>
-Package pdftex.def Info: figuras/loa_comparacao.png used on input line 38.
+Package pdftex.def Info: figuras/loa_comparacao.png used on input line 39.
 (pdftex.def)             Requested size: 276.55891pt x 228.87575pt.
  [31 <./figuras/loa_comparacao.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1458,63 +1457,70 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33]
-
-LaTeX Warning: Text page 34 contains only floats.
-
 [34]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [35]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [36])
+(./capitulos/metodologia.tex [37] [38
 
- [37]
-Overfull \hbox (1.90523pt too wide) in paragraph at lines 157--158
-\OT1/cmr/m/n/10 Vig-gen (2013) in-ves-ti-gou os efei-tos da adi^^Xc~ao de ter-m
-os fon-tes no m^^Setodo
- []
-
-) (./capitulos/metodologia.tex [38]
+]
 Cap\'{\i }tulo 3.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39
+ [39]
+Overfull \hbox (1.90523pt too wide) in paragraph at lines 15--16
+\OT1/cmr/m/n/10 Vig-gen (2013) in-ves-ti-gou os efei-tos da adi^^Xc~ao de ter-m
+os fon-tes no m^^Setodo
+ []
 
-])
-(./capitulos/resultados.tex [40]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40]
+Overfull \hbox (0.60677pt too wide) in paragraph at lines 36--37
+[]\OT1/cmr/m/n/10 O LBM, ba-se-ado em opera^^Xc~oes de co-lis~ao e pro-paga^^Xc
+~ao de fun^^Xc~oes
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41]
+[42]) (./capitulos/resultados.tex [43] [44
+
+]
 Cap\'{\i }tulo 4.
-) (./capitulos/conclusoes.tex [41
-
-] [42
+) (./capitulos/conclusoes.tex [45] [46
 
 ]
 Cap\'{\i }tulo 5.
-<figuras/cronograma.png, id=160, 796.9775pt x 400.49625pt>
+<figuras/cronograma.png, id=171, 796.9775pt x 400.49625pt>
 File: figuras/cronograma.png Graphic file (type png)
 
 <use figuras/cronograma.png>
 Package pdftex.def Info: figuras/cronograma.png used on input line 6.
 (pdftex.def)             Requested size: 284.52756pt x 142.98076pt.
-) (./exemplo.bbl [43 <./figuras/cronograma.png>]
-[44
+) (./exemplo.bbl [47 <./figuras/cronograma.png>]
+[48
 
-] [45] [46])
+] [49] [50] [51])
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[47] (./exemplo.aux) ) 
+[52] (./exemplo.aux) ) 
 Here is how much of TeX's memory you used:
- 29376 strings out of 493029
- 679024 string characters out of 6136233
- 882918 words of memory out of 5000000
- 32308 multiletter control sequences out of 15000+600000
- 5321 words of font info for 21 fonts, out of 8000000 for 9000
+ 29426 strings out of 493029
+ 679732 string characters out of 6136234
+ 875305 words of memory out of 5000000
+ 32356 multiletter control sequences out of 15000+600000
+ 5940 words of font info for 23 fonts, out of 8000000 for 9000
  1149 hyphenation exceptions out of 8191
- 71i,11n,89p,1081b,1990s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,11n,89p,1169b,1990s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.
@@ -1523,13 +1529,12 @@ sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmtt10.pfb>
-Output written on exemplo.pdf (49 pages, 251343 bytes).
+onts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmtt10.pfb>
+Output written on exemplo.pdf (54 pages, 255404 bytes).
 PDF statistics:
- 217 PDF objects out of 1000 (max. 8388607)
- 145 compressed objects within 2 object streams
+ 228 PDF objects out of 1000 (max. 8388607)
+ 152 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

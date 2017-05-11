@@ -16,7 +16,7 @@ A propagação de modos normais (ondas planas) é um problema clássico em acús
     
     \item coeficiente de correção da terminação normalizado pelo raio do duto $l/a$ em que $a$ é o raio do duto. Tal parâmetro representa o comprimento acústico efetivo do duto. Em outras palavras, o fator $l$ é a quantidade adicional medida a partir da abertura do duto a qual deve propagar a onda incidente antes de ser refletida para o interior do duto com fase invertida. Tal coeficiente de correção da terminação $l$ é dado por
     \begin{equation}
-        l = \frac{1}{k} \arctan\!\left(\frac{Z_{r}}{Z_{0} \, \mathrm{i}\simbolo{$i$}{Unidade imaginária}}\right)
+        l = \frac{1}{k} \arctan\!\left(\frac{Z_{r}}{Z_{0} \, \mathrm{j}\simbolo{$j$}{Unidade imaginária}}\right)
         \label{eq:l}
     \end{equation}
     sendo $k$\simbolo{$k$}{Número de onda} o número de onda.
@@ -31,6 +31,7 @@ Em relação aos parâmetros discutidos acima, a solução exata para o problema
   \label{fig:comp1}
 \end{figure}
 
+\newpage
 Como é mostrado na Figura \ref{fig:comp1}, a magnitude do coeficiente de reflexão $\|R\|$ aumenta consideravelmente na presença de um escoamento subsônico. Além disso, pode-se perceber que, em algumas frequências, $\|R\|$ torna-se maior do que a unidade, implicando que a amplitude da onda refletida torna-se maior do que a da onda incidente. Este fenômeno ocorre, sobretudo, pela interação do escoamento com a borda do duto, a qual transforma energia cinética rotacional em energia acústica, como discutido por \citeonline{peters1993}. Além disso vale ressaltar que o maior valor de $\|R\|$ está associado com a frequência de desprendimento de vórtices na saída do duto, ou seja, a um número de Strouhal ($St$) relativo a maximização do desprendimento de vórtices na terminação do duto.  
 
 \begin{figure}[ht!]
@@ -40,6 +41,7 @@ Como é mostrado na Figura \ref{fig:comp1}, a magnitude do coeficiente de reflex
   \label{fig:comp2}
 \end{figure}
 
+\newpage
 De acordo com a Figura \ref{fig:comp2}, a correção normalizada da terminação $l/a$ torna-se consideravelmente menor do que aquela obtida na ausência de escoamento, sobretudo para baixos números de Helmholtz ($ka$)\simbolo{$ka$}{Número de Helmholtz}. Em outras palavras, para baixas frequências e na presença de um escoamento a onda acústica é refletida em uma região mais próxima da abertura, em comparação à situação sem escoamento.
 
 \section{Modelos Analíticos Aproximados}
@@ -50,6 +52,7 @@ No que diz respeito a modelos analíticos aproximados, o trabalho de \citeonline
 
 Também na mesma linha de desenvolvimento de \citeonline{carrier1955sound}, \citeonline{savkar1975radiation} desenvolveu um modelo de modos de alta ordem ($ka$ $<$ $4,59$) com escoamento de exaustão e sucção do tipo \textit{plug} ($M$ $<$ $0,4$) com variação de temperatura. A continuidade do deslocamento das partículas acústicas transversais também foi considerada na interface entre o ar em repouso externo e o jato de saída do duto, possibilitando assim análises de fenômenos de convectivos. Como metodologia para construção desse modelo foram aplicadas as técnicas de Wiener-Hopf e a aproximação matemática do trabalho de \citeonline{carrier1955sound}.
 
+Já o trabalho de \citeonline{hirschberg2014} propõe uma expressão analítica aproximada do coeficiente de reflexão para baixas frequências ($ka$ $<$ $1$) e para baixos números de Mach ($M$ $<$ $0,2$). Esse modelo considera os efeitos de convecção e temperatura e foi consolidado a partir da aproximação proposta pelo trabalho de \citeonline{howe1979}.   
 
 \section{Trabalhos Experimentais}
 
@@ -64,21 +67,33 @@ Dos trabalhos citados com escoamento sugado nota-se a consolidação do comporta
         R_{M}\simbolo{$R_{M}$}{Coeficiente de reflexão em relação ao Mach} = R_{0}\bigg[\frac{(1 - M)}{(1 + M)}\bigg]^{0,9},
         \label{eq:R_M}
     \end{equation}
-    sendo $R_{0}$ módulo do coeficiente de reflexão sem escoamento obtido a partir do trabalho de \citeonline{levine1948radiation}. A Figura \ref{fig:comp3} mostra o gráfico resultante da equação \ref{eq:R_M} e pode-se perceber que $R_{M}$ decai de acordo com o aumento do Mach, em outras palavras, para baixas frequências, a onda plana possui maior facilidade de se radiar para o meio externo a medida que o Mach é aumentado. De forma análoga o trabalho de \citeonline{davies1987} também sugere uma equação para o coeficiente de correção da terminação e a mesma é definida por
+    sendo $R_{0}$ módulo do coeficiente de reflexão sem escoamento obtido a partir do trabalho de \citeonline{levine1948radiation}. 
+
+
+
+    De forma análoga o trabalho de \citeonline{davies1987} também sugere uma equação para o coeficiente de correção da terminação e a mesma é definida por
     \begin{equation}
         l_{M}\simbolo{$l_{M}$}{Coeficiente de correção da terminação em relação ao Mach} = l_{0}(1 - M^{2}),
         \label{eq:l_M}
     \end{equation} 
-    sendo $l_{0}$ módulo do coeficiente de correção da terminação sem escoamento obtido a partir do trabalho de \citeonline{levine1948radiation}. A Figura \ref{fig:comp4} mostra o gráfico resultante da equação \ref{eq:l_M} e pode-se perceber que $l_{M}$ decai de acordo com o aumento do Mach, ou seja, para baixas frequências, o comprimento efetivo acustico do duto diminui a medida que o Mach é aumentado. Mesmo com esses coeficientes modelados com apoio de dados experimentais a literatura carece de informações sobre esses parâmetros para frequências mais altas ($ka$ $>$ $0,25$).
+    sendo $l_{0}$ módulo do coeficiente de correção da terminação sem escoamento obtido a partir do trabalho de \citeonline{levine1948radiation}.
 
-\begin{figure}[ht!]
+
+\begin{figure}[h!]
 \centering
   \begin{tikzpicture}
   \begin{axis}[
       axis lines = left,
       xlabel = Número de Mach (M),
       ylabel = Coeficiente de Reflexão ($R_{M}$),
-      width=0.67\linewidth
+      width=0.5\linewidth,
+      x tick label style={
+        /pgf/number format/.cd,
+            fixed,
+            fixed zerofill,
+            precision=2,
+        /tikz/.cd
+    }
   ]
   %Below the red parabola is defined
   \addplot [
@@ -91,18 +106,28 @@ Dos trabalhos citados com escoamento sugado nota-se a consolidação do comporta
    
   \end{axis}
   \end{tikzpicture}
-  \caption[Coeficiente de reflexão $R_{M}$ em relação ao Mach]{Resultado do coeficiente de reflexão $R_{M}$ em relação ao Mach para baixas frequências ($ka$ $<$ $0,25$). A linha tracejada apresenta o cálculo obtido com a equação \ref{eq:R_M} do trabalho de \citeonline{davies1987}.}
+  \caption[Coeficiente de reflexão $R_{M}$]{Resultado do coeficiente de reflexão $R_{M}$ em relação ao Mach para baixas frequências ($ka$ $<$ $0,25$). A linha tracejada apresenta o cálculo obtido com a equação \ref{eq:R_M} do trabalho de \citeonline{davies1987}.}
   \label{fig:comp3}
 \end{figure}
 
-\begin{figure}[ht!]
+A Figura \ref{fig:comp3} mostra o gráfico resultante da equação \ref{eq:R_M} e pode-se perceber que $R_{M}$ decai de acordo com o aumento do Mach, em outras palavras, para baixas frequências, a onda plana possui maior facilidade de se radiar para o meio externo a medida que o Mach é aumentado. 
+
+
+\begin{figure}[h!]
 \centering
   \begin{tikzpicture}
   \begin{axis}[
       axis lines = left,
       xlabel = Número de Mach (M),
       ylabel = Correção da Terminação ($l_{M}$),
-      width=0.67\linewidth
+      width=0.5\linewidth,
+       x tick label style={
+        /pgf/number format/.cd,
+            fixed,
+            fixed zerofill,
+            precision=2,
+        /tikz/.cd
+    }
   ]
   %Below the red parabola is defined
   \addplot [
@@ -115,47 +140,32 @@ Dos trabalhos citados com escoamento sugado nota-se a consolidação do comporta
    
   \end{axis}
   \end{tikzpicture}
-  \caption[Coeficiente de correção da terminação $l_{M}$ em relação ao Mach]{Resultado do coeficiente de correção da terminação $l_{M}$ em relação ao Mach para baixas frequências ($ka$ $<$ $0,25$). A linha tracejada apresenta o cálculo obtido com a equação \ref{eq:l_M} do trabalho de \citeonline{davies1987}.}
+  \caption[Coeficiente de correção da terminação $l_{M}$]{Resultado do coeficiente de correção da terminação $l_{M}$ em relação ao Mach para baixas frequências ($ka$ $<$ $0,25$). A linha tracejada apresenta o cálculo obtido com a equação \ref{eq:l_M} do trabalho de \citeonline{davies1987}.}
   \label{fig:comp4}
 \end{figure}
+
+ A Figura \ref{fig:comp4} mostra o gráfico resultante da equação \ref{eq:l_M} e pode-se perceber que $l_{M}$ decai de acordo com o aumento do Mach, ou seja, para baixas frequências, o comprimento efetivo acustico do duto diminui a medida que o Mach é aumentado. Mesmo com esses coeficientes modelados com apoio de dados experimentais a literatura carece de informações sobre esses parâmetros para frequências mais altas ($ka$ $>$ $0,25$).
 
 
 \subsection{Escoamento de Exaustão}
 
 No que diz respeito a escoamentos de exaustão o trabalho de \citeonline{peters1993} investigou os coeficientes de reflexão e de dissipação de ondas acústicas devido aos efeitos térmicos e de viscosidade. Uma técnica multi-microfones, baseada na técnica de dois microfones, foi utilizada para extração dos dados num regime de baixas frequências ($ka$ $<$ $1,5$) e Machs subsônicos ($M$ $<$ $0,2$). Por fim o autor argumenta que o fenômeno do coeficiente de reflexão ser maior que o valor unitário ocorre devido a interação do escoamento com a borda do duto, a qual transforma energia cinética rotacional em energia acústica. 
 
-No que diz respeito a escoamentos de exaustão o trabalho de \citeonline{allam2006investigation} utilizou um sistema superdeterminado de medição para investigação da acústica interna de um duto não flangeado. Para contornar a dificuldade de medição do coeficiente de correção da terminação do duto, surgiu-se como motivação o desenvolvimento de um sistema em que há mais microfones do que incógnitas a serem calculadas, em outras palavras, extendeu-se a metodologia de medição de 2 microfones para mais que 4 microfones. Há de se considerar também que a parte imaginária do número de onda, parte associada com a dissipação de energia por viscosidade, não pode ser obtida quando há escoamento e por isso foi incluída como incógnita. Em linhas gerais esse trabalho permitiu a validação experimental do trabalho de \citeonline{munt1990acoustic} e a consolidação de um sistema confiável de medição para esse tipo de problema.
+O trabalho de \citeonline{allam2006investigation} utilizou um sistema superdeterminado de medição para investigação da acústica interna de um duto não flangeado. Para contornar a dificuldade de medição do coeficiente de correção da terminação do duto, surgiu-se como motivação o desenvolvimento de um sistema em que há mais microfones do que incógnitas a serem calculadas, em outras palavras, extendeu-se a metodologia de medição de 2 microfones para mais que 4 microfones. Há de se considerar também que a parte imaginária do número de onda, parte associada com a dissipação de energia por viscosidade, não pode ser obtida quando há escoamento e por isso foi incluída como incógnita. Em linhas gerais esse trabalho permitiu a validação experimental do trabalho de \citeonline{munt1990acoustic} e a consolidação de um sistema confiável de medição para esse tipo de problema.
 
-\citeonline{english2010} investigou também de forma experimental os coeficientes de reflexão e de terminação de dutos circulares com diferentes espessuras. Focando para números de Mach entre 0 e 0,3, seus resultados mostram que os coeficientes de reflexão estão com valores acima dos que são encontrados no trabalho de \citeonline{munt1990acoustic}. O autor explica esse fato relatando que a condição de Kutta subestima o surgimento de vórtices na saída do duto.
+\citeonline{english2010} investigou também de forma experimental os coeficientes de reflexão e de terminação de dutos circulares com diferentes espessuras, através da técnica de extração de autoespectro e espectro cruzado em pares de microfones calibrados para o intervalo $0$ $<$ $ka$ $<$ $0,7$. Focando para números de Mach entre 0 e 0,3, seus resultados mostram que os coeficientes de reflexão estão com valores acima dos que são encontrados no trabalho de \citeonline{munt1990acoustic} e \citeonline{allam2006investigation}. O autor explica esse fato relatando que a condição de Kutta subestima o surgimento de vórtices na saída do duto bem como a influência da espessura da parede do duto diferente do experimento de \citeonline{allam2006investigation}.
+
+Já o trabalho de \citeonline{tiikoja2014} focou na validação do modelo de \citeonline{munt1990acoustic} e a investigação da influência de jatos quentes (temperatura de até $200^{o}$ $C$) nos coeficientes de reflexão e de terminação de dutos circulares. Para tal fim utilizaram a técnica de 2 microfones num sistema superdeterminado com 3 microfones, ajustados num contexto de ondas planas ($ka$ $<$ $1,8$) e Machs de até 0,3 e 0,12 para jatos frios e quentes respectivamente. Tendo como referências as curvas validadas de jatos frios de \citeonline {munt1990acoustic}, foi observado como resultado do estudo que para jatos quentes as curvas dos coeficientes de reflexão e de terminação sofrem um aumento de amplitude e um deslocamento em direção para baixas frequências.
+
 
 \section{Modelos Numéricos}
 
-Já em relação a trabalhos envolvendo métodos numéricos, \citeonline{selamet2001wave} analisaram os coeficientes de reflexão e de terminação de dutos circulares com diferentes terminações sem escoamento. Para isso utilizaram método dos elementos de contorno e concluíram que, dentro dos casos analisados no estudo, dutos com terminações anulares possuem maiores coeficientes de reflexão numa certa faixa de frequência.
+Já em relação a trabalhos envolvendo métodos numéricos, \citeonline{selamet2001wave} analisaram os coeficientes de reflexão e de terminação de dutos circulares com diferentes terminações sem escoamento num contexto de ondas planas ($ka$ $<$ $1,8$). Para isso utilizaram método dos elementos de contorno e concluíram que, dentro dos casos analisados no estudo, dutos com terminações na forma de cavidades anulares possuem maiores coeficientes de reflexão numa certa faixa de frequência.
 
-Seguindo uma linha de análise semelhante, \citeonline{dalmont2001radiation} analisaram coeficientes de terminação de dutos circulares com diversas terminações, principalmente as que fazem parte de instrumentos musicais. Para tanto acoplaram o método de diferenças finitas com o método de elementos de contorno para validarem o ensaio experimental do estudo. Com os dados experimentais e numéricos propuseram equações analíticas do cálculo dos coeficientes de terminação para cada tipo de terminação.
+Seguindo uma linha de análise semelhante, \citeonline{dalmont2001radiation} analisaram coeficientes de terminação de dutos circulares com diversas terminações num contexto de ondas planas ($ka$ $<$ $1,8$), principalmente as que fazem parte de instrumentos musicais. Para tanto acoplaram o método de diferenças finitas com o método de elementos de contorno para validarem o ensaio experimental do estudo. Com os dados experimentais e numéricos propuseram equações analíticas do cálculo dos coeficientes de terminação para cada tipo de terminação.
 
-Tendo como motivação a validação do método de \textit{lattice} Boltzmann para problemas de acústica de dutos, \citeonline{da2006lattice} abordaram análises dos coeficientes de reflexão e de terminação de dutos circulares não flangeados e sem escoamento. As boas correlações dos dados numéricos com os dados vigentes da teoria de \citeonline{levine1948radiation} mostram que o método é bastante útil para predizer fenômenos complexos envolvendo acústica de dutos.
+Tendo como motivação a validação do método de \textit{lattice} Boltzmann para problemas de acústica de dutos, \citeonline{da2006lattice} abordaram análises dos coeficientes de reflexão e de terminação de dutos circulares não flangeados, sem escoamento e focando ondas planas ($ka$ $<$ $1,8$). As boas correlações dos dados numéricos com os dados vigentes da teoria de \citeonline{levine1948radiation} mostram que o método é bastante útil para predizer fenômenos complexos envolvendo acústica de dutos.
 
-Complementando o trabalho anterior, \citeonline{da2009sound} investigaram os coeficientes de reflexão e de terminação de dutos circulares com terminações de corneta e com escoamento subsônico. Para isso implementaram o modelo usando o método de \textit{lattice} Boltzmann com condições de contorno absorventes e paredes curvas para a consolidação das terminações em cornetas. Com esse trabalho foram validados os dados teóricos dos estudos de \citeonline{munt1990acoustic} além de mostrar que na presença de cornetas o coeficiente de reflexão aumenta bastante no pico associado ao número de Strouhal ($St$)\simbolo{$St$}{Número de Strouhal}, ou seja, na frequência de desprendimento de vórtices na terminação do duto.
+Complementando o trabalho anterior, \citeonline{da2009sound} investigaram os coeficientes de reflexão e de terminação de dutos circulares com terminações de corneta e com escoamento subsônico. Para isso implementaram o modelo usando o método de \textit{lattice} Boltzmann com condições de contorno absorventes, axissimetria de acordo com o trabalho de \citeonline{reis2007} e paredes curvas para a consolidação das terminações em cornetas. Com esse trabalho foram validados os resultados de \citeonline{munt1990acoustic} e \citeonline{allam2006investigation} além de mostrar que na presença de cornetas o coeficiente de reflexão aumenta bastante no pico associado ao número de Strouhal ($St$)\simbolo{$St$}{Número de Strouhal}, ou seja, na frequência de desprendimento de vórtices na terminação do duto. Tal fato é aderente aos vários trabalhos que abordam o escoamento de exaustão e é explicado pelo fato da energia rotacional do fluido, localizada na terminação do duto e oriunda dos desprendimentos de vórtices, ser convertida em energia acústica. 
 
 \citeonline{silva2012approximate} usaram o método de elementos de contorno para analisar o comportamento acústico interno de dutos circulares flangeados sem escoamento. Para tanto validaram o modelo com os resultados de \citeonline{levine1948radiation}, dutos não flangeados, e de \citeonline{nomura1960}, dutos flangeados circulamente. Como resultado da análise propuseram expressões aproximadas para o cálculo dos coeficientes de reflexão e de terminação.
-
-\section{Aplicação do Método de \textit{Lattice} Boltzmann}
-
-Em vista da problemática exposta e para obter os parâmetros de caracterização da acústica interna de dutos circulares com escoamento, é preciso de um modelo que suporte a interação fluxo de massa e variação de pressão. Portanto modelos baseados em métodos de fluido dinâmica computacional se mostram adequados, principalmente aqueles baseados no método de \textit{lattice} Boltzmann assim como foi mostrado anteriormente nos trabalhos de \citeonline{da2006lattice} e \citeonline{da2009sound}. Nesse sentido, há traballhos que validam, aplicam e desenvolvem metodologias de \textit{lattice} Boltzmann no campo de estudo da aeroacústica.
-
-Um desses estudos é o de \citeonline{crouse2006fundamental}, que mostraram a eficácia do método de \textit{lattice} Boltzmann em recuperar as equações de Navier-Stokes de transiente, compressível e viscosa. Há de se ressaltar que validaram também o modelo numérico de um ressonador de Helmholtz com um modelo experimental do mesmo, demonstrando assim a viabilidade da aplicação para problemas de acústica.
-
-No que se trata de desenvolvimento de ferramentas auxiliares para tratar problemas acústicos, \citeonline{kam2006non} desenvolveu uma condição de contorno que caracteriza dissipação de energia acústica e fluido dinâmica, ou seja, uma condição de contorno anecóica. Ela se baseia no acoplamento de mais um termo na equação de Boltzmann para gerar uma região de amortecimento, redirecionando os valores de densidade e velocidade das partículas para um valor alvo, que seria no caso valores médios de densidade e velocidade num fluido em repouso.
-
-\citeonline{marie2009} analisou e comparou esquemas de alta ordem das equações de Navier-Stokes linearizadas com o método de \textit{lattice} Boltzmann. O objeto de estudo para comparação foi análises de dispersão e dissipação de ondas acústicas em regime isotérmico. Conclui-se com esse trabalho que para um determinado erro de dispersão o método de \textit{lattice} Boltzmann se comportou como mais rápido.
-
-No que diz respeito a aplicação do método de \textit{lattice} Boltzmann num problema de aeroacústica, \citeonline{lew2010noise} desenvolveram um modelo numérico em 3D para predição de ruído em um jato turbulento subsônico. Como validação os resultados foram comparados com resultados experimentais e cálculos numéricos feitos a base de \textit{Large} \textit{Eddy} \textit{Simulation} (LES)\abreviatura{LES}{\textit{Large} \textit{Eddy} \textit{Simulation}}. Esse estudo demonstrou as principais vantagens de se trabalhar com o método de \textit{lattice} Boltzmann como por exemplo o baixo custo computacional e a facilidade em inserir \textit{nozzles} com formas complexas no domínio computacional.
-
-Também na área de aeroacústica computacional, o trabalho de \citeonline{shi2013lattice} propõe um modelo em \textit{lattice} Boltzmann para obter dados de diretividade da radiação sonora num duto circular submetido a escoamento subsônico. Os resultados de diretividade foram comparados com os modelos de \citeonline{levine1948radiation} e \citeonline{gabard2006}, mostrando uma boa convergência principalmente nas baixas frequências.
-
-Já no sentido de tratamento de fenômenos da acústica básica, \citeonline{viggen2013acoustic} investigou os efeitos da adição de termos fontes no método de \textit{lattice} Boltzmann, mapeando eles nos parâmetros macroscópicos através da ferramenta matemática de expansão de Chapman-Enskog. Como resultado conseguiu reproduzir fenômenos de diretivade de monopolos, dipolos e quadrupolos.
-
-\citeonline{da2015assessment} abordaram também o uso do método de \textit{lattice} Boltzmann acoplado com \textit{Large} \textit{Eddy} \textit{Simulation} (LES) na investigação do ruído gerado na interação do escoamento de um jato com uma placa plana. Os dados de níveis de pressão sonora em campo distante foram obtidos usando a superfície de Ffowcs-Williams e Hawkings (FW-H)\abreviatura{FW-H}{Superfície de Ffowcs-Williams e Hawkings} e os mesmos possuem uma boa convergência com dados experimentais.
-
-Em vista do que foi exposto, investigar a acústica interna de dutos circulares com escoamentos é um processo que deve ter suporte de ferramentas bem específicas, como por exemplo o método numérico de \textit{lattice} Boltzmann. Esse trabalho portanto abordará esse método e as condições de uso implementadas, validadas e verificadas num \textit{software} de código aberto chamado \citeonline{palabos}. Abordar o uso de um \textit{software} de código aberto possibilita a verificação transparente dos processos de cálculo bem como adaptações com novas implementações dentro do projeto, focando a melhor aderência da ferramenta computacional para resolução do problema.
