@@ -49,6 +49,12 @@ Dispon{\'\i}vel em: \url{https://br.comsol.com}.}
 \emph{Journal of sound and vibration}, Academic Press, v.~115, n.~3, p.
   560--564, 1987.}
 
+\bibitem[d'Humieres 1994]{d1994generalized}
+\abntrefinfo{d'Humieres}{D'HUMIERES}{1994}
+{D'HUMIERES, D. Generalized lattice-boltzmann equations.
+\emph{Progress in Astronautics and Aeronautics}, AMERICAN INST OF AERONAUTICS
+  AND ASTRONAUTICS, v.~159, p. 450--450, 1994.}
+
 \bibitem[English 2010]{english2010}
 \abntrefinfo{English}{ENGLISH}{2010}
 {ENGLISH, E.~J.
@@ -99,6 +105,12 @@ Tese (Doutorado) --- University of Southampton, 2010.}
 {KAM, E.; SO, R.; LEUNG, R. Non-reflecting boundary for one-step lbm simulation
   of aeroacoustics. In:  \emph{27th AIAA Aeroacoustics Conference}. [S.l.:
   s.n.], 2006. p.~1--9.}
+
+\bibitem[Lallemand e Luo 2000]{lallemand2000theory}
+\abntrefinfo{Lallemand e Luo}{LALLEMAND; LUO}{2000}
+{LALLEMAND, P.; LUO, L.-S. Theory of the lattice boltzmann method: Dispersion,
+  dissipation, isotropy, galilean invariance, and stability.
+\emph{Physical Review E}, APS, v.~61, n.~6, p.~6546, 2000.}
 
 \bibitem[Levine e Schwinger 1948]{levine1948radiation}
 \abntrefinfo{Levine e Schwinger}{LEVINE; SCHWINGER}{1948}
@@ -163,10 +175,24 @@ Dispon{\'\i}vel em: \url{http://www.palabos.org}.}
 Dispon{\'\i}vel em:
   \url{http://exa.com/en/product/simulation-tools/powerflow-cfd-simulation}.}
 
+\bibitem[Premnath et al. 2013]{premnath2013investigation}
+\abntrefinfo{Premnath et al.}{PREMNATH et al.}{2013}
+{PREMNATH, K.~N.; PATTISON, M.~J.; BANERJEE, S. An investigation of the lattice
+  boltzmann method for large eddy simulation of complex turbulent separated
+  flow.
+\emph{Journal of Fluids Engineering}, American Society of Mechanical Engineers,
+  v.~135, n.~5, p. 051401, 2013.}
+
 \bibitem[Project 2017]{openmpi}
 \abntrefinfo{Project}{PROJECT}{2017}
 {PROJECT, O.~M. \emph{Open MPI Project Home page}. 2017.
 Dispon{\'\i}vel em: \url{https://www.open-mpi.org}.}
+
+\bibitem[Qian et al. 1992]{qian1992lattice}
+\abntrefinfo{Qian et al.}{QIAN et al.}{1992}
+{QIAN, Y.; D'HUMI{\`E}RES, D.; LALLEMAND, P. Lattice bgk models for
+  navier-stokes equation.
+\emph{EPL (Europhysics Letters)}, IOP Publishing, v.~17, n.~6, p.~479, 1992.}
 
 \bibitem[Reis e Phillips 2007]{reis2007}
 \abntrefinfo{Reis e Phillips}{REIS; PHILLIPS}{2007}
@@ -207,6 +233,13 @@ Dispon{\'\i}vel em: \url{https://www.open-mpi.org}.}
 \emph{Journal of the Brazilian Society of Mechanical Sciences and Engineering},
   SciELO Brasil, v.~34, n.~2, p. 219--224, 2012.}
 
+\bibitem[Silva et al. 2016]{da2016prediction}
+\abntrefinfo{Silva et al.}{SILVA et al.}{2016}
+{SILVA, A.~R. da; MAREZE, P.; BRAND{\~A}O, E. Prediction of sound absorption in
+  rigid porous media with the lattice boltzmann method.
+\emph{Journal of Physics A: Mathematical and Theoretical}, IOP Publishing,
+  v.~49, n.~6, p. 065501, 2016.}
+
 \bibitem[Silva et al. 2015]{da2015assessment}
 \abntrefinfo{Silva et al.}{SILVA et al.}{2015}
 {SILVA, F.~D. da; DESCHAMPS, C.~J.; SILVA, A.~R. da; SIM{\~O}ES, L.~G.
@@ -232,6 +265,12 @@ Dispon{\'\i}vel em: \url{https://www.open-mpi.org}.}
 \abntrefinfo{Viggen}{VIGGEN}{2013}
 {VIGGEN, E.~M. Acoustic multipole sources for the lattice boltzmann method.
 \emph{Physical Review E}, APS, v.~87, n.~2, p. 023306, 2013.}
+
+\bibitem[Viggen 2014]{viggen2014lattice}
+\abntrefinfo{Viggen}{VIGGEN}{2014}
+{VIGGEN, E.~M.
+\emph{The lattice Boltzmann method: Fundamentals and acoustics}.
+Tese (Doutorado), 2014.}
 
 \bibitem[Wolf-Gladrow 2000]{wolf}
 \abntrefinfo{Wolf-Gladrow}{WOLF-GLADROW}{2000}

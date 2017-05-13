@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.10)  11 MAY 2017 03:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.10)  13 MAY 2017 04:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1025,10 +1025,17 @@ File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
 de.tex
 File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
-))) (./comandos.sty
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+))) (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen257
+\extrarowheight=\dimen258
+\NC@list=\toks40
+\extratabsurround=\skip65
+\backup@length=\skip66
+)
+(./comandos.sty (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/03/03 v2.15a AMS math features
-\@mathmargin=\skip65
+\@mathmargin=\skip67
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -1036,12 +1043,12 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks40
-\ex@=\dimen257
+\@emptytoks=\toks41
+\ex@=\dimen259
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen258
+\pmbraise@=\dimen260
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
@@ -1058,7 +1065,7 @@ LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box73
 \strutbox@=\box74
-\big@size=\dimen259
+\big@size=\dimen261
 LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
 \macc@depth=\count153
@@ -1066,21 +1073,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
 \dotsspace@=\muskip11
 \c@parentequation=\count155
 \dspbrk@lvl=\count156
-\tag@help=\toks41
+\tag@help=\toks42
 \row@=\count157
 \column@=\count158
 \maxfields@=\count159
-\andhelp@=\toks42
-\eqnshift@=\dimen260
-\alignsep@=\dimen261
-\tagshift@=\dimen262
-\tagwidth@=\dimen263
-\totwidth@=\dimen264
-\lineht@=\dimen265
-\@envbody=\toks43
-\multlinegap=\skip66
-\multlinetaggap=\skip67
-\mathdisplay@stack=\toks44
+\andhelp@=\toks43
+\eqnshift@=\dimen262
+\alignsep@=\dimen263
+\tagshift@=\dimen264
+\tagwidth@=\dimen265
+\totwidth@=\dimen266
+\lineht@=\dimen267
+\@envbody=\toks44
+\multlinegap=\skip68
+\multlinetaggap=\skip69
+\mathdisplay@stack=\toks45
 LaTeX Info: Redefining \[ on input line 2735.
 LaTeX Info: Redefining \] on input line 2736.
 )
@@ -1096,8 +1103,8 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks45
-\XKV@tempa@toks=\toks46
+\XKV@toks=\toks46
+\XKV@tempa@toks=\toks47
 )
 \XKV@depth=\count160
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -1115,32 +1122,32 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 \pstFP@times=\count169
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks47
-\pgfutil@tempdima=\dimen266
-\pgfutil@tempdimb=\dimen267
+\pgfutil@everybye=\toks48
+\pgfutil@tempdima=\dimen268
+\pgfutil@tempdimb=\dimen269
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
 ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen268
-\pgffor@skip=\dimen269
-\pgffor@stack=\toks48
-\pgffor@toks=\toks49
+\pgffor@iter=\dimen270
+\pgffor@skip=\dimen271
+\pgffor@stack=\toks49
+\pgffor@toks=\toks50
 )
 \psLoopIndex=\count170
 
 `PSTricks' v2.64b  <2015/14/11> (tvz)
-\pst@dima=\dimen270
-\pst@dimb=\dimen271
-\pst@dimc=\dimen272
-\pst@dimd=\dimen273
-\pst@dimg=\dimen274
-\pst@dimh=\dimen275
-\pst@dimm=\dimen276
-\pst@dimn=\dimen277
-\pst@dimo=\dimen278
-\pst@dimp=\dimen279
+\pst@dima=\dimen272
+\pst@dimb=\dimen273
+\pst@dimc=\dimen274
+\pst@dimd=\dimen275
+\pst@dimg=\dimen276
+\pst@dimh=\dimen277
+\pst@dimm=\dimen278
+\pst@dimn=\dimen279
+\pst@dimo=\dimen280
+\pst@dimp=\dimen281
 \pst@hbox=\box75
 \pst@ibox=\box76
 \pst@boxg=\box77
@@ -1155,26 +1162,26 @@ ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
 \pst@cnto=\count179
 \pst@cntp=\count180
 \@zero=\count181
-\pst@toks=\toks50
+\pst@toks=\toks51
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.con)
-\psunit=\dimen280
-\psxunit=\dimen281
-\psyunit=\dimen282
+\psunit=\dimen282
+\psxunit=\dimen283
+\psyunit=\dimen284
 \pst@C@@rType=\count182
-\pslinewidth=\dimen283
-\psk@startLW=\dimen284
-\psk@endLW=\dimen285
-\pst@customdefs=\toks51
-\pslinearc=\dimen286
-\pst@symbolStep=\dimen287
-\pst@symbolWidth=\dimen288
-\pst@symbolLinewidth=\dimen289
-\everypsbox=\toks52
-\psframesep=\dimen290
-\pslabelsep=\dimen291
-\sh@wgridXunit=\dimen292
-\sh@wgridYunit=\dimen293
-\pst@shift=\dimen294
+\pslinewidth=\dimen285
+\psk@startLW=\dimen286
+\psk@endLW=\dimen287
+\pst@customdefs=\toks52
+\pslinearc=\dimen288
+\pst@symbolStep=\dimen289
+\pst@symbolWidth=\dimen290
+\pst@symbolLinewidth=\dimen291
+\everypsbox=\toks53
+\psframesep=\dimen292
+\pslabelsep=\dimen293
+\sh@wgridXunit=\dimen294
+\sh@wgridYunit=\dimen295
+\pst@shift=\dimen296
 )
 File: pstricks.tex 2015/14/11 v2.64b `PSTricks' (tvz,hv)
 
@@ -1185,29 +1192,33 @@ File: pst-fp.tex 2015/14/11 v2.64b `PST-fp' (hv)
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 \c@example=\count183
-\hatchspread=\skip68
-\hatchthickness=\skip69
-\hatchshift=\skip70
+\hatchspread=\skip70
+\hatchthickness=\skip71
+\hatchshift=\skip72
 )
 
 LaTeX Warning: Unused global option(s):
     [cleardoublepage=plain].
 
-(./exemplo.aux)
+(./exemplo.aux
+
+LaTeX Warning: Label `eq:conversao_1' multiply defined.
+
+)
 \openout1 = `exemplo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1246,16 +1257,16 @@ LaTeX Font Info:    ... okay on input line 77.
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count184
-\scratchdimen=\dimen295
+\scratchdimen=\dimen297
 \scratchbox=\box78
 \nofMPsegments=\count185
 \nofMParguments=\count186
-\everyMPshowfont=\toks53
+\everyMPshowfont=\toks54
 \MPscratchCnt=\count187
-\MPscratchDim=\dimen296
+\MPscratchDim=\dimen298
 \MPnumerator=\count188
 \makeMPintoPDFobject=\count189
-\everyMPtoPDFconversion=\toks54
+\everyMPtoPDFconversion=\toks55
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -1333,22 +1344,22 @@ Non-PDF special ignored!
 [0
 
 ]
-Overfull \hbox (14.995pt too wide) in paragraph at lines 81--81
+Overfull \hbox (14.995pt too wide) in paragraph at lines 82--82
 \OT1/cmr/m/n/9 Grau de Mes-tre em En-ge-nha-ria Mec^anica. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
 
  []
 
 [1]
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
 
  []
 
 
-Overfull \hbox (3.33333pt too wide) in paragraph at lines 81--82
+Overfull \hbox (3.33333pt too wide) in paragraph at lines 82--83
 []
  []
 
@@ -1432,25 +1443,25 @@ Overfull \hbox (2.29408pt too wide) in paragraph at lines 7--8
 is-te-mas de exaust~ao
  []
 
-[29] <figuras/abs_r_comparacao.png, id=113, 584.93532pt x 484.05844pt>
-File: figuras/abs_r_comparacao.png Graphic file (type png)
+[29] <figuras/abs_r_comparacao.pdf, id=113, 526.01273pt x 433.25569pt>
+File: figuras/abs_r_comparacao.pdf Graphic file (type pdf)
 
-<use figuras/abs_r_comparacao.png>
-Package pdftex.def Info: figuras/abs_r_comparacao.png used on input line 29.
-(pdftex.def)             Requested size: 276.55891pt x 228.87393pt.
- [30 <./figuras/abs_r_comparacao.png>]
+<use figuras/abs_r_comparacao.pdf>
+Package pdftex.def Info: figuras/abs_r_comparacao.pdf used on input line 29.
+(pdftex.def)             Requested size: 276.55891pt x 227.79318pt.
+ [30 <./figuras/abs_r_comparacao.pdf>]
 Overfull \hbox (9.29414pt too wide) in paragraph at lines 35--36
 \OT1/cmr/m/n/10 do duto, a qual trans-forma ener-gia cin^^Setica ro-ta-ci-o-nal
  em ener-gia ac^^Sustica,
  []
 
-<figuras/loa_comparacao.png, id=119, 611.28375pt x 505.89pt>
-File: figuras/loa_comparacao.png Graphic file (type png)
+<figuras/loa_comparacao.pdf, id=119, 548.85324pt x 454.26555pt>
+File: figuras/loa_comparacao.pdf Graphic file (type pdf)
 
-<use figuras/loa_comparacao.png>
-Package pdftex.def Info: figuras/loa_comparacao.png used on input line 39.
-(pdftex.def)             Requested size: 276.55891pt x 228.87575pt.
- [31 <./figuras/loa_comparacao.png>]
+<use figuras/loa_comparacao.pdf>
+Package pdftex.def Info: figuras/loa_comparacao.pdf used on input line 39.
+(pdftex.def)             Requested size: 276.55891pt x 228.89973pt.
+ [31 <./figuras/loa_comparacao.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32]
@@ -1490,51 +1501,71 @@ Overfull \hbox (0.60677pt too wide) in paragraph at lines 36--37
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [41]
-[42]) (./capitulos/resultados.tex [43] [44
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-]
+ [42]
+[43] <figuras/d3q19.pdf, id=163, 677.53125pt x 557.83406pt>
+File: figuras/d3q19.pdf Graphic file (type pdf)
+
+<use figuras/d3q19.pdf>
+Package pdftex.def Info: figuras/d3q19.pdf used on input line 128.
+(pdftex.def)             Requested size: 245.83275pt x 202.4033pt.
+ [44 <./figuras/d3q19.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45])
+(./capitulos/resultados.tex [46]
 Cap\'{\i }tulo 4.
-) (./capitulos/conclusoes.tex [45] [46
+) (./capitulos/conclusoes.tex [47
+
+] [48
 
 ]
 Cap\'{\i }tulo 5.
-<figuras/cronograma.png, id=171, 796.9775pt x 400.49625pt>
+<figuras/cronograma.png, id=186, 796.9775pt x 400.49625pt>
 File: figuras/cronograma.png Graphic file (type png)
 
 <use figuras/cronograma.png>
 Package pdftex.def Info: figuras/cronograma.png used on input line 6.
 (pdftex.def)             Requested size: 284.52756pt x 142.98076pt.
-) (./exemplo.bbl [47 <./figuras/cronograma.png>]
-[48
+) (./exemplo.bbl [49 <./figuras/cronograma.png>]
+[50
 
-] [49] [50] [51])
+] [51] [52] [53] [54])
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[52] (./exemplo.aux) ) 
+[55] (./exemplo.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 29426 strings out of 493029
- 679732 string characters out of 6136234
- 875305 words of memory out of 5000000
- 32356 multiletter control sequences out of 15000+600000
- 5940 words of font info for 23 fonts, out of 8000000 for 9000
+ 29525 strings out of 493029
+ 681322 string characters out of 6136234
+ 876443 words of memory out of 5000000
+ 32446 multiletter control sequences out of 15000+600000
+ 7770 words of font info for 29 fonts, out of 8000000 for 9000
  1149 hyphenation exceptions out of 8191
  71i,11n,89p,1169b,1990s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmtt10.pfb>
-Output written on exemplo.pdf (54 pages, 255404 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pf
+b>
+Output written on exemplo.pdf (57 pages, 346414 bytes).
 PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
- 152 compressed objects within 2 object streams
+ 254 PDF objects out of 1000 (max. 8388607)
+ 173 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
