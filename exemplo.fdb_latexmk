@@ -1,5 +1,5 @@
 # Fdb version 3
-["bibtex exemplo"] 1494659783 "exemplo.aux" "exemplo.bbl" "exemplo" 1494659784
+["bibtex exemplo"] 1494659783 "exemplo.aux" "exemplo.bbl" "exemplo" 1494659891
   "./ufscThesis/ufsc-alf.bst" 1491875750 60187 37ea5ecd07b417819e6394f1156fd1cc ""
   "abnt-options.bib" 1491875750 5396 4eb260dac60f150ae608d45252853090 ""
   "bibliografia.bib" 1494657124 15983 9e236daa0d8a55dbd7988516a497db2c ""
@@ -184,7 +184,7 @@
   "exemplo.toc"
   "exemplo.log"
   "exemplo.dvi"
-["pdflatex"] 1494659783 "exemplo.tex" "exemplo.pdf" "exemplo" 1494659784
+["pdflatex"] 1494659783 "exemplo.tex" "exemplo.pdf" "exemplo" 1494659891
   "/etc/texmf/web2c/texmf.cnf" 1491877915 1101 af7716885e081ab43982cab7b4672c1a ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1246382020 1120 1e8878807317373affa7f7bba4cf2f6a ""
@@ -424,12 +424,12 @@
   "ufscThesis/BUUFSCthesis.sty" 1491875750 11986 9568252b73c9c5c7b944a27350c77adf ""
   (generated)
   "exemplo.las"
-  "exemplo.lsb"
-  "exemplo.log"
   "exemplo.pdf"
-  "exemplo.symbolsx"
-  "exemplo.siglax"
-  "exemplo.aux"
-  "exemplo.toc"
   "exemplo.lot"
+  "exemplo.siglax"
+  "exemplo.toc"
+  "exemplo.symbolsx"
+  "exemplo.aux"
+  "exemplo.log"
+  "exemplo.lsb"
   "exemplo.lof"
