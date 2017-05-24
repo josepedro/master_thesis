@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.10)  13 MAY 2017 04:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.10)  23 MAY 2017 15:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1207,18 +1207,18 @@ LaTeX Warning: Label `eq:conversao_1' multiply defined.
 )
 \openout1 = `exemplo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1344,22 +1344,22 @@ Non-PDF special ignored!
 [0
 
 ]
-Overfull \hbox (14.995pt too wide) in paragraph at lines 82--82
+Overfull \hbox (14.995pt too wide) in paragraph at lines 83--83
 \OT1/cmr/m/n/9 Grau de Mes-tre em En-ge-nha-ria Mec^anica. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
 
  []
 
 [1]
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
 
  []
 
 
-Overfull \hbox (3.33333pt too wide) in paragraph at lines 82--83
+Overfull \hbox (3.33333pt too wide) in paragraph at lines 83--84
 []
  []
 
@@ -1400,18 +1400,21 @@ Overfull \hbox (3.33333pt too wide) in paragraph at lines 82--83
 
  [19] [20
 
-] (./exemplo.lsb)
+] (./exemplo.lsb
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21])
 \tf@lsb=\write7
 \openout7 = `exemplo.lsb'.
 
 
-[21] [22
-
-] (./exemplo.toc)
+[22] (./exemplo.toc)
 \tf@toc=\write8
 \openout8 = `exemplo.toc'.
 
- [23] [24
+ [23
+
+] [24
 
 ] (./capitulos/introducao.tex
 Cap\'{\i }tulo 1.
@@ -1443,7 +1446,7 @@ Overfull \hbox (2.29408pt too wide) in paragraph at lines 7--8
 is-te-mas de exaust~ao
  []
 
-[29] <figuras/abs_r_comparacao.pdf, id=113, 526.01273pt x 433.25569pt>
+[29] <figuras/abs_r_comparacao.pdf, id=114, 526.01273pt x 433.25569pt>
 File: figuras/abs_r_comparacao.pdf Graphic file (type pdf)
 
 <use figuras/abs_r_comparacao.pdf>
@@ -1455,7 +1458,7 @@ Overfull \hbox (9.29414pt too wide) in paragraph at lines 35--36
  em ener-gia ac^^Sustica,
  []
 
-<figuras/loa_comparacao.pdf, id=119, 548.85324pt x 454.26555pt>
+<figuras/loa_comparacao.pdf, id=120, 548.85324pt x 454.26555pt>
 File: figuras/loa_comparacao.pdf Graphic file (type pdf)
 
 <use figuras/loa_comparacao.pdf>
@@ -1504,7 +1507,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [42]
-[43] <figuras/d3q19.pdf, id=163, 677.53125pt x 557.83406pt>
+[43] <figuras/d3q19.pdf, id=164, 677.53125pt x 557.83406pt>
 File: figuras/d3q19.pdf Graphic file (type pdf)
 
 <use figuras/d3q19.pdf>
@@ -1513,59 +1516,129 @@ Package pdftex.def Info: figuras/d3q19.pdf used on input line 128.
  [44 <./figuras/d3q19.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45])
-(./capitulos/resultados.tex [46]
-Cap\'{\i }tulo 4.
-) (./capitulos/conclusoes.tex [47
+ [45]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [48
+ [46]
+<figuras/bounceback.pdf, id=179, 1081.05896pt x 781.19662pt>
+File: figuras/bounceback.pdf Graphic file (type pdf)
+
+<use figuras/bounceback.pdf>
+Package pdftex.def Info: figuras/bounceback.pdf used on input line 196.
+(pdftex.def)             Requested size: 199.73648pt x 144.32838pt.
+
+Underfull \vbox (badness 6842) has occurred while \output is active []
+
+ [47 <./figuras/bounceback.pdf>]
+Overfull \hbox (1.49687pt too wide) in paragraph at lines 212--213
+[]\OT1/cmr/m/n/10 Consolidar uma condi^^Xc~ao do tipo anec^^Soica, num m^^Setod
+o num^^Serico
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48]
+Overfull \hbox (1.32175pt too wide) in paragraph at lines 230--232
+\OT1/cmr/m/n/10 Al^^Sem disso ^^Se pre-ciso in-se-rir esse termo no ope-ra-dor 
+de co-lis~ao da equa^^Xc~ao
+ []
+
+
+Overfull \hbox (12.01637pt too wide) in paragraph at lines 257--258
+[]\OT1/cmr/m/n/10 incapacidade do usu^^Sario re-a-li-zar al-gum tipo de ma-nu-t
+en^^Xc~ao, corre^^Xc~ao
+ []
+
+[49]
+Overfull \hbox (1.34967pt too wide) in paragraph at lines 273--274
+\OT1/cmr/m/n/10 ta-ci-o-nal de ori-enta^^Xc~ao a ob-je-tos re-sul-tado da co-la
+-bora^^Xc~ao en-tre ind^^Sustria
+ []
+
+[50] [51] [52]
+<figuras/palabos_modelo_fluxo.pdf, id=202, 380.45247pt x 488.79149pt>
+File: figuras/palabos_modelo_fluxo.pdf Graphic file (type pdf)
+
+<use figuras/palabos_modelo_fluxo.pdf>
+Package pdftex.def Info: figuras/palabos_modelo_fluxo.pdf used on input line 36
+3.
+(pdftex.def)             Requested size: 245.83275pt x 315.84612pt.
+ [53 <./figuras/palabos_modelo_fluxo.pdf>] (/usr/share/texlive/texmf-dist/tex/l
+atex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2015/06/04 1.6 listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+)
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 391.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 391.
+ [54]
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+))
+(./capitulos/resultados.tex [55] [56
+
+]
+Cap\'{\i }tulo 4.
+) (./capitulos/conclusoes.tex [57] [58
 
 ]
 Cap\'{\i }tulo 5.
-<figuras/cronograma.png, id=186, 796.9775pt x 400.49625pt>
+<figuras/cronograma.png, id=224, 796.9775pt x 400.49625pt>
 File: figuras/cronograma.png Graphic file (type png)
 
 <use figuras/cronograma.png>
 Package pdftex.def Info: figuras/cronograma.png used on input line 6.
 (pdftex.def)             Requested size: 284.52756pt x 142.98076pt.
-) (./exemplo.bbl [49 <./figuras/cronograma.png>]
-[50
+) (./exemplo.bbl [59 <./figuras/cronograma.png>]
+[60
 
-] [51] [52] [53] [54])
+] [61] [62] [63] [64] [65])
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
-[55] (./exemplo.aux)
+[66] (./exemplo.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 29525 strings out of 493029
- 681322 string characters out of 6136234
- 876443 words of memory out of 5000000
- 32446 multiletter control sequences out of 15000+600000
+ 30555 strings out of 493029
+ 693326 string characters out of 6136234
+ 877245 words of memory out of 5000000
+ 33460 multiletter control sequences out of 15000+600000
  7770 words of font info for 29 fonts, out of 8000000 for 9000
  1149 hyphenation exceptions out of 8191
- 71i,11n,89p,1169b,1990s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,13n,89p,1169b,1990s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
-i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pf
-b>
-Output written on exemplo.pdf (57 pages, 346414 bytes).
+t/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
+>
+Output written on exemplo.pdf (68 pages, 450477 bytes).
 PDF statistics:
- 254 PDF objects out of 1000 (max. 8388607)
- 173 compressed objects within 2 object streams
+ 300 PDF objects out of 1000 (max. 8388607)
+ 204 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -12,14 +12,24 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: abnt-options.bib
 Database file #2: bibliografia.bib
+Warning--entry type for "matlab" isn't style-file defined
+--line 4 of file bibliografia.bib
+Warning--entry type for "octave" isn't style-file defined
+--line 11 of file bibliografia.bib
+Warning--entry type for "palabos_acoustic" isn't style-file defined
+--line 18 of file bibliografia.bib
+Warning--entry type for "paraview" isn't style-file defined
+--line 25 of file bibliografia.bib
+Warning--entry type for "numeric_palabos" isn't style-file defined
+--line 81 of file bibliografia.bib
 Warning--entry type for "palabos" isn't style-file defined
---line 172 of file bibliografia.bib
+--line 263 of file bibliografia.bib
 Warning--entry type for "powerflow" isn't style-file defined
---line 255 of file bibliografia.bib
+--line 346 of file bibliografia.bib
 Warning--entry type for "openmpi" isn't style-file defined
---line 262 of file bibliografia.bib
+--line 353 of file bibliografia.bib
 Warning--entry type for "comsol" isn't style-file defined
---line 269 of file bibliografia.bib
+--line 360 of file bibliografia.bib
 Warning--I didn't find a database entry for "abnt-year-extra-label=yes"
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -32,45 +42,45 @@ Warning--faltando school em viggen2014lattice
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 49 entries,
+You've used 60 entries,
             6480 wiz_defined-function locations,
-            1430 strings with 16121 characters,
-and the built_in function-call counts, 39017 in all, are:
-= -- 2819
-> -- 1403
-< -- 131
-+ -- 567
-- -- 414
-* -- 2873
-:= -- 5097
-add.period$ -- 143
-call.type$ -- 51
-change.case$ -- 494
-chr.to.int$ -- 157
-cite$ -- 46
-duplicate$ -- 1988
-empty$ -- 2834
-format.name$ -- 2029
-if$ -- 9254
+            1488 strings with 17867 characters,
+and the built_in function-call counts, 47341 in all, are:
+= -- 3445
+> -- 1698
+< -- 143
++ -- 675
+- -- 503
+* -- 3473
+:= -- 6233
+add.period$ -- 186
+call.type$ -- 62
+change.case$ -- 597
+chr.to.int$ -- 180
+cite$ -- 57
+duplicate$ -- 2378
+empty$ -- 3478
+format.name$ -- 2465
+if$ -- 11237
 int.to.chr$ -- 3
 int.to.str$ -- 3
-missing$ -- 847
-newline$ -- 231
-num.names$ -- 225
-pop$ -- 983
+missing$ -- 1035
+newline$ -- 290
+num.names$ -- 280
+pop$ -- 1232
 preamble$ -- 1
-purify$ -- 193
+purify$ -- 234
 quote$ -- 0
-skip$ -- 2278
+skip$ -- 2738
 stack$ -- 1
-substring$ -- 1644
-swap$ -- 1093
-text.length$ -- 95
+substring$ -- 1980
+swap$ -- 1265
+text.length$ -- 103
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 6
 warning$ -- 1
-while$ -- 346
+while$ -- 424
 width$ -- 0
-write$ -- 767
-(There were 6 warnings)
+write$ -- 935
+(There were 11 warnings)

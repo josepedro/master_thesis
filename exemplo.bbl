@@ -36,6 +36,12 @@ Dispon{\'\i}vel em: \url{https://br.comsol.com}.}
   method.
 \emph{AIAA paper}, v.~2571, 2006.}
 
+\bibitem[Daigle e Reece 2015]{lattice_3}
+\abntrefinfo{Daigle e Reece}{DAIGLE; REECE}{2015}
+{DAIGLE, H.; REECE, J.~S. Permeability of two-component granular materials.
+\emph{Transport in Porous Media}, v.~106, n.~3, p. 523--544, 2015.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1007/s11242-014-0412-6}.}
+
 \bibitem[Dalmont et al. 2001]{dalmont2001radiation}
 \abntrefinfo{Dalmont et al.}{DALMONT et al.}{2001}
 {DALMONT, J.-P.; NEDERVEEN, C.; JOLY, N. Radiation impedance of tubes with
@@ -61,6 +67,11 @@ Dispon{\'\i}vel em: \url{https://br.comsol.com}.}
 \emph{A measurement based study of the acoustics of pipe systems with flow}.
 Tese (Doutorado) --- University of Southampton, 2010.}
 
+\bibitem[FlowKit 2017]{numeric_palabos}
+\abntrefinfo{FlowKit}{FLOWKIT}{2017}
+{FLOWKIT, I. \emph{Lattice Boltzmann in various languages}. 2017.
+Dispon{\'\i}vel em: \url{http://wiki.palabos.org/numerics:codes}.}
+
 \bibitem[Frisch et al. 1986]{frisch1986}
 \abntrefinfo{Frisch et al.}{FRISCH et al.}{1986}
 {FRISCH, U.; HASSLACHER, B.; POMEAU, Y. Lattice-gas automata for the
@@ -73,6 +84,15 @@ Tese (Doutorado) --- University of Southampton, 2010.}
   pipes: far-and near-field solutions.
 \emph{Journal of Fluid Mechanics}, Cambridge University Press, v.~549, p.~315,
   2006.}
+
+\bibitem[Garcia-Salaberri et al. 2015]{lattice_4}
+\abntrefinfo{Garcia-Salaberri et al.}{GARCIA-SALABERRI et al.}{2015}
+{GARCIA-SALABERRI, P.~A.; GOSTICK, J.~T.; HWANG, G.; WEBER, A.~Z.; VERA, M.
+  Effective diffusivity in partially-saturated carbon-fiber gas diffusion
+  layers: Effect of local saturation and application to macroscopic continuum
+  models.
+\emph{Journal of Power Sources}, v.~296, p. 440 -- 453, 2015.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.jpowsour.2015.07.034}.}
 
 \bibitem[He e Luo 1997]{he}
 \abntrefinfo{He e Luo}{HE; LUO}{1997}
@@ -99,6 +119,14 @@ Tese (Doutorado) --- University of Southampton, 2010.}
   open-ended duct.
 \emph{The Journal of the Acoustical Society of America}, ASA, v.~58, n.~4, p.
   788--793, 1975.}
+
+\bibitem[Jin et al. 2015]{lattice_1}
+\abntrefinfo{Jin et al.}{JIN et al.}{2015}
+{JIN, Y.; UTH, M.; HERWIG, H. Structure of a turbulent flow through plane
+  channels with smooth and rough walls: An analysis based on high resolution
+  {DNS} results.
+\emph{Computers and Fluids}, v.~107, p. 77 -- 88, 2015.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.compfluid.2014.10.012}.}
 
 \bibitem[Kam et al. 2006]{kam2006non}
 \abntrefinfo{Kam et al.}{KAM et al.}{2006}
@@ -137,6 +165,11 @@ Tese (Doutorado) --- University of Southampton, 2010.}
 \emph{Journal of Computational Physics}, Elsevier, v.~228, n.~4, p. 1056--1070,
   2009.}
 
+\bibitem[MATLAB 2017]{matlab}
+\abntrefinfo{MATLAB}{MATLAB}{2017}
+{MATLAB, P. \emph{MATLAB Home page}. 2017.
+Dispon{\'\i}vel em: \url{https://www.mathworks.com/products/matlab.html}.}
+
 \bibitem[Munjal 1987]{munjal}
 \abntrefinfo{Munjal}{MUNJAL}{1987}
 {MUNJAL, M.~L. \emph{Acoustics of ducts and mufflers with application to
@@ -156,10 +189,40 @@ Tese (Doutorado) --- University of Southampton, 2010.}
 \emph{Journal of the Physical Society of Japan}, The Physical Society of Japan,
   v.~15, n.~3, p. 510--517, 1960.}
 
+\bibitem[Octave 2017]{octave}
+\abntrefinfo{Octave}{OCTAVE}{2017}
+{OCTAVE, P. \emph{Octave Home page}. 2017.
+Dispon{\'\i}vel em: \url{https://www.gnu.org/software/octave}.}
+
+\bibitem[Palabos-Acoustic 2017]{palabos_acoustic}
+\abntrefinfo{Palabos-Acoustic}{PALABOS-ACOUSTIC}{2017}
+{PALABOS-ACOUSTIC, P. \emph{Repositório do Projeto Palabos Acoustic}. 2017.
+Dispon{\'\i}vel em: \url{https://github.com/josepedro/palabos_acoustic}.}
+
 \bibitem[Palabos 2017]{palabos}
 \abntrefinfo{Palabos}{PALABOS}{2017}
 {PALABOS, P. \emph{Palabos Home page}. 2017.
 Dispon{\'\i}vel em: \url{http://www.palabos.org}.}
+
+\bibitem[Papenkort e Voigtmann 2015]{lattice_2}
+\abntrefinfo{Papenkort e Voigtmann}{PAPENKORT; VOIGTMANN}{2015}
+{PAPENKORT, S.; VOIGTMANN, T. Lattice boltzmann simulations of a viscoelastic
+  shear-thinning fluid.
+\emph{arXiv.org}, arXiv:1504.06123, 2015.
+Dispon{\'\i}vel em: \url{http://http://arxiv.org/abs/1504.06123}.}
+
+\bibitem[Paradis et al. 2015]{lattice_5}
+\abntrefinfo{Paradis et al.}{PARADIS et al.}{2015}
+{PARADIS, H.; ANDERSSON, M.; SUND{\'E}N, B. Modeling of mass and charge
+  transport in a solid oxide fuel cell anode structure by a 3d lattice
+  boltzmann approach.
+\emph{Heat and Mass Transfer}, p. 1--12, 2015.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1007/s00231-015-1670-8}.}
+
+\bibitem[Paraview 2017]{paraview}
+\abntrefinfo{Paraview}{PARAVIEW}{2017}
+{PARAVIEW, P. \emph{Paraview Home page}. 2017.
+Dispon{\'\i}vel em: \url{http://www.paraview.org}.}
 
 \bibitem[Peters et al. 1993]{peters1993}
 \abntrefinfo{Peters et al.}{PETERS et al.}{1993}
@@ -246,6 +309,11 @@ Dispon{\'\i}vel em: \url{https://www.open-mpi.org}.}
   Assessment of jet-plate interaction noise using the lattice boltzmann method.
   In:  \emph{21st AIAA/CEAS Aeroacoustics Conference}. [S.l.: s.n.], 2015.
   p.~2207.}
+
+\bibitem[Stallman 2002]{stallman2002free}
+\abntrefinfo{Stallman}{STALLMAN}{2002}
+{STALLMAN, R. \emph{Free software, free society: Selected essays of Richard M.
+  Stallman}. [S.l.]: Lulu. com, 2002.}
 
 \bibitem[Sterling e Chen 1996]{sterling1996}
 \abntrefinfo{Sterling e Chen}{STERLING; CHEN}{1996}

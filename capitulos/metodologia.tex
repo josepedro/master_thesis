@@ -85,7 +85,7 @@ Os parâmetros macroscópicos de densidade local do fluido $\rho$, velocidade lo
     \label{eq:nu}
 \end{equation}
 \simbolo{$p$}{Pressão local do fluido}
-\simbolo{$\nu$}{viscosidade cinemática do fluido}
+\simbolo{$\nu$}{Viscosidade cinemática do fluido}
 
 Há vários modelos de célula do tipo BGK, o grupo do tipo $D_{n}Q_{b}$ ($n$ dimensões e $b$ direções de propagação ou velocidades) é um dos mais usados e foi proposto por \citeonline{qian1992lattice}. A tabela \ref{table:modelos} mostra os parâmetros para cada um dos modelos do tipo $D_{n}Q_{b}$.
 
@@ -136,7 +136,7 @@ Na Figura \ref{fig:d3q19} é possível visualizar espacialmente as direções de
 
 A equação \ref{eq:omega_i} retrata um operador de colisão com tempo de relaxação único. Essa abordagem é funcional porém, em regimes de pouca viscosidade cinemática como é o caso do ar, começa a desenvolver várias instabilidades e divergências como mostra o estudo de \citeonline{lallemand2000theory}. Para esses tipos de problemas a abordagem de múltiplos tempos de relaxação, \textit{multiple}-\textit{relaxation}-\textit{time} (MRT)\abreviatura{MRT}{\textit{multiple}-\textit{relaxation}-\textit{time}}, pode ser usada assim como é mostrado nos estudos de \citeonline{viggen2014lattice}.
 
-De acordo com o esquema proposto por \citeonline{d1994generalized}, a formulação de MRT se baseia na troca do parâmetro de único tempo de relaxação $\tau$ por uma matriz \textbf{$\Lambda$} de vários tempos de relaxação. Todavia a matriz \textbf{$\Lambda$} é construída de acordo com uma matriz \textbf{$M$} que que projeta as funções de distribuição $f_{i}$ e $f_{i}^{M}$ no espaço dos momentos. De acordo com \citeonline{lallemand2000theory}, a possibilidade desse método ser mais estável é oriunda da capacidade de operar a colisão das células com um tempo de relaxação apropriado para cada um dos vários momentos, projetados a partir das funções de distribuição $f_{i}$ e $f_{i}^{M}$. Em vista do exposto o operador de colisão da equação \ref{eq:omega_i} se transforma em
+De acordo com o esquema proposto por \citeonline{d1994generalized}, a formulação de MRT se baseia na troca do parâmetro de único tempo de relaxação $\tau$ por uma matriz \textbf{$\Lambda$} de vários tempos de relaxação. Todavia a matriz \textbf{$\Lambda$} é construída de acordo com uma matriz \textbf{$M$} que projeta as funções de distribuição $f_{i}$ e $f_{i}^{M}$ no espaço dos momentos. De acordo com \citeonline{lallemand2000theory}, a possibilidade desse método ser mais estável é oriunda da capacidade de operar a colisão das células com um tempo de relaxação apropriado para cada um dos vários momentos, projetados a partir das funções de distribuição $f_{i}$ e $f_{i}^{M}$. Em vista do exposto o operador de colisão da equação \ref{eq:omega_i} se transforma em
 \begin{equation}
 	\Omega_{i} = -\textbf{$\Lambda$}(f_{i} - f_{i}^{M}).
     \label{eq:MRT_1}
@@ -173,10 +173,238 @@ Quando as equações \ref{eq:rho}, \ref{eq:u}, \ref{eq:p} e \ref{eq:nu} são usa
 tal que $c^{*}$ é a velocidade física do som, e discretização $\Delta x$ definida pela quantidade de metros por tamanho de célula.
 
 Com os parâmetros $c^{*}$ e $\Delta x$ pode-se realizar as seguintes conversões para unidades físicas:
-\begin{equation}
-	\textbf{$u^{*}$} = \zeta \textbf{$u$}\text{, } \textbf{$x^{*}$} = \Delta x\textbf{$x$}
-	\text{, } t^{*} = \frac{\Delta x}{\zeta}t \text{, } \nu^{*} = \zeta \textbf{x} \nu
-	\text{, } \rho^{*} = \frac{\zeta}{\Delta x} \rho \text{ e } p^{*} = p \zeta^{2}  \rho_{0},
+\begin{gather*}
+	\textbf{$u^{*}$} = \zeta \textbf{$u$}\text{, } \\ \textbf{$x^{*}$} = \Delta x\textbf{$x$}
+	\text{, } \\ t^{*} = \frac{\Delta x}{\zeta}t \text{, } \\ \nu^{*} = \zeta \Delta x \nu
+	\text{, } \\ \rho^{*} = \frac{\zeta}{\Delta x} \rho \text{, } \\ p^{*} = p \zeta^{2}  \rho_{0} \text{ e } \\ f^{*} = f\frac{\zeta}{\Delta x},
     \label{eq:conversao_1}
+\end{gather*}
+tal que as variáveis assinaladas com $*$ estão em unidades físicas e $f^{*}$ e $f$ são unidades de frequências física e do LBM respectivamente\simbolo{$f^{*}$}{Frequência física}\simbolo{$f$}{Frequência em LBM}.
+
+\subsection{Condições de Contorno}
+
+Como ocorre nas técnicas numéricas tradicionais, o LBM possui também possui condições de contorno. Como mostra o estudo \citeonline{viggen2014lattice}, as condições de contorno para LBM podem ser classificadas em dois tipos: explícita e implícita. As condições de contorno explícitas são aquelas aplicadas em cada célula, tendo a natureza totalmente alinhada entre elas no domínio, normalmente condições como essas são aplicações personalizadas do cálculo do operador de colisão $\Omega_{i}$. As condições de contorno implícitas são aquelas aplicadas numa região do domínio não alinhado entre as células, normalmente essas condições são aplicadas na operação de propagação. A seguir serão apresentadas as condições de contorno abordadas nesse trabalho, cada uma de cada classificação apresentada.
+
+\subsubsection{\textit{Bounceback}}
+
+De acordo com o estudo de \citeonline{viggen2014lattice}, a condição de contorno do tipo \textit{bounceback} tem como objetivo simular uma parede rígida no domínio do LBM, sendo ela do tipo implícita e localizada entre as células. Há dois tipos de \textit{bounceback}: \textit{free-slip}, que simula escorregamento livre do fluido na condição de contorno e \textit{no-slip}, que simula camada limite do fluido na condição de contorno. Nesse trabalho foi usado o do tipo \textit{no-slip} pois num caso real o escoamento desenvolve camada limite na parede rígida.
+
+A condição de contorno \textit{bounceback} \textit{no-slip} é geralmente implementada na etapa de propagação a partir de uma inversão de funções de distribuição de partículas. A Figura \ref{fig:bounceback} mostra um esquemático de exemplo do processo de funcionamento dessa condição de contorno. 
+
+\begin{figure}[ht!]
+\centering
+  \includegraphics[width=.65\linewidth]{figuras/bounceback.pdf}
+  \caption[Processo de funcionamento do \textit{bounceback} \textit{no-slip}]{Esquemático de exemplo do processo de funcionamento da condição de contorno \textit{bounceback} \textit{no-slip}. Ilustração adaptada do estudo de \citeonline{viggen2014lattice}.}
+  \label{fig:bounceback}
+\end{figure}
+
+De acordo como é mostrado na Figura \ref{fig:bounceback}, a célula antes de chegar na condição de contorno possui suas funções de distribuição de partículas em cada sentido original e, ao cruzar a condição de contorno, em vez da mesma continuar se movimentando com as mesmas funções de distribuição, as mesmas contidas nos vetores de direção de propagação que apontam para o \textit{bounceback} são trocadas para o lado oposto assim como é ilustrado na Figura \ref{fig:bounceback}. No ponto de vista das equações de propagação o processo abordado fica
+
+\begin{gather*}
+  f_{6}(\textbf{x}, t + \Delta t) = f_{8}(\textbf{x}, t)\text{,  } f_{8}(\textbf{x}, t + \Delta t) = f_{6}(\textbf{x}, t), \\
+  f_{2}(\textbf{x}, t + \Delta t) = f_{4}(\textbf{x}, t)\text{,  } f_{4}(\textbf{x}, t + \Delta t) = f_{2}(\textbf{x}, t) \text{ e }\\
+  f_{5}(\textbf{x}, t + \Delta t) = f_{7}(\textbf{x}, t)\text{,  } f_{7}(\textbf{x}, t + \Delta t) = f_{5}(\textbf{x}, t).
+\label{eq:bounceback}
+\end{gather*}
+
+\subsubsection{Condição Anecóica}
+
+Consolidar uma condição do tipo anecóica, num método numérico de natureza temporal, é um desafio devido a propriedade de condição anecóica ou absorção de energia acústica estar relacionada ao domínio da frequência ($Z_{0}$ $=$ $\rho_{0}c_{0}$). Em vista desse contexto, levando em consideração absorção de pressão, entropia e pulsos de despredimento de vórtices, o trabalho de \citeonline{kam2006non} propõe uma condição de contorno explícita de absorção baseada em técnicas com esse mesmo fim, porém aplicadas na resolução das equações de Navier-Stokes usando DNS (\textit{Direct} \textit{Numerical} \textit{Simulation})\abreviatura{DNS}{\textit{Direct} \textit{Numerical} \textit{Simulation}}.
+
+A condição de contorno de absorção ou \textit{Absorbing} \textit{Boundary} \textit{Condition} (ABC)\abreviatura{ABC}{\textit{Absorbing} \textit{Boundary} \textit{Condition}}, proposta por \citeonline{kam2006non}, consiste na adição de uma região de amortecimento para que os valores de pressão e velocidade convirjam assintoticamente a valores que caracterizam um fluido em repouso. Nesse sentido, valores alvos para um fluido em resposo de densidade ($\rho_{T}$ $=$ $\rho_{0}$) e velocidade (\textbf{$u_{T}$} $=$ $0$) são usados para calcular uma função de distribuição de amortecimento $f_{i}^{T}$\simbolo{$f_{i}^{T}$}{Função de distribuição de amortecimento}. Essa função de distribuição é definida da mesma forma que $f_{i}^{M}$, porém com os valores alvos de densidade e velocidade, ficando na forma
+\begin{equation}
+  f_{i}^{T} = \rho_{0}\varepsilon_{i}.
+  \label{eq:f_alvo}
 \end{equation}
-tal que as variáveis assinaladas com $*$ são em unidades físicas e $\rho_{0}$ é unidade de densidade física ambiente.
+Como essa técnica é explícita, o operador de colisão $\Omega_{i}$ é adaptado e recebe um novo termo de colisão, ficando na forma
+\begin{equation}
+  \Omega_{i} = -\frac{1}{\tau}(f_{i} - f_{i}^{M}) - \sigma(f_{i}^{M} - f_{i}^{T}),
+  \label{eq:omega_i_abc}
+\end{equation}
+tal que $\sigma$ $=$ $\sigma_{T}(\delta/D)^{2}$ é o coeficiente de absorção, $\sigma_{T}$ é uma constante com valor de $0,3$, $\delta$ é a distância medida do começo da região de contorno no sentido da convergência assintótica e $D$ é o tamanho total da região de contorno no sentido da convergência assintótica.
+
+O operador de colisão da equação \ref{eq:omega_i_abc} funciona bem para o modelo SRT, porém como nesse estudo será usado o modelo MRT algumas adaptações precisam ser realizadas, pois a operação de colisão ocorre no espaço dos momentos nesse modelo. Assim como é feito nas equações \ref{eq:MRT_2} deve-se aplicar o mesmo procedimento na função de distribuição $f_{i}^{T}$ ficando
+\begin{equation}
+  m_{i}^{T} = \textbf{$M$}f_{i}^{T}.
+  \label{eq:abc_mrt_1}
+\end{equation}
+Além disso é preciso inserir esse termo no operador de colisão da equação \ref{eq:MRT_4} resultando em 
+
+\begin{equation}
+  \Omega_{i} = -\textbf{$M$}^{-1}\textbf{$S$}(m_{i} - m_{i}^{M}) - 
+  \sigma\textbf{$M$}^{-1}\textbf{$S$}(m_{i}^{M} - m_{i}^{T}).
+  \label{eq:abc_mrt_2}
+\end{equation}
+
+Simplificando a equação \ref{eq:abc_mrt_2} fica
+\begin{equation}
+  \Omega_{i} = -\textbf{$M$}^{-1}\textbf{$S$}[m_{i} - m_{i}^{M}(\sigma - 1) - m_{i}^{T}].
+  \label{eq:abc_mrt_3}
+\end{equation}
+
+Adicionando esse termo na equação geral \ref{eq:f_i} do LBM o resultado é a equação
+\begin{equation}
+  f_{i}(\textbf{x} + c_{i}\Delta t, t + \Delta t) = f_{i}(\textbf{x}, t) -\textbf{$M$}^{-1}\textbf{$S$}[m_{i} - m_{i}^{M}(\sigma - 1) - m_{i}^{T}].
+  \label{eq:abc_mrt_4}  
+\end{equation}
+
+\section{Palabos}
+
+Aliado aos métodos númericos há várias tecnologias computacionais que são essenciais para aplicação e resolução de equações complexas. É bastante comum o uso de \textit{softwares} proprietários para desenvolvimento de modelos numéricos mas os mesmos restringem o desenvolvimento de estudos, ferramentas e produtos científicos. Dos fatores de restrição pode-se destacar:
+
+\begin{itemize}
+  \item não é possível saber com exatidão os métodos e equações que estão implementados no \textit{software};
+  \item incapacidade do usuário realizar algum tipo de manutenção, correção de defeitos ou evolução no \textit{software};
+  \item altos custos de licença de uso. 
+\end{itemize}
+
+Em vista das limitações dos \textit{softwares} proprietários, ou seja, projetos de código fechado há outras possibilidades para contornar essas limitações: \textit{softwares} livres. De acordo com \citeonline{stallman2002free} \textit{softwares} livres se caracterizam por cinco liberdades essenciais:
+
+\begin{itemize}
+  \item A liberdade de executar o programa como você desejar, para qualquer propósito;
+  \item A liberdade de estudar como o programa funciona, e adaptá-lo às suas necessidades. Para tanto, acesso ao código-fonte é um pré-requisito;
+  \item A liberdade de estudar como o programa funciona, e adaptá-lo às suas necessidades. Para tanto, acesso ao código-fonte é um pré-requisito;
+  \item A liberdade de redistribuir cópias de modo que você possa ajudar ao próximo;
+  \item A liberdade de distribuir cópias de suas versões modificadas a outros. Desta forma, você pode dar a toda comunidade a chance de beneficiar de suas mudanças. Para tanto, acesso ao código-fonte é um pré-requisito.
+\end{itemize}
+
+Tais liberdades favorecem o desenvolvimento de estudos, ferramentas e produtos científicos com um custo-benefício bastante apropriado para universidades. Em vista disso, projetos de \textit{softwares} livres se tornam atrativos para a implementação dos requisitos do LBM propostos nesse trabalho e, dentro das opções disponíveis no mercado atualmente, o \textit{software} \citeonline{palabos} é classificado como bastante conveniente visto que sua documentação é bastante abrangente, sua arquitetura de \textit{software} é totalmente modularizada com baixo acoplamento e alta coesão e sua tecnologia de processamento chega a ser no mínimo 20 vezes mais rápida que o MATLAB de acordo com \citeonline{numeric_palabos}.   
+
+O \textit{software} livre Palabos é um projeto feito no paradígma computacional de orientação a objetos resultado da colaboração entre indústria e academia, focando produzir uma ferramenta de simulação computacional robusta, rápida e confiável. Todos os modelos nativos são implementados e testados como mostra os estudos de \citeonline{lattice_1}, \citeonline{lattice_2}, \citeonline{lattice_3}, \citeonline{lattice_4} e \citeonline{lattice_5}. De funcionalidades o \textit{software} possui:
+
+\begin{itemize}
+  \item dinâmicas físicas:
+  \begin{itemize}
+     \item equações de Navier-Stokes incompressível e fracamente compressível;
+     \item escoamentos com força de corpo;
+     \item escoamentos com diferenças de temperatura;
+     \item fluidos multifásicos;
+     \item modelo de turbulência Smagorinsky.
+   \end{itemize}
+  \item modelos básicos:
+  \begin{itemize}
+    \item BGK;
+    \item MRT;
+    \item entrópico.
+  \end{itemize}
+  \item condições de contorno:
+  \begin{itemize}
+    \item \textit{bounceback};
+    \item Zou/He;
+    \item Inamuro;
+    \item Skordos;
+    \item periódico;
+    \item Dirichlet para velocidade ou pressão.
+  \end{itemize}
+  \item geração de malha:
+  \begin{itemize}
+    \item criação de malha a partir de arquivos CAD do tipo STL.  
+  \end{itemize}
+  \item grid:
+  \begin{itemize}
+    \item D2Q9;
+    \item D3Q13;
+    \item D3Q15;
+    \item D3Q19;
+    \item D3Q27;
+    \item \textit{Multi-grid}. 
+  \end{itemize}
+  \item paralelismo:
+  \begin{itemize}
+    \item MPI em vários processadores;
+    \item MPI em vários computadores em rede.
+  \end{itemize}
+  \item dados de saída:
+  \begin{itemize}
+    \item arquivos de dados em ASCII;
+    \item arquivos de dados em formato binário;
+    \item arquivos de dados em formato de imagem GIF;
+    \item arquivos de dados em formato VTK para visualização no \textit{software} \citeonline{paraview}.
+  \end{itemize}
+\end{itemize}
+
+Mesmo com várias funcionalidades nativas, o \textit{software} \citeonline{palabos} precisa ter outras outras funcionalidades implementadas para que possa atender o escopo desse trabalho. Para atender esse requisito, o projeto \citeonline{palabos_acoustic} foi criado como uma versão do \citeonline{palabos} que contém todos os modelos e implementações desenvolvidas nesse trabalho. As funcionalidades desenvolvidas nesse trabalho são:
+
+\begin{itemize}
+  
+  \item condições de contorno:
+  \begin{itemize}
+    \item condição de contorno anecóica de \citeonline{kam2006non} para BGK D2Q9;
+    \item condição de contorno anecóica de \citeonline{kam2006non} para MRT D2Q9 e D3Q19;
+    \item condição de contorno para excitação do duto com \textit{sweep} ou soma de harmônicos.
+  \end{itemize}
+
+  \item geração de malha:
+  \begin{itemize}
+    \item criação automática de malha com vários tamanhos e espessuras de dutos.
+  \end{itemize}
+
+  \item dados de saída:
+  \begin{itemize}
+    \item relatórios automáticos de execução;
+    \item dados e relatórios de execução organizados automaticamente por pastas com hora e data.
+  \end{itemize}
+\end{itemize}
+
+
+Para executar o \citeonline{palabos_acoustic} é preciso dos seguintes \textit{softwares} básicos instalados como pré-requisitos:
+
+\begin{itemize}
+  \item sistema operacional linux Ubuntu 16.04 ou CentOS 7.2;
+  \item compilador de C++ do tipo g++ 4.8;
+  \item biblioteca de processamento paralelo Open MPI 1.10. 
+\end{itemize}
+
+Para cada novo modelo é preciso criar uma pasta com o nome do modelo contendo o arquivo de compilação \textbf{Makefile} e o código fonte do modelo numérico escrito em C++ com extenção \textbf{.cpp}. No arquivo \textbf{Makefile} é possível configurar aonde se encontra a instalação do Palabos, arquivo do modelo numérico com extenção \textbf{.cpp}, opções de depuração e opções de paralelização. No arquivo de extenção \textbf{.cpp} se encontra o código fonte do modelo numérico a ser simulado e o mesmo é composto de acordo com os procedimentos do fluxograma da Figura \ref{fig:palabos_fluxo}.
+
+
+\begin{figure}[ht!]
+\centering
+  \includegraphics[width=.8\linewidth]{figuras/palabos_modelo_fluxo.pdf}
+  \caption[Fluxograma de um modelo numérico no Palabos]{Fluxograma geral de um código fonte de um modelo numérico no Palabos.}
+  \label{fig:palabos_fluxo}
+\end{figure}
+
+Como é mostrado na Figura \ref{fig:palabos_fluxo}, todo código de modelo numérico no Palabos possui os seguintes procedimentos:
+
+\begin{itemize}
+  \item importar bibliotecas: nesse procedimento são importadas as bibliotecas que contêm as funções e classes que serão usadas ao longo do processamento do modelo. Normalmente são bibliotecas do próprio Palabos ou bibliotecas com funções matemáticas;
+  \item definir variáveis globais: normalmente nessa etapa são definidas valores de pré-processamento como o tamanho do domínio, valores macroscópicos do fluido como número de Reynolds, tempo total de simulação, viscosidade cinemática e o tipo de modelo LBM;
+  \item definir condições iniciais e de contorno: nessa etapa a malha do domínio é consolidada, valores de densidade e velocidade são atribuídas para cada célula do domínio e condições de contorno são impostas;
+  \item criar arquivos para gravação de dados: são criados ponteiros e arquivos de diversas extensões para que os dados sejam gravados;
+  \item alterar condição de contorno: nessa etapa o modelo numérico entra no \textit{loop} de iterações e se necessário as condições de contorno são alteradas para, por exemplo, que um \textit{sweep} possa ser imposto;
+  \item colidir: nessa etapa o operador de colisão é calculado e somado com as funções de distribuição de cada célula;
+  \item propagar: os valores das funções de distribuição são propagados para células vizinhas;
+  \item salvar dados: os dados normalmente de pressão e velocidades são salvos para pós-processamento. 
+\end{itemize}
+E assim o ciclo de procedimentos dentro do \textit{loop} é executado até que o número de iterações alcance o número máximo de tempo definido no início do programa.
+
+Para execução é preciso efetuar os seguintes comandos no terminal linux dentro da pasta do modelo numérico:
+\begin{itemize}
+  \item compilação do código de extenção \textbf{.cpp} para formato binário em linguagem de máquina:
+  \begin{lstlisting}[language=make, frame = single]
+    $ make
+  \end{lstlisting}
+  \item execução do arquivo binário compilado:
+  \begin{lstlisting}[language=make, frame = single]
+    $ mpirun -np 
+    <numero_de_processadores> 
+    <nome_do_arquivo_compilado> 
+    <parametros_de_entrada>
+  \end{lstlisting}
+  aplicando para o modelo numérico desse trabalho:
+  \begin{lstlisting}[language=make, frame = single]
+    $ mpirun -np 
+    8
+    duct_radiation_optimization
+    20 0.15 1.99
+  \end{lstlisting}
+  tal que o raio do duto é 20 células, o mach do escoamento é 0.15 e 1.99 é a frequência de relaxação $1/\tau$. É possível também executar o Palabos com o \textit{script} \textbf{duct\_radiation\_init.m} na plataforma \citeonline{matlab} ou \citeonline{octave}. Para executar basta colocar esse \textit{script} dentro da pasta do modelo numérico e executar o seguinte comando no terminal do \citeonline{matlab} ou \citeonline{octave} dentro dessa pasta:
+  \begin{lstlisting}[language=matlab, frame = single]
+    >> duct_radiation_init 20 0.15 5042 8
+  \end{lstlisting}
+  tal que o raio do duto é 20 células, o mach do escoamento é 0.15, o número de Reynolds é 5042 e o 8 é a quantidade de processadores.
+\end{itemize}
+
+
+\section{Modelo Numérico}

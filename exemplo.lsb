@@ -28,5 +28,7 @@
 \contentsline {simb}{\hbox to\@tempdima {$\textbf {\mathversion {bold}u}$\hfil }{Velocidade local do fluido}}{42}
 \contentsline {simb}{\hbox to\@tempdima {$c_{s}$\hfil }{Velocidade do som}}{42}
 \contentsline {simb}{\hbox to\@tempdima {$p$\hfil }{Press\IeC {\~a}o local do fluido}}{43}
-\contentsline {simb}{\hbox to\@tempdima {$\nu $\hfil }{viscosidade cinem\IeC {\'a}tica do fluido}}{43}
-\contentsline {simb}{\hbox to\@tempdima {$\rho _{0}$\hfil }{Unidade de densidade f\IeC {\'\i }sica ambiente}}{46}
+\contentsline {simb}{\hbox to\@tempdima {$\nu $\hfil }{Viscosidade cinem\IeC {\'a}tica do fluido}}{43}
+\contentsline {simb}{\hbox to\@tempdima {$f^{*}$\hfil }{Frequ\IeC {\^e}ncia f\IeC {\'\i }sica}}{46}
+\contentsline {simb}{\hbox to\@tempdima {$f$\hfil }{Frequ\IeC {\^e}ncia em LBM}}{46}
+\contentsline {simb}{\hbox to\@tempdima {$f_{i}^{T}$\hfil }{Fun\IeC {\c c}\IeC {\~a}o de distribui\IeC {\c c}\IeC {\~a}o de amortecimento}}{48}
