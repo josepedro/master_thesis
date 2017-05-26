@@ -408,3 +408,15 @@ Para execução é preciso efetuar os seguintes comandos no terminal linux dentr
 
 
 \section{Modelo Numérico}
+
+Com os arquivos de compilação e execução corretamente configurados, pode-se modelar numericamente o problema. A Figura \ref{fig:modelo} representa a vista do corte lateral do modelo numérico em 3D. Para a definição do domínio foi utilizado uma abordagem paramétrica, ou seja, o raio externo do duto $a$ $=$ $20$ células foi a unidade de medida para as dimensões. As dimensões \textbf{Nx} e \textbf{Ny} são iguais e possuem $20a$ de comprimento. A dimensão \textbf{Nz} possui 79,5$a$ de comprimento e foi baseada no estudo de \citeonline{allam2006investigation}, que justifica a distância da saída do duto até a parede para minimizar os efeitos da interação do jato de saída com a parede. Todo espaço de fluido do domínio foi preenchido em cada célula com frequência de relaxação $\frac{1}{\tau}$ $=$ $1,99$, $\rho$ $=$ $\rho_{0}$ $=$ $1$ e as velocidades para todos os sentidos $u_{x}$ $=$ $u_{y}$ $=$ $u_{z}$ $=$ $0$. As bordas do duto foram preenchidas com condição anecóica de espessura igual 1,5$a$.      
+
+Com relação ao duto, o mesmo possui o tamanho \textbf{L} $=$ $18a$ e é delimitado pela condição de contorno \textit{bounceback} \textit{no-slip}, diâmetro externo medindo $2a$ e parede com expessura de 0,1$a$. No começo do duto há uma condição anecóica responsável pela dissipação da onda no sentido contrário a saída e uma condição de contorno de excitação do duto.    
+
+\begin{figure}[ht!]
+  \centering
+  \def\svgwidth{400pt}
+  \import{figuras/}{modelo_numerico.pdf_tex}
+  \caption[Esquemático do modelo numérico]{Esquemático do modelo numérico: vista do corte lateral do modelo em 3D.}
+  \label{fig:modelo}
+\end{figure}
