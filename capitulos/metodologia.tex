@@ -409,9 +409,9 @@ Para execução é preciso efetuar os seguintes comandos no terminal linux dentr
 
 \section{Modelo Numérico}
 
-Com os arquivos de compilação e execução corretamente configurados, pode-se modelar numericamente o problema. A Figura \ref{fig:modelo} representa a vista do corte lateral do modelo numérico em 3D. Para a definição do domínio foi utilizado uma abordagem paramétrica, ou seja, o raio externo do duto $a$ $=$ $20$ células foi a unidade de medida para as dimensões. As dimensões \textbf{Nx} e \textbf{Ny} são iguais e possuem $20a$ de comprimento. A dimensão \textbf{Nz} possui 79,5$a$ de comprimento e foi baseada no estudo de \citeonline{allam2006investigation}, que justifica a distância da saída do duto até a parede para minimizar os efeitos da interação do jato de saída com a parede. Todo espaço de fluido do domínio foi preenchido em cada célula com frequência de relaxação $\frac{1}{\tau}$ $=$ $1,99$, $\rho$ $=$ $\rho_{0}$ $=$ $1$ e as velocidades para todos os sentidos $u_{x}$ $=$ $u_{y}$ $=$ $u_{z}$ $=$ $0$. As bordas do duto foram preenchidas com condição anecóica de espessura igual 1,5$a$.      
+Com os arquivos de compilação e execução corretamente configurados, pode-se modelar numericamente o problema. A Figura \ref{fig:modelo} representa a vista do corte lateral do modelo numérico em 3D. Para a definição do domínio foi utilizado uma abordagem paramétrica, ou seja, o raio externo do duto $a$ $=$ $20$ células foi a unidade de medida para as dimensões. As dimensões \textbf{Nx} e \textbf{Ny} são iguais e possuem $20a$ de comprimento. A dimensão \textbf{Nz} possui 79,5$a$ de comprimento e foi baseada no estudo de \citeonline{allam2006investigation}, que justifica a distância da saída do duto até a parede para minimizar os efeitos da interação do jato de saída com a parede. Todo espaço de fluido do domínio foi preenchido em cada célula com frequência de relaxação $\frac{1}{\tau}$ $=$ $1,99$, $\rho$ $=$ $\rho_{0}$ $=$ $1$ e as velocidades para todos os sentidos $u_{x}$ $=$ $u_{y}$ $=$ $u_{z}$ $=$ $0$. As bordas do duto foram preenchidas com condição anecóica de espessura igual 1,5$a$ células.      
 
-Com relação ao duto, o mesmo possui o tamanho \textbf{L} $=$ $18a$ e é delimitado pela condição de contorno \textit{bounceback} \textit{no-slip}, diâmetro externo medindo $2a$ e parede com expessura de 0,1$a$. No começo do duto há uma condição anecóica responsável pela dissipação da onda no sentido contrário a saída e uma condição de contorno de excitação do duto.    
+Com relação ao duto, o mesmo possui o tamanho \textbf{L} $=$ $18a$ e é delimitado pela condição de contorno \textit{bounceback} \textit{no-slip}, diâmetro externo medindo $2a$ e parede com expessura de 0,1$a$. No começo do duto há uma condição anecóica com espessura igual a 1,5$a$, que é responsável pela dissipação da onda no sentido contrário a saída. Ao lado da condição anecóica há uma condição de contorno de excitação do duto com espessura de 0,05$a$, responsável por excitar os modos axiais e impor escoamento.    
 
 \begin{figure}[ht!]
   \centering
@@ -420,3 +420,18 @@ Com relação ao duto, o mesmo possui o tamanho \textbf{L} $=$ $18a$ e é delimi
   \caption[Esquemático do modelo numérico]{Esquemático do modelo numérico: vista do corte lateral do modelo em 3D.}
   \label{fig:modelo}
 \end{figure}
+
+Focando propiciar energia suficiente nos modos axiais com onda plana, a condição de excitação foi desenvolvida através de uma soma de ondas estacionárias, na faixa de frequência $0$ $<$ $ka$ $<$ 2,5. Dessa forma, os valores de densidade e velocidade dessa região foram mudados em cada incremento de tempo da seguinte forma para:
+\begin{itemize}
+  \item regime transiente ($0 \leq t < \the\numexpr (21890/2)$):  
+
+  \item regime estacionário ($\the\numexpr (21890/2) \leq t \leq \the\numexpr (21890/1)$):
+\end{itemize}
+%\newcommand{\MyNumberA}{30}
+
+%\newcommand{\MyNumberB}{60}
+
+%\MyNumberB
+
+%\numexpr (\MyNumberA + 2* \MyNumberN)/3 \relax
+%\the\numexpr (\MyNumberA * \MyNumberB)

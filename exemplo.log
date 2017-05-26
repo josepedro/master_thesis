@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.10)  25 MAY 2017 22:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  26 MAY 2017 15:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1035,7 +1035,7 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/import/import.sty
 Package: import 2009/03/23  v 5.1
-) (./comandos.sty
+)
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/03/03 v2.15a AMS math features
 \@mathmargin=\skip67
@@ -1093,7 +1093,38 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
 \mathdisplay@stack=\toks45
 LaTeX Info: Redefining \[ on input line 2735.
 LaTeX Info: Redefining \] on input line 2736.
+) (./sagetex.sty
+Package: sagetex 2015/08/26 v3.0-92d9f7a embedding Sage into LaTeX documents
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks46
+\verbatim@line=\toks47
+\verbatim@in@stream=\read2
 )
+(/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count160
+\FV@InFile=\read3
+\FV@TabBox=\box75
+\c@FancyVerbLine=\count161
+\FV@StepNumber=\count162
+\FV@OutFile=\write4
+)
+(/usr/share/texlive/texmf-dist/tex/latex/makecmds/makecmds.sty
+Package: makecmds 2009/09/03 v1.0a extra command making commands
+)
+\c@ST@inline=\count163
+\c@ST@plot=\count164
+\c@ST@cmdline=\count165
+\sagetexindent=\skip70
+
+No file exemplo.sagetex.sout.
+\sagecommandlineskip=\skip71
+) (./comandos.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pstricks/pstricks.sty
 Package: pstricks 2015/11/14 v0.62 LaTeX wrapper for `PSTricks' (RN,HV)
 
@@ -1106,26 +1137,26 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks46
-\XKV@tempa@toks=\toks47
+\XKV@toks=\toks48
+\XKV@tempa@toks=\toks49
 )
-\XKV@depth=\count160
+\XKV@depth=\count166
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex
 `pst-fp' v0.05, 2010/01/17 (hv)
-\pstFP@xs=\count161
-\pstFP@xia=\count162
-\pstFP@xib=\count163
-\pstFP@xfa=\count164
-\pstFP@xfb=\count165
-\pstFP@rega=\count166
-\pstFP@regb=\count167
-\pstFP@regs=\count168
-\pstFP@times=\count169
+\pstFP@xs=\count167
+\pstFP@xia=\count168
+\pstFP@xib=\count169
+\pstFP@xfa=\count170
+\pstFP@xfb=\count171
+\pstFP@rega=\count172
+\pstFP@regb=\count173
+\pstFP@regs=\count174
+\pstFP@times=\count175
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks48
+\pgfutil@everybye=\toks50
 \pgfutil@tempdima=\dimen268
 \pgfutil@tempdimb=\dimen269
 
@@ -1135,10 +1166,10 @@ ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen270
 \pgffor@skip=\dimen271
-\pgffor@stack=\toks49
-\pgffor@toks=\toks50
+\pgffor@stack=\toks51
+\pgffor@toks=\toks52
 )
-\psLoopIndex=\count170
+\psLoopIndex=\count176
 
 `PSTricks' v2.64b  <2015/14/11> (tvz)
 \pst@dima=\dimen272
@@ -1151,35 +1182,35 @@ ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
 \pst@dimn=\dimen279
 \pst@dimo=\dimen280
 \pst@dimp=\dimen281
-\pst@hbox=\box75
-\pst@ibox=\box76
-\pst@boxg=\box77
-\pst@cnta=\count171
-\pst@cntb=\count172
-\pst@cntc=\count173
-\pst@cntd=\count174
-\pst@cntg=\count175
-\pst@cnth=\count176
-\pst@cntm=\count177
-\pst@cntn=\count178
-\pst@cnto=\count179
-\pst@cntp=\count180
-\@zero=\count181
-\pst@toks=\toks51
+\pst@hbox=\box76
+\pst@ibox=\box77
+\pst@boxg=\box78
+\pst@cnta=\count177
+\pst@cntb=\count178
+\pst@cntc=\count179
+\pst@cntd=\count180
+\pst@cntg=\count181
+\pst@cnth=\count182
+\pst@cntm=\count183
+\pst@cntn=\count184
+\pst@cnto=\count185
+\pst@cntp=\count186
+\@zero=\count187
+\pst@toks=\toks53
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.con)
 \psunit=\dimen282
 \psxunit=\dimen283
 \psyunit=\dimen284
-\pst@C@@rType=\count182
+\pst@C@@rType=\count188
 \pslinewidth=\dimen285
 \psk@startLW=\dimen286
 \psk@endLW=\dimen287
-\pst@customdefs=\toks52
+\pst@customdefs=\toks54
 \pslinearc=\dimen288
 \pst@symbolStep=\dimen289
 \pst@symbolWidth=\dimen290
 \pst@symbolLinewidth=\dimen291
-\everypsbox=\toks53
+\everypsbox=\toks55
 \psframesep=\dimen292
 \pslabelsep=\dimen293
 \sh@wgridXunit=\dimen294
@@ -1194,10 +1225,10 @@ File: pst-fp.tex 2015/14/11 v2.64b `PST-fp' (hv)
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@example=\count183
-\hatchspread=\skip70
-\hatchthickness=\skip71
-\hatchshift=\skip72
+\c@example=\count189
+\hatchspread=\skip72
+\hatchthickness=\skip73
+\hatchshift=\skip74
 )
 
 LaTeX Warning: Unused global option(s):
@@ -1210,18 +1241,18 @@ LaTeX Warning: Label `eq:conversao_1' multiply defined.
 )
 \openout1 = `exemplo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1259,17 +1290,17 @@ LaTeX Font Info:    ... okay on input line 80.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count184
+\scratchcounter=\count190
 \scratchdimen=\dimen297
-\scratchbox=\box78
-\nofMPsegments=\count185
-\nofMParguments=\count186
-\everyMPshowfont=\toks54
-\MPscratchCnt=\count187
+\scratchbox=\box79
+\nofMPsegments=\count191
+\nofMParguments=\count192
+\everyMPshowfont=\toks56
+\MPscratchCnt=\count193
 \MPscratchDim=\dimen298
-\MPnumerator=\count188
-\makeMPintoPDFobject=\count189
-\everyMPtoPDFconversion=\toks55
+\MPnumerator=\count194
+\makeMPintoPDFobject=\count195
+\everyMPtoPDFconversion=\toks57
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -1314,7 +1345,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box79
+\AtBeginShipoutBox=\box80
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
@@ -1324,13 +1355,16 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 )
-\c@lstlisting=\count190
+\c@lstlisting=\count196
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.13} (current compat level: 1.9).
+
+\ST@sf=\write5
+\openout5 = `exemplo.sagetex.sage'.
 
 [1
 Non-PDF special ignored!
@@ -1347,22 +1381,22 @@ Non-PDF special ignored!
 [0
 
 ]
-Overfull \hbox (14.995pt too wide) in paragraph at lines 84--84
+Overfull \hbox (14.995pt too wide) in paragraph at lines 86--86
 \OT1/cmr/m/n/9 Grau de Mes-tre em En-ge-nha-ria Mec^anica. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
 
  []
 
 [1]
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
 
  []
 
 
-Overfull \hbox (3.33333pt too wide) in paragraph at lines 84--85
+Overfull \hbox (3.33333pt too wide) in paragraph at lines 86--87
 []
  []
 
@@ -1385,21 +1419,21 @@ Overfull \hbox (3.33333pt too wide) in paragraph at lines 84--85
 ] [14
 
 ] (./exemplo.lof)
-\tf@lof=\write4
-\openout4 = `exemplo.lof'.
+\tf@lof=\write6
+\openout6 = `exemplo.lof'.
 
 
 [15] [16
 
 ] (./exemplo.lot)
-\tf@lot=\write5
-\openout5 = `exemplo.lot'.
+\tf@lot=\write7
+\openout7 = `exemplo.lot'.
 
  [17] [18
 
 ] (./exemplo.las)
-\tf@las=\write6
-\openout6 = `exemplo.las'.
+\tf@las=\write8
+\openout8 = `exemplo.las'.
 
  [19] [20
 
@@ -1407,13 +1441,13 @@ Overfull \hbox (3.33333pt too wide) in paragraph at lines 84--85
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21])
-\tf@lsb=\write7
-\openout7 = `exemplo.lsb'.
+\tf@lsb=\write9
+\openout9 = `exemplo.lsb'.
 
 
 [22] (./exemplo.toc)
-\tf@toc=\write8
-\openout8 = `exemplo.toc'.
+\tf@toc=\write10
+\openout10 = `exemplo.toc'.
 
  [23
 
@@ -1721,16 +1755,17 @@ Package pdftex.def Info: figuras/cronograma.png used on input line 6.
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
+*********************************************************************
 [66] (./exemplo.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 30610 strings out of 493029
- 694804 string characters out of 6136234
- 879479 words of memory out of 5000000
- 33507 multiletter control sequences out of 15000+600000
+ 31100 strings out of 493029
+ 702365 string characters out of 6136233
+ 891584 words of memory out of 5000000
+ 33981 multiletter control sequences out of 15000+600000
  7770 words of font info for 29 fonts, out of 8000000 for 9000
  1149 hyphenation exceptions out of 8191
  71i,13n,89p,1169b,1990s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1750,7 +1785,7 @@ pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on exemplo.pdf (68 pages, 512371 bytes).
+Output written on exemplo.pdf (68 pages, 513226 bytes).
 PDF statistics:
  323 PDF objects out of 1000 (max. 8388607)
  215 compressed objects within 3 object streams

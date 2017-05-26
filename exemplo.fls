@@ -1,4 +1,4 @@
-PWD /home/pedro/master_thesis
+PWD /home/josepedro/master_thesis
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
@@ -275,8 +275,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/import/import.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/import/import.sty
-INPUT comandos.sty
-INPUT comandos.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -287,6 +285,17 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT sagetex.sty
+INPUT sagetex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/makecmds/makecmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/makecmds/makecmds.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT comandos.sty
+INPUT comandos.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/pstricks/pstricks.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/pstricks/pstricks.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.tex
@@ -334,6 +343,7 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+OUTPUT exemplo.sagetex.sage
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
