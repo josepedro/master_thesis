@@ -255,10 +255,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="7.8749605"
-     inkscape:cy="289.0403"
+     inkscape:cx="336.44639"
+     inkscape:cy="274.75459"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer1-3"
      showgrid="true"
      inkscape:window-width="1855"
      inkscape:window-height="1056"
@@ -640,6 +640,25 @@
          d="m 649.0738,420.05597 533.9797,0"
          id="path13471"
          inkscape:connector-curvature="0" />
+      <ellipse
+         style="stroke-width:0.30000001;stroke-miterlimit:2.79999995;stroke-dasharray:0.3, 0.6;stroke-dashoffset:0"
+         id="path11776-8-0-4"
+         cx="673.87622"
+         cy="244.34169"
+         rx="2.1428571"
+         ry="2.5" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="651.5462"
+         y="248.93443"
+         id="text4843-2-7-9-5"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4845-61-9-2-0"
+           x="651.5462"
+           y="248.93443"
+           style="font-size:7.5px">\tiny{\textbf{D}}</tspan></text>
     </g>
     <text
        xml:space="preserve"

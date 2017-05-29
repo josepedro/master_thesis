@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  26 MAY 2017 15:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.10)  27 MAY 2017 19:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1563,46 +1563,40 @@ File: figuras/bounceback.pdf Graphic file (type pdf)
 <use figuras/bounceback.pdf>
 Package pdftex.def Info: figuras/bounceback.pdf used on input line 196.
 (pdftex.def)             Requested size: 199.73648pt x 144.32838pt.
-
-Underfull \vbox (badness 6842) has occurred while \output is active []
-
  [47 <./figuras/bounceback.pdf>]
-Overfull \hbox (1.49687pt too wide) in paragraph at lines 212--213
-[]\OT1/cmr/m/n/10 Consolidar uma condi^^Xc~ao do tipo anec^^Soica, num m^^Setod
-o num^^Serico
+Overfull \hbox (1.32175pt too wide) in paragraph at lines 228--230
+\OT1/cmr/m/n/10 Al^^Sem disso ^^Se pre-ciso in-se-rir esse termo no ope-ra-dor 
+de co-lis~ao da equa^^Xc~ao
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [48]
-Overfull \hbox (1.32175pt too wide) in paragraph at lines 230--232
-\OT1/cmr/m/n/10 Al^^Sem disso ^^Se pre-ciso in-se-rir esse termo no ope-ra-dor 
-de co-lis~ao da equa^^Xc~ao
- []
-
-
-Overfull \hbox (12.01637pt too wide) in paragraph at lines 257--258
+Overfull \hbox (12.01637pt too wide) in paragraph at lines 255--256
 []\OT1/cmr/m/n/10 incapacidade do usu^^Sario re-a-li-zar al-gum tipo de ma-nu-t
 en^^Xc~ao, corre^^Xc~ao
  []
 
 [49]
-Overfull \hbox (1.34967pt too wide) in paragraph at lines 273--274
+Overfull \hbox (1.34967pt too wide) in paragraph at lines 271--272
 \OT1/cmr/m/n/10 ta-ci-o-nal de ori-enta^^Xc~ao a ob-je-tos re-sul-tado da co-la
 -bora^^Xc~ao en-tre ind^^Sustria
  []
 
-[50] [51] [52]
-<figuras/palabos_modelo_fluxo.pdf, id=202, 380.45247pt x 488.79149pt>
+[50] [51]
+<figuras/palabos_modelo_fluxo.pdf, id=199, 380.45247pt x 488.79149pt>
 File: figuras/palabos_modelo_fluxo.pdf Graphic file (type pdf)
 
 <use figuras/palabos_modelo_fluxo.pdf>
 Package pdftex.def Info: figuras/palabos_modelo_fluxo.pdf used on input line 36
-3.
+1.
 (pdftex.def)             Requested size: 245.83275pt x 315.84612pt.
- [53 <./figuras/palabos_modelo_fluxo.pdf>] (/usr/share/texlive/texmf-dist/tex/l
-atex/listings/lstlang1.sty
+ [52]
+Underfull \vbox (badness 1286) has occurred while \output is active []
+
+ [53 <./figuras/palabos_modelo_fluxo.pdf>]
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty
@@ -1611,184 +1605,100 @@ File: lstlang2.sty 2015/06/04 1.6 listings language file
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 391.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 389.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 391.
- [54]
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 389.
+
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-) [55]
-(./figuras/modelo_numerico.pdf_tex
-<figuras/modelo_numerico.pdf, id=215, page=1, 681.90323pt x 241.47476pt>
-File: figuras/modelo_numerico.pdf Graphic file (type pdf)
+) [54]
+<figuras/modelo_numerico_2.pdf, id=212, 1247.06013pt x 484.18246pt>
+File: figuras/modelo_numerico_2.pdf Graphic file (type pdf)
 
-<use figuras/modelo_numerico.pdf, page 1>
-Package pdftex.def Info: figuras/modelo_numerico.pdf, page1 used on input line 
-52.
-(pdftex.def)             Requested size: 400.0pt x 141.65088pt.
+<use figuras/modelo_numerico_2.pdf>
+Package pdftex.def Info: figuras/modelo_numerico_2.pdf used on input line 424.
+(pdftex.def)             Requested size: 307.28978pt x 119.30913pt.
 
-<figuras/modelo_numerico.pdf, id=216, page=2, 681.90323pt x 241.47476pt>
-File: figuras/modelo_numerico.pdf Graphic file (type pdf)
+Underfull \vbox (badness 7291) has occurred while \output is active []
 
-<use figuras/modelo_numerico.pdf, page 2>
-Package pdftex.def Info: figuras/modelo_numerico.pdf, page2 used on input line 
-57.
-(pdftex.def)             Requested size: 400.0pt x 141.65088pt.
-
-<figuras/modelo_numerico.pdf, id=217, page=3, 681.90323pt x 241.47476pt>
-File: figuras/modelo_numerico.pdf Graphic file (type pdf)
-
-<use figuras/modelo_numerico.pdf, page 3>
-Package pdftex.def Info: figuras/modelo_numerico.pdf, page3 used on input line 
-59.
-(pdftex.def)             Requested size: 400.0pt x 141.65088pt.
-
-<figuras/modelo_numerico.pdf, id=218, page=4, 681.90323pt x 241.47476pt>
-File: figuras/modelo_numerico.pdf Graphic file (type pdf)
-
-<use figuras/modelo_numerico.pdf, page 4>
-Package pdftex.def Info: figuras/modelo_numerico.pdf, page4 used on input line 
-62.
-(pdftex.def)             Requested size: 400.0pt x 141.65088pt.
-
-<figuras/modelo_numerico.pdf, id=219, page=5, 681.90323pt x 241.47476pt>
-File: figuras/modelo_numerico.pdf Graphic file (type pdf)
-
-<use figuras/modelo_numerico.pdf, page 5>
-Package pdftex.def Info: figuras/modelo_numerico.pdf, page5 used on input line 
-64.
-(pdftex.def)             Requested size: 400.0pt x 141.65088pt.
-
-<figuras/modelo_numerico.pdf, id=220, page=6, 681.90323pt x 241.47476pt>
-File: figuras/modelo_numerico.pdf Graphic file (type pdf)
-
-<use figuras/modelo_numerico.pdf, page 6>
-Package pdftex.def Info: figuras/modelo_numerico.pdf, page6 used on input line 
-66.
-(pdftex.def)             Requested size: 400.0pt x 141.65088pt.
-
-<figuras/modelo_numerico.pdf, id=221, page=7, 681.90323pt x 241.47476pt>
-File: figuras/modelo_numerico.pdf Graphic file (type pdf)
-
-<use figuras/modelo_numerico.pdf, page 7>
-Package pdftex.def Info: figuras/modelo_numerico.pdf, page7 used on input line 
-69.
-(pdftex.def)             Requested size: 400.0pt x 141.65088pt.
-
-<figuras/modelo_numerico.pdf, id=222, page=8, 681.90323pt x 241.47476pt>
-File: figuras/modelo_numerico.pdf Graphic file (type pdf)
-
-<use figuras/modelo_numerico.pdf, page 8>
-Package pdftex.def Info: figuras/modelo_numerico.pdf, page8 used on input line 
-72.
-(pdftex.def)             Requested size: 400.0pt x 141.65088pt.
-
-<figuras/modelo_numerico.pdf, id=223, page=9, 681.90323pt x 241.47476pt>
-File: figuras/modelo_numerico.pdf Graphic file (type pdf)
-
-<use figuras/modelo_numerico.pdf, page 9>
-Package pdftex.def Info: figuras/modelo_numerico.pdf, page9 used on input line 
-74.
-(pdftex.def)             Requested size: 400.0pt x 141.65088pt.
-)
-Overfull \hbox (92.71022pt too wide) in paragraph at lines 76--420
- [][] 
+ [55]
+[56 <./figuras/modelo_numerico_2.pdf>]
+Overfull \hbox (4.69128pt too wide) in paragraph at lines 456--457
+[]\OT1/cmr/m/n/10 No in-tuito de ava-liar a condi^^Xc~ao anec^^Soica nas fron-t
+ei-ras do dom^^S^^Pnio
  []
 
-) (./capitulos/resultados.tex [56 <./figuras/modelo_numerico.pdf> <./figuras/mo
-delo_numerico.pdf
 
-pdfTeX warning: pdflatex (file ./figuras/modelo_numerico.pdf): PDF inclusion: m
-ultiple pdfs with page group included in a single page
-> <./figuras/modelo_numerico.pdf
+Overfull \hbox (1.59238pt too wide) in paragraph at lines 487--488
+\OT1/cmr/m/n/10 m^^Sedia es-pa-cial $[]$ sal-vos em disco r^^S^^Pgido, um \OT1/
+cmr/m/it/10 script \OT1/cmr/m/n/10 de p^^Sos-processamento
+ []
 
-pdfTeX warning: pdflatex (file ./figuras/modelo_numerico.pdf): PDF inclusion: m
-ultiple pdfs with page group included in a single page
-> <./figuras/modelo_numerico.pdf
+[57]
+Overfull \hbox (0.50206pt too wide) in paragraph at lines 497--498
+[]\OT1/cmr/m/n/10 a trans-for-mada r^^Sapida de Fou-rier, \OT1/cmr/m/it/10 Fast
+ Fou-rier Trans-form \OT1/cmr/m/n/10 (FFT)[],
+ []
 
-pdfTeX warning: pdflatex (file ./figuras/modelo_numerico.pdf): PDF inclusion: m
-ultiple pdfs with page group included in a single page
-> <./figuras/modelo_numerico.pdf
-
-pdfTeX warning: pdflatex (file ./figuras/modelo_numerico.pdf): PDF inclusion: m
-ultiple pdfs with page group included in a single page
-> <./figuras/modelo_numerico.pdf
-
-pdfTeX warning: pdflatex (file ./figuras/modelo_numerico.pdf): PDF inclusion: m
-ultiple pdfs with page group included in a single page
-> <./figuras/modelo_numerico.pdf
-
-pdfTeX warning: pdflatex (file ./figuras/modelo_numerico.pdf): PDF inclusion: m
-ultiple pdfs with page group included in a single page
-> <./figuras/modelo_numerico.pdf
-
-pdfTeX warning: pdflatex (file ./figuras/modelo_numerico.pdf): PDF inclusion: m
-ultiple pdfs with page group included in a single page
-> <./figuras/modelo_numerico.pdf
-
-pdfTeX warning: pdflatex (file ./figuras/modelo_numerico.pdf): PDF inclusion: m
-ultiple pdfs with page group included in a single page
->]
+) (./capitulos/resultados.tex [58]
 Cap\'{\i }tulo 4.
-) (./capitulos/conclusoes.tex [57
+) (./capitulos/conclusoes.tex [59
 
-] [58
+] [60
 
 ]
 Cap\'{\i }tulo 5.
-<figuras/cronograma.png, id=238, 796.9775pt x 400.49625pt>
+<figuras/cronograma.png, id=235, 796.9775pt x 400.49625pt>
 File: figuras/cronograma.png Graphic file (type png)
 
 <use figuras/cronograma.png>
 Package pdftex.def Info: figuras/cronograma.png used on input line 6.
 (pdftex.def)             Requested size: 284.52756pt x 142.98076pt.
-) (./exemplo.bbl [59 <./figuras/cronograma.png>]
-[60
+) (./exemplo.bbl [61 <./figuras/cronograma.png>]
+[62
 
-] [61] [62] [63] [64] [65])
+] [63] [64] [65] [66] [67])
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
 *********************************************************************
-[66] (./exemplo.aux)
+[68] (./exemplo.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 31100 strings out of 493029
- 702365 string characters out of 6136233
- 891584 words of memory out of 5000000
- 33981 multiletter control sequences out of 15000+600000
+ 31073 strings out of 493029
+ 701435 string characters out of 6136234
+ 891596 words of memory out of 5000000
+ 33957 multiletter control sequences out of 15000+600000
  7770 words of font info for 29 fonts, out of 8000000 for 9000
  1149 hyphenation exceptions out of 8191
- 71i,13n,89p,1169b,1990s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,13n,89p,1569b,1990s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></usr/share/
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cmextra/cmmib7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on exemplo.pdf (68 pages, 513226 bytes).
+f-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cmextra/cmmib7.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on exemplo.pdf (70 pages, 497338 bytes).
 PDF statistics:
- 323 PDF objects out of 1000 (max. 8388607)
- 215 compressed objects within 3 object streams
+ 313 PDF objects out of 1000 (max. 8388607)
+ 213 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -176,7 +176,7 @@ Com os parâmetros $c^{*}$ e $\Delta x$ pode-se realizar as seguintes conversõe
 \begin{gather*}
 	\textbf{$u^{*}$} = \zeta \textbf{$u$}\text{, } \\ \textbf{$x^{*}$} = \Delta x\textbf{$x$}
 	\text{, } \\ t^{*} = \frac{\Delta x}{\zeta}t \text{, } \\ \nu^{*} = \zeta \Delta x \nu
-	\text{, } \\ \rho^{*} = \frac{\zeta}{\Delta x} \rho \text{, } \\ p^{*} = p \zeta^{2}  \rho_{0} \text{ e } \\ f^{*} = f\frac{\zeta}{\Delta x},
+	\text{, } \\ \rho^{*} = \frac{\zeta}{\Delta x} \rho \text{, } \\ p^{*} = p \zeta^{2}  \rho^{*}_{0} \text{ e } \\ f^{*} = f\frac{\zeta}{\Delta x},
     \label{eq:conversao_1}
 \end{gather*}
 tal que as variáveis assinaladas com $*$ estão em unidades físicas e $f^{*}$ e $f$ são unidades de frequências física e do LBM respectivamente\simbolo{$f^{*}$}{Frequência física}\simbolo{$f$}{Frequência em LBM}.
@@ -198,7 +198,7 @@ A condição de contorno \textit{bounceback} \textit{no-slip} é geralmente impl
   \label{fig:bounceback}
 \end{figure}
 
-De acordo como é mostrado na Figura \ref{fig:bounceback}, a célula antes de chegar na condição de contorno possui suas funções de distribuição de partículas em cada sentido original e, ao cruzar a condição de contorno, em vez da mesma continuar se movimentando com as mesmas funções de distribuição, as mesmas contidas nos vetores de direção de propagação que apontam para o \textit{bounceback} são trocadas para o lado oposto assim como é ilustrado na Figura \ref{fig:bounceback}. No ponto de vista das equações de propagação o processo abordado fica
+De acordo como é mostrado na Figura \ref{fig:bounceback}, ao cruzar a condição de contorno, a célula inverte as funções de distribuição de partículas para o sentido contrário dos vetores que apontam para o \textit{bounceback}. Em relação às equações de propagação o processo abordado fica
 
 \begin{gather*}
   f_{6}(\textbf{x}, t + \Delta t) = f_{8}(\textbf{x}, t)\text{,  } f_{8}(\textbf{x}, t + \Delta t) = f_{6}(\textbf{x}, t), \\
@@ -209,9 +209,7 @@ De acordo como é mostrado na Figura \ref{fig:bounceback}, a célula antes de ch
 
 \subsubsection{Condição Anecóica}
 
-Consolidar uma condição do tipo anecóica, num método numérico de natureza temporal, é um desafio devido a propriedade de condição anecóica ou absorção de energia acústica estar relacionada ao domínio da frequência ($Z_{0}$ $=$ $\rho_{0}c_{0}$). Em vista desse contexto, levando em consideração absorção de pressão, entropia e pulsos de despredimento de vórtices, o trabalho de \citeonline{kam2006non} propõe uma condição de contorno explícita de absorção baseada em técnicas com esse mesmo fim, porém aplicadas na resolução das equações de Navier-Stokes usando DNS (\textit{Direct} \textit{Numerical} \textit{Simulation})\abreviatura{DNS}{\textit{Direct} \textit{Numerical} \textit{Simulation}}.
-
-A condição de contorno de absorção ou \textit{Absorbing} \textit{Boundary} \textit{Condition} (ABC)\abreviatura{ABC}{\textit{Absorbing} \textit{Boundary} \textit{Condition}}, proposta por \citeonline{kam2006non}, consiste na adição de uma região de amortecimento para que os valores de pressão e velocidade convirjam assintoticamente a valores que caracterizam um fluido em repouso. Nesse sentido, valores alvos para um fluido em resposo de densidade ($\rho_{T}$ $=$ $\rho_{0}$) e velocidade (\textbf{$u_{T}$} $=$ $0$) são usados para calcular uma função de distribuição de amortecimento $f_{i}^{T}$\simbolo{$f_{i}^{T}$}{Função de distribuição de amortecimento}. Essa função de distribuição é definida da mesma forma que $f_{i}^{M}$, porém com os valores alvos de densidade e velocidade, ficando na forma
+Consolidar uma condição do tipo anecóica num método numérico de natureza temporal é um desafio. Em vez de ser no domínio do tempo, a propriedade de condição anecóica ou absorção de energia acústica é constituída no domínio da frequência ($Z_{0}$ $=$ $\rho_{0}c_{0}$). Nesse contexto, considerando a absorção de pressão, entropia e pulsos de despredimento de vórtices, o trabalho de \citeonline{kam2006non} propõe uma condição de contorno explícita de absorção. Ela é baseada em técnicas aplicadas na resolução das equações de Navier-Stokes usando DNS (\textit{Direct} \textit{Numerical} \textit{Simulation})\abreviatura{DNS}{\textit{Direct} \textit{Numerical} \textit{Simulation}}. A condição de contorno de absorção, \textit{Absorbing} \textit{Boundary} \textit{Condition} (ABC)\abreviatura{ABC}{\textit{Absorbing} \textit{Boundary} \textit{Condition}}, consiste na adição de uma região de amortecimento para que os valores de pressão e velocidade convirjam assintoticamente a valores que caracterizam um fluido em repouso. Nesse sentido, valores alvos para um fluido em resposo de densidade ($\rho_{T}$ $=$ $\rho_{0}$) e velocidade (\textbf{$u_{T}$} $=$ $0$) são usados para calcular uma função de distribuição de amortecimento $f_{i}^{T}$\simbolo{$f_{i}^{T}$}{Função de distribuição de amortecimento}. Essa função de distribuição é definida da mesma forma que $f_{i}^{M}$, porém com os valores alvos de densidade e velocidade, ficando na forma
 \begin{equation}
   f_{i}^{T} = \rho_{0}\varepsilon_{i}.
   \label{eq:f_alvo}
@@ -268,7 +266,7 @@ Em vista das limitações dos \textit{softwares} proprietários, ou seja, projet
   \item A liberdade de distribuir cópias de suas versões modificadas a outros. Desta forma, você pode dar a toda comunidade a chance de beneficiar de suas mudanças. Para tanto, acesso ao código-fonte é um pré-requisito.
 \end{itemize}
 
-Tais liberdades favorecem o desenvolvimento de estudos, ferramentas e produtos científicos com um custo-benefício bastante apropriado para universidades. Em vista disso, projetos de \textit{softwares} livres se tornam atrativos para a implementação dos requisitos do LBM propostos nesse trabalho e, dentro das opções disponíveis no mercado atualmente, o \textit{software} \citeonline{palabos} é classificado como bastante conveniente visto que sua documentação é bastante abrangente, sua arquitetura de \textit{software} é totalmente modularizada com baixo acoplamento e alta coesão e sua tecnologia de processamento chega a ser no mínimo 20 vezes mais rápida que o MATLAB de acordo com \citeonline{numeric_palabos}.   
+Tais liberdades favorecem o desenvolvimento de estudos, ferramentas e produtos científicos com um custo-benefício bastante apropriado para universidades. Considerando isso, projetos de \textit{softwares} livres se tornam atrativos para a implementação dos requisitos do LBM propostos nesse trabalho e, dentro das opções disponíveis no mercado atualmente, o \textit{software} \citeonline{palabos} é classificado como bastante conveniente visto que sua documentação é bastante abrangente, sua arquitetura de \textit{software} é totalmente modularizada com baixo acoplamento e alta coesão e sua tecnologia de processamento chega a ser no mínimo 20 vezes mais rápida que o MATLAB de acordo com \citeonline{numeric_palabos}.   
 
 O \textit{software} livre Palabos é um projeto feito no paradígma computacional de orientação a objetos resultado da colaboração entre indústria e academia, focando produzir uma ferramenta de simulação computacional robusta, rápida e confiável. Todos os modelos nativos são implementados e testados como mostra os estudos de \citeonline{lattice_1}, \citeonline{lattice_2}, \citeonline{lattice_3}, \citeonline{lattice_4} e \citeonline{lattice_5}. De funcionalidades o \textit{software} possui:
 
@@ -413,20 +411,68 @@ Com os arquivos de compilação e execução corretamente configurados, pode-se 
 
 Com relação ao duto, o mesmo possui o tamanho \textbf{L} $=$ $18a$ e é delimitado pela condição de contorno \textit{bounceback} \textit{no-slip}, diâmetro externo medindo $2a$ e parede com expessura de 0,1$a$. No começo do duto há uma condição anecóica com espessura igual a 1,5$a$, que é responsável pela dissipação da onda no sentido contrário a saída. Ao lado da condição anecóica há uma condição de contorno de excitação do duto com espessura de 0,05$a$, responsável por excitar os modos axiais e impor escoamento.    
 
+% \begin{figure}[ht!]
+%   \centering
+%   \def\svgwidth{400pt}
+%   \import{figuras/}{modelo_numerico.pdf_tex}
+%   \caption[Esquemático do modelo numérico]{Esquemático do modelo numérico: vista do corte lateral do modelo em 3D.}
+%   \label{fig:modelo}
+% \end{figure}
+
 \begin{figure}[ht!]
-  \centering
-  \def\svgwidth{400pt}
-  \import{figuras/}{modelo_numerico.pdf_tex}
+\centering
+  \includegraphics[width=1.\linewidth]{figuras/modelo_numerico_2.pdf}
   \caption[Esquemático do modelo numérico]{Esquemático do modelo numérico: vista do corte lateral do modelo em 3D.}
   \label{fig:modelo}
 \end{figure}
 
-Focando propiciar energia suficiente nos modos axiais com onda plana, a condição de excitação foi desenvolvida através de uma soma de ondas estacionárias, na faixa de frequência $0$ $<$ $ka$ $<$ 2,5. Dessa forma, os valores de densidade e velocidade dessa região foram mudados em cada incremento de tempo da seguinte forma para:
-\begin{itemize}
-  \item regime transiente ($0 \leq t < \the\numexpr (21890/2)$):  
 
-  \item regime estacionário ($\the\numexpr (21890/2) \leq t \leq \the\numexpr (21890/1)$):
+Focando propiciar energia suficiente nos modos axiais com onda plana, a condição de excitação foi desenvolvida através de uma soma de ondas estacionárias, na faixa de frequência $0$ $<$ $ka$ $\leq$ 2,5. Dessa forma, os valores de densidade e velocidade dessa região foram mudados em cada incremento de tempo da seguinte forma para:
+\begin{itemize}
+  \item regime transiente ($0 \leq t < t_{transiente}$):
+  \begin{gather*}
+    \rho(t) = \rho_{0};% + A\sum_{n=1}^{N} sin\bigg(\frac{nka_{max}c_{s}t}{Na}\bigg);
+    \\ u_{z}(t) = Mc_{s};    
+    \\ u_{y}(t) = 0;
+    \\ u_{x}(t) = 0.
+  \label{eq:transiente}
+  \end{gather*}
+
+  \item regime estacionário ($t_{transiente} \leq t \leq t_{total} - t_{propagada}$):
+  \begin{gather*}
+    \rho(t) = \rho_{0} + A\sum_{n=1}^{N} sin\bigg(\frac{nka_{max}c_{s}t}{Na}\bigg);
+    \\ u_{z}(t) = Mc_{s} + \frac{Ac_{s}}{\rho_{0}}\sum_{n=1}^{N} sin\bigg(\frac{nka_{max}c_{s}t}{Na}\bigg);    
+    \\ u_{y}(t) = 0;
+    \\ u_{x}(t) = 0.
+  \label{eq:estacionario}
+  \end{gather*}
 \end{itemize}
+tal que $ka_{max} =$ 2,5, $N$ é o número total de ondas estacionárias dentro do intervalo $0$ $<$ $ka$ $\leq$ 2,5, $n$ é uma onda estacionária pertencente a esse mesmo intervalo de frequências, $t_{transiente}$ é baseado e adaptado do estudo de \citeonline{shi2013lattice} na forma $t_{transiente} =  2\textbf{Nz}/Mc_{s}$, $t_{propagada}$ é definido como $t_{propagada} = \textbf{Nz}/c_{s}$ e é o tempo que a onda demora para percorrer o domínio completo na direção axial do duto, $t_{total} = t_{transiente} + t_{propagada} + 12000$ é o tempo total da simulação e $A$ é amplitude máxima definida como densidade e é calculada a partir de uma pressão física na forma
+\begin{equation}
+  A = \frac{2 \cdot 10^{-5} \cdot 10^{\text{NPS}/20}}{c^{*}\rho^{*}_{0}c_{s}},
+\end{equation}
+tal que $c^{*} = 343$ $m/s$ é a velocidade do som em unidades físicas, $\rho^{*}_{0} =$ 1,22 $kg/m^{3}$ é a densidade física do ar em unidades físicas e NPS é o nível de pressão sonora no valor de 80 dB.
+
+No intuito de avaliar a condição anecóica nas fronteiras do domínio através do cálculo e análise do coeficiente de reflexão, os pontos $\textbf{A}$, $\textbf{B}$, $\textbf{C}$ e $\textbf{D}$ representados na Figura \ref{fig:modelo} são pontos de medição de pressão e velocidades uma célula ao lado das condições anecóicas. O localização dos pontos segue as seguintes coordenadas:
+
+\begin{itemize}
+  \item ponto $\textbf{A}$: $(\frac{\textbf{Nx}}{2}, \frac{\textbf{Ny}}{2}, \textbf{Nz} - 31)$;
+  \item ponto $\textbf{B}$: $(\frac{\textbf{Nx}}{2}, \textbf{Ny} - 31, \textbf{Nz} - 31)$;
+  \item ponto $\textbf{C}$: $(\frac{\textbf{Nx}}{2}, \textbf{Ny} - 31, \frac{\textbf{Nz}}{2})$;
+   \item ponto $\textbf{D}$: $(\frac{\textbf{Nx}}{2}, \frac{3\textbf{Ny}}{4}, 12a + 31)$.
+\end{itemize}
+ 
+Já o ponto $\textbf{P}$ representa a média espacial, feita no plano transversal do duto, dos valores de pressão e velocidade na terminação. Essas médias espaciais são extraídas e calculadas ao longo do tempo para se obter os parâmetros de caracterização da acústica interna do duto: coeficiente de reflexão $R_{r}$ e coeficiente de correção da terminação $l/a$.
+
+Para a execução do modelo numérico foi escolhido um \textit{hardware} com as seguintes características:
+
+\begin{itemize}
+  \item arquitetura: x86\_64;
+  \item CPU(s): 8;
+  \item modelo do processador: Intel(R) Xeon(R) CPU E5620 @2.40GHz;
+  \item memória RAM: 139 GB.
+\end{itemize}
+
 %\newcommand{\MyNumberA}{30}
 
 %\newcommand{\MyNumberB}{60}
@@ -435,3 +481,30 @@ Focando propiciar energia suficiente nos modos axiais com onda plana, a condiç�
 
 %\numexpr (\MyNumberA + 2* \MyNumberN)/3 \relax
 %\the\numexpr (\MyNumberA * \MyNumberB)
+
+\section{Pós-processamento}
+
+Com os arquivos de dados temporais dos pontos $\textbf{A}$, $\textbf{B}$, $\textbf{C}$, $\textbf{D}$ e da média espacial $\textbf{P}$ salvos em disco rígido, um \textit{script} de pós-processamento da plataforma \citeonline{matlab}/\citeonline{octave} é executado. Os seguintes procedimentos são realizados no \textit{script}:
+
+\begin{enumerate}
+  \item os vetores temporais de pressão e velocidade no eixo axial são obtidos através da leitura de arquivos \textbf{.dat};
+  \item uma janela Hann na forma
+  \begin{equation}
+    w(n) = sin^{2}\bigg(\frac{\pi n}{N - 1} \bigg),  
+  \end{equation}
+  tal que $N$ é o tamanho da janela e $n$ é a posição do vetor unidimensional é definida e usada para multiplar os sinais de velocidade e pressão no domínio do tempo;
+
+  \item a transformada rápida de Fourier, \textit{Fast} \textit{Fourier} \textit{Transform} (FFT)\abreviatura{FFT}{\textit{Fast} \textit{Fourier} \textit{Transform}}, é aplicada nos vetores de velocidade e pressão no domínio do tempo;
+
+  \item a impedância de radiação $Z_{r}$ é calculada através da divisão entre os vetores de pressões por de velocidades no domínio da frequência da seguinte forma:
+  \begin{equation}
+    Z_{r} = \frac{p(f)}{u_{z}(f)};
+  \end{equation}
+
+  \item o coeficiente de reflexão $R_{r}$ é calculado de acordo com a equação \ref{eq:R};
+
+  \item o coeficiente de correção da terminação $l/a$ é calculado de acordo com a equação \ref{eq:l};
+
+ \end{enumerate}
+
+ Para minimizar os efeitos não lineares de ondas evanescentes na terminação do duto, um fator de correção $c = - 0,2367$ é adicionado na parte real do coeficiente de correção da terminação $l/a$.    

@@ -67,6 +67,7 @@
     \put(0.12005465,0.00244945){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\tiny{$z$}}}}%
     \put(0.04108172,0.07714695){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\tiny{$y$}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=7]{modelo_numerico.pdf}}%
+    \put(0.22992015,0.26078946){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\tiny{\textbf{D}}}}}%
     \put(0.27407965,0.18929315){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\tiny{\textbf{P}}}}}%
     \put(0.49698295,0.02928401){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\tiny{\textbf{Nz}}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=8]{modelo_numerico.pdf}}%

@@ -13,23 +13,23 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: abnt-options.bib
 Database file #2: bibliografia.bib
 Warning--entry type for "matlab" isn't style-file defined
---line 4 of file bibliografia.bib
+--line 6 of file bibliografia.bib
 Warning--entry type for "octave" isn't style-file defined
---line 11 of file bibliografia.bib
+--line 13 of file bibliografia.bib
 Warning--entry type for "palabos_acoustic" isn't style-file defined
---line 18 of file bibliografia.bib
+--line 20 of file bibliografia.bib
 Warning--entry type for "paraview" isn't style-file defined
---line 25 of file bibliografia.bib
+--line 27 of file bibliografia.bib
 Warning--entry type for "numeric_palabos" isn't style-file defined
---line 81 of file bibliografia.bib
+--line 83 of file bibliografia.bib
 Warning--entry type for "palabos" isn't style-file defined
---line 263 of file bibliografia.bib
+--line 265 of file bibliografia.bib
 Warning--entry type for "powerflow" isn't style-file defined
---line 346 of file bibliografia.bib
+--line 348 of file bibliografia.bib
 Warning--entry type for "openmpi" isn't style-file defined
---line 353 of file bibliografia.bib
+--line 355 of file bibliografia.bib
 Warning--entry type for "comsol" isn't style-file defined
---line 360 of file bibliografia.bib
+--line 362 of file bibliografia.bib
 Warning--I didn't find a database entry for "abnt-year-extra-label=yes"
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
