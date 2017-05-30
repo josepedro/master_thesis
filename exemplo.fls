@@ -1,4 +1,4 @@
-PWD /home/pedro/master_thesis
+PWD /home/josepedro/master_thesis
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
@@ -271,6 +271,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.units.code.tex
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.units.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/import/import.sty
@@ -353,6 +355,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
 INPUT exemplo.lof
 INPUT exemplo.lof
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
 OUTPUT exemplo.lof
 INPUT exemplo.lot
 INPUT exemplo.lot
@@ -362,8 +366,6 @@ INPUT exemplo.las
 OUTPUT exemplo.las
 INPUT exemplo.lsb
 INPUT exemplo.lsb
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
 OUTPUT exemplo.lsb
 INPUT exemplo.toc
 INPUT exemplo.toc
@@ -412,6 +414,18 @@ INPUT ./figuras/modelo_numerico_2.pdf
 INPUT ./figuras/modelo_numerico_2.pdf
 INPUT capitulos/resultados.tex
 INPUT capitulos/resultados.tex
+INPUT dados/coeficiente_reflexao_anecoica/A_real.txt
+INPUT dados/coeficiente_reflexao_anecoica/A_imag.txt
+INPUT dados/coeficiente_reflexao_anecoica/A_abs.txt
+INPUT dados/coeficiente_reflexao_anecoica/B_real.txt
+INPUT dados/coeficiente_reflexao_anecoica/B_imag.txt
+INPUT dados/coeficiente_reflexao_anecoica/B_abs.txt
+INPUT dados/coeficiente_reflexao_anecoica/C_real.txt
+INPUT dados/coeficiente_reflexao_anecoica/C_imag.txt
+INPUT dados/coeficiente_reflexao_anecoica/C_abs.txt
+INPUT dados/coeficiente_reflexao_anecoica/D_real.txt
+INPUT dados/coeficiente_reflexao_anecoica/D_imag.txt
+INPUT dados/coeficiente_reflexao_anecoica/D_abs.txt
 INPUT capitulos/conclusoes.tex
 INPUT capitulos/conclusoes.tex
 INPUT figuras/cronograma.png

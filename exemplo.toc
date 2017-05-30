@@ -23,5 +23,7 @@
 \contentsline {section}{\numberline {3.3}Modelo Num\IeC {\'e}rico}{55}
 \contentsline {section}{\numberline {3.4}P\IeC {\'o}s-processamento}{57}
 \contentsline {chapter}{\numberline {4}\MakeUppercase {Resultados}}{59}
-\contentsline {chapter}{\numberline {5}\MakeUppercase {Conclus\IeC {\~o}es}}{61}
-\contentsline {chapter}{REFER\IeC {\^E}NCIAS}{63}
+\contentsline {section}{\numberline {4.1}An\IeC {\'a}lise da Condi\IeC {\c c}\IeC {\~a}o Anec\IeC {\'o}ica}{59}
+\contentsline {section}{\numberline {4.2}Duto sem Escoamento}{61}
+\contentsline {chapter}{\numberline {5}\MakeUppercase {Conclus\IeC {\~o}es}}{63}
+\contentsline {chapter}{REFER\IeC {\^E}NCIAS}{65}

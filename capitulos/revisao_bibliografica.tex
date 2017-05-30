@@ -7,7 +7,7 @@ Nesse capítulo será apresentada uma revisão bibliográfica dos tópicos conce
 A propagação de modos normais (ondas planas) é um problema clássico em acústica e continua tendo importância significativa mediante ao advento de novas tecnologias relacionadas a sistemas de exaustão e sucção. Em geral, pode-se utilizar dois parâmetros para caracterizar o fenômeno da acústica interna de dutos:
 
 \begin{itemize}
-    \item a magnitude do coeficiente de reflexão $\|R\|$, razão entre as componentes refletida e incidente da onda no duto, a qual é dada por
+    \item a magnitude do coeficiente de reflexão $R_{r}$, razão entre as componentes refletida e incidente da onda no duto, a qual é dada por
     \begin{equation}
         R_{r}\simbolo{$R_{r}$}{Coeficiente de reflexão na terminação do duto} =\frac{Z_{r} - Z_{0}}{Z_{r} + Z_{0}},
         \label{eq:R}
@@ -22,17 +22,17 @@ A propagação de modos normais (ondas planas) é um problema clássico em acús
     sendo $k$\simbolo{$k$}{Número de onda} o número de onda.
 \end{itemize}
 
-Em relação aos parâmetros discutidos acima, a solução exata para o problema de um duto não flangeado na ausência de escoamento foi proposta por \citeonline{levine1948radiation}, porém em boa parte das aplicações práticas dutos transportam escoamentos médios. Para tais circunstâncias, \citeonline{munt1990acoustic} propôs um modelo analítico exato, também baseado na técnica de Wiener-Hopf, em que se considera a presença de um escoamento subsônico no interior do duto. Considera-se nesse modelo as premissas de que o escoamento é uniforme, invíscido e que a camada cisalhante do jato é infinitamente fina. Além disso, o modelo considera a condição de Kutta na borda do duto para lidar com a singularidade da velocidade de partícula nesta região. As Figuras \ref{fig:comp1} e \ref{fig:comp2} apresentam as comparações entre casos com e sem escoamento para um duto não flangeado em termos de $\|R\|$ e $l/a$.
+Em relação aos parâmetros discutidos acima, a solução exata para o problema de um duto não flangeado na ausência de escoamento foi proposta por \citeonline{levine1948radiation}, porém em boa parte das aplicações práticas dutos transportam escoamentos médios. Para tais circunstâncias, \citeonline{munt1990acoustic} propôs um modelo analítico exato, também baseado na técnica de Wiener-Hopf, em que se considera a presença de um escoamento subsônico no interior do duto. Considera-se nesse modelo as premissas de que o escoamento é uniforme, invíscido e que a camada cisalhante do jato é infinitamente fina. Além disso, o modelo considera a condição de Kutta na borda do duto para lidar com a singularidade da velocidade de partícula nesta região. As Figuras \ref{fig:comp1} e \ref{fig:comp2} apresentam as comparações entre casos com e sem escoamento para um duto não flangeado em termos de $R_{r}$ e $l/a$.
 
 \begin{figure}[ht!]
 \centering
   \includegraphics[width=.9\linewidth]{figuras/abs_r_comparacao.pdf}
-  \caption[Magnitudes do coeficiente de reflexão $|R|$]{Resultados analíticos exatos para magnitude do coeficiente de reflexão $\|R\|$ ao final de um duto não flangeado. A linha contínua apresenta o resultado sem escoamento de \citeonline{levine1948radiation} e a linha tracejada apresenta o resultado com escoamento de Mach = 0,15 de \citeonline{munt1990acoustic}.}
+  \caption[Magnitudes do coeficiente de reflexão $R_{r}$]{Resultados analíticos exatos para magnitude do coeficiente de reflexão $R_{r}$ ao final de um duto não flangeado. A linha contínua apresenta o resultado sem escoamento de \citeonline{levine1948radiation} e a linha tracejada apresenta o resultado com escoamento de Mach = 0,15 de \citeonline{munt1990acoustic}.}
   \label{fig:comp1}
 \end{figure}
 
 \newpage
-Como é mostrado na Figura \ref{fig:comp1}, a magnitude do coeficiente de reflexão $\|R\|$ aumenta consideravelmente na presença de um escoamento subsônico. Além disso, pode-se perceber que, em algumas frequências, $\|R\|$ torna-se maior do que a unidade, implicando que a amplitude da onda refletida torna-se maior do que a da onda incidente. Este fenômeno ocorre, sobretudo, pela interação do escoamento com a borda do duto, a qual transforma energia cinética rotacional em energia acústica, como discutido por \citeonline{peters1993}. Além disso vale ressaltar que o maior valor de $\|R\|$ está associado com a frequência de desprendimento de vórtices na saída do duto, ou seja, a um número de Strouhal ($St$) relativo a maximização do desprendimento de vórtices na terminação do duto.  
+Como é mostrado na Figura \ref{fig:comp1}, a magnitude do coeficiente de reflexão $R_{r}$ aumenta consideravelmente na presença de um escoamento subsônico. Além disso, pode-se perceber que, em algumas frequências, $R_{r}$ torna-se maior do que a unidade, implicando que a amplitude da onda refletida torna-se maior do que a da onda incidente. Este fenômeno ocorre, sobretudo, pela interação do escoamento com a borda do duto, a qual transforma energia cinética rotacional em energia acústica, como discutido por \citeonline{peters1993}. Além disso vale ressaltar que o maior valor de $R_{r}$ está associado com a frequência de desprendimento de vórtices na saída do duto, ou seja, a um número de Strouhal ($St$) relativo a maximização do desprendimento de vórtices na terminação do duto.  
 
 \begin{figure}[ht!]
 \centering
@@ -83,24 +83,25 @@ Dos trabalhos citados com escoamento sugado nota-se a consolidação do comporta
 \centering
   \begin{tikzpicture}
   \begin{axis}[
-      axis lines = left,
+      %axis lines = left,
       xlabel = Número de Mach (M),
       ylabel = Coeficiente de Reflexão ($R_{M}$),
-      width=0.5\linewidth,
+      width=0.9\textwidth,
+      height=0.45\textwidth,
       x tick label style={
         /pgf/number format/.cd,
             fixed,
             fixed zerofill,
             precision=2,
         /tikz/.cd
-    }
+    },
+    grid=major
   ]
   %Below the red parabola is defined
   \addplot [
       domain=0:0.3, 
       samples=100, 
-      color=black,
-      dashed
+      color=black
   ]
   {((1 - x)/(1 + x))^0.9};
    
@@ -117,24 +118,25 @@ A Figura \ref{fig:comp3} mostra o gráfico resultante da equação \ref{eq:R_M} 
 \centering
   \begin{tikzpicture}
   \begin{axis}[
-      axis lines = left,
+      %%axis lines = left,
       xlabel = Número de Mach (M),
       ylabel = Correção da Terminação ($l_{M}$),
-      width=0.5\linewidth,
+      width=0.9\textwidth,
+     height=0.45\textwidth,
        x tick label style={
         /pgf/number format/.cd,
             fixed,
             fixed zerofill,
             precision=2,
-        /tikz/.cd
+        /tikz/.cd,
+        grid=major
     }
   ]
   %Below the red parabola is defined
   \addplot [
       domain=0:0.3, 
       samples=100, 
-      color=black,
-      dashed
+      color=black
   ]
   {0.6*(1 - x^2)};
    
