@@ -9,7 +9,7 @@
 \contentsline {section}{\numberline {2.2}Modelos Anal\IeC {\'\i }ticos Aproximados}{32}
 \contentsline {section}{\numberline {2.3}Trabalhos Experimentais}{33}
 \contentsline {subsection}{\numberline {2.3.1}Escoamento Sugado}{33}
-\contentsline {subsection}{\numberline {2.3.2}Escoamento de Exaust\IeC {\~a}o}{35}
+\contentsline {subsection}{\numberline {2.3.2}Escoamento de Exaust\IeC {\~a}o}{34}
 \contentsline {section}{\numberline {2.4}Modelos Num\IeC {\'e}ricos}{36}
 \contentsline {chapter}{\numberline {3}\MakeUppercase {Metodologia}}{39}
 \contentsline {section}{\numberline {3.1}O M\IeC {\'e}todo de Lattice Boltzmann}{40}

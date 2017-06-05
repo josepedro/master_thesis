@@ -399,3 +399,37 @@
 
 \newpage
 \section{Duto com Escoamento Sugado}
+
+\begin{figure}[ht!]
+\centering
+  \begin{tikzpicture}
+  \begin{axis}[
+  width=0.9\textwidth,
+  height=0.5\textwidth,
+  x tick label style={
+      /pgf/number format/.cd,
+          fixed,
+          fixed zerofill,
+          precision=2,
+      /tikz/.cd
+  },
+  xmin=0,
+  xmax=0.2,
+  ymin=0.68,
+  ymax=1,
+  ytick distance=0.05,
+  xtick distance=0.05,
+  grid=major, % Display a grid  
+  %grid style={dashed,gray!90}, % Set the style
+  xlabel = Número de Mach ($M$),
+  ylabel = Coeficiente de Reflexão ($R_{M}$),
+  ]
+ \addplot[color=black, thick] table[x index=0,y index=1] {dados/duto_sugado/davis_analytical.txt};
+ \addplot[color=black, mark=o, only marks] table[x index=0,y index=1] {dados/duto_sugado/davis_simulation.txt};
+   
+  \end{axis}
+  \end{tikzpicture}
+  \caption[Coeficiente de reflexão $R_{M}$ com escoamento sugado]{Resultado do coeficiente de reflexão $R_{M}$ em relação ao Mach para baixas frequências ($ka$ $<$ $0,25$) com escoamento sugado. A linha contínua apresenta o resultado do estudo de \citeonline{davies1987} e os pontos circulares representam os resultados calculados pela ferramenta computacional proposta nesse estudo. A correlação entre os resultados foi de 95,45 \%.}
+
+  \label{fig:abs_r_boca_sugado}
+\end{figure}
