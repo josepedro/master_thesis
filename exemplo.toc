@@ -24,6 +24,10 @@
 \contentsline {section}{\numberline {3.4}P\IeC {\'o}s-processamento}{57}
 \contentsline {chapter}{\numberline {4}\MakeUppercase {Resultados}}{59}
 \contentsline {section}{\numberline {4.1}An\IeC {\'a}lise da Condi\IeC {\c c}\IeC {\~a}o Anec\IeC {\'o}ica}{59}
-\contentsline {section}{\numberline {4.2}Duto sem Escoamento}{61}
-\contentsline {chapter}{\numberline {5}\MakeUppercase {Conclus\IeC {\~o}es}}{63}
-\contentsline {chapter}{REFER\IeC {\^E}NCIAS}{65}
+\contentsline {section}{\numberline {4.2}Duto sem Escoamento}{67}
+\contentsline {section}{\numberline {4.3}Duto com Escoamento de Exaust\IeC {\~a}o}{69}
+\contentsline {subsection}{\numberline {4.3.1}Mach 0,2}{69}
+\contentsline {subsection}{\numberline {4.3.2}Mach = 0,15}{71}
+\contentsline {section}{\numberline {4.4}Duto com Escoamento Sugado}{73}
+\contentsline {chapter}{\numberline {5}\MakeUppercase {Conclus\IeC {\~o}es}}{75}
+\contentsline {chapter}{REFER\IeC {\^E}NCIAS}{77}

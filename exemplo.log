@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  29 MAY 2017 15:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  4 JUN 2017 21:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1663,51 +1663,76 @@ Overfull \hbox (0.50206pt too wide) in paragraph at lines 497--498
 Cap\'{\i }tulo 4.
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/A_real.txt}
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/A_imag.txt}
-PGFPlots: reading {dados/coeficiente_reflexao_anecoica/A_abs.txt}
-PGFPlots: reading {dados/coeficiente_reflexao_anecoica/B_real.txt}
-PGFPlots: reading {dados/coeficiente_reflexao_anecoica/B_imag.txt}
 [59
 
 ]
+PGFPlots: reading {dados/coeficiente_reflexao_anecoica/A_abs.txt}
+ [60]
+PGFPlots: reading {dados/coeficiente_reflexao_anecoica/B_real.txt}
+PGFPlots: reading {dados/coeficiente_reflexao_anecoica/B_imag.txt}
+ [61]
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/B_abs.txt}
+ [62]
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/C_real.txt}
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/C_imag.txt}
+ [63]
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/C_abs.txt}
+ [64]
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/D_real.txt}
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/D_imag.txt}
+ [65]
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/D_abs.txt}
- [60]) (./capitulos/conclusoes.tex [61] [62]
+ [66]
+PGFPlots: reading {dados/duto_sem_escoamento/analytical_data_abs_r.txt}
+PGFPlots: reading {dados/duto_sem_escoamento/simulation_data_abs_r.txt}
+ [67]
+PGFPlots: reading {dados/duto_sem_escoamento/analytical_data_loa.txt}
+PGFPlots: reading {dados/duto_sem_escoamento/simulation_data_loa.txt}
+ [68]
+PGFPlots: reading {dados/duto_exaustao/abs_r_020_analytical.txt}
+PGFPlots: reading {dados/duto_exaustao/abs_r_020_simulation.txt}
+ [69]
+PGFPlots: reading {dados/duto_exaustao/loa_020_analytical.txt}
+PGFPlots: reading {dados/duto_exaustao/loa_020_simulation.txt}
+ [70]
+PGFPlots: reading {dados/duto_exaustao/abs_r_015_analytical.txt}
+PGFPlots: reading {dados/duto_exaustao/abs_r_015_simulation.txt}
+ [71]
+PGFPlots: reading {dados/duto_exaustao/loa_015_analytical.txt}
+PGFPlots: reading {dados/duto_exaustao/loa_015_simulation.txt}
+ [72])
+(./capitulos/conclusoes.tex [73] [74
+
+]
 Cap\'{\i }tulo 5.
-<figuras/cronograma.png, id=241, 796.9775pt x 400.49625pt>
+<figuras/cronograma.png, id=279, 796.9775pt x 400.49625pt>
 File: figuras/cronograma.png Graphic file (type png)
 
 <use figuras/cronograma.png>
 Package pdftex.def Info: figuras/cronograma.png used on input line 6.
 (pdftex.def)             Requested size: 284.52756pt x 142.98076pt.
-) (./exemplo.bbl [63
+) (./exemplo.bbl [75 <./figuras/cronograma.png>]
+[76
 
- <./figuras/cronograma.png>]
-[64
-
-] [65] [66] [67] [68] [69])
+] [77] [78] [79] [80] [81])
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
 *********************************************************************
-[70] (./exemplo.aux)
+[82] (./exemplo.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 31354 strings out of 493029
- 710409 string characters out of 6136233
- 955352 words of memory out of 5000000
- 34209 multiletter control sequences out of 15000+600000
+ 31438 strings out of 493029
+ 712597 string characters out of 6136233
+ 950353 words of memory out of 5000000
+ 34267 multiletter control sequences out of 15000+600000
  7770 words of font info for 29 fonts, out of 8000000 for 9000
  1149 hyphenation exceptions out of 8191
- 62i,14n,83p,1569b,1927s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,14n,83p,1569b,1919s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/
@@ -1722,10 +1747,10 @@ sfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on exemplo.pdf (72 pages, 516067 bytes).
+Output written on exemplo.pdf (84 pages, 556411 bytes).
 PDF statistics:
- 319 PDF objects out of 1000 (max. 8388607)
- 217 compressed objects within 3 object streams
+ 358 PDF objects out of 1000 (max. 8388607)
+ 244 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -88,6 +88,7 @@ Dos trabalhos citados com escoamento sugado nota-se a consolidação do comporta
       ylabel = Coeficiente de Reflexão ($R_{M}$),
       width=0.9\textwidth,
       height=0.45\textwidth,
+      ytick distance=0.1,
       x tick label style={
         /pgf/number format/.cd,
             fixed,
@@ -95,6 +96,10 @@ Dos trabalhos citados com escoamento sugado nota-se a consolidação do comporta
             precision=2,
         /tikz/.cd
     },
+    xmin=0,
+    xmax=0.3,
+    ymin=0.55,
+    ymax=1,
     grid=major
   ]
   %Below the red parabola is defined
@@ -123,14 +128,19 @@ A Figura \ref{fig:comp3} mostra o gráfico resultante da equação \ref{eq:R_M} 
       ylabel = Correção da Terminação ($l_{M}$),
       width=0.9\textwidth,
      height=0.45\textwidth,
+      ytick distance=0.01,
        x tick label style={
         /pgf/number format/.cd,
             fixed,
             fixed zerofill,
             precision=2,
         /tikz/.cd,
-        grid=major
-    }
+    },
+    xmin=0,
+    xmax=0.3,
+    ymin=0.535,
+    ymax=0.6,
+    grid=major
   ]
   %Below the red parabola is defined
   \addplot [
