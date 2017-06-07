@@ -433,3 +433,38 @@
 
   \label{fig:abs_r_boca_sugado}
 \end{figure}
+
+\newpage
+\begin{figure}[ht!]
+\centering
+  \begin{tikzpicture}
+  \begin{axis}[
+  width=0.9\textwidth,
+  height=0.5\textwidth,
+  x tick label style={
+      /pgf/number format/.cd,
+          fixed,
+          fixed zerofill,
+          precision=2,
+      /tikz/.cd
+  },
+  xmin=0,
+  xmax=0.2,
+  ymin=0.1,
+  ymax=1.0,
+  ytick distance=0.1,
+  xtick distance=0.05,
+  grid=major, % Display a grid  
+  %grid style={dashed,gray!90}, % Set the style
+  xlabel = Número de Mach ($M$),
+  ylabel = Correção da Terminação ($l_{M}$),
+  ]
+ \addplot[color=black, thick] table[x index=0,y index=1] {dados/duto_sugado/davis_analytical_loa.txt};
+ \addplot[color=black, mark=o, only marks] table[x index=0,y index=1] {dados/duto_sugado/davis_simulation_loa.txt};
+   
+  \end{axis}
+  \end{tikzpicture}
+  \caption[Coeficiente de correção da terminação ($l_{M}$) com escoamento sugado]{Resultado do coeficiente de correção da terminação $l_{M}$ em relação ao Mach para baixas frequências ($ka$ $<$ $0,25$) com escoamento sugado. A linha contínua apresenta o resultado do estudo de \citeonline{davies1987} e os pontos circulares representam os resultados calculados pela ferramenta computacional proposta nesse estudo. A correlação entre os resultados foi de 62,53 \%.}
+
+  \label{fig:abs_r_boca_sugado_loa}
+\end{figure}
