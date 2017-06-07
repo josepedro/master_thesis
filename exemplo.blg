@@ -24,12 +24,6 @@ Warning--entry type for "numeric_palabos" isn't style-file defined
 --line 83 of file bibliografia.bib
 Warning--entry type for "palabos" isn't style-file defined
 --line 265 of file bibliografia.bib
-Warning--entry type for "powerflow" isn't style-file defined
---line 348 of file bibliografia.bib
-Warning--entry type for "openmpi" isn't style-file defined
---line 355 of file bibliografia.bib
-Warning--entry type for "comsol" isn't style-file defined
---line 362 of file bibliografia.bib
 Warning--I didn't find a database entry for "abnt-year-extra-label=yes"
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -42,45 +36,45 @@ Warning--faltando school em viggen2014lattice
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 60 entries,
+You've used 57 entries,
             6480 wiz_defined-function locations,
-            1488 strings with 17867 characters,
-and the built_in function-call counts, 47341 in all, are:
-= -- 3445
-> -- 1698
+            1476 strings with 17637 characters,
+and the built_in function-call counts, 45589 in all, are:
+= -- 3311
+> -- 1653
 < -- 143
-+ -- 675
-- -- 503
-* -- 3473
-:= -- 6233
-add.period$ -- 186
-call.type$ -- 62
-change.case$ -- 597
-chr.to.int$ -- 180
-cite$ -- 57
-duplicate$ -- 2378
-empty$ -- 3478
-format.name$ -- 2465
-if$ -- 11237
++ -- 660
+- -- 488
+* -- 3365
+:= -- 5978
+add.period$ -- 174
+call.type$ -- 59
+change.case$ -- 579
+chr.to.int$ -- 177
+cite$ -- 54
+duplicate$ -- 2303
+empty$ -- 3307
+format.name$ -- 2396
+if$ -- 10812
 int.to.chr$ -- 3
 int.to.str$ -- 3
-missing$ -- 1035
-newline$ -- 290
-num.names$ -- 280
-pop$ -- 1232
+missing$ -- 990
+newline$ -- 275
+num.names$ -- 265
+pop$ -- 1172
 preamble$ -- 1
-purify$ -- 234
+purify$ -- 225
 quote$ -- 0
-skip$ -- 2738
+skip$ -- 2627
 stack$ -- 1
-substring$ -- 1980
-swap$ -- 1265
+substring$ -- 1918
+swap$ -- 1241
 text.length$ -- 103
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 6
 warning$ -- 1
-while$ -- 424
+while$ -- 406
 width$ -- 0
-write$ -- 935
-(There were 11 warnings)
+write$ -- 893
+(There were 8 warnings)

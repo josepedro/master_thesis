@@ -7,10 +7,10 @@
 Sistemas de fluxo de massa (exaustão e sucção) podem se tornar uma considerável fonte de ruído. Escapamentos, sistemas de ventilação, buzinas, motores aeronáuticos e aspiradores de pó são exemplos desses sistemas que estão altamente presentes no dia-a-dia. Cada vez mais a sociedade vem desenvolvendo consciência crítica dos danos que os ruídos desses tipos de sistemas podem acarretar a saúde da população. Tal fato é tão preponderante que, como é apresentado por \citeonline{munjal}, desde os anos da década de 1920 há registros de esforços para entender e caracterizar esses tipos sistemas, afim de colaborar com a manutenção e desenvolvimento de ambientes saudáveis no contexto acústico.
 
 % Falar sobre dutos
-Há vários elementos estruturais que podem compor sistemas de exaustão, mas os dutos circulares se caracterizam como fundamentais e bastante presentes. De acordo também com \citeonline{munjal}, o corpo de estudos e conhecimentos da acústica interna de dutos está bem estabelecido, mas verifica-se na literatura vários questionamentos sobre o funcionamento da dinâmica acústica de um duto na presença de escoamentos (fenômenos aeroacústicos). Em vista disso, caracterizar a acústica interna de dutos é de extrema importância visto as várias tecnologias relacionadas a sistemas de exaustão sem um amparo técnico bem estabelecido da literatura no ponto de vista da aeroacústica.
+Há vários elementos estruturais que podem compor sistemas de exaustão, mas os dutos circulares se caracterizam como fundamentais e bastante presentes. De acordo também com \citeonline{munjal}, o corpo de estudos e conhecimentos da acústica interna de dutos está bem estabelecido, mas verifica-se na literatura vários questionamentos sobre o funcionamento da dinâmica acústica de um duto na presença de escoamentos. Em vista disso, caracterizar a acústica interna de dutos é de extrema importância visto as várias tecnologias relacionadas a sistemas de exaustão sem um amparo técnico bem estabelecido da literatura no ponto de vista da aeroacústica.
 
 % Falar sobre coeficiente de reflexão e correção comprimento
-Em geral, pode-se utilizar dois parâmetros para caracterizar o campo acústico interno de dutos com paredes rígidas em baixas frequências:
+Em geral, quando o campo acústico interno é constituído por ondas planas (modos normais), o campo de pressão interno pode ser caracterizado pela condição de contorno na sáida do duto. Neste caso, pode-se utilizar os seguintes parâmetros para análise:
 
 \begin{itemize}
     \item a magnitude do coeficiente de reflexão $\|R\|$\simbolo{$\|R\|$}{Magnitude do coeficiente de reflexão}, razão entre as componentes refletida e incidente da onda no duto;
@@ -23,28 +23,35 @@ Com o uso desses dois parâmetros, pode-se prever de maneira mais precisa o camp
 
 \section{Problema}
 
-Com relação aos parâmetros acima discutidos, a solução exata para o problema de um duto circular não flangeado na ausência de escoamento foi proposta por \citeonline{levine1948radiation}. A solução assume que a espessura das paredes do duto são infinitamente finas e o fluido é inviscido. A partir destas simplificações, as expressões exatas para $\|R\|$ e $l$ são obtidas utilizando-se a técnica de Wiener-Hopf.
+Com relação aos parâmetros acima discutidos, a solução exata para o problema de um duto circular não flangeado na ausência de escoamento foi proposta por \citeonline{levine1948radiation}. A solução assume que a espessura das paredes do duto são infinitamente finas e o fluido é inviscido. A partir destas simplificações, as expressões exatas para $R_{r}$ e $l$ são obtidas utilizando-se a técnica de Wiener-Hopf. Vale ressaltar também que o mesmo modelo prevê a diretividade do som irradiado pelo duto assim como é feito pelos parâmetros abordados.
 
 Apesar da utilidade do modelo de Levine e Schwinger, em boa parte das aplicações práticas, dutos circulares transportam escoamentos médios. Para tais circunstâncias, \citeonline{munt1990acoustic} propôs um modelo analítico exato, também baseado na técnica de Wiener-Hopf, em que se considera a presença de um escoamento subsônico no interior do duto. Considera-se nesse modelo as premissas de que o escoamento é uniforme, invíscido e que a camada cisalhante do jato é infinitamente fina. Além disso, o modelo considera a condição de Kutta na borda do duto como condição de contorno de velocidade de partícula nessa região.
 
-É importante ressaltar que modelos exatos para os parâmetros de radiação de dutos se limitam a condições de contorno simples. No entanto, observa-se na prática situações diversas em que há presença de escoamentos de exaustão e sucção com diversas geometrias. Para estes casos, não existem modelos que considerem a influência do escoamento nas propriedades de radiação. Tal fato é bastante crítico pois o comportamento acústico de um sistema na presença de escoamentos internos muda consideralmente.
+É importante ressaltar que modelos exatos para os parâmetros de radiação de dutos se limitam a condições condição de contorno simples envolvendo um duto sem flange ou com flange infinito. No entanto, observa-se na prática situações dobservam-se na prática geometrias bastante distintas daquelas previstas pelos modelos analíticos disponíveis. Além disso, a presença de escoamentos, o que é comum nestes sistemas, muda consideravelmente o comportamento acústico do coeficiente de reflexão.
 
-Por conta da complexidade analítica em abordar o problema da radiação de dutos em condições geométricas reais, faz-se necessário a utilização de técnicas numéricas como alternativa na investigação desses fenômenos. $Softwares$ como \citeonline{comsol} e \citeonline{powerflow} possuem a viabilidade de realizar cálculos de fluido dinâmica computacional de sistemas complexos como carros e aviões. Essa capacidade técnica é oriunda em maior parte pelas tecnologias de processamento paralelo multinúcleo de processadores e implementações de seus respectivos $softwares$ protolocos como Open MPI \citeonline{openmpi}. Essa evolução tecnológica é fundamental para esse presente trabalho e vem sendo essencial também para o surgimento de outras ferramentas, que dão suporte a exploração e descoberta de novos fenômenos físicos, antes muitas vezes inviáveis de estudar por alto custo de bancadas experimentais ou alta complexidade na consolidação de um modelo matemático representativo. 
+Por conta da complexidade analítica em abordar o problema da radiação de dutos em condições geométricas reais, faz-se necessário a utilização de técnicas numéricas como alternativa na investigação desses fenômenos.
 
 
 % FALTA ARRUMAR OBJETIVOS E ORGANIZACAO DO TRABALHO
 \section{Objetivos}
 
-Considerando a problemática discutida acima, o objetivo principal desse trabalho é desenvolver uma ferramenta computacional para análise do comportamento acústico interno de dutos na presença de escoamentos de baixo número de Mach (M $<$ 0,2).
+Considerando a problemática discutida acima, o objetivo principal desse trabalho é desenvolver uma ferramenta computacional para análise do coeficiente de reflexão para modos normais em dutos na presença de escoamentos de baixo número de Mach (M $\leq$ 0,2).
 
 Tem-se como objetivos específicos:
 \begin{itemize}
-    \item implementar e validar o método numérico e condições de contorno no ponto de vista acústico;
-    \item implementar, validar e analisar o comportamento acústico interno de dutos não flangeados sem escoamento e com ondas planas;
-    \item implementar, validar e analisar o comportamento acústico interno de dutos não flangeados com escoamento de exaustão e com ondas planas;
-    \item implementar, validar e analisar o comportamento acústico interno de dutos não flangeados com escoamento sugado e com ondas planas.
+    \item implementar um esquema computacional para a avaliação do coeficiente de reflexão em dutos a partir do método de \textit{lattice} Boltzmann;
+    \item construir condições de contorno necessárias, afim de representar o problema da reflexão de onda em dutos na presença de baixos números de Mach;
+    \item implementar, validar e analisar o comportamento acústico interno de dutos não flangeados com e sem escoamento de exaustão e com ondas planas;
+    \item implementar e analisar o comportamento acústico interno de dutos não flangeados com escoamento sugado e com ondas planas.
 \end{itemize}
 
 \section{Organização do Trabalho}
 
-Esse trabalho está organizado em capítulos. O capítulo 2 apresenta a revisão bibliográfica do problema de acústica de dutos e a aplicação do método de \textit{lattice} Boltzmann nesse contexto. O capítulo 3 apresenta a metodologia do trabalho, apresentação do método numérico de \textit{lattice} Boltzmann, o \textit{software} desenvolvido como ferramenta computacional e o esquemático do modelo numérico. O capítulo 4 apresenta os resultados da implementação computacional, validações do modelo e análises com diferentes condições de escoamento. O capítulo 5 apresenta as conclusões e evoluções futuras do trabalho. Segue no final referências bibliográficas, apêndices e anexos.
+Esse trabalho está organizado em capítulos a partir da seguinte estrutura: 
+
+\begin{itemize}
+	\item o Capítulo 2 apresenta a revisão bibliográfica envolvendo os métodos analíticos exatos e aproximados para a radiação de modos normais em dutos. A utilização de métodos computacionais na abordagem do problema de radiação também é apresentada neste capítulo;
+	\item o Capítulo 3 apresenta o método de lattice Boltzmann utilizado neste trabalho e descreve o esquema numérico desenvolvido para as simulações;
+	\item o Capítulo 4 apresenta os resultados da implementação computacional, validações do modelo e análises com diferentes condições de escoamento;
+	\item o Capítulo 5 apresenta as conclusões e evoluções futuras do trabalho. Segue no final referências bibliográficas, apêndices e anexos.
+\end{itemize}

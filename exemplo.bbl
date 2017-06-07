@@ -24,11 +24,6 @@
 {CARRIER, G. \emph{Sound transmission from a tube with flow}.
 [S.l.], 1955.}
 
-\bibitem[COMSOL 2017]{comsol}
-\abntrefinfo{COMSOL}{COMSOL}{2017}
-{COMSOL, I. \emph{COMSOL Home page}. 2017.
-Dispon{\'\i}vel em: \url{https://br.comsol.com}.}
-
 \bibitem[Crouse et al. 2006]{crouse2006fundamental}
 \abntrefinfo{Crouse et al.}{CROUSE et al.}{2006}
 {CROUSE, B.; FREED, D.; BALASUBRAMANIAN, G.; SENTHOORAN, S.; LEW, P.-T.;
@@ -232,12 +227,6 @@ Dispon{\'\i}vel em: \url{http://www.paraview.org}.}
 \emph{Journal of Fluid Mechanics}, Cambridge Univ Press, v.~256, p. 499--534,
   1993.}
 
-\bibitem[PowerFLOW 2017]{powerflow}
-\abntrefinfo{PowerFLOW}{POWERFLOW}{2017}
-{POWERFLOW, I. \emph{EXA Home page}. 2017.
-Dispon{\'\i}vel em:
-  \url{http://exa.com/en/product/simulation-tools/powerflow-cfd-simulation}.}
-
 \bibitem[Premnath et al. 2013]{premnath2013investigation}
 \abntrefinfo{Premnath et al.}{PREMNATH et al.}{2013}
 {PREMNATH, K.~N.; PATTISON, M.~J.; BANERJEE, S. An investigation of the lattice
@@ -245,11 +234,6 @@ Dispon{\'\i}vel em:
   flow.
 \emph{Journal of Fluids Engineering}, American Society of Mechanical Engineers,
   v.~135, n.~5, p. 051401, 2013.}
-
-\bibitem[Project 2017]{openmpi}
-\abntrefinfo{Project}{PROJECT}{2017}
-{PROJECT, O.~M. \emph{Open MPI Project Home page}. 2017.
-Dispon{\'\i}vel em: \url{https://www.open-mpi.org}.}
 
 \bibitem[Qian et al. 1992]{qian1992lattice}
 \abntrefinfo{Qian et al.}{QIAN et al.}{1992}
