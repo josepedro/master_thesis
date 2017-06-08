@@ -8,12 +8,13 @@
 \contentsline {simb}{\hbox to\@tempdima {$c_{0}$\hfil }{Velocidade do som}}{29}
 \contentsline {simb}{\hbox to\@tempdima {$j$\hfil }{Unidade imagin\IeC {\'a}ria}}{29}
 \contentsline {simb}{\hbox to\@tempdima {$k$\hfil }{N\IeC {\'u}mero de onda}}{29}
+\contentsline {simb}{\hbox to\@tempdima {$\omega $\hfil }{Frequ\IeC {\^e}ncia angular em radianos}}{29}
 \contentsline {simb}{\hbox to\@tempdima {$ka$\hfil }{N\IeC {\'u}mero de Helmholtz}}{32}
 \contentsline {simb}{\hbox to\@tempdima {$M$\hfil }{N\IeC {\'u}mero de Mach}}{32}
-\contentsline {simb}{\hbox to\@tempdima {$Kp$\hfil }{Fator de perda}}{33}
-\contentsline {simb}{\hbox to\@tempdima {$R_{M}$\hfil }{Coeficiente de reflex\IeC {\~a}o em rela\IeC {\c c}\IeC {\~a}o ao Mach}}{33}
-\contentsline {simb}{\hbox to\@tempdima {$l_{M}$\hfil }{Coeficiente de corre\IeC {\c c}\IeC {\~a}o da termina\IeC {\c c}\IeC {\~a}o em rela\IeC {\c c}\IeC {\~a}o ao Mach}}{33}
-\contentsline {simb}{\hbox to\@tempdima {$St$\hfil }{N\IeC {\'u}mero de Strouhal}}{37}
+\contentsline {simb}{\hbox to\@tempdima {$Kp$\hfil }{Fator de perda}}{35}
+\contentsline {simb}{\hbox to\@tempdima {$R_{M}$\hfil }{Coeficiente de reflex\IeC {\~a}o em rela\IeC {\c c}\IeC {\~a}o ao Mach}}{35}
+\contentsline {simb}{\hbox to\@tempdima {$l_{M}$\hfil }{Coeficiente de corre\IeC {\c c}\IeC {\~a}o da termina\IeC {\c c}\IeC {\~a}o em rela\IeC {\c c}\IeC {\~a}o ao Mach}}{35}
+\contentsline {simb}{\hbox to\@tempdima {$St$\hfil }{N\IeC {\'u}mero de Strouhal}}{38}
 \contentsline {simb}{\hbox to\@tempdima {$f_{i}$\hfil }{Fun\IeC {\c c}\IeC {\~a}o de distribui\IeC {\c c}\IeC {\~a}o LBM na dire\IeC {\c c}\IeC {\~a}o $i$}}{42}
 \contentsline {simb}{\hbox to\@tempdima {$i$\hfil }{Dire\IeC {\c c}\IeC {\~a}o de propaga\IeC {\c c}\IeC {\~a}o LBM}}{42}
 \contentsline {simb}{\hbox to\@tempdima {$c_{i}$\hfil }{Velocidades de propaga\IeC {\c c}\IeC {\~a}o na dire\IeC {\c c}\IeC {\~a}o $i$}}{42}

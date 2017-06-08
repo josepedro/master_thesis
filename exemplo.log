@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  7 JUN 2017 19:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  8 JUN 2017 04:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1496,24 +1496,24 @@ Overfull \hbox (2.29408pt too wide) in paragraph at lines 7--8
 is-te-mas de exaust~ao
  []
 
-[29] <figuras/abs_r_comparacao.pdf, id=115, 526.01273pt x 433.25569pt>
+[29] <figuras/abs_r_comparacao.pdf, id=116, 526.01273pt x 433.25569pt>
 File: figuras/abs_r_comparacao.pdf Graphic file (type pdf)
 
 <use figuras/abs_r_comparacao.pdf>
-Package pdftex.def Info: figuras/abs_r_comparacao.pdf used on input line 29.
-(pdftex.def)             Requested size: 276.55891pt x 227.79318pt.
+Package pdftex.def Info: figuras/abs_r_comparacao.pdf used on input line 31.
+(pdftex.def)             Requested size: 245.83275pt x 202.4865pt.
  [30 <./figuras/abs_r_comparacao.pdf>]
-Overfull \hbox (0.7293pt too wide) in paragraph at lines 35--36
+Overfull \hbox (0.7293pt too wide) in paragraph at lines 37--38
 \OT1/cmr/m/n/10 onda re-fle-tida torna-se maior do que a da onda in-ci-dente. E
 ste fen^omeno
  []
 
-<figuras/loa_comparacao.pdf, id=121, 548.85324pt x 454.26555pt>
+<figuras/loa_comparacao.pdf, id=122, 548.85324pt x 454.26555pt>
 File: figuras/loa_comparacao.pdf Graphic file (type pdf)
 
 <use figuras/loa_comparacao.pdf>
-Package pdftex.def Info: figuras/loa_comparacao.pdf used on input line 39.
-(pdftex.def)             Requested size: 276.55891pt x 228.89973pt.
+Package pdftex.def Info: figuras/loa_comparacao.pdf used on input line 41.
+(pdftex.def)             Requested size: 245.83275pt x 203.46797pt.
  [31 <./figuras/loa_comparacao.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1521,21 +1521,30 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[34] [35]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36])
-(./capitulos/metodologia.tex [37] [38
+ [35]
+Underfull \vbox (badness 1077) has occurred while \output is active []
 
-]
+ [36]
+[37]) (./capitulos/metodologia.tex [38]
 Cap\'{\i }tulo 3.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39]
+ [39
+
+]
 Overfull \hbox (1.90523pt too wide) in paragraph at lines 15--16
 \OT1/cmr/m/n/10 Vig-gen (2013) in-ves-ti-gou os efei-tos da adi^^Xc~ao de ter-m
 os fon-tes no m^^Setodo
@@ -1557,7 +1566,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [42]
-[43] <figuras/d3q19.pdf, id=165, 677.53125pt x 557.83406pt>
+[43] <figuras/d3q19.pdf, id=166, 677.53125pt x 557.83406pt>
 File: figuras/d3q19.pdf Graphic file (type pdf)
 
 <use figuras/d3q19.pdf>
@@ -1570,7 +1579,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [46]
-<figuras/bounceback.pdf, id=180, 1081.05896pt x 781.19662pt>
+<figuras/bounceback.pdf, id=181, 1081.05896pt x 781.19662pt>
 File: figuras/bounceback.pdf Graphic file (type pdf)
 
 <use figuras/bounceback.pdf>
@@ -1598,7 +1607,7 @@ Overfull \hbox (1.34967pt too wide) in paragraph at lines 271--272
  []
 
 [50] [51]
-<figuras/palabos_modelo_fluxo.pdf, id=200, 380.45247pt x 488.79149pt>
+<figuras/palabos_modelo_fluxo.pdf, id=201, 380.45247pt x 488.79149pt>
 File: figuras/palabos_modelo_fluxo.pdf Graphic file (type pdf)
 
 <use figuras/palabos_modelo_fluxo.pdf>
@@ -1630,7 +1639,7 @@ LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 ) [54]
-<figuras/modelo_numerico_2.pdf, id=213, 1247.06013pt x 484.18246pt>
+<figuras/modelo_numerico_2.pdf, id=214, 1247.06013pt x 484.18246pt>
 File: figuras/modelo_numerico_2.pdf Graphic file (type pdf)
 
 <use figuras/modelo_numerico_2.pdf>
@@ -1708,7 +1717,7 @@ PGFPlots: reading {dados/duto_sugado/davis_simulation_loa.txt}
 )
 (./capitulos/conclusoes.tex [74]
 Cap\'{\i }tulo 5.
-<figuras/cronograma.png, id=279, 796.9775pt x 400.49625pt>
+<figuras/cronograma.png, id=280, 796.9775pt x 400.49625pt>
 File: figuras/cronograma.png Graphic file (type png)
 
 <use figuras/cronograma.png>
@@ -1731,10 +1740,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 31450 strings out of 493029
- 713040 string characters out of 6136233
- 950244 words of memory out of 5000000
- 34270 multiletter control sequences out of 15000+600000
+ 31455 strings out of 493029
+ 713187 string characters out of 6136233
+ 952317 words of memory out of 5000000
+ 34275 multiletter control sequences out of 15000+600000
  7770 words of font info for 29 fonts, out of 8000000 for 9000
  1149 hyphenation exceptions out of 8191
  62i,14n,83p,1569b,1919s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1747,15 +1756,16 @@ f-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cmextra/cmmib7.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on exemplo.pdf (83 pages, 563211 bytes).
+ublic/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on exemplo.pdf (83 pages, 573221 bytes).
 PDF statistics:
- 355 PDF objects out of 1000 (max. 8388607)
- 242 compressed objects within 3 object streams
+ 359 PDF objects out of 1000 (max. 8388607)
+ 245 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

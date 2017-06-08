@@ -5,6 +5,12 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{1.45.2.1 }
 
+\bibitem[Alfredson e Davies 1970]{alfredson1970radiation}
+\abntrefinfo{Alfredson e Davies}{ALFREDSON; DAVIES}{1970}
+{ALFREDSON, R.; DAVIES, P. The radiation of sound from an engine exhaust.
+\emph{Journal of Sound and Vibration}, Elsevier, v.~13, n.~4, p. 389--408,
+  1970.}
+
 \bibitem[Allam e {\AA}bom 2006]{allam2006investigation}
 \abntrefinfo{Allam e {\AA}bom}{ALLAM; {\AA}BOM}{2006}
 {ALLAM, S.; {\AA}BOM, M. Investigation of damping and radiation using full
