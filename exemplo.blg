@@ -13,17 +13,17 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: abnt-options.bib
 Database file #2: bibliografia.bib
 Warning--entry type for "matlab" isn't style-file defined
---line 15 of file bibliografia.bib
-Warning--entry type for "octave" isn't style-file defined
---line 22 of file bibliografia.bib
-Warning--entry type for "palabos_acoustic" isn't style-file defined
---line 29 of file bibliografia.bib
-Warning--entry type for "paraview" isn't style-file defined
 --line 36 of file bibliografia.bib
+Warning--entry type for "octave" isn't style-file defined
+--line 43 of file bibliografia.bib
+Warning--entry type for "palabos_acoustic" isn't style-file defined
+--line 50 of file bibliografia.bib
+Warning--entry type for "paraview" isn't style-file defined
+--line 57 of file bibliografia.bib
 Warning--entry type for "numeric_palabos" isn't style-file defined
---line 92 of file bibliografia.bib
+--line 113 of file bibliografia.bib
 Warning--entry type for "palabos" isn't style-file defined
---line 274 of file bibliografia.bib
+--line 295 of file bibliografia.bib
 Warning--I didn't find a database entry for "abnt-year-extra-label=yes"
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -38,43 +38,43 @@ Warning--faltando school em viggen2014lattice
 +---------------------------------------------------------+
 You've used 58 entries,
             6480 wiz_defined-function locations,
-            1482 strings with 17748 characters,
-and the built_in function-call counts, 46508 in all, are:
-= -- 3382
-> -- 1686
+            1478 strings with 17677 characters,
+and the built_in function-call counts, 46159 in all, are:
+= -- 3357
+> -- 1659
 < -- 147
-+ -- 673
-- -- 498
-* -- 3436
-:= -- 6093
++ -- 663
+- -- 491
+* -- 3406
+:= -- 6060
 add.period$ -- 177
 call.type$ -- 60
-change.case$ -- 590
-chr.to.int$ -- 181
+change.case$ -- 583
+chr.to.int$ -- 180
 cite$ -- 55
-duplicate$ -- 2351
-empty$ -- 3369
-format.name$ -- 2443
-if$ -- 11028
-int.to.chr$ -- 3
+duplicate$ -- 2335
+empty$ -- 3348
+format.name$ -- 2405
+if$ -- 10934
+int.to.chr$ -- 4
 int.to.str$ -- 3
-missing$ -- 1008
-newline$ -- 280
+missing$ -- 1003
+newline$ -- 282
 num.names$ -- 270
-pop$ -- 1192
+pop$ -- 1175
 preamble$ -- 1
-purify$ -- 229
+purify$ -- 227
 quote$ -- 0
-skip$ -- 2675
+skip$ -- 2661
 stack$ -- 1
 substring$ -- 1969
-swap$ -- 1269
+swap$ -- 1261
 text.length$ -- 106
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
+type$ -- 8
 warning$ -- 1
 while$ -- 415
 width$ -- 0
-write$ -- 911
+write$ -- 912
 (There were 8 warnings)

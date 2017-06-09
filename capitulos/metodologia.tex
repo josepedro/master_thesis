@@ -1,12 +1,12 @@
 \chapter{Metodologia}
 
-Assim como foi discutido no capítulo anterior, para obter os parâmetros de caracterização da acústica interna de dutos circulares com escoamento, é preciso de um modelo que suporte a interação fluxo de massa e variação de pressão. Portanto modelos baseados em métodos de fluido dinâmica computacional se mostram adequados, principalmente aqueles baseados no método de \textit{lattice} Boltzmann assim como foi mostrado anteriormente nos trabalhos de \citeonline{da2006lattice} e \citeonline{da2009sound}. Nesse sentido, há traballhos que validam, aplicam e desenvolvem metodologias de \textit{lattice} Boltzmann no campo de estudo da aeroacústica.
+Tal como foi discutido no capítulo anterior, para a investigação do coeficiente de reflexão na presença de escoamento, faz-se ncessária a utilização de esquemas numéricos que integrem na mesma estrutura a parte fluido dinâmica e acústica. Neste sentido, o método de lattice Boltzmann mostra-se adequado, sobretudo quando são considerados baixos númoeros de Mach ($M$ $<$ 0,2) e baixos números de Reynolds ($Re$ $<$ 5515). Nesse sentido, há traballhos que validam, aplicam e desenvolvem metodologias de \textit{lattice} Boltzmann no campo de estudo da aeroacústica.
 
-Um desses estudos é o de \citeonline{crouse2006fundamental}, que mostraram a eficácia do método de \textit{lattice} Boltzmann em recuperar as equações de Navier-Stokes de transiente, compressível e viscosa. Há de se ressaltar que validaram também o modelo numérico de um ressonador de Helmholtz com um modelo experimental do mesmo, demonstrando assim a viabilidade da aplicação para problemas de acústica.
+Um desses estudos é o de \citeonline{crouse2006fundamental}, que mostraram a eficácia do método de \textit{lattice} Boltzmann em recuperar as equações de Navier-Stokes para baixas compressibilidades ($M$ $<$ 0,3). Há de se ressaltar que validaram também o modelo numérico de um ressonador de Helmholtz com um modelo experimental do mesmo, demonstrando assim a viabilidade da aplicação para problemas de acústica.
 
-No que se trata de desenvolvimento de ferramentas auxiliares para tratar problemas acústicos, \citeonline{kam2006non} desenvolveu uma condição de contorno que caracteriza dissipação de energia acústica e fluido dinâmica, ou seja, uma condição de contorno anecóica. Ela se baseia no acoplamento de mais um termo na equação de Boltzmann para gerar uma região de amortecimento, redirecionando os valores de densidade e velocidade das partículas para um valor alvo, que seria no caso valores médios de densidade e velocidade num fluido em repouso.
+No que se trata de desenvolvimento de ferramentas auxiliares para tratar problemas acústicos, \citeonline{kam2006non} desenvolveram uma condição de contorno absorvente, baseada na técnica de camadas perfeitamente casadas (``\textit{perfectly} \textit{matched} \textit{layers}''). Essencialmente, a técnica se baseia na criação de uma camada com viscosidade crescente exponencialmente na direção exterior do domínio computacional.
 
-\citeonline{marie2009} analisou e comparou esquemas de alta ordem das equações de Navier-Stokes linearizadas com o método de \textit{lattice} Boltzmann. O objeto de estudo para comparação foi análises de dispersão e dissipação de ondas acústicas em regime isotérmico. Conclui-se com esse trabalho que para um determinado erro de dispersão o método de \textit{lattice} Boltzmann se comportou como mais rápido.
+\citeonline{marie2009} analisou e comparou esquemas de alta ordem das equações de Navier-Stokes linearizadas com o método de \textit{lattice} Boltzmann. O objeto de estudo para comparação foi análises de dispersão e dissipação de ondas acústicas em regime isotérmico. Conclui-se com esse trabalho que para um erro de dispersão pré-definino, o método de \textit{lattice} Boltzmann se comportou como mais rápido.
 
 No que diz respeito a aplicação do método de \textit{lattice} Boltzmann num problema de aeroacústica, \citeonline{lew2010noise} desenvolveram um modelo numérico em 3D para predição de ruído em um jato turbulento subsônico. Como validação os resultados foram comparados com resultados experimentais e cálculos numéricos feitos a base de \textit{Large} \textit{Eddy} \textit{Simulation} (LES)\abreviatura{LES}{\textit{Large} \textit{Eddy} \textit{Simulation}}. Esse estudo demonstrou as principais vantagens de se trabalhar com o método de \textit{lattice} Boltzmann como por exemplo o baixo custo computacional e a facilidade em inserir \textit{nozzles} com formas complexas no domínio computacional.
 
@@ -18,16 +18,17 @@ Já no sentido de tratamento de fenômenos da acústica básica, \citeonline{vig
 
 Investigar a acústica interna de dutos circulares com escoamentos é um processo que deve ter suporte de ferramentas bem específicas, como por exemplo o método numérico de \textit{lattice} Boltzmann. Esse capítulo portanto abordará esse método e as condições de uso implementadas, validadas e verificadas num \textit{software} de código aberto chamado \citeonline{palabos}. Abordar o uso de um \textit{software} de código aberto possibilita a verificação transparente dos processos de cálculo bem como adaptações com novas implementações dentro do projeto, focando a melhor aderência da ferramenta computacional para resolução do problema.
 
+O presente Capítulo apresenta o método de lattice Boltzmann utilizado neste trabalho e descreve a construção de um modelo tridimensional de duto não-flangeado utilizando a plataforma de código aberto Palabos. Detalhes sobre a elaboração do modelo são discutidos detalhadamente nas seções subsequentes.
 
 \section{O Método de Lattice Boltzmann}
 
-O método de \textit{lattice} Boltzmann possui bastante utilidade quando se trata de problemas aeroacústicos, pequenas flutuações de pressão e fenômentos de turbulência. Isso se deve pelo fato do método ter surgido de uma outra abordagem de fenômenos mecânicos aplicados a fluidos - uma abordagem microscópica de interações entre moléculas.
+O método de \textit{lattice} Boltzmann possui bastante utilidade quando se trata de problemas aeroacústicos, pequenas flutuações de pressão e fenômentos de turbulência. Isso se deve ao fato do método ter surgido de uma outra abordagem de fenômenos mecânicos aplicados a fluidos - uma abordagem microscópica de interações entre moléculas.
 
-Essa abordagem se chama Dinâmica Molecular (DM)\abreviatura{DM}{Dinâmica Molecular} e é baseada nas formulações Newtonianas de choque e propagação de partículas, em outras palavras, as posições no espaço e as velocidades podem ser obtidas a partir da aplicação da segunda lei de Newton para cada partícula. Segundo essa ideia, outras propriedades do fluido como densidade, pressão e temperatura podem ser facilmente recuperadas através do cáculo da média correspondente a um conjunto de partículas. Porém o principal problema dessa abordagem é que há uma grande quantidade de equações para se resolver num pequeno volume de fluido, pois, considerando que, de acordo com o número de Avogrado, nesse mesmo volume há na ordem de $10^{23}$ moléculas para calular os movimentos cinéticos. Tal fato se torna inviável para implementação mesmo com computadores potentes como \textit{clusters} de alto desempenho.
+Essa abordagem se chama Dinâmica Molecular (DM)\abreviatura{DM}{Dinâmica Molecular} e é baseada na premissa de que cada partícula pode ter suas posições no espaço e velocidades obtidas a partir da aplicação da segunda lei de Newton. Segundo essa ideia, outras propriedades do fluido como densidade, pressão e temperatura podem ser facilmente recuperadas através do cáculo da média correspondente a um conjunto de partículas. Porém o principal problema dessa abordagem é que há uma grande quantidade de equações para se resolver num pequeno volume de fluido, pois, considerando que, de acordo com o número de Avogrado, nesse mesmo volume há na ordem de $10^{23}$ moléculas para calular os movimentos cinéticos. Tal fato se torna inviável para implementação mesmo com computadores potentes como \textit{clusters} de alto desempenho.
 
-Uma solução para contornar o problema da grande quantidade de equações do movimento é abordar o fenômeno físico estatisticamente, ou seja, formular a evolução do movimento do fluido no tempo em termos de uma equação de transporte: uma função de distribuição de partículas. Uma equação de transporte bastante apropriada é a equação de Boltzmann que, ao ser discretizada, pode ser resolvida de forma numérica originando assim o método de \textit{lattice} Boltzmann ou \textit{lattice} \textit{Boltzmann} \textit{Method} (LBM)\abreviatura{LBM}{\textit{Lattice} \textit{Boltzmann} \textit{Method}}.
+Uma solução para contornar o problema da grande quantidade de equações do movimento é abordar o fenômeno físico pelo ponto de vista de distribuição de moléculas, a qual se convêm chamar de partícula. Nesse caso, cada partícula é descrita a partir de uma função de distribuição, a qual indica a probabilidade de se encontrar numa dada região espacial e em um determinado instante de tempo, um conjunto de moléculas que compartilham a mesma velocidade e direção de propagação. A equação de transporte que rege a propagação das partículas e a difusão da quantidade de movimento das mesmas a partir de suas colisões é a Equação de Boltzmann que, ao ser discretizada, pode ser resolvida numericamente originando assim o método de \textit{lattice} Boltzmann ou \textit{lattice} \textit{Boltzmann} \textit{Method} (LBM)\abreviatura{LBM}{\textit{Lattice} \textit{Boltzmann} \textit{Method}}. 
 
-Historicamente o método de \textit{lattice} Boltzmann se originou a partir de um modelo de DM chamada \textit{Lattice} \textit{Gas} \textit{Automata} (LGA)\abreviatura{LGA}{\textit{Lattice} \textit{Gas} \textit{Automata}}. Esse modelo surgiu nos anos 80 com o estudo de \citeonline{frisch1986} mostrando a recuperação das equações de Navier-Stokes para pequenos números de Knudsen. Como esse modelo funciona somente para choque de partículas singulares, houve a necessidade de um modelo mais sofisticado e completo, então nos anos 90 e 2000 os trabalhos de \citeonline{sterling1996} e \citeonline{wolf2004} consolidaram o LBM sanando essa limitação com um processo de choques de conjunto de partículas.
+Historicamente o método de \textit{lattice} Boltzmann se originou no final da década de 40 para o começo da década de 50 com os trabalhos de \citeonline{grad1949kinetic} e \citeonline{bgk}. Esses trabalhos mostram que as equações de Boltzmann podem recuperar as equações macroscópicas de Navier-Stokes através da expansão de Chapman–Enskog. Nos anos 90 o trabalho de \citeonline{he1997theory} mostrou que a forma discreta da equação de Boltzmann também recupera as eaquações de Navier Stokes para baixas compressibilidades (baixos números de Mach). Isto fornece uma ligação formal entre as equações macroscópicas de lattice Boltzmann e as equações de Navier-Stokes para baixas compressibilidades, além de possibilitar a implementação computacional desse método.
 
 O LBM possui muitas vantagens em relação a técnicas tradicionais de fluido dinâmica computacional aplicadas a aeroacústica: resolve o campo acústico e o campo fluido dinâmico numa mesma iteração em cada incremento de tempo, extração direta do campo de pressão e fácil implementação paralela elevando assim a performance frente a outros métodos.
 
@@ -38,7 +39,7 @@ O LBM, baseado em operações de colisão e propagação de funções de distrib
 	f_{i}(\textbf{x} + c_{i}\Delta t, t + \Delta t) = f_{i}(\textbf{x}, t) + \Omega_{i}(f(\textbf{x}, t)),
     \label{eq:f_i}
 \end{equation}
-sendo que $i$ é um número inteiro que delimita direções no espaço de propagação de partículas, $f_{i}$ são funções de distribuição na direção $i$, $c_{i}$ são velocidades de propagação na direção $i$ e $\Delta t$ é o incremento discreto de tempo. 
+sendo que $i$ é um número inteiro que delimita direções no espaço de propagação de partículas, $f_{i}$ é a função de distribuição em uma dada direção $i$, $c_{i}$ são velocidades de propagação na direção $i$ e $\Delta t$ é o incremento de tempo. 
 \simbolo{$f_{i}$}{Função de distribuição LBM na direção $i$}
 \simbolo{$i$}{Direção de propagação LBM}
 \simbolo{$c_{i}$}{Velocidades de propagação na direção $i$}
@@ -46,14 +47,14 @@ sendo que $i$ é um número inteiro que delimita direções no espaço de propag
 \simbolo{$t$}{Localização temporal de uma célula LBM}
 \simbolo{$\Delta t$}{Incremento discreto de tempo}
 
-A equação \ref{eq:f_i} é dividida nas duas operações básicas do método: propagação e colisão. O lado esquerdo dessa equação representa a operação de propagação, na qual os valores das funções de distribuição de cada célula são movidos para cada direção de propagação para uma próxima célula no espaço em cada iteração no tempo. Feita a operação de propagação, é realizada a operação de colisão, representada pelo lado direito da equação, na qual o termo $\Omega_{i}$\simbolo{$\Omega_{i}$}{Operador de colisão LBM} representa o operador de colisão.
+A equação \ref{eq:f_i} é dividida nas duas operações básicas: propagação e colisão. O lado esquerdo dessa equação representa a operação de propagação, na qual os valores das funções de distribuição de cada célula são movidos para cada direção de propagação para uma próxima célula no espaço em cada iteração no tempo. Feita a operação de propagação, é realizada a operação de colisão, representada pelo lado direito da equação, na qual o termo $\Omega_{i}$\simbolo{$\Omega_{i}$}{Operador de colisão LBM} representa o operador de colisão.
 
 Uma das formas de calcular o operador de colisão $\Omega_{i}$ é usar a formulação proposta no estudo de \citeonline{bgk}. A aplicação dessa formulação consolida o modelo BGK (Bhatnagar–Gross–Krook)\abreviatura{BGK}{Bhatnagar–Gross–Krook} ou modelo de tempo de relaxação único: \textit{single}-\textit{relaxation}-\textit{time} (SRT)\abreviatura{SRT}{\textit{single}-\textit{relaxation}-\textit{time}}. Nesse sentido, o operador de colisão é definido por
 \begin{equation}
 	\Omega_{i} = -\frac{1}{\tau}(f_{i} - f_{i}^{M}),
     \label{eq:omega_i}
 \end{equation}
-tal que $\tau$\simbolo{$\tau$}{Período de colisão LBM} é o período de colisão e $f_{i}^{M}$\simbolo{$f_{i}^{M}$}{Função de distribuição de Maxwell ou de equilíbrio} é a função de distribuição de Maxwell ou função de distribuição de equilíbrio.
+tal que $\tau$\simbolo{$\tau$}{Período de colisão LBM} é o período de colisão, período médio de colisão entre partículas, e $f_{i}^{M}$\simbolo{$f_{i}^{M}$}{Função de distribuição de Maxwell ou de equilíbrio} é a função de distribuição de Maxwell ou função de distribuição de equilíbrio.
 
 A função de distribuição de Maxwell $f_{i}^{M}$ pode ser calculada aplicando o princípio de máxima entropia de acordo com as retrições das leis de conservação de massa e quantidade de movimento, assim como é proposto por \citeonline{wolf}. Dessa forma a função de distribuição de Maxwell é definida por
 \begin{equation}
@@ -66,20 +67,24 @@ sendo que $\rho$ é a densidade local do fluido, $\varepsilon_{i}$ são pesos de
 \simbolo{$\textbf{u}$}{Velocidade local do fluido}
 \simbolo{$c_{s}$}{Velocidade do som}
 
-\newpage
-Os parâmetros macroscópicos de densidade local do fluido $\rho$, velocidade local do fluido $\textbf{u}$, pressão local do fluido $p$ e a viscosidade cinemática $\nu$ podem ser obtidos a partir dos momentos da função de distribuição $f_{i}$ nas formas
+Os parâmetros macroscópicos de densidade local do fluido $\rho$ e a velocidade local do fluido $\textbf{u}$ podem ser obtidos a partir dos momentos da função de distribuição $f_{i}$ das seguintes maneiras
+
 \begin{equation}
-	\rho = \sum{f_{i}},
+  \rho = \sum{f_{i}} \text{   e }
     \label{eq:rho}
 \end{equation}
 \begin{equation}
-	\rho \textbf{u} = \sum{f_{i} c_{i}},
+  \rho \textbf{u} = \sum{f_{i} c_{i}}.
     \label{eq:u}
 \end{equation}
+
+A partir da equação de estado isoentrópica linear, a pressão local do fluido $p$ pode ser obtida na forma
 \begin{equation}
-	p = \rho c^{2}_{s} \text{ e }
+  p = \rho c^{2}_{s}.
     \label{eq:p}
 \end{equation}
+
+A viscosidade cinemática $\nu$ é um parâmetro que é função do período de colisão $\tau$ e pode ser obtida com a equação
 \begin{equation}
 	\nu = c^{2}_{s} \bigg(\tau - \frac{1}{2}\bigg).
     \label{eq:nu}
@@ -87,7 +92,55 @@ Os parâmetros macroscópicos de densidade local do fluido $\rho$, velocidade lo
 \simbolo{$p$}{Pressão local do fluido}
 \simbolo{$\nu$}{Viscosidade cinemática do fluido}
 
-Há vários modelos de célula do tipo BGK, o grupo do tipo $D_{n}Q_{b}$ ($n$ dimensões e $b$ direções de propagação ou velocidades) é um dos mais usados e foi proposto por \citeonline{qian1992lattice}. A tabela \ref{table:modelos} mostra os parâmetros para cada um dos modelos do tipo $D_{n}Q_{b}$.
+Quando as equações \ref{eq:rho}, \ref{eq:u}, \ref{eq:p} e \ref{eq:nu} são usadas para recuperar os atributos macroscópicos do fluido a unidade de medida não é uma unidade física. Segudo o trabalho de \citeonline{da2016prediction}, para se ter esses atributos em unidade física é preciso aplicar regras de conversão. Essas regras de conversão se baseiam em duas constantes que são definidas a partir de unidades físicas: velocidade característica definida por   
+\begin{equation}
+  \zeta = c^{*}/c_{s},
+    \label{eq:conversao_1}
+\end{equation}
+em que $c^{*}$ é a velocidade física do som, e discretização $\Delta x$ definida pelo tamanho de uma célula dado em metros.
+
+Com os parâmetros $c^{*}$ e $\Delta x$ pode-se realizar as seguintes conversões para unidades físicas, notadas com o superíndice $*$:
+
+\begin{equation}
+  \textbf{$u^{*}$} = \zeta \textbf{$u$}\text{, }
+  \label{eq:conversao_2}
+\end{equation}
+
+\begin{equation}
+  \textbf{$x^{*}$} = \Delta x\textbf{$x$}\text{, }
+  \label{eq:conversao_3}
+\end{equation}
+  
+\begin{equation}
+  t^{*} = \frac{\Delta x}{\zeta}t \text{, }
+  \label{eq:conversao_4}
+\end{equation}
+
+\begin{equation}
+  \nu^{*} = \zeta \Delta x \nu\text{, }
+  \label{eq:conversao_5}
+\end{equation}
+
+\begin{equation}
+  \rho^{*} = \frac{\zeta}{\Delta x} \rho \text{, }
+  \label{eq:conversao_6}
+\end{equation}
+
+\begin{equation}
+  p^{*} = p \zeta^{2}  \rho^{*}_{0} \text{ e }
+  \label{eq:conversao_7}
+\end{equation}
+
+\begin{equation}
+  f^{*} = f\frac{\zeta}{\Delta x},
+  \label{eq:conversao_8}
+\end{equation}
+
+tal que $f^{*}$ e $f$ são unidades de frequências física e do LBM respectivamente\simbolo{$f^{*}$}{Frequência física}\simbolo{$f$}{Frequência em LBM}.
+
+Há várias geometrias de célula do tipo BGK, o grupo do tipo $D_{n}Q_{b}$ ($n$ dimensões e $b$ direções de propagação ou velocidades) é um dos mais usados e foi proposto por \citeonline{qian1992lattice}. A tabela \ref{table:modelos} mostra os parâmetros para cada um dos modelos do tipo $D_{n}Q_{b}$, seus diferentes vetores de velocidades de propagação ($c_{i}$), seus respectivos pesos $\varepsilon_{i}$ e as suas constantes de velocidade do som ($c_{s}$). Esses valores são obtidos para cada geometria, de forma que se mantenham a conservação da massa e da quantidade de movimento. Portanto com esses parâmetros já se torna possível calcular a função de Maxwell ($f_{i}^{M}$) para cada operação de colisão em cada iteração de tempo.
+
+Para esse trabalho usou-se o modelo D3Q19 e a Figura \ref{fig:d3q19} ilustra um esquemático desse tipo de célula e é possível visualizar espacialmente as direções de propagação. Vale ressaltar que para cada direção há o cáculo da função de Maxwell ($f_{i}^{M}$) e, por conseguinte, a operação de propagação das funções de distribuição para a célula adjacente no sentido de cada direção.
 
 \begin{table}[ht!]
 \centering
@@ -121,31 +174,63 @@ D3Q19  & $(\pm 1,0,0)$, $(0,\pm 1,0)$, $(0,0,\pm 1)$, & $1/18$,               & 
 \end{tabular}
 \end{table}
 
-De acordo com a tabela \ref{table:modelos}, é possível ter uma visão clara que para cada modelo de célula do tipo $D_{n}Q_{b}$ há diferentes vetores de velocidades de propagação ($c_{i}$), seus respectivos pesos $\varepsilon_{i}$ e as suas constantes de velocidade do som ($c_{s}$). Com esses parâmetros já se torna possível calcular a função de Maxwell ($f_{i}^{M}$) para cada operação de colisão em cada iteração de tempo. Para esse trabalho usou-se o modelo D3Q19 e a Figura \ref{fig:d3q19} ilustra um esquemático desse tipo de célula.
-
 \begin{figure}[ht!]
 \centering
-  \includegraphics[width=.8\linewidth]{figuras/d3q19.pdf}
+  \includegraphics[width=.75\linewidth]{figuras/d3q19.pdf}
   \caption[Esquemático do D3Q19]{Esquemático do modelo D3Q19. Ilustração adaptada do estudo de \citeonline{premnath2013investigation}.}
   \label{fig:d3q19}
 \end{figure}
 
-Na Figura \ref{fig:d3q19} é possível visualizar espacialmente as direções de propagação da célula. Vale ressaltar que para cada direção há o cáculo da função de Maxwell ($f_{i}^{M}$) e, por conseguinte, a operação de propagação das funções de distribuição para a célula adjacente no sentido de cada direção.
-
+\newpage
 \subsection{Múltiplos Tempos de Relaxação}
 
-A equação \ref{eq:omega_i} retrata um operador de colisão com tempo de relaxação único. Essa abordagem é funcional porém, em regimes de pouca viscosidade cinemática como é o caso do ar, começa a desenvolver várias instabilidades e divergências como mostra o estudo de \citeonline{lallemand2000theory}. Para esses tipos de problemas a abordagem de múltiplos tempos de relaxação, \textit{multiple}-\textit{relaxation}-\textit{time} (MRT)\abreviatura{MRT}{\textit{multiple}-\textit{relaxation}-\textit{time}}, pode ser usada assim como é mostrado nos estudos de \citeonline{viggen2014lattice}.
+A equação \ref{eq:omega_i} retrata um operador de colisão com tempo de relaxação único para todas as direções de propagação $i$. Essa abordagem é funcional, porém limitada à estabilidade em baixos números de Reynolds como mostra o estudo de \citeonline{lallemand2000theory}. Para esses tipos de problemas a abordagem de múltiplos tempos de relaxação (MRT)\abreviatura{MRT}{\textit{multiple}-\textit{relaxation}-\textit{time}}, pode ser usada assim como é mostrado nos estudos de \citeonline{viggen2014lattice}.
 
-De acordo com o esquema proposto por \citeonline{d1994generalized}, a formulação de MRT se baseia na troca do parâmetro de único tempo de relaxação $\tau$ por uma matriz \textbf{$\Lambda$} de vários tempos de relaxação. Todavia a matriz \textbf{$\Lambda$} é construída de acordo com uma matriz \textbf{$M$} que projeta as funções de distribuição $f_{i}$ e $f_{i}^{M}$ no espaço dos momentos. De acordo com \citeonline{lallemand2000theory}, a possibilidade desse método ser mais estável é oriunda da capacidade de operar a colisão das células com um tempo de relaxação apropriado para cada um dos vários momentos, projetados a partir das funções de distribuição $f_{i}$ e $f_{i}^{M}$. Em vista do exposto o operador de colisão da equação \ref{eq:omega_i} se transforma em
+Seguindo a formulação proposta por \citeonline{d1994generalized}, a formulação de MRT se baseia na troca do parâmetro de único tempo de relaxação $\tau$ por uma matriz \textbf{$\Lambda$} de vários tempos de relaxação. Todavia a matriz \textbf{$\Lambda$} é construída de acordo com uma matriz \textbf{$M$} que projeta as funções de distribuição $f_{i}$ e $f_{i}^{M}$ no espaço dos momentos. De acordo com \citeonline{lallemand2000theory}, a possibilidade desse método ser mais estável é oriunda da capacidade de operar a colisão das células com um tempo de relaxação apropriado para cada um dos vários momentos, projetados a partir das funções de distribuição $f_{i}$ e $f_{i}^{M}$. Em vista do exposto o operador de colisão da equação \ref{eq:omega_i} se transforma em
 \begin{equation}
 	\Omega_{i} = -\textbf{$\Lambda$}(f_{i} - f_{i}^{M}).
     \label{eq:MRT_1}
 \end{equation}
-Porém a operação de colisão é realizada no espeço dos momentos, logo é preciso projetar $f_{i}$ e $f_{i}^{M}$ no espeço dos momentos ficando
+Porém a operação de colisão é realizada no espaço dos momentos. Logo é preciso projetar $f_{i}$ e $f_{i}^{M}$ no espaço dos momentos impondo
 \begin{equation}
-	m_{i} = \textbf{$M$}f_{i} \text{ e } m_{i}^{M} = \textbf{$M$}f_{i}^{M}.
+	m_{i} = \textbf{$M$}f_{i} \text{ e } m_{i}^{M} = \textbf{$M$}f_{i}^{M},
     \label{eq:MRT_2}
 \end{equation}
+tal que, segundo \citeonline{d1994generalized} e para o caso do modelo D3Q19, a matriz \textbf{$M$} assume a forma
+
+% \begin{equation}
+%   \tiny {\begin{bmatrix}
+% a & b & t \\
+% \end{bmatrix}  }
+% \end{equation}
+
+\setcounter{MaxMatrixCols}{19}
+\begin{equation}
+\textbf{$M$} = 
+\tiny{\begin{bmatrix}
+A &   A &   A &   A &   A &   A &   A &   A &   A &   A &   A &   A &   A &   A &   A &   A &   A &   A &   A \\ 
+ B & C & C & C & C & C & C &   D &   D &   D &   D &   D &   D &   D &   D &   D &   D &   D &   D \\ 
+  E &  F &  F &  F &  F &  F &  F &   A &   A &   A &   A &   A &   A &   A &   A &   A &   A &   A &   A \\ 
+   G &   A &  J &   G &   G &   G &   G &   G &   G &   G &   G &  J &   A &  J &   A &  J &   A &  J &   A \\ 
+   G &  F &   K &   G &   G &   G &   G &   G &   G &   G &   G &  J &   A &  J &   A &  J &   A &  J &   A \\ 
+   G &   G &   G &   A &  J &   G &   G &   A &  J &  J &   A &   G &   G &   G &   G &   A &  J &  J &   A \\ 
+   G &   G &   G &  F &   K &   G &   G &   A &  J &  J &   A &   G &   G &   G &   G &   A &  J &  J &   A \\ 
+   G &   G &   G &   G &   G &   A &  J &   A &  J &   A &  J &  J &   A &   A &  J &   G &   G &   G &   G \\ 
+   G &   G &   G &   G &   G &  F &   K &   A &  J &   A &  J &  J &   A &   A &  J &   G &   G &   G &   G \\ 
+   G &   I &   I &  J &  J &  J &  J &  H &  H &  H &  H &   A &   A &   A &   A &   A &   A &   A &   A \\ 
+   G &  F &  F &   I &   I &   I &   I &  H &  H &  H &  H &   A &   A &   A &   A &   A &   A &   A &   A \\ 
+   G &   G &   G &   A &   A &  J &  J &   G &   G &   G &   G &  J &  J &  J &  J &   A &   A &   A &   A \\ 
+   G &   G &   G &  H &  H &   I &   I &   G &   G &   G &   G &  J &  J &  J &  J &   A &   A &   A &   A \\ 
+   G &   G &   G &   G &   G &   G &   G &   G &   G &   G &   G &   G &   G &   G &   G &  J &  J &   A &   A \\ 
+   G &   G &   G &   G &   G &   G &   G &   A &   A &  J &  J &   G &   G &   G &   G &   G &   G &   G &   G \\ 
+   G &   G &   G &   G &   G &   G &   G &   G &   G &   G &   G &   A &   A &  J &  J &   G &   G &   G &   G \\ 
+   G &   G &   G &   G &   G &   G &   G &   G &   G &   G &   G &   A &  J &   A &  J &  J &   A &  J &   A \\ 
+   G &   G &   G &   G &   G &   G &   G &   A &  J &  J &   A &   G &   G &   G &   G &  J &   A &   A &  J \\ 
+   G &   G &   G &   G &   G &   G &   G &  J &   A &  J &   A &  J &   A &   A &  J &   G &   G &   G &   G \\
+\end{bmatrix}},
+\end{equation}
+e as constantes dentro da matriz assumem os valores $A = 1$, $B = -30$, $C = -11$, $D = 8$, $E = 12$, $F = -4$, $G = 0$, $H = -2$ e $I = 2$.
+
 Considerando que a matriz \textbf{$S$} é dada por
 \begin{equation}
 	\textbf{$S$} = \textbf{$M$}\textbf{$\Lambda$}\textbf{$M$}^{-1},
@@ -163,42 +248,32 @@ Inserindo a equação \ref{eq:MRT_4} na equação \ref{eq:f_i} fica
 \end{equation}
 Vale ressaltar que a operação de propagação, lado esquerdo da equação \ref{eq:MRT_5}, ocorre no espaço original da função de distribuição $f_{i}$.
 
-\subsection{Transformações para Unidades Físicas}
-
-Quando as equações \ref{eq:rho}, \ref{eq:u}, \ref{eq:p} e \ref{eq:nu} são usadas para recuperar os atributos macroscópicos do fluido a unidade de medida não é uma unidade física. Segudo o trabalho de \citeonline{da2016prediction}, para se ter esses atributos em unidade física é preciso aplicar regras de conversão. Essas regras de conversão se baseiam em duas constantes que são definidas a partir de unidades físicas: velocidade característica definida por   
-\begin{equation}
-	\zeta = c^{*}/c_{s},
-    \label{eq:conversao_1}
-\end{equation}
-tal que $c^{*}$ é a velocidade física do som, e discretização $\Delta x$ definida pela quantidade de metros por tamanho de célula.
-
-Com os parâmetros $c^{*}$ e $\Delta x$ pode-se realizar as seguintes conversões para unidades físicas:
-\begin{gather*}
-	\textbf{$u^{*}$} = \zeta \textbf{$u$}\text{, } \\ \textbf{$x^{*}$} = \Delta x\textbf{$x$}
-	\text{, } \\ t^{*} = \frac{\Delta x}{\zeta}t \text{, } \\ \nu^{*} = \zeta \Delta x \nu
-	\text{, } \\ \rho^{*} = \frac{\zeta}{\Delta x} \rho \text{, } \\ p^{*} = p \zeta^{2}  \rho^{*}_{0} \text{ e } \\ f^{*} = f\frac{\zeta}{\Delta x},
-    \label{eq:conversao_1}
-\end{gather*}
-tal que as variáveis assinaladas com $*$ estão em unidades físicas e $f^{*}$ e $f$ são unidades de frequências física e do LBM respectivamente\simbolo{$f^{*}$}{Frequência física}\simbolo{$f$}{Frequência em LBM}.
 
 \subsection{Condições de Contorno}
 
-Como ocorre nas técnicas numéricas tradicionais, o LBM possui também possui condições de contorno. Como mostra o estudo \citeonline{viggen2014lattice}, as condições de contorno para LBM podem ser classificadas em dois tipos: explícita e implícita. As condições de contorno explícitas são aquelas aplicadas em cada célula, tendo a natureza totalmente alinhada entre elas no domínio, normalmente condições como essas são aplicações personalizadas do cálculo do operador de colisão $\Omega_{i}$. As condições de contorno implícitas são aquelas aplicadas numa região do domínio não alinhado entre as células, normalmente essas condições são aplicadas na operação de propagação. A seguir serão apresentadas as condições de contorno abordadas nesse trabalho, cada uma de cada classificação apresentada.
-
 \subsubsection{\textit{Bounceback}}
 
-De acordo com o estudo de \citeonline{viggen2014lattice}, a condição de contorno do tipo \textit{bounceback} tem como objetivo simular uma parede rígida no domínio do LBM, sendo ela do tipo implícita e localizada entre as células. Há dois tipos de \textit{bounceback}: \textit{free-slip}, que simula escorregamento livre do fluido na condição de contorno e \textit{no-slip}, que simula camada limite do fluido na condição de contorno. Nesse trabalho foi usado o do tipo \textit{no-slip} pois num caso real o escoamento desenvolve camada limite na parede rígida.
+De acordo com o estudo de \citeonline{viggen2014lattice}, a condição de contorno do tipo \textit{bounceback} tem como objetivo simular uma parede rígida no domínio do LBM, sendo ela do tipo implícita e localizada entre as células. Há dois tipos de \textit{bounceback}: \textit{free-slip}, que simula escorregamento livre do fluido na parede e \textit{no-slip}, que impõe que todas as componentes de velocidade juto à parede sejam nulas. Essa condição força o desenvolvimento da camada limite viscosa junto à parede. Nesse trabalho foi usado o do tipo \textit{no-slip}para que os efeitos de camada limite envolvidos no problema fossem capturados.
 
-A condição de contorno \textit{bounceback} \textit{no-slip} é geralmente implementada na etapa de propagação a partir de uma inversão de funções de distribuição de partículas. A Figura \ref{fig:bounceback} mostra um esquemático de exemplo do processo de funcionamento dessa condição de contorno. 
+A condição de contorno \textit{bounceback} \textit{no-slip} é geralmente implementada na etapa de propagação a partir de uma inversão de funções de distribuição de partículas. A Figura \ref{fig:bounceback} mostra um esquemático de exemplo do processo de funcionamento dessa condição de contorno. Ao cruzar a condição de contorno no tempo seguinte $t + \Delta t$, a célula inverte as funções de distribuição de partículas para o sentido contrário dos vetores que apontam para o \textit{bounceback}.
+
+% \begin{figure}[ht!]
+% \centering
+%   \includegraphics[width=.65\linewidth]{figuras/bounceback.pdf}
+  
+%   \label{fig:bounceback}
+% \end{figure}
 
 \begin{figure}[ht!]
-\centering
-  \includegraphics[width=.65\linewidth]{figuras/bounceback.pdf}
+  \centering
+  \def\svgwidth{200pt}
+  \import{figuras/}{bounceback_2.pdf_tex}
   \caption[Processo de funcionamento do \textit{bounceback} \textit{no-slip}]{Esquemático de exemplo do processo de funcionamento da condição de contorno \textit{bounceback} \textit{no-slip}. Ilustração adaptada do estudo de \citeonline{viggen2014lattice}.}
   \label{fig:bounceback}
 \end{figure}
 
-De acordo como é mostrado na Figura \ref{fig:bounceback}, ao cruzar a condição de contorno, a célula inverte as funções de distribuição de partículas para o sentido contrário dos vetores que apontam para o \textit{bounceback}. Em relação às equações de propagação o processo abordado fica
+\newpage
+Em relação às equações de propagação o processo abordado fica
 
 \begin{gather*}
   f_{6}(\textbf{x}, t + \Delta t) = f_{8}(\textbf{x}, t)\text{,  } f_{8}(\textbf{x}, t + \Delta t) = f_{6}(\textbf{x}, t), \\
@@ -209,24 +284,26 @@ De acordo como é mostrado na Figura \ref{fig:bounceback}, ao cruzar a condiçã
 
 \subsubsection{Condição Anecóica}
 
-Consolidar uma condição do tipo anecóica num método numérico de natureza temporal é um desafio. Em vez de ser no domínio do tempo, a propriedade de condição anecóica ou absorção de energia acústica é constituída no domínio da frequência ($Z_{0}$ $=$ $\rho_{0}c_{0}$). Nesse contexto, considerando a absorção de pressão, entropia e pulsos de despredimento de vórtices, o trabalho de \citeonline{kam2006non} propõe uma condição de contorno explícita de absorção. Ela é baseada em técnicas aplicadas na resolução das equações de Navier-Stokes usando DNS (\textit{Direct} \textit{Numerical} \textit{Simulation})\abreviatura{DNS}{\textit{Direct} \textit{Numerical} \textit{Simulation}}. A condição de contorno de absorção, \textit{Absorbing} \textit{Boundary} \textit{Condition} (ABC)\abreviatura{ABC}{\textit{Absorbing} \textit{Boundary} \textit{Condition}}, consiste na adição de uma região de amortecimento para que os valores de pressão e velocidade convirjam assintoticamente a valores que caracterizam um fluido em repouso. Nesse sentido, valores alvos para um fluido em resposo de densidade ($\rho_{T}$ $=$ $\rho_{0}$) e velocidade (\textbf{$u_{T}$} $=$ $0$) são usados para calcular uma função de distribuição de amortecimento $f_{i}^{T}$\simbolo{$f_{i}^{T}$}{Função de distribuição de amortecimento}. Essa função de distribuição é definida da mesma forma que $f_{i}^{M}$, porém com os valores alvos de densidade e velocidade, ficando na forma
+Consolidar uma condição do tipo anecóica num método numérico de natureza temporal é um desafio. Nesse contexto, considerando a absorção de pressão, entropia e pulsos de despredimento de vórtices, o trabalho de \citeonline{kam2006non} propõe uma condição de contorno explícita de absorção. Em essência, este método se baseia na adaptação do método das camadas perfeitamente casadas (``\textit{perfectly} \textit{matched} \textit{layers}") para o LBM. A condição de contorno de absorção, \textit{Absorbing} \textit{Boundary} \textit{Condition} (ABC)\abreviatura{ABC}{\textit{Absorbing} \textit{Boundary} \textit{Condition}}, consiste na adição de uma região de amortecimento para que os valores de pressão e velocidade convirjam assintoticamente a valores que caracterizam um fluido em repouso. Nesse sentido, valores alvos para um fluido em resposo de densidade ($\rho_{T}$ $=$ $\rho_{0}$) e velocidade (\textbf{$u_{T}$} $=$ $0$) são usados para calcular uma função de distribuição de amortecimento $f_{i}^{T}$\simbolo{$f_{i}^{T}$}{Função de distribuição de amortecimento}. Essa função de distribuição é definida da mesma forma que $f_{i}^{M}$, porém com os valores alvos de densidade e velocidade, impostos na forma
 \begin{equation}
   f_{i}^{T} = \rho_{0}\varepsilon_{i}.
   \label{eq:f_alvo}
 \end{equation}
-Como essa técnica é explícita, o operador de colisão $\Omega_{i}$ é adaptado e recebe um novo termo de colisão, ficando na forma
+Como essa técnica é explícita, o operador de colisão $\Omega_{i}$ é adaptado e recebe um novo termo de colisão, tal que
 \begin{equation}
   \Omega_{i} = -\frac{1}{\tau}(f_{i} - f_{i}^{M}) - \sigma(f_{i}^{M} - f_{i}^{T}),
   \label{eq:omega_i_abc}
 \end{equation}
-tal que $\sigma$ $=$ $\sigma_{T}(\delta/D)^{2}$ é o coeficiente de absorção, $\sigma_{T}$ é uma constante com valor de $0,3$, $\delta$ é a distância medida do começo da região de contorno no sentido da convergência assintótica e $D$ é o tamanho total da região de contorno no sentido da convergência assintótica.
+sendo $\sigma$ $=$ $\sigma_{T}(\delta/D)^{2}$ é o coeficiente de absorção, $\sigma_{T}$ é uma constante com valor de $0,3$, $\delta$ é a distância medida do começo da região de contorno no sentido da convergência assintótica e $D$ é o tamanho total da região de contorno no sentido da convergência assintótica assim como ilustra a Figura \ref{fig:abc}.
 
-O operador de colisão da equação \ref{eq:omega_i_abc} funciona bem para o modelo SRT, porém como nesse estudo será usado o modelo MRT algumas adaptações precisam ser realizadas, pois a operação de colisão ocorre no espaço dos momentos nesse modelo. Assim como é feito nas equações \ref{eq:MRT_2} deve-se aplicar o mesmo procedimento na função de distribuição $f_{i}^{T}$ ficando
-\begin{equation}
-  m_{i}^{T} = \textbf{$M$}f_{i}^{T}.
-  \label{eq:abc_mrt_1}
-\end{equation}
-Além disso é preciso inserir esse termo no operador de colisão da equação \ref{eq:MRT_4} resultando em 
+\begin{figure}[ht!]
+\centering
+  \includegraphics[width=.3\linewidth]{figuras/abc.pdf}
+  \caption[Processo de funcionamento da condição de contorno anecóica]{Esquemático de exemplo do processo de funcionamento da condição de contorno anecóica. Ilustração adaptada do estudo de \citeonline{da2008numerical}.}
+  \label{fig:abc}
+\end{figure}
+
+O operador de colisão da equação \ref{eq:omega_i_abc} funciona bem para o modelo SRT, porém como nesse estudo será usado o modelo MRT algumas adaptações precisam ser realizadas, pois a operação de colisão ocorre no espaço dos momentos nesse modelo. Assim como é feito nas equações \ref{eq:MRT_2} deve-se aplicar o mesmo procedimento na função de distribuição $f_{i}^{T}$ originando o termo $m_{i}^{T}$. Além disso é preciso inserir esse termo no operador de colisão da equação \ref{eq:MRT_4} resultando em 
 
 \begin{equation}
   \Omega_{i} = -\textbf{$M$}^{-1}\textbf{$S$}(m_{i} - m_{i}^{M}) - 
@@ -234,7 +311,7 @@ Além disso é preciso inserir esse termo no operador de colisão da equação \
   \label{eq:abc_mrt_2}
 \end{equation}
 
-Simplificando a equação \ref{eq:abc_mrt_2} fica
+Simplificando, a equação \ref{eq:abc_mrt_2} fica
 \begin{equation}
   \Omega_{i} = -\textbf{$M$}^{-1}\textbf{$S$}[m_{i} - m_{i}^{M}(\sigma - 1) - m_{i}^{T}].
   \label{eq:abc_mrt_3}
@@ -245,6 +322,8 @@ Adicionando esse termo na equação geral \ref{eq:f_i} do LBM o resultado é a e
   f_{i}(\textbf{x} + c_{i}\Delta t, t + \Delta t) = f_{i}(\textbf{x}, t) -\textbf{$M$}^{-1}\textbf{$S$}[m_{i} - m_{i}^{M}(\sigma - 1) - m_{i}^{T}].
   \label{eq:abc_mrt_4}  
 \end{equation}
+
+A equação \ref{eq:abc_mrt_4} descreve a camada anecóica inserida ao redor do domínio computacional com o propósito de absorver toda energia acústica incidente, assim como o fluxo de massa proveniente do jato.
 
 \section{Palabos}
 
@@ -407,7 +486,7 @@ Para execução é preciso efetuar os seguintes comandos no terminal linux dentr
 
 \section{Modelo Numérico}
 
-Com os arquivos de compilação e execução corretamente configurados, pode-se modelar numericamente o problema. A Figura \ref{fig:modelo} representa a vista do corte lateral do modelo numérico em 3D. Para a definição do domínio foi utilizado uma abordagem paramétrica, ou seja, o raio externo do duto $a$ $=$ $20$ células foi a unidade de medida para as dimensões. As dimensões \textbf{Nx} e \textbf{Ny} são iguais e possuem $20a$ de comprimento. A dimensão \textbf{Nz} possui 79,5$a$ de comprimento e foi baseada no estudo de \citeonline{allam2006investigation}, que justifica a distância da saída do duto até a parede para minimizar os efeitos da interação do jato de saída com a parede. Todo espaço de fluido do domínio foi preenchido em cada célula com frequência de relaxação $\frac{1}{\tau}$ $=$ $1,99$, $\rho$ $=$ $\rho_{0}$ $=$ $1$ e as velocidades para todos os sentidos $u_{x}$ $=$ $u_{y}$ $=$ $u_{z}$ $=$ $0$. As bordas do duto foram preenchidas com condição anecóica de espessura igual 1,5$a$ células.      
+Com os arquivos de compilação e execução corretamente configurados, pode-se modelar numericamente o problema. A Figura \ref{fig:modelo} representa a vista do corte lateral do modelo numérico tridimensional. Para a definição do domínio foi utilizado uma abordagem paramétrica, ou seja, o raio externo do duto $a$ $=$ $20$ células foi a unidade de medida para as dimensões. As dimensões \textbf{Nx} e \textbf{Ny} são iguais e possuem $20a$ de comprimento. A dimensão \textbf{Nz} possui 79,5$a$ de comprimento e foi baseada no estudo de \citeonline{allam2006investigation}, que justifica a distância da saída do duto até a parede para minimizar os efeitos da interação do jato de saída com a parede. Todo espaço de fluido do domínio foi preenchido em cada célula com frequência de relaxação $\frac{1}{\tau}$ $=$ $1,99$, $\rho$ $=$ $\rho_{0}$ $=$ $1$ e as velocidades para todos os sentidos $u_{x}$ $=$ $u_{y}$ $=$ $u_{z}$ $=$ $0$. As bordas do duto foram preenchidas com condição anecóica de espessura igual 1,5$a$ células.      
 
 Com relação ao duto, o mesmo possui o tamanho \textbf{L} $=$ $18a$ e é delimitado pela condição de contorno \textit{bounceback} \textit{no-slip}, diâmetro externo medindo $2a$ e parede com expessura de 0,1$a$. No começo do duto há uma condição anecóica com espessura igual a 1,5$a$, que é responsável pela dissipação da onda no sentido contrário a saída. Ao lado da condição anecóica há uma condição de contorno de excitação do duto com espessura de 0,05$a$, responsável por excitar os modos axiais e impor escoamento.    
 

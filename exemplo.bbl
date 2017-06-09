@@ -73,12 +73,6 @@ Tese (Doutorado) --- University of Southampton, 2010.}
 {FLOWKIT, I. \emph{Lattice Boltzmann in various languages}. 2017.
 Dispon{\'\i}vel em: \url{http://wiki.palabos.org/numerics:codes}.}
 
-\bibitem[Frisch et al. 1986]{frisch1986}
-\abntrefinfo{Frisch et al.}{FRISCH et al.}{1986}
-{FRISCH, U.; HASSLACHER, B.; POMEAU, Y. Lattice-gas automata for the
-  navier-stokes equation.
-\emph{Physical review letters}, APS, v.~56, n.~14, p.~1505, 1986.}
-
 \bibitem[Gabard e Astley 2006]{gabard2006}
 \abntrefinfo{Gabard e Astley}{GABARD; ASTLEY}{2006}
 {GABARD, G.; ASTLEY, R. Theoretical model for sound radiation from annular jet
@@ -95,8 +89,20 @@ Dispon{\'\i}vel em: \url{http://wiki.palabos.org/numerics:codes}.}
 \emph{Journal of Power Sources}, v.~296, p. 440 -- 453, 2015.
 Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.jpowsour.2015.07.034}.}
 
+\bibitem[Grad 1949]{grad1949kinetic}
+\abntrefinfo{Grad}{GRAD}{1949}
+{GRAD, H. On the kinetic theory of rarefied gases.
+\emph{Communications on pure and applied mathematics}, Wiley Online Library,
+  v.~2, n.~4, p. 331--407, 1949.}
+
+\bibitem[He e Luo 1997]{he1997theory}
+\abntrefinfo{He e Luo}{HE; LUO}{1997a}
+{HE, X.; LUO, L.-S. Theory of the lattice boltzmann method: From the boltzmann
+  equation to the lattice boltzmann equation.
+\emph{Physical Review E}, APS, v.~56, n.~6, p.~6811, 1997.}
+
 \bibitem[He e Luo 1997]{he}
-\abntrefinfo{He e Luo}{HE; LUO}{1997}
+\abntrefinfo{He e Luo}{HE; LUO}{1997b}
 {HE, X.; LUO, L.-S. Theory of the lattice boltzmann method: From the boltzmann
   equation to the lattice boltzmann equation.
 \emph{Physical Review E}, APS, v.~56, n.~6, p.~6811, 1997.}
@@ -279,6 +285,12 @@ Dispon{\'\i}vel em: \url{http://www.paraview.org}.}
 \emph{Journal of Sound and Vibration}, Elsevier, v.~327, n.~3, p. 507--528,
   2009.}
 
+\bibitem[Silva 2008]{da2008numerical}
+\abntrefinfo{Silva}{SILVA}{2008}
+{SILVA, A.~R. D.
+\emph{Numerical studies of aeroacoustic aspects of wind instruments}.
+Tese (Doutorado) --- McGill University, 2008.}
+
 \bibitem[Silva et al. 2012]{silva2012approximate}
 \abntrefinfo{Silva et al.}{SILVA et al.}{2012}
 {SILVA, A. R.~D.; MAREZE, P.~H.; LENZI, A. Approximate expressions for the
@@ -304,12 +316,6 @@ Dispon{\'\i}vel em: \url{http://www.paraview.org}.}
 \abntrefinfo{Stallman}{STALLMAN}{2002}
 {STALLMAN, R. \emph{Free software, free society: Selected essays of Richard M.
   Stallman}. [S.l.]: Lulu. com, 2002.}
-
-\bibitem[Sterling e Chen 1996]{sterling1996}
-\abntrefinfo{Sterling e Chen}{STERLING; CHEN}{1996}
-{STERLING, J.~D.; CHEN, S. Stability analysis of lattice boltzmann methods.
-\emph{Journal of Computational Physics}, Elsevier, v.~123, n.~1, p. 196--206,
-  1996.}
 
 \bibitem[Tiikoja et al. 2014]{tiikoja2014}
 \abntrefinfo{Tiikoja et al.}{TIIKOJA et al.}{2014}
@@ -337,11 +343,6 @@ Tese (Doutorado), 2014.}
 \emph{LATTICE-GAS CELLULAR AUTOMATA AND LATTICE BOLTZMANN MODELS},
   SPRINGER-VERLAG BERLIN HEIDELBERGER PLATZ 3, D-14197 BERLIN, GERMANY,
   v.~1725, p. 1--13, 2000.}
-
-\bibitem[Wolf-Gladrow 2004]{wolf2004}
-\abntrefinfo{Wolf-Gladrow}{WOLF-GLADROW}{2004}
-{WOLF-GLADROW, D.~A. \emph{Lattice-gas cellular automata and lattice Boltzmann
-  models: an introduction}. [S.l.]: Springer, 2004.}
 
 \bibitem[Yong et al. 2013]{shi2013lattice}
 \abntrefinfo{Yong et al.}{YONG et al.}{2013}

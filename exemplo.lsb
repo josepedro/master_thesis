@@ -24,12 +24,12 @@
 \contentsline {simb}{\hbox to\@tempdima {$\Omega _{i}$\hfil }{Operador de colis\IeC {\~a}o LBM}}{42}
 \contentsline {simb}{\hbox to\@tempdima {$\tau $\hfil }{Per\IeC {\'\i }odo de colis\IeC {\~a}o LBM}}{42}
 \contentsline {simb}{\hbox to\@tempdima {$f_{i}^{M}$\hfil }{Fun\IeC {\c c}\IeC {\~a}o de distribui\IeC {\c c}\IeC {\~a}o de Maxwell ou de equil\IeC {\'\i }brio}}{42}
-\contentsline {simb}{\hbox to\@tempdima {$\rho $\hfil }{Densidade local do fluido}}{42}
-\contentsline {simb}{\hbox to\@tempdima {$\varepsilon _{i}$\hfil }{Pesos de velocidades para cada dire\IeC {\c c}\IeC {\~a}o de propaga\IeC {\c c}\IeC {\~a}o $i$}}{42}
-\contentsline {simb}{\hbox to\@tempdima {$\textbf {\mathversion {bold}u}$\hfil }{Velocidade local do fluido}}{42}
-\contentsline {simb}{\hbox to\@tempdima {$c_{s}$\hfil }{Velocidade do som}}{42}
+\contentsline {simb}{\hbox to\@tempdima {$\rho $\hfil }{Densidade local do fluido}}{43}
+\contentsline {simb}{\hbox to\@tempdima {$\varepsilon _{i}$\hfil }{Pesos de velocidades para cada dire\IeC {\c c}\IeC {\~a}o de propaga\IeC {\c c}\IeC {\~a}o $i$}}{43}
+\contentsline {simb}{\hbox to\@tempdima {$\textbf {\mathversion {bold}u}$\hfil }{Velocidade local do fluido}}{43}
+\contentsline {simb}{\hbox to\@tempdima {$c_{s}$\hfil }{Velocidade do som}}{43}
 \contentsline {simb}{\hbox to\@tempdima {$p$\hfil }{Press\IeC {\~a}o local do fluido}}{43}
 \contentsline {simb}{\hbox to\@tempdima {$\nu $\hfil }{Viscosidade cinem\IeC {\'a}tica do fluido}}{43}
-\contentsline {simb}{\hbox to\@tempdima {$f^{*}$\hfil }{Frequ\IeC {\^e}ncia f\IeC {\'\i }sica}}{46}
-\contentsline {simb}{\hbox to\@tempdima {$f$\hfil }{Frequ\IeC {\^e}ncia em LBM}}{46}
+\contentsline {simb}{\hbox to\@tempdima {$f^{*}$\hfil }{Frequ\IeC {\^e}ncia f\IeC {\'\i }sica}}{44}
+\contentsline {simb}{\hbox to\@tempdima {$f$\hfil }{Frequ\IeC {\^e}ncia em LBM}}{44}
 \contentsline {simb}{\hbox to\@tempdima {$f_{i}^{T}$\hfil }{Fun\IeC {\c c}\IeC {\~a}o de distribui\IeC {\c c}\IeC {\~a}o de amortecimento}}{48}
