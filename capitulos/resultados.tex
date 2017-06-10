@@ -1,7 +1,17 @@
 \chapter{Resultados}
 
+Em vista da teoria vigente na literatura e pelo que foi exposto no ponto de vista metodológico, obteve-se resultados nos seguintes contextos:
+\begin{itemize}
+  \item análise da condição anecóica: a partir dos históricos temporais de pressão e velocidade de partícula nas fronteiras do modelo numérico, foram feitas análises críticas de reflexão acústica;
+  \item duto sem escoamento: a partir dos históricos temporais de pressão e velocidade de partícula na terminação do duto, foram feitas validações e análises críticas dos parâmetros caracterizadores da acústica interna do duto sem escoamento;
+  \item duto com escoamento de exaustão: a partir dos históricos temporais de pressão e velocidade de partícula na terminação do duto, foram feitas validações e análises críticas dos parâmetros caracterizadores da acústica interna do duto com escoamento de exaustão para regimes subsônicos ($M$ $\leq$ 0,2);
+  \item duto com escoamento sugado: a partir dos históricos temporais de pressão e velocidade de partícula na terminação do duto, foram feitas validações, análises críticas e investigação dos parâmetros caracterizadores da acústica interna do duto com escoamento succionado para regimes subsônicos ($M$ $\leq$ 0,2).
+\end{itemize} 
 
 \section{Análise da Condição Anecóica}
+
+Com a finalidade mensurar e analisar o comportamento da condição de contorno anecóica por meio de métricas numéricas e objetivas, foram calculados impedâncias e coeficientes de reflexão nas fronteiras do modelo numérico, ou seja, nos pontos \textbf{A}, \textbf{B}, \textbf{C} e \textbf{D} como é mostrado na Figura \ref{fig:modelo}. As Figuras \ref{fig:resultados_A}, \ref{fig:resultados_B}, \ref{fig:resultados_C} e \ref{fig:resultados_D} mostram os resultados nos respectivos pontos citados.
+
 
 % \begin{figure}
 % \begin{center}
@@ -35,201 +45,52 @@
 % \end{center}
 % \end{figure}
 
-\begin{figure}[ht!]
-\centering
-  \begin{tikzpicture}
-  \begin{axis}[
-	width=0.9\textwidth,
-	height=0.5\textwidth,
-	xmin=0,
-    ymin=0,
-    ymax=0.55,
-    ytick distance=0.1,
-    grid=major, % Display a grid	
- 	%grid style={dashed,gray!90}, % Set the style
-	xlabel = Número de Helmholtz ($ka$),
-	ylabel = Impedância ($Z_{\textbf{A}}$),
-  ]
- \addplot[color=black, thick] table[x index=0,y index=1] {dados/coeficiente_reflexao_anecoica/A_real.txt};
-   \addplot[color=black,dashed,  thick] table[x index=0,y index=1] {dados/coeficiente_reflexao_anecoica/A_imag.txt};
-   
-  \end{axis}
-  \end{tikzpicture}
-  \caption[Impedância $Z_{\textbf{A}}$]{Resultado da impedância calculada no ponto $\textbf{A}$, próximo da condição anecóica localizada nas fronteiras do modelo numérico. A linha contínua representa a parte real e a linha tracejada representa a parte imaginária.}
-  \label{fig:A_reflexao}
+\newcommand\scalex{1}
+\newcommand\scaley{0.9}
+\newcommand\scaleA{0.5}
+
+\begin{figure}
+\begin{subfigure}{\scaleA \textwidth}
+  \input{figuras/impedancia_A.tex}
+\end{subfigure}%
+\begin{subfigure}{\scaleA \textwidth}
+  \input{figuras/reflexao_A.tex}
+\end{subfigure}
+\caption{Resultados da impedância (\ref{fig:A_impedancia}) e coeficiente de reflexão (\ref{fig:A_reflexao}) calculados no ponto $\textbf{A}$. Na Figura (\ref{fig:A_impedancia}) a linha contínua representa a parte real e a linha tracejada representa a parte imaginária.}
+\label{fig:resultados_A}
 \end{figure}
 
-\newpage
-\begin{figure}[ht!]
-\centering
-  \begin{tikzpicture}
-  \begin{axis}[
-	width=0.9\textwidth,
-	height=0.5\textwidth,
-	xmin=0,
-    ymin=0,
-    ymax=1,
-    ytick distance=0.2,
-    grid=major, % Display a grid	
- 	%grid style={dashed,gray!90}, % Set the style
-	xlabel = Número de Helmholtz ($ka$),
-	ylabel = Coeficiente de Reflexão ($R_{\textbf{A}}$),
-  ]
- \addplot[color=black, thick] table[x index=0,y index=1] {dados/coeficiente_reflexao_anecoica/A_abs.txt};
-   
-  \end{axis}
-  \end{tikzpicture}
-  \caption[Coeficiente de Reflexão $R_{\textbf{A}}$]{Resultado da magnitude do coeficiente de reflexão calculado no ponto $\textbf{A}$, próximo da condição anecóica localizada nas fronteiras do modelo numérico.}
-  \label{fig:A_reflexao}
+\begin{figure}
+\begin{subfigure}{\scaleA \textwidth}
+  \input{figuras/impedancia_B.tex}
+\end{subfigure}%
+\begin{subfigure}{\scaleA \textwidth}
+  \input{figuras/reflexao_B.tex}
+\end{subfigure}
+\caption{Resultados da impedância (\ref{fig:B_impedancia}) e coeficiente de reflexão (\ref{fig:B_reflexao}) calculados no ponto $\textbf{B}$. Na Figura (\ref{fig:B_impedancia}) a linha contínua representa a parte real e a linha tracejada representa a parte imaginária.}
+\label{fig:resultados_B}
 \end{figure}
 
-\newpage
-\begin{figure}[ht!]
-\centering
-  \begin{tikzpicture}
-  \begin{axis}[
-	width=0.9\textwidth,
-	height=0.5\textwidth,
-	xmin=0,
-    ymin=0,
-    ymax=0.9,
-    ytick distance=0.1,
-    grid=major, % Display a grid	
- 	%grid style={dashed,gray!90}, % Set the style
-	xlabel = Número de Helmholtz ($ka$),
-	ylabel = Impedância ($Z_{\textbf{B}}$),
-  ]
- \addplot[color=black, thick] table[x index=0,y index=1] {dados/coeficiente_reflexao_anecoica/B_real.txt};
-   \addplot[color=black,dashed,  thick] table[x index=0,y index=1] {dados/coeficiente_reflexao_anecoica/B_imag.txt};
-   
-  \end{axis}
-  \end{tikzpicture}
-  \caption[Impedância $Z_{\textbf{B}}$]{Resultado da impedância calculada no ponto $\textbf{B}$, próximo da condição anecóica localizada nas fronteiras do modelo numérico. A linha contínua representa a parte real e a linha tracejada representa a parte imaginária.}
-  \label{fig:B_reflexao}
+\begin{figure}
+\begin{subfigure}{\scaleA \textwidth}
+  \input{figuras/impedancia_C.tex}
+\end{subfigure}%
+\begin{subfigure}{\scaleA \textwidth}
+  \input{figuras/reflexao_C.tex}
+\end{subfigure}
+\caption{Resultados da impedância (\ref{fig:C_impedancia}) e coeficiente de reflexão (\ref{fig:C_reflexao}) calculados no ponto $\textbf{C}$. Na Figura (\ref{fig:C_impedancia}) a linha contínua representa a parte real e a linha tracejada representa a parte imaginária.}
+\label{fig:resultados_C}
 \end{figure}
 
-\newpage
-\begin{figure}[ht!]
-\centering
-  \begin{tikzpicture}
-  \begin{axis}[
-	width=0.9\textwidth,
-	height=0.5\textwidth,
-	xmin=0,
-    ymin=0,
-    ymax=1,
-    ytick distance=0.2,
-    grid=major, % Display a grid	
- 	%grid style={dashed,gray!90}, % Set the style
-	xlabel = Número de Helmholtz ($ka$),
-	ylabel = Coeficiente de Reflexão ($R_{\textbf{B}}$),
-  ]
- \addplot[color=black, thick] table[x index=0,y index=1] {dados/coeficiente_reflexao_anecoica/B_abs.txt};
-   
-  \end{axis}
-  \end{tikzpicture}
-  \caption[Coeficiente de Reflexão $R_{\textbf{B}}$]{Resultado da magnitude do coeficiente de reflexão calculado no ponto $\textbf{B}$, próximo da condição anecóica localizada nas fronteiras do modelo numérico.}
-  \label{fig:B_reflexao}
-\end{figure}
-
-\newpage
-\begin{figure}[ht!]
-\centering
-  \begin{tikzpicture}
-  \begin{axis}[
-	width=0.9\textwidth,
-	height=0.5\textwidth,
-	xmin=0,
-    ymin=0,
-    ymax=0.7,
-    ytick distance=0.1,
-    grid=major, % Display a grid	
- 	%grid style={dashed,gray!90}, % Set the style
-	xlabel = Número de Helmholtz ($ka$),
-	ylabel = Impedância ($Z_{\textbf{C}}$),
-  ]
- \addplot[color=black, thick] table[x index=0,y index=1] {dados/coeficiente_reflexao_anecoica/C_real.txt};
-   \addplot[color=black,dashed,  thick] table[x index=0,y index=1] {dados/coeficiente_reflexao_anecoica/C_imag.txt};
-   
-  \end{axis}
-  \end{tikzpicture}
-  \caption[Impedância $Z_{\textbf{C}}$]{Resultado da impedância calculada no ponto $\textbf{C}$, próximo da condição anecóica localizada nas fronteiras do modelo numérico. A linha contínua representa a parte real e a linha tracejada representa a parte imaginária.}
-  \label{fig:C_reflexao}
-\end{figure}
-
-\newpage
-\begin{figure}[ht!]
-\centering
-  \begin{tikzpicture}
-  \begin{axis}[
-	width=0.9\textwidth,
-	height=0.5\textwidth,
-	xmin=0,
-    ymin=0,
-    ymax=1,
-    ytick distance=0.2,
-    grid=major, % Display a grid	
- 	%grid style={dashed,gray!90}, % Set the style
-	xlabel = Número de Helmholtz ($ka$),
-	ylabel = Coeficiente de Reflexão ($R_{\textbf{C}}$),
-  ]
- \addplot[color=black, thick] table[x index=0,y index=1] {dados/coeficiente_reflexao_anecoica/C_abs.txt};
-   
-  \end{axis}
-  \end{tikzpicture}
-  \caption[Coeficiente de Reflexão $R_{\textbf{C}}$]{Resultado da magnitude do coeficiente de reflexão calculado no ponto $\textbf{C}$, próximo da condição anecóica localizada nas fronteiras do modelo numérico.}
-  \label{fig:C_reflexao}
-\end{figure}
-
-\newpage
-\begin{figure}[ht!]
-\centering
-  \begin{tikzpicture}
-  \begin{axis}[
-	width=0.9\textwidth,
-	height=0.5\textwidth,
-	xmin=0,
-  xmax=2.5,
-    ymin=0,
-    ymax=0.62,
-    ytick distance=0.1,
-    grid=major, % Display a grid	
- 	%grid style={dashed,gray!90}, % Set the style
-	xlabel = Número de Helmholtz ($ka$),
-	ylabel = Impedância ($Z_{\textbf{D}}$),
-  ]
- \addplot[color=black, thick] table[x index=0,y index=1] {dados/coeficiente_reflexao_anecoica/D_real.txt};
-   \addplot[color=black,dashed,  thick] table[x index=0,y index=1] {dados/coeficiente_reflexao_anecoica/D_imag.txt};
-   
-  \end{axis}
-  \end{tikzpicture}
-  \caption[Impedância $Z_{\textbf{D}}$]{Resultado da impedância calculada no ponto $\textbf{D}$, próximo da condição anecóica localizada nas fronteiras do modelo numérico. A linha contínua representa a parte real e a linha tracejada representa a parte imaginária.}
-  \label{fig:D_reflexao}
-\end{figure}
-
-\newpage
-\begin{figure}[ht!]
-\centering
-  \begin{tikzpicture}
-  \begin{axis}[
-	width=0.9\textwidth,
-	height=0.5\textwidth,
-	xmin=0,
-  xmax=2.5,
-    ymin=0,
-    ymax=1,
-    ytick distance=0.2,
-    grid=major, % Display a grid	
- 	%grid style={dashed,gray!90}, % Set the style
-	xlabel = Número de Helmholtz ($ka$),
-	ylabel = Coeficiente de Reflexão ($R_{\textbf{D}}$),
-  ]
- \addplot[color=black, thick] table[x index=0,y index=1] {dados/coeficiente_reflexao_anecoica/D_abs.txt};
-   
-  \end{axis}
-  \end{tikzpicture}
-  \caption[Coeficiente de Reflexão $R_{\textbf{D}}$]{Resultado da magnitude do coeficiente de reflexão calculado no ponto $\textbf{D}$, próximo da condição anecóica localizada nas fronteiras do modelo numérico.}
-  \label{fig:D_reflexao}
+\begin{figure}
+\begin{subfigure}{\scaleA \textwidth}
+  \input{figuras/impedancia_D.tex}
+\end{subfigure}%
+\begin{subfigure}{\scaleA \textwidth}
+  \input{figuras/reflexao_D.tex}
+\end{subfigure}
+\caption{Resultados da impedância (\ref{fig:D_impedancia}) e coeficiente de reflexão (\ref{fig:D_reflexao}) calculados no ponto $\textbf{D}$. Na Figura (\ref{fig:D_impedancia}) a linha contínua representa a parte real e a linha tracejada representa a parte imaginária.}
+\label{fig:resultados_D}
 \end{figure}
 
 

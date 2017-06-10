@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  10 JUN 2017 02:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.10)  10 JUN 2017 20:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1126,6 +1126,15 @@ Package: makecmds 2009/09/03 v1.0a extra command making commands
 
 No file exemplo.sagetex.sout.
 \sagecommandlineskip=\skip71
+) (/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count166
+\sf@farskip=\skip72
+\sf@captopadj=\dimen268
+\sf@capskip=\skip73
+\sf@nearskip=\skip74
+\sf@top=\skip75
+\sf@bottom=\skip76
 ) (./comandos.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pstricks/pstricks.sty
 Package: pstricks 2015/11/14 v0.62 LaTeX wrapper for `PSTricks' (RN,HV)
@@ -1142,82 +1151,82 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks48
 \XKV@tempa@toks=\toks49
 )
-\XKV@depth=\count166
+\XKV@depth=\count167
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex
 `pst-fp' v0.05, 2010/01/17 (hv)
-\pstFP@xs=\count167
-\pstFP@xia=\count168
-\pstFP@xib=\count169
-\pstFP@xfa=\count170
-\pstFP@xfb=\count171
-\pstFP@rega=\count172
-\pstFP@regb=\count173
-\pstFP@regs=\count174
-\pstFP@times=\count175
+\pstFP@xs=\count168
+\pstFP@xia=\count169
+\pstFP@xib=\count170
+\pstFP@xfa=\count171
+\pstFP@xfb=\count172
+\pstFP@rega=\count173
+\pstFP@regb=\count174
+\pstFP@regs=\count175
+\pstFP@times=\count176
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks50
-\pgfutil@tempdima=\dimen268
-\pgfutil@tempdimb=\dimen269
+\pgfutil@tempdima=\dimen269
+\pgfutil@tempdimb=\dimen270
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
 ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen270
-\pgffor@skip=\dimen271
+\pgffor@iter=\dimen271
+\pgffor@skip=\dimen272
 \pgffor@stack=\toks51
 \pgffor@toks=\toks52
 )
-\psLoopIndex=\count176
+\psLoopIndex=\count177
 
 `PSTricks' v2.64b  <2015/14/11> (tvz)
-\pst@dima=\dimen272
-\pst@dimb=\dimen273
-\pst@dimc=\dimen274
-\pst@dimd=\dimen275
-\pst@dimg=\dimen276
-\pst@dimh=\dimen277
-\pst@dimm=\dimen278
-\pst@dimn=\dimen279
-\pst@dimo=\dimen280
-\pst@dimp=\dimen281
+\pst@dima=\dimen273
+\pst@dimb=\dimen274
+\pst@dimc=\dimen275
+\pst@dimd=\dimen276
+\pst@dimg=\dimen277
+\pst@dimh=\dimen278
+\pst@dimm=\dimen279
+\pst@dimn=\dimen280
+\pst@dimo=\dimen281
+\pst@dimp=\dimen282
 \pst@hbox=\box76
 \pst@ibox=\box77
 \pst@boxg=\box78
-\pst@cnta=\count177
-\pst@cntb=\count178
-\pst@cntc=\count179
-\pst@cntd=\count180
-\pst@cntg=\count181
-\pst@cnth=\count182
-\pst@cntm=\count183
-\pst@cntn=\count184
-\pst@cnto=\count185
-\pst@cntp=\count186
-\@zero=\count187
+\pst@cnta=\count178
+\pst@cntb=\count179
+\pst@cntc=\count180
+\pst@cntd=\count181
+\pst@cntg=\count182
+\pst@cnth=\count183
+\pst@cntm=\count184
+\pst@cntn=\count185
+\pst@cnto=\count186
+\pst@cntp=\count187
+\@zero=\count188
 \pst@toks=\toks53
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.con)
-\psunit=\dimen282
-\psxunit=\dimen283
-\psyunit=\dimen284
-\pst@C@@rType=\count188
-\pslinewidth=\dimen285
-\psk@startLW=\dimen286
-\psk@endLW=\dimen287
+\psunit=\dimen283
+\psxunit=\dimen284
+\psyunit=\dimen285
+\pst@C@@rType=\count189
+\pslinewidth=\dimen286
+\psk@startLW=\dimen287
+\psk@endLW=\dimen288
 \pst@customdefs=\toks54
-\pslinearc=\dimen288
-\pst@symbolStep=\dimen289
-\pst@symbolWidth=\dimen290
-\pst@symbolLinewidth=\dimen291
+\pslinearc=\dimen289
+\pst@symbolStep=\dimen290
+\pst@symbolWidth=\dimen291
+\pst@symbolLinewidth=\dimen292
 \everypsbox=\toks55
-\psframesep=\dimen292
-\pslabelsep=\dimen293
-\sh@wgridXunit=\dimen294
-\sh@wgridYunit=\dimen295
-\pst@shift=\dimen296
+\psframesep=\dimen293
+\pslabelsep=\dimen294
+\sh@wgridXunit=\dimen295
+\sh@wgridYunit=\dimen296
+\pst@shift=\dimen297
 )
 File: pstricks.tex 2015/14/11 v2.64b `PSTricks' (tvz,hv)
 
@@ -1227,43 +1236,30 @@ File: pst-fp.tex 2015/14/11 v2.64b `PST-fp' (hv)
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@example=\count189
-\hatchspread=\skip72
-\hatchthickness=\skip73
-\hatchshift=\skip74
+\c@example=\count190
+\hatchspread=\skip77
+\hatchthickness=\skip78
+\hatchshift=\skip79
 )
 
 LaTeX Warning: Unused global option(s):
     [cleardoublepage=plain].
 
-(./exemplo.aux
-
-LaTeX Warning: Label `fig:A_reflexao' multiply defined.
-
-
-LaTeX Warning: Label `fig:B_reflexao' multiply defined.
-
-
-LaTeX Warning: Label `fig:C_reflexao' multiply defined.
-
-
-LaTeX Warning: Label `fig:D_reflexao' multiply defined.
-
-)
+(./exemplo.aux)
 \openout1 = `exemplo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1301,16 +1297,16 @@ LaTeX Font Info:    ... okay on input line 83.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count190
-\scratchdimen=\dimen297
+\scratchcounter=\count191
+\scratchdimen=\dimen298
 \scratchbox=\box79
-\nofMPsegments=\count191
-\nofMParguments=\count192
+\nofMPsegments=\count192
+\nofMParguments=\count193
 \everyMPshowfont=\toks56
-\MPscratchCnt=\count193
-\MPscratchDim=\dimen298
-\MPnumerator=\count194
-\makeMPintoPDFobject=\count195
+\MPscratchCnt=\count194
+\MPscratchDim=\dimen299
+\MPnumerator=\count195
+\makeMPintoPDFobject=\count196
 \everyMPtoPDFconversion=\toks57
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -1366,8 +1362,9 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 )
-\c@lstlisting=\count196
+\c@lstlisting=\count197
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros
@@ -1392,22 +1389,22 @@ Non-PDF special ignored!
 [0
 
 ]
-Overfull \hbox (14.995pt too wide) in paragraph at lines 87--87
+Overfull \hbox (14.995pt too wide) in paragraph at lines 88--88
 \OT1/cmr/m/n/9 Grau de Mes-tre em En-ge-nha-ria Mec^anica. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--87
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
 
  []
 
 [1]
-Underfull \hbox (badness 10000) in paragraph at lines 87--87
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
 
  []
 
 
-Overfull \hbox (3.33333pt too wide) in paragraph at lines 87--88
+Overfull \hbox (3.33333pt too wide) in paragraph at lines 88--89
 []
  []
 
@@ -1430,22 +1427,20 @@ Overfull \hbox (3.33333pt too wide) in paragraph at lines 87--88
 ] [14
 
 ] (./exemplo.lof
-Overfull \hbox (14.51637pt too wide) in paragraph at lines 8--8
-[] \OT1/cmr/m/n/10 Fi-gura []Processo de fun-ci-o-na-mento da condi^^Xc~ao de c
-on-torno anec^^Soica  []  
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-)
+ [15])
 \tf@lof=\write6
 \openout6 = `exemplo.lof'.
 
- [15] [16
 
-] (./exemplo.lot)
+[16] (./exemplo.lot)
 \tf@lot=\write7
 \openout7 = `exemplo.lot'.
 
- [17] [18
+ [17
+
+] [18
 
 ] (./exemplo.las)
 \tf@las=\write8
@@ -1498,7 +1493,7 @@ Overfull \hbox (2.29408pt too wide) in paragraph at lines 7--8
 is-te-mas de exaust~ao
  []
 
-[29] <figuras/abs_r_comparacao.pdf, id=116, 526.01273pt x 433.25569pt>
+[29] <figuras/abs_r_comparacao.pdf, id=115, 526.01273pt x 433.25569pt>
 File: figuras/abs_r_comparacao.pdf Graphic file (type pdf)
 
 <use figuras/abs_r_comparacao.pdf>
@@ -1510,7 +1505,7 @@ Overfull \hbox (0.7293pt too wide) in paragraph at lines 37--38
 ste fen^omeno
  []
 
-<figuras/loa_comparacao.pdf, id=122, 548.85324pt x 454.26555pt>
+<figuras/loa_comparacao.pdf, id=121, 548.85324pt x 454.26555pt>
 File: figuras/loa_comparacao.pdf Graphic file (type pdf)
 
 <use figuras/loa_comparacao.pdf>
@@ -1577,7 +1572,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [43]
-<figuras/d3q19.pdf, id=168, 677.53125pt x 557.83406pt>
+<figuras/d3q19.pdf, id=167, 677.53125pt x 557.83406pt>
 File: figuras/d3q19.pdf Graphic file (type pdf)
  <use figuras/d3q19.pdf>
 Package pdftex.def Info: figuras/d3q19.pdf used on input line 179.
@@ -1638,7 +1633,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [46]
 (./figuras/bounceback_2.pdf_tex
-<figuras/bounceback_2.pdf, id=183, page=1, 1081.05896pt x 819.68501pt>
+<figuras/bounceback_2.pdf, id=182, page=1, 1081.05896pt x 819.68501pt>
 File: figuras/bounceback_2.pdf Graphic file (type pdf)
 
 <use figuras/bounceback_2.pdf, page 1>
@@ -1652,14 +1647,14 @@ m/it/10 per-fec-tly mat-ched layers\OT1/cmr/m/n/10 ")
  []
 
 [48 <./figuras/bounceback_2.pdf>]
-<figuras/abc.pdf, id=194, 572.0184pt x 638.63539pt>
+<figuras/abc.pdf, id=193, 572.0184pt x 638.63539pt>
 File: figuras/abc.pdf Graphic file (type pdf)
  <use figuras/abc.pdf>
 Package pdftex.def Info: figuras/abc.pdf used on input line 301.
 (pdftex.def)             Requested size: 92.18787pt x 102.9146pt.
 
 [49 <./figuras/abc.pdf>] [50] [51]
-<figuras/modelo_numerico_2.pdf, id=206, 1247.06013pt x 484.18246pt>
+<figuras/modelo_numerico_2.pdf, id=205, 1247.06013pt x 484.18246pt>
 File: figuras/modelo_numerico_2.pdf Graphic file (type pdf)
 
 <use figuras/modelo_numerico_2.pdf>
@@ -1690,77 +1685,87 @@ Overfull \hbox (0.50206pt too wide) in paragraph at lines 469--470
 
 ]
 Cap\'{\i }tulo 4.
+
+Overfull \hbox (9.71909pt too wide) in paragraph at lines 13--14
+[]\OT1/cmr/m/n/10 Com a fi-na-li-dade men-su-rar e ana-li-sar o com-por-ta-ment
+o da condi^^Xc~ao
+ []
+
+(./figuras/impedancia_A.tex
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/A_real.txt}
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/A_imag.txt}
-[57]
+) (./figuras/reflexao_A.tex
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/A_abs.txt}
- [58]
+)
+(./figuras/impedancia_B.tex
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/B_real.txt}
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/B_imag.txt}
- [59]
+) (./figuras/reflexao_B.tex
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/B_abs.txt}
- [60]
+)
+(./figuras/impedancia_C.tex
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/C_real.txt}
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/C_imag.txt}
- [61]
+) (./figuras/reflexao_C.tex
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/C_abs.txt}
- [62]
+)
+(./figuras/impedancia_D.tex
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/D_real.txt}
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/D_imag.txt}
- [63]
+) (./figuras/reflexao_D.tex
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/D_abs.txt}
- [64]
+) [57] [58] [59]
 PGFPlots: reading {dados/duto_sem_escoamento/analytical_data_abs_r.txt}
 PGFPlots: reading {dados/duto_sem_escoamento/simulation_data_abs_r.txt}
- [65]
+ [60]
 PGFPlots: reading {dados/duto_sem_escoamento/analytical_data_loa.txt}
 PGFPlots: reading {dados/duto_sem_escoamento/simulation_data_loa.txt}
- [66]
+
+[61]
 PGFPlots: reading {dados/duto_exaustao/abs_r_020_analytical.txt}
 PGFPlots: reading {dados/duto_exaustao/abs_r_020_simulation.txt}
- [67]
+ [62]
 PGFPlots: reading {dados/duto_exaustao/loa_020_analytical.txt}
 PGFPlots: reading {dados/duto_exaustao/loa_020_simulation.txt}
- [68]
+ [63]
 PGFPlots: reading {dados/duto_exaustao/abs_r_015_analytical.txt}
 PGFPlots: reading {dados/duto_exaustao/abs_r_015_simulation.txt}
- [69]
+ [64]
 PGFPlots: reading {dados/duto_exaustao/loa_015_analytical.txt}
 PGFPlots: reading {dados/duto_exaustao/loa_015_simulation.txt}
- [70]
+ [65]
 PGFPlots: reading {dados/duto_sugado/davis_analytical.txt}
 PGFPlots: reading {dados/duto_sugado/davis_simulation.txt}
- [71]
+ [66]
 PGFPlots: reading {dados/duto_sugado/davis_analytical_loa.txt}
 PGFPlots: reading {dados/duto_sugado/davis_simulation_loa.txt}
-)
-(./capitulos/conclusoes.tex [72]
+) (./capitulos/conclusoes.tex [67] [68
+
+]
 Cap\'{\i }tulo 5.
-<figuras/cronograma.png, id=276, 796.9775pt x 400.49625pt>
+<figuras/cronograma.png, id=266, 796.9775pt x 400.49625pt>
 File: figuras/cronograma.png Graphic file (type png)
 
 <use figuras/cronograma.png>
 Package pdftex.def Info: figuras/cronograma.png used on input line 6.
 (pdftex.def)             Requested size: 284.52756pt x 142.98076pt.
-) (./exemplo.bbl [73
+) (./exemplo.bbl [69 <./figuras/cronograma.png>]
+[70
 
- <./figuras/cronograma.png>]
-[74
+] [71] [72] [73] [74]) (./capitulos/apendices.tex [75] [76
 
-] [75] [76] [77] [78]) (./capitulos/apendices.tex [79] [80
-
-] [81] [82
+] [77] [78
 
 ]
 Apendice A.
-<figuras/palabos_modelo_fluxo.pdf, id=309, 380.45247pt x 488.79149pt>
+<figuras/palabos_modelo_fluxo.pdf, id=300, 380.45247pt x 488.79149pt>
 File: figuras/palabos_modelo_fluxo.pdf Graphic file (type pdf)
 
 <use figuras/palabos_modelo_fluxo.pdf>
 Package pdftex.def Info: figuras/palabos_modelo_fluxo.pdf used on input line 16
 .
 (pdftex.def)             Requested size: 245.83275pt x 315.84612pt.
- [83]
+ [79]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
@@ -1769,7 +1774,7 @@ File: lstlang2.sty 2015/06/04 1.6 listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-) [84 <./figuras/palabos_modelo_fluxo.pdf>]
+) [80 <./figuras/palabos_modelo_fluxo.pdf>]
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 44.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
@@ -1786,44 +1791,44 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
 *********************************************************************
-[85] (./exemplo.aux)
+[81] (./exemplo.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.5pt have occurred.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 31485 strings out of 493029
- 713687 string characters out of 6136233
- 953744 words of memory out of 5000000
- 34298 multiletter control sequences out of 15000+600000
- 8451 words of font info for 32 fonts, out of 8000000 for 9000
+ 31655 strings out of 493029
+ 716531 string characters out of 6136234
+ 974416 words of memory out of 5000000
+ 34431 multiletter control sequences out of 15000+600000
+ 11346 words of font info for 42 fonts, out of 8000000 for 9000
  1149 hyphenation exceptions out of 8191
- 62i,14n,83p,1507b,1919s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,16n,83p,1507b,2094s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cmextra/cmmib7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on exemplo.pdf (87 pages, 613110 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmext
+ra/cmmib7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmtt10.pfb>
+Output written on exemplo.pdf (83 pages, 632027 bytes).
 PDF statistics:
- 387 PDF objects out of 1000 (max. 8388607)
+ 386 PDF objects out of 1000 (max. 8388607)
  265 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
