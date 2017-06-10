@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  9 JUN 2017 03:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  10 JUN 2017 02:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1658,30 +1658,109 @@ File: figuras/abc.pdf Graphic file (type pdf)
 Package pdftex.def Info: figuras/abc.pdf used on input line 301.
 (pdftex.def)             Requested size: 92.18787pt x 102.9146pt.
 
-[49 <./figuras/abc.pdf>]
-Overfull \hbox (12.01637pt too wide) in paragraph at lines 334--335
-[]\OT1/cmr/m/n/10 incapacidade do usu^^Sario re-a-li-zar al-gum tipo de ma-nu-t
-en^^Xc~ao, corre^^Xc~ao
+[49 <./figuras/abc.pdf>] [50] [51]
+<figuras/modelo_numerico_2.pdf, id=206, 1247.06013pt x 484.18246pt>
+File: figuras/modelo_numerico_2.pdf Graphic file (type pdf)
+
+<use figuras/modelo_numerico_2.pdf>
+Package pdftex.def Info: figuras/modelo_numerico_2.pdf used on input line 396.
+(pdftex.def)             Requested size: 307.28978pt x 119.30913pt.
+
+Underfull \vbox (badness 1895) has occurred while \output is active []
+
+ [52 <./figuras/modelo_numerico_2.pdf>]
+Overfull \hbox (4.69128pt too wide) in paragraph at lines 428--429
+[]\OT1/cmr/m/n/10 No in-tuito de ava-liar a condi^^Xc~ao anec^^Soica nas fron-t
+ei-ras do dom^^S^^Pnio
  []
 
-[50]
-Overfull \hbox (1.34967pt too wide) in paragraph at lines 350--351
-\OT1/cmr/m/n/10 ta-ci-o-nal de ori-enta^^Xc~ao a ob-je-tos re-sul-tado da co-la
--bora^^Xc~ao en-tre ind^^Sustria
+[53]
+Overfull \hbox (1.59238pt too wide) in paragraph at lines 459--460
+\OT1/cmr/m/n/10 m^^Sedia es-pa-cial $[]$ sal-vos em disco r^^S^^Pgido, um \OT1/
+cmr/m/it/10 script \OT1/cmr/m/n/10 de p^^Sos-processamento
  []
 
-[51] [52]
-<figuras/palabos_modelo_fluxo.pdf, id=209, 380.45247pt x 488.79149pt>
+
+Overfull \hbox (0.50206pt too wide) in paragraph at lines 469--470
+[]\OT1/cmr/m/n/10 a trans-for-mada r^^Sapida de Fou-rier, \OT1/cmr/m/it/10 Fast
+ Fou-rier Trans-form \OT1/cmr/m/n/10 (FFT)[],
+ []
+
+[54]) (./capitulos/resultados.tex [55] [56
+
+]
+Cap\'{\i }tulo 4.
+PGFPlots: reading {dados/coeficiente_reflexao_anecoica/A_real.txt}
+PGFPlots: reading {dados/coeficiente_reflexao_anecoica/A_imag.txt}
+[57]
+PGFPlots: reading {dados/coeficiente_reflexao_anecoica/A_abs.txt}
+ [58]
+PGFPlots: reading {dados/coeficiente_reflexao_anecoica/B_real.txt}
+PGFPlots: reading {dados/coeficiente_reflexao_anecoica/B_imag.txt}
+ [59]
+PGFPlots: reading {dados/coeficiente_reflexao_anecoica/B_abs.txt}
+ [60]
+PGFPlots: reading {dados/coeficiente_reflexao_anecoica/C_real.txt}
+PGFPlots: reading {dados/coeficiente_reflexao_anecoica/C_imag.txt}
+ [61]
+PGFPlots: reading {dados/coeficiente_reflexao_anecoica/C_abs.txt}
+ [62]
+PGFPlots: reading {dados/coeficiente_reflexao_anecoica/D_real.txt}
+PGFPlots: reading {dados/coeficiente_reflexao_anecoica/D_imag.txt}
+ [63]
+PGFPlots: reading {dados/coeficiente_reflexao_anecoica/D_abs.txt}
+ [64]
+PGFPlots: reading {dados/duto_sem_escoamento/analytical_data_abs_r.txt}
+PGFPlots: reading {dados/duto_sem_escoamento/simulation_data_abs_r.txt}
+ [65]
+PGFPlots: reading {dados/duto_sem_escoamento/analytical_data_loa.txt}
+PGFPlots: reading {dados/duto_sem_escoamento/simulation_data_loa.txt}
+ [66]
+PGFPlots: reading {dados/duto_exaustao/abs_r_020_analytical.txt}
+PGFPlots: reading {dados/duto_exaustao/abs_r_020_simulation.txt}
+ [67]
+PGFPlots: reading {dados/duto_exaustao/loa_020_analytical.txt}
+PGFPlots: reading {dados/duto_exaustao/loa_020_simulation.txt}
+ [68]
+PGFPlots: reading {dados/duto_exaustao/abs_r_015_analytical.txt}
+PGFPlots: reading {dados/duto_exaustao/abs_r_015_simulation.txt}
+ [69]
+PGFPlots: reading {dados/duto_exaustao/loa_015_analytical.txt}
+PGFPlots: reading {dados/duto_exaustao/loa_015_simulation.txt}
+ [70]
+PGFPlots: reading {dados/duto_sugado/davis_analytical.txt}
+PGFPlots: reading {dados/duto_sugado/davis_simulation.txt}
+ [71]
+PGFPlots: reading {dados/duto_sugado/davis_analytical_loa.txt}
+PGFPlots: reading {dados/duto_sugado/davis_simulation_loa.txt}
+)
+(./capitulos/conclusoes.tex [72]
+Cap\'{\i }tulo 5.
+<figuras/cronograma.png, id=276, 796.9775pt x 400.49625pt>
+File: figuras/cronograma.png Graphic file (type png)
+
+<use figuras/cronograma.png>
+Package pdftex.def Info: figuras/cronograma.png used on input line 6.
+(pdftex.def)             Requested size: 284.52756pt x 142.98076pt.
+) (./exemplo.bbl [73
+
+ <./figuras/cronograma.png>]
+[74
+
+] [75] [76] [77] [78]) (./capitulos/apendices.tex [79] [80
+
+] [81] [82
+
+]
+Apendice A.
+<figuras/palabos_modelo_fluxo.pdf, id=309, 380.45247pt x 488.79149pt>
 File: figuras/palabos_modelo_fluxo.pdf Graphic file (type pdf)
 
 <use figuras/palabos_modelo_fluxo.pdf>
-Package pdftex.def Info: figuras/palabos_modelo_fluxo.pdf used on input line 44
-0.
+Package pdftex.def Info: figuras/palabos_modelo_fluxo.pdf used on input line 16
+.
 (pdftex.def)             Requested size: 245.83275pt x 315.84612pt.
- [53]
-Underfull \vbox (badness 1286) has occurred while \output is active []
-
- [54 <./figuras/palabos_modelo_fluxo.pdf>]
+ [83]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
@@ -1690,115 +1769,24 @@ File: lstlang2.sty 2015/06/04 1.6 listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-)
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 468.
-
+) [84 <./figuras/palabos_modelo_fluxo.pdf>]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 44.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 468.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 44.
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-) [55]
-<figuras/modelo_numerico_2.pdf, id=222, 1247.06013pt x 484.18246pt>
-File: figuras/modelo_numerico_2.pdf Graphic file (type pdf)
-
-<use figuras/modelo_numerico_2.pdf>
-Package pdftex.def Info: figuras/modelo_numerico_2.pdf used on input line 503.
-(pdftex.def)             Requested size: 307.28978pt x 119.30913pt.
-
-Underfull \vbox (badness 7291) has occurred while \output is active []
-
- [56]
-[57 <./figuras/modelo_numerico_2.pdf>]
-Overfull \hbox (4.69128pt too wide) in paragraph at lines 535--536
-[]\OT1/cmr/m/n/10 No in-tuito de ava-liar a condi^^Xc~ao anec^^Soica nas fron-t
-ei-ras do dom^^S^^Pnio
- []
-
-
-Overfull \hbox (1.59238pt too wide) in paragraph at lines 566--567
-\OT1/cmr/m/n/10 m^^Sedia es-pa-cial $[]$ sal-vos em disco r^^S^^Pgido, um \OT1/
-cmr/m/it/10 script \OT1/cmr/m/n/10 de p^^Sos-processamento
- []
-
-[58]
-Overfull \hbox (0.50206pt too wide) in paragraph at lines 576--577
-[]\OT1/cmr/m/n/10 a trans-for-mada r^^Sapida de Fou-rier, \OT1/cmr/m/it/10 Fast
- Fou-rier Trans-form \OT1/cmr/m/n/10 (FFT)[],
- []
-
-) (./capitulos/resultados.tex [59] [60
-
-]
-Cap\'{\i }tulo 4.
-PGFPlots: reading {dados/coeficiente_reflexao_anecoica/A_real.txt}
-PGFPlots: reading {dados/coeficiente_reflexao_anecoica/A_imag.txt}
-[61]
-PGFPlots: reading {dados/coeficiente_reflexao_anecoica/A_abs.txt}
- [62]
-PGFPlots: reading {dados/coeficiente_reflexao_anecoica/B_real.txt}
-PGFPlots: reading {dados/coeficiente_reflexao_anecoica/B_imag.txt}
- [63]
-PGFPlots: reading {dados/coeficiente_reflexao_anecoica/B_abs.txt}
- [64]
-PGFPlots: reading {dados/coeficiente_reflexao_anecoica/C_real.txt}
-PGFPlots: reading {dados/coeficiente_reflexao_anecoica/C_imag.txt}
- [65]
-PGFPlots: reading {dados/coeficiente_reflexao_anecoica/C_abs.txt}
- [66]
-PGFPlots: reading {dados/coeficiente_reflexao_anecoica/D_real.txt}
-PGFPlots: reading {dados/coeficiente_reflexao_anecoica/D_imag.txt}
- [67]
-PGFPlots: reading {dados/coeficiente_reflexao_anecoica/D_abs.txt}
- [68]
-PGFPlots: reading {dados/duto_sem_escoamento/analytical_data_abs_r.txt}
-PGFPlots: reading {dados/duto_sem_escoamento/simulation_data_abs_r.txt}
- [69]
-PGFPlots: reading {dados/duto_sem_escoamento/analytical_data_loa.txt}
-PGFPlots: reading {dados/duto_sem_escoamento/simulation_data_loa.txt}
- [70]
-PGFPlots: reading {dados/duto_exaustao/abs_r_020_analytical.txt}
-PGFPlots: reading {dados/duto_exaustao/abs_r_020_simulation.txt}
- [71]
-PGFPlots: reading {dados/duto_exaustao/loa_020_analytical.txt}
-PGFPlots: reading {dados/duto_exaustao/loa_020_simulation.txt}
- [72]
-PGFPlots: reading {dados/duto_exaustao/abs_r_015_analytical.txt}
-PGFPlots: reading {dados/duto_exaustao/abs_r_015_simulation.txt}
- [73]
-PGFPlots: reading {dados/duto_exaustao/loa_015_analytical.txt}
-PGFPlots: reading {dados/duto_exaustao/loa_015_simulation.txt}
- [74]
-PGFPlots: reading {dados/duto_sugado/davis_analytical.txt}
-PGFPlots: reading {dados/duto_sugado/davis_simulation.txt}
- [75]
-PGFPlots: reading {dados/duto_sugado/davis_analytical_loa.txt}
-PGFPlots: reading {dados/duto_sugado/davis_simulation_loa.txt}
-)
-(./capitulos/conclusoes.tex [76]
-Cap\'{\i }tulo 5.
-<figuras/cronograma.png, id=291, 796.9775pt x 400.49625pt>
-File: figuras/cronograma.png Graphic file (type png)
-
-<use figuras/cronograma.png>
-Package pdftex.def Info: figuras/cronograma.png used on input line 6.
-(pdftex.def)             Requested size: 284.52756pt x 142.98076pt.
-) (./exemplo.bbl [77
-
- <./figuras/cronograma.png>]
-[78
-
-] [79] [80] [81] [82] [83])
+))
 +-------------------------------------------------------------------+
 | Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
 *********************************************************************
-[84] (./exemplo.aux)
+[85] (./exemplo.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.5pt have occurred.
@@ -1808,34 +1796,35 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 31487 strings out of 493029
- 713747 string characters out of 6136233
- 962409 words of memory out of 5000000
- 34303 multiletter control sequences out of 15000+600000
+ 31485 strings out of 493029
+ 713687 string characters out of 6136233
+ 953744 words of memory out of 5000000
+ 34298 multiletter control sequences out of 15000+600000
  8451 words of font info for 32 fonts, out of 8000000 for 9000
  1149 hyphenation exceptions out of 8191
  62i,14n,83p,1507b,1919s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cmextra/cmmib7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on exemplo.pdf (86 pages, 605885 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cmextra/cmmib7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on exemplo.pdf (87 pages, 613110 bytes).
 PDF statistics:
- 380 PDF objects out of 1000 (max. 8388607)
- 260 compressed objects within 3 object streams
+ 387 PDF objects out of 1000 (max. 8388607)
+ 265 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
