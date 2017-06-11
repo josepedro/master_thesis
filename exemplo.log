@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.10)  10 JUN 2017 20:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.10)  11 JUN 2017 01:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1685,24 +1685,18 @@ Overfull \hbox (0.50206pt too wide) in paragraph at lines 469--470
 
 ]
 Cap\'{\i }tulo 4.
-
-Overfull \hbox (9.71909pt too wide) in paragraph at lines 13--14
-[]\OT1/cmr/m/n/10 Com a fi-na-li-dade men-su-rar e ana-li-sar o com-por-ta-ment
-o da condi^^Xc~ao
- []
-
 (./figuras/impedancia_A.tex
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/A_real.txt}
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/A_imag.txt}
 ) (./figuras/reflexao_A.tex
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/A_abs.txt}
-)
+) [57]
 (./figuras/impedancia_B.tex
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/B_real.txt}
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/B_imag.txt}
 ) (./figuras/reflexao_B.tex
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/B_abs.txt}
-)
+) [58]
 (./figuras/impedancia_C.tex
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/C_real.txt}
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/C_imag.txt}
@@ -1714,58 +1708,64 @@ PGFPlots: reading {dados/coeficiente_reflexao_anecoica/D_real.txt}
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/D_imag.txt}
 ) (./figuras/reflexao_D.tex
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/D_abs.txt}
-) [57] [58] [59]
+) [59] [60]
 PGFPlots: reading {dados/duto_sem_escoamento/analytical_data_abs_r.txt}
 PGFPlots: reading {dados/duto_sem_escoamento/simulation_data_abs_r.txt}
- [60]
+ [61]
 PGFPlots: reading {dados/duto_sem_escoamento/analytical_data_loa.txt}
 PGFPlots: reading {dados/duto_sem_escoamento/simulation_data_loa.txt}
-
-[61]
+ [62]
 PGFPlots: reading {dados/duto_exaustao/abs_r_020_analytical.txt}
 PGFPlots: reading {dados/duto_exaustao/abs_r_020_simulation.txt}
- [62]
+
+[63]
 PGFPlots: reading {dados/duto_exaustao/loa_020_analytical.txt}
 PGFPlots: reading {dados/duto_exaustao/loa_020_simulation.txt}
- [63]
+ [64]
 PGFPlots: reading {dados/duto_exaustao/abs_r_015_analytical.txt}
 PGFPlots: reading {dados/duto_exaustao/abs_r_015_simulation.txt}
- [64]
+ [65]
 PGFPlots: reading {dados/duto_exaustao/loa_015_analytical.txt}
 PGFPlots: reading {dados/duto_exaustao/loa_015_simulation.txt}
- [65]
+ [66]
+PGFPlots: reading {dados/duto_exaustao/abs_r_010_analytical.txt}
+PGFPlots: reading {dados/duto_exaustao/abs_r_010_simulation.txt}
+ [67]
+PGFPlots: reading {dados/duto_exaustao/loa_010_analytical.txt}
+PGFPlots: reading {dados/duto_exaustao/loa_010_simulation.txt}
+ [68]
 PGFPlots: reading {dados/duto_sugado/davis_analytical.txt}
 PGFPlots: reading {dados/duto_sugado/davis_simulation.txt}
- [66]
+ [69]
 PGFPlots: reading {dados/duto_sugado/davis_analytical_loa.txt}
 PGFPlots: reading {dados/duto_sugado/davis_simulation_loa.txt}
-) (./capitulos/conclusoes.tex [67] [68
-
-]
+) (./capitulos/conclusoes.tex [70]
 Cap\'{\i }tulo 5.
-<figuras/cronograma.png, id=266, 796.9775pt x 400.49625pt>
+<figuras/cronograma.png, id=272, 796.9775pt x 400.49625pt>
 File: figuras/cronograma.png Graphic file (type png)
 
 <use figuras/cronograma.png>
 Package pdftex.def Info: figuras/cronograma.png used on input line 6.
 (pdftex.def)             Requested size: 284.52756pt x 142.98076pt.
-) (./exemplo.bbl [69 <./figuras/cronograma.png>]
-[70
+) (./exemplo.bbl [71
 
-] [71] [72] [73] [74]) (./capitulos/apendices.tex [75] [76
+ <./figuras/cronograma.png>]
+[72
 
-] [77] [78
+] [73] [74] [75] [76]) (./capitulos/apendices.tex [77] [78
+
+] [79] [80
 
 ]
 Apendice A.
-<figuras/palabos_modelo_fluxo.pdf, id=300, 380.45247pt x 488.79149pt>
+<figuras/palabos_modelo_fluxo.pdf, id=306, 380.45247pt x 488.79149pt>
 File: figuras/palabos_modelo_fluxo.pdf Graphic file (type pdf)
 
 <use figuras/palabos_modelo_fluxo.pdf>
 Package pdftex.def Info: figuras/palabos_modelo_fluxo.pdf used on input line 16
 .
 (pdftex.def)             Requested size: 245.83275pt x 315.84612pt.
- [79]
+ [81]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
@@ -1774,7 +1774,7 @@ File: lstlang2.sty 2015/06/04 1.6 listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-) [80 <./figuras/palabos_modelo_fluxo.pdf>]
+) [82 <./figuras/palabos_modelo_fluxo.pdf>]
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 44.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
@@ -1791,17 +1791,17 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
 *********************************************************************
-[81] (./exemplo.aux)
+[83] (./exemplo.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.5pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 31655 strings out of 493029
- 716531 string characters out of 6136234
- 974416 words of memory out of 5000000
- 34431 multiletter control sequences out of 15000+600000
+ 31681 strings out of 493029
+ 717185 string characters out of 6136234
+ 964747 words of memory out of 5000000
+ 34449 multiletter control sequences out of 15000+600000
  11346 words of font info for 42 fonts, out of 8000000 for 9000
  1149 hyphenation exceptions out of 8191
  62i,16n,83p,1507b,2094s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1826,10 +1826,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf
 fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmtt10.pfb>
-Output written on exemplo.pdf (83 pages, 632027 bytes).
+Output written on exemplo.pdf (85 pages, 648175 bytes).
 PDF statistics:
- 386 PDF objects out of 1000 (max. 8388607)
- 265 compressed objects within 3 object streams
+ 393 PDF objects out of 1000 (max. 8388607)
+ 270 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

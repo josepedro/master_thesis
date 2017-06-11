@@ -461,6 +461,10 @@ INPUT dados/duto_exaustao/abs_r_015_analytical.txt
 INPUT dados/duto_exaustao/abs_r_015_simulation.txt
 INPUT dados/duto_exaustao/loa_015_analytical.txt
 INPUT dados/duto_exaustao/loa_015_simulation.txt
+INPUT dados/duto_exaustao/abs_r_010_analytical.txt
+INPUT dados/duto_exaustao/abs_r_010_simulation.txt
+INPUT dados/duto_exaustao/loa_010_analytical.txt
+INPUT dados/duto_exaustao/loa_010_simulation.txt
 INPUT dados/duto_sugado/davis_analytical.txt
 INPUT dados/duto_sugado/davis_simulation.txt
 INPUT dados/duto_sugado/davis_analytical_loa.txt
