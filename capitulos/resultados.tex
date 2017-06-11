@@ -292,7 +292,7 @@ Em vista do que foi exposto através de uma análise de reflexão acústica nos 
    
   \end{axis}
   \end{tikzpicture}
-  \caption[Coeficiente de Reflexão $R_{r}$ com Escoamento de Exaustão (M $=$ 0,15)]{Resultado da magnitude do coeficiente de reflexão $R_{r}$ calculado no ponto $\textbf{P}$ na terminação do duto com escoamento de exaustão (M $=$ 0,15 e Re $=$ 2757,42). A linha contínua representa o resultado analítico do estudo de \citeonline{munt1990acoustic} e os pontos circulares representam os resultados calculados pela ferramenta computacional proposta nesse estudo. A correlação entre os resultados foi de 99,85 \%.}
+  \caption[Coeficiente de Reflexão $R_{r}$ com Escoamento de Exaustão (M $=$ 0,10)]{Resultado da magnitude do coeficiente de reflexão $R_{r}$ calculado no ponto $\textbf{P}$ na terminação do duto com escoamento de exaustão (M $=$ 0,10 e Re $=$ 2757,42). A linha contínua representa o resultado analítico do estudo de \citeonline{munt1990acoustic} e os pontos circulares representam os resultados calculados pela ferramenta computacional proposta nesse estudo. A correlação entre os resultados foi de 99,85 \%.}
   \label{fig:abs_r_boca_010}
 \end{figure}
 
@@ -318,8 +318,63 @@ Em vista do que foi exposto através de uma análise de reflexão acústica nos 
    
   \end{axis}
   \end{tikzpicture}
-  \caption[Coeficiente de Correção da Terminação $l/a$ com Escoamento de Exaustão (M $=$ 0,15)]{Resultado do coeficiente de correção da terminação $l/a$ calculado no ponto $\textbf{P}$ na terminação do duto com escoamento de (M $=$ 0,15 e Re $=$ 2757,42). A linha contínua representa o resultado analítico do estudo de \citeonline{munt1990acoustic} e os pontos circulares representam os resultados calculados pela ferramenta computacional proposta nesse estudo. A correlação entre os resultados foi de 95,02 \%.}
+  \caption[Coeficiente de Correção da Terminação $l/a$ com Escoamento de Exaustão (M $=$ 0,10)]{Resultado do coeficiente de correção da terminação $l/a$ calculado no ponto $\textbf{P}$ na terminação do duto com escoamento de (M $=$ 0,10 e Re $=$ 2757,42). A linha contínua representa o resultado analítico do estudo de \citeonline{munt1990acoustic} e os pontos circulares representam os resultados calculados pela ferramenta computacional proposta nesse estudo. A correlação entre os resultados foi de 95,02 \%.}
   \label{fig:loa_boca_010}
+\end{figure}
+
+
+\newpage
+\subsection{Mach = 0,07}
+
+\begin{figure}[ht!]
+\centering
+  \begin{tikzpicture}
+  \begin{axis}[
+  width=0.9\textwidth,
+  height=0.5\textwidth,
+  xmin=0,
+  xmax=1.8,
+    ymin=0.4,
+    ymax=1.2,
+    ytick distance=0.1,
+    grid=major, % Display a grid  
+  %grid style={dashed,gray!90}, % Set the style
+  xlabel = Número de Helmholtz ($ka$),
+  ylabel = Coeficiente de Reflexão ($R_{r}$),
+  ]
+ \addplot[color=black, thick] table[x index=0,y index=1] {dados/duto_exaustao/abs_r_007_analytical.txt};
+ \addplot[color=black, mark=o, only marks] table[x index=0,y index=1] {dados/duto_exaustao/abs_r_007_simulation.txt};
+   
+  \end{axis}
+  \end{tikzpicture}
+  \caption[Coeficiente de Reflexão $R_{r}$ com Escoamento de Exaustão (M $=$ 0,07)]{Resultado da magnitude do coeficiente de reflexão $R_{r}$ calculado no ponto $\textbf{P}$ na terminação do duto com escoamento de exaustão (M $=$ 0,07 e Re $=$ 1930,23). A linha contínua representa o resultado analítico do estudo de \citeonline{munt1990acoustic} e os pontos circulares representam os resultados calculados pela ferramenta computacional proposta nesse estudo. A correlação entre os resultados foi de 99,83 \%.}
+  \label{fig:abs_r_boca_007}
+\end{figure}
+
+\newpage
+\begin{figure}[ht!]
+\centering
+  \begin{tikzpicture}
+  \begin{axis}[
+  width=0.9\textwidth,
+  height=0.5\textwidth,
+  xmin=0,
+  xmax=1.8,
+    ymin=0.15,
+    ymax=0.6,
+    ytick distance=0.05,
+    grid=major, % Display a grid  
+  %grid style={dashed,gray!90}, % Set the style
+  xlabel = Número de Helmholtz ($ka$),
+  ylabel = Correção da Terminação ($l/a$),
+  ]
+ \addplot[color=black, thick] table[x index=0,y index=1] {dados/duto_exaustao/loa_007_analytical.txt};
+ \addplot[color=black, mark=o, only marks] table[x index=0,y index=1] {dados/duto_exaustao/loa_007_simulation.txt};
+   
+  \end{axis}
+  \end{tikzpicture}
+  \caption[Coeficiente de Correção da Terminação $l/a$ com Escoamento de Exaustão (M $=$ 0,07)]{Resultado do coeficiente de correção da terminação $l/a$ calculado no ponto $\textbf{P}$ na terminação do duto com escoamento de (M $=$ 0,07 e Re $=$ 1930,23). A linha contínua representa o resultado analítico do estudo de \citeonline{munt1990acoustic} e os pontos circulares representam os resultados calculados pela ferramenta computacional proposta nesse estudo. A correlação entre os resultados foi de 87,76 \%.}
+  \label{fig:loa_boca_007}
 \end{figure}
 
 

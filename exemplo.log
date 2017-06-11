@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.10)  11 JUN 2017 01:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  11 JUN 2017 20:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1734,38 +1734,45 @@ PGFPlots: reading {dados/duto_exaustao/abs_r_010_simulation.txt}
 PGFPlots: reading {dados/duto_exaustao/loa_010_analytical.txt}
 PGFPlots: reading {dados/duto_exaustao/loa_010_simulation.txt}
  [68]
+PGFPlots: reading {dados/duto_exaustao/abs_r_007_analytical.txt}
+PGFPlots: reading {dados/duto_exaustao/abs_r_007_simulation.txt}
+ [69]
+PGFPlots: reading {dados/duto_exaustao/loa_007_analytical.txt}
+PGFPlots: reading {dados/duto_exaustao/loa_007_simulation.txt}
+ [70]
 PGFPlots: reading {dados/duto_sugado/davis_analytical.txt}
 PGFPlots: reading {dados/duto_sugado/davis_simulation.txt}
- [69]
+ [71]
 PGFPlots: reading {dados/duto_sugado/davis_analytical_loa.txt}
 PGFPlots: reading {dados/duto_sugado/davis_simulation_loa.txt}
-) (./capitulos/conclusoes.tex [70]
+) (./capitulos/conclusoes.tex
+[72]
 Cap\'{\i }tulo 5.
-<figuras/cronograma.png, id=272, 796.9775pt x 400.49625pt>
+<figuras/cronograma.png, id=279, 796.9775pt x 400.49625pt>
 File: figuras/cronograma.png Graphic file (type png)
 
 <use figuras/cronograma.png>
 Package pdftex.def Info: figuras/cronograma.png used on input line 6.
 (pdftex.def)             Requested size: 284.52756pt x 142.98076pt.
-) (./exemplo.bbl [71
+) (./exemplo.bbl [73
 
  <./figuras/cronograma.png>]
-[72
+[74
 
-] [73] [74] [75] [76]) (./capitulos/apendices.tex [77] [78
+] [75] [76] [77] [78]) (./capitulos/apendices.tex [79] [80
 
-] [79] [80
+] [81] [82
 
 ]
 Apendice A.
-<figuras/palabos_modelo_fluxo.pdf, id=306, 380.45247pt x 488.79149pt>
+<figuras/palabos_modelo_fluxo.pdf, id=312, 380.45247pt x 488.79149pt>
 File: figuras/palabos_modelo_fluxo.pdf Graphic file (type pdf)
 
 <use figuras/palabos_modelo_fluxo.pdf>
 Package pdftex.def Info: figuras/palabos_modelo_fluxo.pdf used on input line 16
 .
 (pdftex.def)             Requested size: 245.83275pt x 315.84612pt.
- [81]
+ [83]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
@@ -1774,7 +1781,7 @@ File: lstlang2.sty 2015/06/04 1.6 listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-) [82 <./figuras/palabos_modelo_fluxo.pdf>]
+) [84 <./figuras/palabos_modelo_fluxo.pdf>]
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 44.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
@@ -1791,17 +1798,17 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
 *********************************************************************
-[83] (./exemplo.aux)
+[85] (./exemplo.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.5pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 31681 strings out of 493029
- 717185 string characters out of 6136234
- 964747 words of memory out of 5000000
- 34449 multiletter control sequences out of 15000+600000
+ 31707 strings out of 493029
+ 717839 string characters out of 6136233
+ 964766 words of memory out of 5000000
+ 34467 multiletter control sequences out of 15000+600000
  11346 words of font info for 42 fonts, out of 8000000 for 9000
  1149 hyphenation exceptions out of 8191
  62i,16n,83p,1507b,2094s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1826,10 +1833,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf
 fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmtt10.pfb>
-Output written on exemplo.pdf (85 pages, 648175 bytes).
+Output written on exemplo.pdf (87 pages, 659641 bytes).
 PDF statistics:
- 393 PDF objects out of 1000 (max. 8388607)
- 270 compressed objects within 3 object streams
+ 399 PDF objects out of 1000 (max. 8388607)
+ 274 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

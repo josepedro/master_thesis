@@ -28,7 +28,8 @@
 \contentsline {subsection}{\numberline {4.3.1}Mach 0,2}{63}
 \contentsline {subsection}{\numberline {4.3.2}Mach = 0,15}{65}
 \contentsline {subsection}{\numberline {4.3.3}Mach = 0,10}{67}
-\contentsline {section}{\numberline {4.4}Duto com Escoamento Sugado}{69}
-\contentsline {chapter}{\numberline {5}\MakeUppercase {Conclus\IeC {\~o}es}}{71}
-\contentsline {chapter}{REFER\IeC {\^E}NCIAS}{73}
-\contentsline {chapter}{\MakeUppercase {Ap\^endice{}} A{} -$\tmspace -\thinmuskip {.1667em}$-{} Manual de Funcionamento do Palabos Acoustic}{81}
+\contentsline {subsection}{\numberline {4.3.4}Mach = 0,07}{69}
+\contentsline {section}{\numberline {4.4}Duto com Escoamento Sugado}{71}
+\contentsline {chapter}{\numberline {5}\MakeUppercase {Conclus\IeC {\~o}es}}{73}
+\contentsline {chapter}{REFER\IeC {\^E}NCIAS}{75}
+\contentsline {chapter}{\MakeUppercase {Ap\^endice{}} A{} -$\tmspace -\thinmuskip {.1667em}$-{} Manual de Funcionamento do Palabos Acoustic}{83}
