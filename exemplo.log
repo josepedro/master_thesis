@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  11 JUN 2017 20:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  12 JUN 2017 04:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1135,6 +1135,241 @@ Package: subfig 2005/06/28 ver: 1.3 subfig package
 \sf@nearskip=\skip74
 \sf@top=\skip75
 \sf@bottom=\skip76
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mnsymbol/MnSymbol.sty
+Package: MnSymbol 2007/01/21 v1.4 support for the MnSymbol font
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/eufrak.sty
+Package: eufrak 2009/06/22 v3.00 Euler Fraktur fonts
+LaTeX Font Info:    Overwriting math alphabet `\EuFrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 39.
+)
+LaTeX Info: Redefining \dagger on input line 84.
+LaTeX Info: Redefining \ddagger on input line 84.
+LaTeX Info: Redefining \mathparagraph on input line 84.
+LaTeX Info: Redefining \mathsection on input line 84.
+LaTeX Info: Redefining \mathdollar on input line 84.
+LaTeX Info: Redefining \mathsterling on input line 84.
+LaTeX Info: Redefining \Re on input line 84.
+LaTeX Info: Redefining \Im on input line 84.
+\symMnSyA=\mathgroup4
+\symMnSyB=\mathgroup5
+\symMnSyC=\mathgroup6
+\symMnSyD=\mathgroup7
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 119.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/MnSymbolE/m/n on input line 119.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/MnSymbolE/m/n on input line 119.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 120.
+LaTeX Font Info:    Encoding `OMS' has changed to `U' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> U/MnSymbolF/m/n on input line 120.
+LaTeX Font Info:    Encoding `OMS' has changed to `U' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> U/MnSymbolF/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `MnSyA' in version `bold'
+(Font)                  U/MnSymbolA/m/n --> U/MnSymbolA/b/n on input line 121.
+LaTeX Font Info:    Overwriting symbol font `MnSyB' in version `bold'
+(Font)                  U/MnSymbolB/m/n --> U/MnSymbolB/b/n on input line 122.
+LaTeX Font Info:    Overwriting symbol font `MnSyC' in version `bold'
+(Font)                  U/MnSymbolC/m/n --> U/MnSymbolC/b/n on input line 123.
+LaTeX Font Info:    Overwriting symbol font `MnSyD' in version `bold'
+(Font)                  U/MnSymbolD/m/n --> U/MnSymbolD/b/n on input line 124.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/MnSymbolE/m/n --> OMX/MnSymbolE/b/n on input line 1
+25.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  U/MnSymbolF/m/n --> U/MnSymbolF/b/n on input line 126.
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 241.
+LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `bold'
+(Font)                  OMS/MnSymbolS/m/n --> OMS/MnSymbolS/b/n on input line 2
+41.
+LaTeX Info: Redefining \longrightarrow on input line 548.
+LaTeX Info: Redefining \longleftarrow on input line 549.
+LaTeX Info: Redefining \longleftrightarrow on input line 550.
+LaTeX Info: Redefining \Longrightarrow on input line 551.
+LaTeX Info: Redefining \Longleftarrow on input line 552.
+LaTeX Info: Redefining \Longleftrightarrow on input line 553.
+LaTeX Info: Redefining \longmapsto on input line 554.
+LaTeX Info: Redefining \vdots on input line 868.
+LaTeX Font Info:    Redeclaring math symbol \braceld on input line 1721.
+LaTeX Font Info:    Redeclaring math symbol \bracelu on input line 1722.
+LaTeX Font Info:    Redeclaring math symbol \bracerd on input line 1723.
+LaTeX Font Info:    Redeclaring math symbol \braceru on input line 1724.
+LaTeX Info: Redefining \downbracefill on input line 1799.
+LaTeX Info: Redefining \upbracefill on input line 1800.
+LaTeX Info: Redefining \overbrace on input line 1819.
+LaTeX Info: Redefining \underbrace on input line 1820.
+LaTeX Info: Redefining \surd on input line 1843.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 1845.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 1846.
+LaTeX Font Info:    Redeclaring math accent \vec on input line 1848.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/wasysym/wasysym.sty
+Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
+\symwasy=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
+LaTeX Font Info:    Redeclaring math symbol \invneg on input line 239.
 ) (./comandos.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pstricks/pstricks.sty
 Package: pstricks 2015/11/14 v0.62 LaTeX wrapper for `PSTricks' (RN,HV)
@@ -1245,21 +1480,31 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 LaTeX Warning: Unused global option(s):
     [cleardoublepage=plain].
 
-(./exemplo.aux)
+(./exemplo.aux
+
+LaTeX Warning: Label `fig:abs_r_exaustao_strouhal_mach' multiply defined.
+
+)
 \openout1 = `exemplo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 87.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 87.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 87.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1374,7 +1619,10 @@ enefit from \pgfplotsset{compat=1.13} (current compat level: 1.9).
 \ST@sf=\write5
 \openout5 = `exemplo.sagetex.sage'.
 
-[1
+LaTeX Font Info:    Try loading font information for U+wasy on input line 90.
+(/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
+) [1
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
@@ -1389,22 +1637,22 @@ Non-PDF special ignored!
 [0
 
 ]
-Overfull \hbox (14.995pt too wide) in paragraph at lines 88--88
+Overfull \hbox (14.995pt too wide) in paragraph at lines 91--91
 \OT1/cmr/m/n/9 Grau de Mes-tre em En-ge-nha-ria Mec^anica. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 
  []
 
 [1]
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 
  []
 
 
-Overfull \hbox (3.33333pt too wide) in paragraph at lines 88--89
+Overfull \hbox (3.33333pt too wide) in paragraph at lines 91--92
 []
  []
 
@@ -1426,21 +1674,18 @@ Overfull \hbox (3.33333pt too wide) in paragraph at lines 88--89
 
 ] [14
 
-] (./exemplo.lof
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15])
+] (./exemplo.lof)
 \tf@lof=\write6
 \openout6 = `exemplo.lof'.
 
 
-[16] (./exemplo.lot)
+[15] [16
+
+] (./exemplo.lot)
 \tf@lot=\write7
 \openout7 = `exemplo.lot'.
 
- [17
-
-] [18
+ [17] [18
 
 ] (./exemplo.las)
 \tf@las=\write8
@@ -1456,7 +1701,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 \openout9 = `exemplo.lsb'.
 
 
-[22] (./exemplo.toc)
+[22] (./exemplo.toc
+
+LaTeX Font Warning: Font shape `U/wasy/b/n' in size <7> not available
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 35.
+
+
+LaTeX Font Warning: Font shape `U/wasy/b/n' in size <5> not available
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 35.
+
+)
 \tf@toc=\write10
 \openout10 = `exemplo.toc'.
 
@@ -1466,13 +1720,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ] (./capitulos/introducao.tex
 Cap\'{\i }tulo 1.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 16.
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 16.
- [25
+[25
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1493,7 +1741,7 @@ Overfull \hbox (2.29408pt too wide) in paragraph at lines 7--8
 is-te-mas de exaust~ao
  []
 
-[29] <figuras/abs_r_comparacao.pdf, id=115, 526.01273pt x 433.25569pt>
+[29] <figuras/abs_r_comparacao.pdf, id=117, 526.01273pt x 433.25569pt>
 File: figuras/abs_r_comparacao.pdf Graphic file (type pdf)
 
 <use figuras/abs_r_comparacao.pdf>
@@ -1505,13 +1753,19 @@ Overfull \hbox (0.7293pt too wide) in paragraph at lines 37--38
 ste fen^omeno
  []
 
-<figuras/loa_comparacao.pdf, id=121, 548.85324pt x 454.26555pt>
+<figuras/loa_comparacao.pdf, id=123, 548.85324pt x 454.26555pt>
 File: figuras/loa_comparacao.pdf Graphic file (type pdf)
 
 <use figuras/loa_comparacao.pdf>
 Package pdftex.def Info: figuras/loa_comparacao.pdf used on input line 41.
 (pdftex.def)             Requested size: 245.83275pt x 203.46797pt.
  [31 <./figuras/loa_comparacao.pdf>]
+Overfull \hbox (11.01637pt too wide) in paragraph at lines 53--54
+\OT1/cmr/m/n/10 on-das pla-nas, por^^Sem con-si-de-rando des-lo-ca-mento trans-
+ver-sais de part^^S^^Pculas
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32]
@@ -1572,7 +1826,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [43]
-<figuras/d3q19.pdf, id=167, 677.53125pt x 557.83406pt>
+<figuras/d3q19.pdf, id=170, 677.53125pt x 557.83406pt>
 File: figuras/d3q19.pdf Graphic file (type pdf)
  <use figuras/d3q19.pdf>
 Package pdftex.def Info: figuras/d3q19.pdf used on input line 179.
@@ -1587,8 +1841,8 @@ LaTeX Warning: Text page 45 contains only floats.
 LaTeX Font Warning: Command \tiny invalid in math mode on input line 210.
 
 
-Overfull \hbox (14.05673pt too wide) detected at line 231
-[] \OT1/cmr/m/n/5 = []\OML/cmm/m/it/5 ;
+Overfull \hbox (9.898pt too wide) detected at line 231
+[] \U/MnSymbolD/m/n/5 ^^@ []\OML/cmm/m/it/5 ;
  []
 
 LaTeX Font Info:    Calculating math sizes for size <> on input line 231.
@@ -1617,15 +1871,15 @@ LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.5> not available
 (Font)              size <5> substituted on input line 231.
 
 
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <> not available
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <> not available
 (Font)              size <5> substituted on input line 231.
 
 
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.7> not available
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <0.7> not available
 (Font)              size <5> substituted on input line 231.
 
 
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <0.5> not available
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <0.5> not available
 (Font)              size <5> substituted on input line 231.
 
 
@@ -1633,7 +1887,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [46]
 (./figuras/bounceback_2.pdf_tex
-<figuras/bounceback_2.pdf, id=182, page=1, 1081.05896pt x 819.68501pt>
+<figuras/bounceback_2.pdf, id=186, page=1, 1081.05896pt x 819.68501pt>
 File: figuras/bounceback_2.pdf Graphic file (type pdf)
 
 <use figuras/bounceback_2.pdf, page 1>
@@ -1647,14 +1901,16 @@ m/it/10 per-fec-tly mat-ched layers\OT1/cmr/m/n/10 ")
  []
 
 [48 <./figuras/bounceback_2.pdf>]
-<figuras/abc.pdf, id=193, 572.0184pt x 638.63539pt>
+<figuras/abc.pdf, id=197, 572.0184pt x 638.63539pt>
 File: figuras/abc.pdf Graphic file (type pdf)
  <use figuras/abc.pdf>
 Package pdftex.def Info: figuras/abc.pdf used on input line 301.
 (pdftex.def)             Requested size: 92.18787pt x 102.9146pt.
 
-[49 <./figuras/abc.pdf>] [50] [51]
-<figuras/modelo_numerico_2.pdf, id=205, 1247.06013pt x 484.18246pt>
+Underfull \vbox (badness 3000) has occurred while \output is active []
+
+ [49 <./figuras/abc.pdf>] [50] [51]
+<figuras/modelo_numerico_2.pdf, id=209, 1247.06013pt x 484.18246pt>
 File: figuras/modelo_numerico_2.pdf Graphic file (type pdf)
 
 <use figuras/modelo_numerico_2.pdf>
@@ -1709,70 +1965,102 @@ PGFPlots: reading {dados/coeficiente_reflexao_anecoica/D_imag.txt}
 ) (./figuras/reflexao_D.tex
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/D_abs.txt}
 ) [59] [60]
+(./figuras/abs_r_sem_escoamento.tex
 PGFPlots: reading {dados/duto_sem_escoamento/analytical_data_abs_r.txt}
 PGFPlots: reading {dados/duto_sem_escoamento/simulation_data_abs_r.txt}
- [61]
+) (./figuras/loa_sem_escoamento.tex
 PGFPlots: reading {dados/duto_sem_escoamento/analytical_data_loa.txt}
 PGFPlots: reading {dados/duto_sem_escoamento/simulation_data_loa.txt}
- [62]
-PGFPlots: reading {dados/duto_exaustao/abs_r_020_analytical.txt}
-PGFPlots: reading {dados/duto_exaustao/abs_r_020_simulation.txt}
-
-[63]
-PGFPlots: reading {dados/duto_exaustao/loa_020_analytical.txt}
-PGFPlots: reading {dados/duto_exaustao/loa_020_simulation.txt}
- [64]
-PGFPlots: reading {dados/duto_exaustao/abs_r_015_analytical.txt}
-PGFPlots: reading {dados/duto_exaustao/abs_r_015_simulation.txt}
- [65]
-PGFPlots: reading {dados/duto_exaustao/loa_015_analytical.txt}
-PGFPlots: reading {dados/duto_exaustao/loa_015_simulation.txt}
- [66]
-PGFPlots: reading {dados/duto_exaustao/abs_r_010_analytical.txt}
-PGFPlots: reading {dados/duto_exaustao/abs_r_010_simulation.txt}
- [67]
-PGFPlots: reading {dados/duto_exaustao/loa_010_analytical.txt}
-PGFPlots: reading {dados/duto_exaustao/loa_010_simulation.txt}
- [68]
+)
+[61] (./figuras/abs_r_exaustao_007.tex
 PGFPlots: reading {dados/duto_exaustao/abs_r_007_analytical.txt}
 PGFPlots: reading {dados/duto_exaustao/abs_r_007_simulation.txt}
- [69]
+) (./figuras/loa_exaustao_007.tex
 PGFPlots: reading {dados/duto_exaustao/loa_007_analytical.txt}
 PGFPlots: reading {dados/duto_exaustao/loa_007_simulation.txt}
- [70]
+)
+[62] (./figuras/abs_r_exaustao_010.tex
+PGFPlots: reading {dados/duto_exaustao/abs_r_010_analytical.txt}
+PGFPlots: reading {dados/duto_exaustao/abs_r_010_simulation.txt}
+) (./figuras/loa_exaustao_010.tex
+PGFPlots: reading {dados/duto_exaustao/loa_010_analytical.txt}
+PGFPlots: reading {dados/duto_exaustao/loa_010_simulation.txt}
+)
+[63] (./figuras/abs_r_exaustao_015.tex
+PGFPlots: reading {dados/duto_exaustao/abs_r_015_analytical.txt}
+PGFPlots: reading {dados/duto_exaustao/abs_r_015_simulation.txt}
+) (./figuras/loa_exaustao_015.tex
+PGFPlots: reading {dados/duto_exaustao/loa_015_analytical.txt}
+PGFPlots: reading {dados/duto_exaustao/loa_015_simulation.txt}
+)
+[64] (./figuras/abs_r_exaustao_020.tex
+PGFPlots: reading {dados/duto_exaustao/abs_r_020_analytical.txt}
+PGFPlots: reading {dados/duto_exaustao/abs_r_020_simulation.txt}
+) (./figuras/loa_exaustao_020.tex
+PGFPlots: reading {dados/duto_exaustao/loa_020_analytical.txt}
+PGFPlots: reading {dados/duto_exaustao/loa_020_simulation.txt}
+)
+[65] (./figuras/abs_r_exaustao_strouhal.tex
+PGFPlots: reading {dados/duto_exaustao/abs_r_007_simulation_strouhal.txt}
+PGFPlots: reading {dados/duto_exaustao/abs_r_010_simulation_strouhal.txt}
+PGFPlots: reading {dados/duto_exaustao/abs_r_015_simulation_strouhal.txt}
+PGFPlots: reading {dados/duto_exaustao/abs_r_020_simulation_strouhal.txt}
+) [66]
+(./figuras/abs_r_exaustao_strouhal_mach.tex
+PGFPlots: reading {dados/duto_exaustao/abs_r_strouhal_mach.txt}
+) [67] (./figuras/abs_r_sugado.tex
 PGFPlots: reading {dados/duto_sugado/davis_analytical.txt}
 PGFPlots: reading {dados/duto_sugado/davis_simulation.txt}
- [71]
+
+Overfull \hbox (7.72932pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+) (./figuras/loa_sugado.tex
 PGFPlots: reading {dados/duto_sugado/davis_analytical_loa.txt}
 PGFPlots: reading {dados/duto_sugado/davis_simulation_loa.txt}
-) (./capitulos/conclusoes.tex
-[72]
+
+Overfull \hbox (2.7293pt too wide) in paragraph at lines 27--28
+[][] 
+ []
+
+) [68] (./figuras/abs_r_sugado_strouhal.tex
+PGFPlots: reading {dados/duto_sugado/abs_005_strouhal.txt}
+PGFPlots: reading {dados/duto_sugado/abs_007_strouhal.txt}
+PGFPlots: reading {dados/duto_sugado/abs_010_strouhal.txt}
+PGFPlots: reading {dados/duto_sugado/abs_015_strouhal.txt}
+PGFPlots: reading {dados/duto_sugado/abs_020_strouhal.txt}
+) [69]
+(./figuras/abs_r_sugado_strouhal_mach.tex
+PGFPlots: reading {dados/duto_sugado/abs_r_strouhal_mach.txt}
+)) (./capitulos/conclusoes.tex
+[70]
 Cap\'{\i }tulo 5.
-<figuras/cronograma.png, id=279, 796.9775pt x 400.49625pt>
+<figuras/cronograma.png, id=280, 796.9775pt x 400.49625pt>
 File: figuras/cronograma.png Graphic file (type png)
 
 <use figuras/cronograma.png>
 Package pdftex.def Info: figuras/cronograma.png used on input line 6.
 (pdftex.def)             Requested size: 284.52756pt x 142.98076pt.
-) (./exemplo.bbl [73
+) (./exemplo.bbl [71
 
  <./figuras/cronograma.png>]
-[74
+[72
 
-] [75] [76] [77] [78]) (./capitulos/apendices.tex [79] [80
+] [73] [74] [75] [76]) (./capitulos/apendices.tex [77] [78
 
-] [81] [82
+] [79] [80
 
 ]
 Apendice A.
-<figuras/palabos_modelo_fluxo.pdf, id=312, 380.45247pt x 488.79149pt>
+<figuras/palabos_modelo_fluxo.pdf, id=314, 380.45247pt x 488.79149pt>
 File: figuras/palabos_modelo_fluxo.pdf Graphic file (type pdf)
 
 <use figuras/palabos_modelo_fluxo.pdf>
 Package pdftex.def Info: figuras/palabos_modelo_fluxo.pdf used on input line 16
 .
 (pdftex.def)             Requested size: 245.83275pt x 315.84612pt.
- [83]
+ [81]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
@@ -1781,7 +2069,7 @@ File: lstlang2.sty 2015/06/04 1.6 listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-) [84 <./figuras/palabos_modelo_fluxo.pdf>]
+) [82 <./figuras/palabos_modelo_fluxo.pdf>]
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 44.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
@@ -1798,45 +2086,54 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
 *********************************************************************
-[85] (./exemplo.aux)
+[83] (./exemplo.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.5pt have occurred.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 31707 strings out of 493029
- 717839 string characters out of 6136233
- 964766 words of memory out of 5000000
- 34467 multiletter control sequences out of 15000+600000
- 11346 words of font info for 42 fonts, out of 8000000 for 9000
+ 34023 strings out of 493029
+ 749686 string characters out of 6136233
+ 983413 words of memory out of 5000000
+ 36644 multiletter control sequences out of 15000+600000
+ 30485 words of font info for 103 fonts, out of 8000000 for 9000
  1149 hyphenation exceptions out of 8191
  62i,16n,83p,1507b,2094s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmext
-ra/cmmib7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmtt10.pfb>
-Output written on exemplo.pdf (87 pages, 659641 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{/usr/s
+hare/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{/usr/share/texl
+ive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{/usr/share/texlive/texmf
+-dist/fonts/enc/dvips/mnsymbol/MnSymbolF.enc}{/usr/share/texmf/fonts/enc/dvips/
+cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/mns
+ymbol/MnSymbol-Bold10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mns
+ymbol/MnSymbol-Bold7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mnsy
+mbol/MnSymbol10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/
+MnSymbol5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymb
+ol7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol9.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cmextra/cmmib7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/
+public/cm-super/sfrm1000.pfb>
+Output written on exemplo.pdf (85 pages, 713394 bytes).
 PDF statistics:
- 399 PDF objects out of 1000 (max. 8388607)
- 274 compressed objects within 3 object streams
+ 420 PDF objects out of 1000 (max. 8388607)
+ 295 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

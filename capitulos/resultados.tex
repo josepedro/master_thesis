@@ -56,7 +56,7 @@ Com a finalidade de mensurar e analisar o comportamento da condição de contorn
 \begin{subfigure}{\scaleA \textwidth}
   \input{figuras/reflexao_A.tex}
 \end{subfigure}
-\caption{Resultados da impedância (\ref{fig:A_impedancia}) e coeficiente de reflexão (\ref{fig:A_reflexao}) calculados no ponto $\textbf{A}$. Na Figura (\ref{fig:A_impedancia}) a linha contínua representa a parte real e a linha tracejada representa a parte imaginária.}
+\caption[Resultados de reflexão no ponto \textbf{A}]{Resultados da impedância (\ref{fig:A_impedancia}) e coeficiente de reflexão (\ref{fig:A_reflexao}) calculados no ponto $\textbf{A}$. Na Figura (\ref{fig:A_impedancia}) a linha contínua representa a parte real e a linha tracejada representa a parte imaginária.}
 \label{fig:resultados_A}
 \end{figure}
 
@@ -72,7 +72,7 @@ A Figura \ref{fig:resultados_B} mostra os resultados de parâmetros de caracteri
 \begin{subfigure}{\scaleA \textwidth}
   \input{figuras/reflexao_B.tex}
 \end{subfigure}
-\caption{Resultados da impedância (\ref{fig:B_impedancia}) e coeficiente de reflexão (\ref{fig:B_reflexao}) calculados no ponto $\textbf{B}$. Na Figura (\ref{fig:B_impedancia}) a linha contínua representa a parte real e a linha tracejada representa a parte imaginária.}
+\caption[Resultados de reflexão no ponto \textbf{B}]{Resultados da impedância (\ref{fig:B_impedancia}) e coeficiente de reflexão (\ref{fig:B_reflexao}) calculados no ponto $\textbf{B}$. Na Figura (\ref{fig:B_impedancia}) a linha contínua representa a parte real e a linha tracejada representa a parte imaginária.}
 \label{fig:resultados_B}
 \end{figure}
 
@@ -88,7 +88,7 @@ A Figura \ref{fig:resultados_D} mostra os resultados de parâmetros de caracteri
 \begin{subfigure}{\scaleA \textwidth}
   \input{figuras/reflexao_C.tex}
 \end{subfigure}
-\caption{Resultados da impedância (\ref{fig:C_impedancia}) e coeficiente de reflexão (\ref{fig:C_reflexao}) calculados no ponto $\textbf{C}$. Na Figura (\ref{fig:C_impedancia}) a linha contínua representa a parte real e a linha tracejada representa a parte imaginária.}
+\caption[Resultados de reflexão no ponto \textbf{C}]{Resultados da impedância (\ref{fig:C_impedancia}) e coeficiente de reflexão (\ref{fig:C_reflexao}) calculados no ponto $\textbf{C}$. Na Figura (\ref{fig:C_impedancia}) a linha contínua representa a parte real e a linha tracejada representa a parte imaginária.}
 \label{fig:resultados_C}
 \end{figure}
 
@@ -99,7 +99,7 @@ A Figura \ref{fig:resultados_D} mostra os resultados de parâmetros de caracteri
 \begin{subfigure}{\scaleA \textwidth}
   \input{figuras/reflexao_D.tex}
 \end{subfigure}
-\caption{Resultados da impedância (\ref{fig:D_impedancia}) e coeficiente de reflexão (\ref{fig:D_reflexao}) calculados no ponto $\textbf{D}$. Na Figura (\ref{fig:D_impedancia}) a linha contínua representa a parte real e a linha tracejada representa a parte imaginária.}
+\caption[Resultados de reflexão no ponto \textbf{D}]{Resultados da impedância (\ref{fig:D_impedancia}) e coeficiente de reflexão (\ref{fig:D_reflexao}) calculados no ponto $\textbf{D}$. Na Figura (\ref{fig:D_impedancia}) a linha contínua representa a parte real e a linha tracejada representa a parte imaginária.}
 \label{fig:resultados_D}
 \end{figure}
 
@@ -109,343 +109,110 @@ Em vista do que foi exposto através de uma análise de reflexão acústica nos 
 \section{Duto sem Escoamento}
 
 \begin{figure}[ht!]
-\centering
-  \begin{tikzpicture}
-  \begin{axis}[
-  width=0.9\textwidth,
-  height=0.5\textwidth,
-  xmin=0,
-  xmax=1.8,
-    ymin=0.4,
-    ymax=1,
-    ytick distance=0.1,
-    grid=major, % Display a grid  
-  %grid style={dashed,gray!90}, % Set the style
-  xlabel = Número de Helmholtz ($ka$),
-  ylabel = Coeficiente de Reflexão ($R_{r}$),
-  ]
- \addplot[color=black, thick] table[x index=0,y index=1] {dados/duto_sem_escoamento/analytical_data_abs_r.txt};
- \addplot[color=black, mark=o, only marks] table[x index=0,y index=1] {dados/duto_sem_escoamento/simulation_data_abs_r.txt};
-   
-  \end{axis}
-  \end{tikzpicture}
-  \caption[Coeficiente de Reflexão $R_{r}$ sem Escoamento]{Resultado da magnitude do coeficiente de reflexão $R_{r}$ calculado no ponto $\textbf{P}$ na terminação do duto sem escoamento. A linha contínua representa o resultado analítico do estudo de \citeonline{levine1948radiation} e os pontos circulares representam os resultados calculados pela ferramenta computacional proposta nesse estudo. A correlação entre os resultados foi de 99,95 \%.}
-  \label{fig:abs_r_boca}
+\begin{subfigure}{\scaleA \textwidth}
+  \input{figuras/abs_r_sem_escoamento.tex}
+\end{subfigure}%
+\begin{subfigure}{\scaleA \textwidth}
+  \input{figuras/loa_sem_escoamento.tex}
+\end{subfigure}
+\caption[Resultados de $R_{r}$ e $l/a$ sem escoamento]{Resultados da magnitude do coeficiente de reflexão $R_{r}$ (\ref{fig:abs_r_sem_escoamento}) e do coeficiente de correção da terminação $l/a$ (\ref{fig:loa_sem_escoamento}) calculados no ponto $\textbf{P}$ na terminação do duto sem escoamento. As linhas contínuas representam os resultado analítico do estudo de \citeonline{levine1948radiation} e os pontos circulares representam os resultados calculados pela ferramenta computacional proposta nesse estudo. As correlações entre os resultados foram de 99,95 \% para o coeficiente de reflexão $R_{r}$ (\ref{fig:abs_r_sem_escoamento}) e 96,23 \% para o coeficiente de correção da terminação $l/a$ (\ref{fig:loa_sem_escoamento}).}
+\label{fig:resultados_sem_escoamento}
 \end{figure}
 
-\newpage
-\begin{figure}[ht!]
-\centering
-  \begin{tikzpicture}
-  \begin{axis}[
-  width=0.9\textwidth,
-  height=0.5\textwidth,
-  xmin=0,
-  xmax=1.8,
-    ymin=0.4,
-    ymax=0.65,
-    ytick distance=0.05,
-    grid=major, % Display a grid  
-  %grid style={dashed,gray!90}, % Set the style
-  xlabel = Número de Helmholtz ($ka$),
-  ylabel = Correção da Terminação ($l/a$),
-  ]
- \addplot[color=black, thick] table[x index=0,y index=1] {dados/duto_sem_escoamento/analytical_data_loa.txt};
- \addplot[color=black, mark=o, only marks] table[x index=0,y index=1] {dados/duto_sem_escoamento/simulation_data_loa.txt};
-   
-  \end{axis}
-  \end{tikzpicture}
-  \caption[Coeficiente de Correção da Terminação $l/a$ sem Escoamento]{Resultado do coeficiente de correção da terminação $l/a$ calculado no ponto $\textbf{P}$ na terminação do duto sem escoamento. A linha contínua representa o resultado analítico do estudo de \citeonline{levine1948radiation} e os pontos circulares representam os resultados calculados pela ferramenta computacional proposta nesse estudo. A correlação entre os resultados foi de 96,23 \%.}
-  \label{fig:loa_boca}
-\end{figure}
 
 \newpage
 \section{Duto com Escoamento de Exaustão}
 
-\subsection{Mach 0,2}
+\subsection{Mach = 0,07}
+
 \begin{figure}[ht!]
-\centering
-  \begin{tikzpicture}
-  \begin{axis}[
-  width=0.9\textwidth,
-  height=0.5\textwidth,
-  xmin=0,
-  xmax=1.8,
-    ymin=0.4,
-    ymax=1.2,
-    ytick distance=0.1,
-    grid=major, % Display a grid  
-  %grid style={dashed,gray!90}, % Set the style
-  xlabel = Número de Helmholtz ($ka$),
-  ylabel = Coeficiente de Reflexão ($R_{r}$),
-  ]
- \addplot[color=black, thick] table[x index=0,y index=1] {dados/duto_exaustao/abs_r_020_analytical.txt};
- \addplot[color=black, mark=o, only marks] table[x index=0,y index=1] {dados/duto_exaustao/abs_r_020_simulation.txt};
-   
-  \end{axis}
-  \end{tikzpicture}
-  \caption[Coeficiente de Reflexão $R_{r}$ com Escoamento de Exaustão (M $=$ 0,2)]{Resultado da magnitude do coeficiente de reflexão $R_{r}$ calculado no ponto $\textbf{P}$ na terminação do duto com escoamento de exaustão (M $=$ 0,2 e Re $=$ 5514,82). A linha contínua representa o resultado analítico do estudo de \citeonline{munt1990acoustic} e os pontos circulares representam os resultados calculados pela ferramenta computacional proposta nesse estudo. A correlação entre os resultados foi de 98,1 \%.}
-  \label{fig:abs_r_boca_020}
+\begin{subfigure}{\scaleA \textwidth}
+  \input{figuras/abs_r_exaustao_007.tex}
+\end{subfigure}%
+\begin{subfigure}{\scaleA \textwidth}
+  \input{figuras/loa_exaustao_007.tex}
+\end{subfigure}
+\caption[Resultados de $R_{r}$ e $l/a$ com escoamento de exaustão ($M =$ 0,07 e $Re =$ 1930,23)]{Resultados da magnitude do coeficiente de reflexão $R_{r}$ (\ref{fig:abs_r_exaustao_007}) e do coeficiente de correção da terminação $l/a$ (\ref{fig:loa_exaustao_007}) calculados no ponto $\textbf{P}$ na terminação do duto com escoamento de exaustão ($M =$ 0,07 e $Re =$ 1930,23). As linhas contínuas representam os resultados analíticos do estudo de \citeonline{munt1990acoustic} e os pontos circulares representam os resultados calculados pela ferramenta computacional proposta nesse estudo. As correlações entre os resultados foram de 99,83 \% para o coeficiente de reflexão $R_{r}$ (\ref{fig:abs_r_exaustao_007}) e 87,76 \% para o coeficiente de correção da terminação $l/a$ (\ref{fig:loa_exaustao_007}).}
+\label{fig:resultados_exaustao_007}
 \end{figure}
 
 \newpage
+\subsection{Mach = 0,10}
 \begin{figure}[ht!]
-\centering
-  \begin{tikzpicture}
-  \begin{axis}[
-  width=0.9\textwidth,
-  height=0.5\textwidth,
-  xmin=0,
-  xmax=1.8,
-    ymin=0.15,
-    ymax=0.55,
-    ytick distance=0.05,
-    grid=major, % Display a grid  
-  %grid style={dashed,gray!90}, % Set the style
-  xlabel = Número de Helmholtz ($ka$),
-  ylabel = Correção da Terminação ($l/a$),
-  ]
- \addplot[color=black, thick] table[x index=0,y index=1] {dados/duto_exaustao/loa_020_analytical.txt};
- \addplot[color=black, mark=o, only marks] table[x index=0,y index=1] {dados/duto_exaustao/loa_020_simulation.txt};
-   
-  \end{axis}
-  \end{tikzpicture}
-  \caption[Coeficiente de Correção da Terminação $l/a$ com Escoamento de Exaustão (M $=$ 0,2)]{Resultado do coeficiente de correção da terminação $l/a$ calculado no ponto $\textbf{P}$ na terminação do duto com escoamento de (M $=$ 0,2 e Re $=$ 5514,82). A linha contínua representa o resultado analítico do estudo de \citeonline{munt1990acoustic} e os pontos circulares representam os resultados calculados pela ferramenta computacional proposta nesse estudo. A correlação entre os resultados foi de 79,84 \%.}
-  \label{fig:loa_boca_020}
+\begin{subfigure}{\scaleA \textwidth}
+  \input{figuras/abs_r_exaustao_010.tex}
+\end{subfigure}%
+\begin{subfigure}{\scaleA \textwidth}
+  \input{figuras/loa_exaustao_010.tex}
+\end{subfigure}
+\caption[Resultados de $R_{r}$ e $l/a$ com escoamento de exaustão ($M =$ 0,10 e $Re =$ 2757,42)]{Resultados da magnitude do coeficiente de reflexão $R_{r}$ (\ref{fig:abs_r_exaustao_010}) e do coeficiente de correção da terminação $l/a$ (\ref{fig:loa_exaustao_010}) calculados no ponto $\textbf{P}$ na terminação do duto com escoamento de exaustão ($M =$ 0,10 e $Re =$ 2757,42). As linhas contínuas representam os resultados analíticos do estudo de \citeonline{munt1990acoustic} e os pontos circulares representam os resultados calculados pela ferramenta computacional proposta nesse estudo. As correlações entre os resultados foram de 99,85 \% para o coeficiente de reflexão $R_{r}$ (\ref{fig:abs_r_exaustao_010}) e 95,02 \% para o coeficiente de correção da terminação $l/a$ (\ref{fig:loa_exaustao_010}).}
+\label{fig:resultados_exaustao_010}
 \end{figure}
+
 
 \newpage
 \subsection{Mach = 0,15}
 
 \begin{figure}[ht!]
-\centering
-  \begin{tikzpicture}
-  \begin{axis}[
-  width=0.9\textwidth,
-  height=0.5\textwidth,
-  xmin=0,
-  xmax=1.8,
-    ymin=0.4,
-    ymax=1.2,
-    ytick distance=0.1,
-    grid=major, % Display a grid  
-  %grid style={dashed,gray!90}, % Set the style
-  xlabel = Número de Helmholtz ($ka$),
-  ylabel = Coeficiente de Reflexão ($R_{r}$),
-  ]
- \addplot[color=black, thick] table[x index=0,y index=1] {dados/duto_exaustao/abs_r_015_analytical.txt};
- \addplot[color=black, mark=o, only marks] table[x index=0,y index=1] {dados/duto_exaustao/abs_r_015_simulation.txt};
-   
-  \end{axis}
-  \end{tikzpicture}
-  \caption[Coeficiente de Reflexão $R_{r}$ com Escoamento de Exaustão (M $=$ 0,15)]{Resultado da magnitude do coeficiente de reflexão $R_{r}$ calculado no ponto $\textbf{P}$ na terminação do duto com escoamento de exaustão (M $=$ 0,15 e Re $=$ 2057,71). A linha contínua representa o resultado analítico do estudo de \citeonline{munt1990acoustic} e os pontos circulares representam os resultados calculados pela ferramenta computacional proposta nesse estudo. A correlação entre os resultados foi de 99,80 \%.}
-  \label{fig:abs_r_boca_015}
+\begin{subfigure}{\scaleA \textwidth}
+  \input{figuras/abs_r_exaustao_015.tex}
+\end{subfigure}%
+\begin{subfigure}{\scaleA \textwidth}
+  \input{figuras/loa_exaustao_015.tex}
+\end{subfigure}
+\caption[Resultados de $R_{r}$ e $l/a$ com escoamento de exaustão (M $=$ 0,15 e Re $=$ 2057,71)]{Resultados da magnitude do coeficiente de reflexão $R_{r}$ (\ref{fig:abs_r_exaustao_015}) e do coeficiente de correção da terminação $l/a$ (\ref{fig:loa_exaustao_015}) calculados no ponto $\textbf{P}$ na terminação do duto com escoamento de exaustão (M $=$ 0,15 e Re $=$ 2057,71). As linhas contínuas representam os resultados analíticos do estudo de \citeonline{munt1990acoustic} e os pontos circulares representam os resultados calculados pela ferramenta computacional proposta nesse estudo. As correlações entre os resultados foram de 99,80 \% para o coeficiente de reflexão $R_{r}$ (\ref{fig:abs_r_exaustao_015}) e 94,28 \% para o coeficiente de correção da terminação $l/a$ (\ref{fig:loa_exaustao_015}).}
+\label{fig:resultados_exaustao_015}
+\end{figure}
+
+
+\newpage
+\subsection{Mach 0,2}
+\begin{figure}[ht!]
+\begin{subfigure}{\scaleA \textwidth}
+  \input{figuras/abs_r_exaustao_020.tex}
+\end{subfigure}%
+\begin{subfigure}{\scaleA \textwidth}
+  \input{figuras/loa_exaustao_020.tex}
+\end{subfigure}
+\caption[Resultados de $R_{r}$ e $l/a$ com escoamento de exaustão (M $=$ 0,2 e Re $=$ 5514,82)]{Resultados da magnitude do coeficiente de reflexão $R_{r}$ (\ref{fig:abs_r_exaustao_020}) e do coeficiente de correção da terminação $l/a$ (\ref{fig:loa_exaustao_020}) calculados no ponto $\textbf{P}$ na terminação do duto com escoamento de exaustão (M $=$ 0,2 e Re $=$ 5514,82). As linhas contínuas representam os resultados analíticos do estudo de \citeonline{munt1990acoustic} e os pontos circulares representam os resultados calculados pela ferramenta computacional proposta nesse estudo. As correlações entre os resultados foram de 99,80 \% para o coeficiente de reflexão $R_{r}$ (\ref{fig:abs_r_exaustao_020}) e 79,84 \% para o coeficiente de correção da terminação $l/a$ (\ref{fig:loa_exaustao_020}).}
+\label{fig:resultados_exaustao_020}
 \end{figure}
 
 \newpage
 \begin{figure}[ht!]
 \centering
-  \begin{tikzpicture}
-  \begin{axis}[
-  width=0.9\textwidth,
-  height=0.5\textwidth,
-  xmin=0,
-  xmax=1.8,
-    ymin=0.15,
-    ymax=0.55,
-    ytick distance=0.05,
-    grid=major, % Display a grid  
-  %grid style={dashed,gray!90}, % Set the style
-  xlabel = Número de Helmholtz ($ka$),
-  ylabel = Correção da Terminação ($l/a$),
-  ]
- \addplot[color=black, thick] table[x index=0,y index=1] {dados/duto_exaustao/loa_015_analytical.txt};
- \addplot[color=black, mark=o, only marks] table[x index=0,y index=1] {dados/duto_exaustao/loa_015_simulation.txt};
-   
-  \end{axis}
-  \end{tikzpicture}
-  \caption[Coeficiente de Correção da Terminação $l/a$ com Escoamento de Exaustão (M $=$ 0,15)]{Resultado do coeficiente de correção da terminação $l/a$ calculado no ponto $\textbf{P}$ na terminação do duto com escoamento de (M $=$ 0,15 e Re $=$ 2057,71). A linha contínua representa o resultado analítico do estudo de \citeonline{munt1990acoustic} e os pontos circulares representam os resultados calculados pela ferramenta computacional proposta nesse estudo. A correlação entre os resultados foi de 94,28 \%.}
-  \label{fig:loa_boca_015}
-\end{figure}
-
-\newpage
-\subsection{Mach = 0,10}
-
-\begin{figure}[ht!]
-\centering
-  \begin{tikzpicture}
-  \begin{axis}[
-  width=0.9\textwidth,
-  height=0.5\textwidth,
-  xmin=0,
-  xmax=1.8,
-    ymin=0.4,
-    ymax=1.2,
-    ytick distance=0.1,
-    grid=major, % Display a grid  
-  %grid style={dashed,gray!90}, % Set the style
-  xlabel = Número de Helmholtz ($ka$),
-  ylabel = Coeficiente de Reflexão ($R_{r}$),
-  ]
- \addplot[color=black, thick] table[x index=0,y index=1] {dados/duto_exaustao/abs_r_010_analytical.txt};
- \addplot[color=black, mark=o, only marks] table[x index=0,y index=1] {dados/duto_exaustao/abs_r_010_simulation.txt};
-   
-  \end{axis}
-  \end{tikzpicture}
-  \caption[Coeficiente de Reflexão $R_{r}$ com Escoamento de Exaustão (M $=$ 0,10)]{Resultado da magnitude do coeficiente de reflexão $R_{r}$ calculado no ponto $\textbf{P}$ na terminação do duto com escoamento de exaustão (M $=$ 0,10 e Re $=$ 2757,42). A linha contínua representa o resultado analítico do estudo de \citeonline{munt1990acoustic} e os pontos circulares representam os resultados calculados pela ferramenta computacional proposta nesse estudo. A correlação entre os resultados foi de 99,85 \%.}
-  \label{fig:abs_r_boca_010}
+  \input{figuras/abs_r_exaustao_strouhal.tex}
 \end{figure}
 
 \newpage
 \begin{figure}[ht!]
 \centering
-  \begin{tikzpicture}
-  \begin{axis}[
-  width=0.9\textwidth,
-  height=0.5\textwidth,
-  xmin=0,
-  xmax=1.8,
-    ymin=0.15,
-    ymax=0.6,
-    ytick distance=0.05,
-    grid=major, % Display a grid  
-  %grid style={dashed,gray!90}, % Set the style
-  xlabel = Número de Helmholtz ($ka$),
-  ylabel = Correção da Terminação ($l/a$),
-  ]
- \addplot[color=black, thick] table[x index=0,y index=1] {dados/duto_exaustao/loa_010_analytical.txt};
- \addplot[color=black, mark=o, only marks] table[x index=0,y index=1] {dados/duto_exaustao/loa_010_simulation.txt};
-   
-  \end{axis}
-  \end{tikzpicture}
-  \caption[Coeficiente de Correção da Terminação $l/a$ com Escoamento de Exaustão (M $=$ 0,10)]{Resultado do coeficiente de correção da terminação $l/a$ calculado no ponto $\textbf{P}$ na terminação do duto com escoamento de (M $=$ 0,10 e Re $=$ 2757,42). A linha contínua representa o resultado analítico do estudo de \citeonline{munt1990acoustic} e os pontos circulares representam os resultados calculados pela ferramenta computacional proposta nesse estudo. A correlação entre os resultados foi de 95,02 \%.}
-  \label{fig:loa_boca_010}
+  \input{figuras/abs_r_exaustao_strouhal_mach.tex}
 \end{figure}
 
-
-\newpage
-\subsection{Mach = 0,07}
-
-\begin{figure}[ht!]
-\centering
-  \begin{tikzpicture}
-  \begin{axis}[
-  width=0.9\textwidth,
-  height=0.5\textwidth,
-  xmin=0,
-  xmax=1.8,
-    ymin=0.4,
-    ymax=1.2,
-    ytick distance=0.1,
-    grid=major, % Display a grid  
-  %grid style={dashed,gray!90}, % Set the style
-  xlabel = Número de Helmholtz ($ka$),
-  ylabel = Coeficiente de Reflexão ($R_{r}$),
-  ]
- \addplot[color=black, thick] table[x index=0,y index=1] {dados/duto_exaustao/abs_r_007_analytical.txt};
- \addplot[color=black, mark=o, only marks] table[x index=0,y index=1] {dados/duto_exaustao/abs_r_007_simulation.txt};
-   
-  \end{axis}
-  \end{tikzpicture}
-  \caption[Coeficiente de Reflexão $R_{r}$ com Escoamento de Exaustão (M $=$ 0,07)]{Resultado da magnitude do coeficiente de reflexão $R_{r}$ calculado no ponto $\textbf{P}$ na terminação do duto com escoamento de exaustão (M $=$ 0,07 e Re $=$ 1930,23). A linha contínua representa o resultado analítico do estudo de \citeonline{munt1990acoustic} e os pontos circulares representam os resultados calculados pela ferramenta computacional proposta nesse estudo. A correlação entre os resultados foi de 99,83 \%.}
-  \label{fig:abs_r_boca_007}
-\end{figure}
-
-\newpage
-\begin{figure}[ht!]
-\centering
-  \begin{tikzpicture}
-  \begin{axis}[
-  width=0.9\textwidth,
-  height=0.5\textwidth,
-  xmin=0,
-  xmax=1.8,
-    ymin=0.15,
-    ymax=0.6,
-    ytick distance=0.05,
-    grid=major, % Display a grid  
-  %grid style={dashed,gray!90}, % Set the style
-  xlabel = Número de Helmholtz ($ka$),
-  ylabel = Correção da Terminação ($l/a$),
-  ]
- \addplot[color=black, thick] table[x index=0,y index=1] {dados/duto_exaustao/loa_007_analytical.txt};
- \addplot[color=black, mark=o, only marks] table[x index=0,y index=1] {dados/duto_exaustao/loa_007_simulation.txt};
-   
-  \end{axis}
-  \end{tikzpicture}
-  \caption[Coeficiente de Correção da Terminação $l/a$ com Escoamento de Exaustão (M $=$ 0,07)]{Resultado do coeficiente de correção da terminação $l/a$ calculado no ponto $\textbf{P}$ na terminação do duto com escoamento de (M $=$ 0,07 e Re $=$ 1930,23). A linha contínua representa o resultado analítico do estudo de \citeonline{munt1990acoustic} e os pontos circulares representam os resultados calculados pela ferramenta computacional proposta nesse estudo. A correlação entre os resultados foi de 87,76 \%.}
-  \label{fig:loa_boca_007}
-\end{figure}
 
 
 \newpage
 \section{Duto com Escoamento Sugado}
-
 \begin{figure}[ht!]
-\centering
-  \begin{tikzpicture}
-  \begin{axis}[
-  width=0.9\textwidth,
-  height=0.5\textwidth,
-  x tick label style={
-      /pgf/number format/.cd,
-          fixed,
-          fixed zerofill,
-          precision=2,
-      /tikz/.cd
-  },
-  xmin=0,
-  xmax=0.2,
-  ymin=0.68,
-  ymax=1,
-  ytick distance=0.05,
-  xtick distance=0.05,
-  grid=major, % Display a grid  
-  %grid style={dashed,gray!90}, % Set the style
-  xlabel = Número de Mach ($M$),
-  ylabel = Coeficiente de Reflexão ($R_{M}$),
-  ]
- \addplot[color=black, thick] table[x index=0,y index=1] {dados/duto_sugado/davis_analytical.txt};
- \addplot[color=black, mark=o, only marks] table[x index=0,y index=1] {dados/duto_sugado/davis_simulation.txt};
-   
-  \end{axis}
-  \end{tikzpicture}
-  \caption[Coeficiente de reflexão $R_{M}$ com escoamento sugado]{Resultado do coeficiente de reflexão $R_{M}$ em relação ao Mach para baixas frequências ($ka$ $<$ $0,25$) com escoamento sugado. A linha contínua apresenta o resultado do estudo de \citeonline{davies1987} e os pontos circulares representam os resultados calculados pela ferramenta computacional proposta nesse estudo. A correlação entre os resultados foi de 95,45 \%.}
-
-  \label{fig:abs_r_boca_sugado}
+\begin{subfigure}{\scaleA \textwidth}
+  \input{figuras/abs_r_sugado.tex}
+\end{subfigure}%
+\begin{subfigure}{\scaleA \textwidth}
+  \input{figuras/loa_sugado.tex}
+\end{subfigure}
+\caption[Resultados de $R_{M}$ e $l/a$ em relação ao Mach para baixas frequências ($ka$ $<$ $0,25$) com escoamento sugado]{Resultados da magnitude do coeficiente de reflexão $R_{M}$ (\ref{fig:abs_r_sugado}) e do coeficiente de correção da terminação $l/a$ (\ref{fig:loa_sugado}) em  em relação ao Mach para baixas frequências ($ka$ $<$ $0,25$) com escoamento sugado. Esses resultados foram calculados no ponto $\textbf{P}$ na terminação do duto com escoamento sugado ($Re \leq$ 5514,82). As linhas contínuas representam os resultados analíticos do estudo de \citeonline{davies1987} e os pontos circulares representam os resultados calculados pela ferramenta computacional proposta nesse estudo. As correlações entre os resultados foram de 95,45 \% para o coeficiente de reflexão $R_{M}$ (\ref{fig:abs_r_sugado}) e 62,53 \% para o coeficiente de correção da terminação $l/a$ (\ref{fig:loa_sugado}).}
+\label{fig:resultados_sugado}
 \end{figure}
 
 \newpage
 \begin{figure}[ht!]
 \centering
-  \begin{tikzpicture}
-  \begin{axis}[
-  width=0.9\textwidth,
-  height=0.5\textwidth,
-  x tick label style={
-      /pgf/number format/.cd,
-          fixed,
-          fixed zerofill,
-          precision=2,
-      /tikz/.cd
-  },
-  xmin=0,
-  xmax=0.2,
-  ymin=0.1,
-  ymax=1.0,
-  ytick distance=0.1,
-  xtick distance=0.05,
-  grid=major, % Display a grid  
-  %grid style={dashed,gray!90}, % Set the style
-  xlabel = Número de Mach ($M$),
-  ylabel = Correção da Terminação ($l_{M}$),
-  ]
- \addplot[color=black, thick] table[x index=0,y index=1] {dados/duto_sugado/davis_analytical_loa.txt};
- \addplot[color=black, mark=o, only marks] table[x index=0,y index=1] {dados/duto_sugado/davis_simulation_loa.txt};
-   
-  \end{axis}
-  \end{tikzpicture}
-  \caption[Coeficiente de correção da terminação ($l_{M}$) com escoamento sugado]{Resultado do coeficiente de correção da terminação $l_{M}$ em relação ao Mach para baixas frequências ($ka$ $<$ $0,25$) com escoamento sugado. A linha contínua apresenta o resultado do estudo de \citeonline{davies1987} e os pontos circulares representam os resultados calculados pela ferramenta computacional proposta nesse estudo. A correlação entre os resultados foi de 62,53 \%.}
+  \input{figuras/abs_r_sugado_strouhal.tex}
+\end{figure}
 
-  \label{fig:abs_r_boca_sugado_loa}
+\newpage
+\begin{figure}[ht!]
+\centering
+  \input{figuras/abs_r_sugado_strouhal_mach.tex}
 \end{figure}
