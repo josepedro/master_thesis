@@ -7,9 +7,9 @@ Nesse capítulo será apresentada uma revisão bibliográfica dos tópicos conce
 A propagação de modos normais (ondas planas) é um problema clássico em acústica e continua tendo importância significativa mediante ao advento de novas tecnologias relacionadas a sistemas de exaustão e sucção. Em geral, pode-se utilizar dois parâmetros para caracterizar o fenômeno da acústica interna de dutos:
 
 \begin{itemize}
-    \item a magnitude do coeficiente de reflexão $R_{r}$, razão entre as componentes refletida e incidente da onda no duto, a qual é dada por
+    \item a magnitude do coeficiente de reflexão $|R_{r}|$, razão entre as componentes refletida e incidente da onda no duto, a qual é dada por
     \begin{equation}
-        R_{r}\simbolo{$R_{r}$}{Coeficiente de reflexão na terminação do duto} =\frac{Z_{r} - Z_{0}}{Z_{r} + Z_{0}},
+        |R_{r}|\simbolo{$R_{r}$}{Coeficiente de reflexão na terminação do duto} =\bigg|\frac{Z_{r} - Z_{0}}{Z_{r} + Z_{0}}\bigg|,
         \label{eq:R}
     \end{equation}
     sendo $Z_{r}$\simbolo{$Z_{r}$}{Impedância de radiação} a impedância de radiação e $Z_{0}$\simbolo{$Z_{0}$}{Impedância característica do meio} a impedância característica do meio, definida por $Z_{0} = \rho_{0}c_{0}$, tal que $\rho_{0}$ e $c_{0}$ são, respectivamente, as constantes de densidade média do meio\simbolo{$\rho_{0}$}{Densidade média do meio} e velocidade do som\simbolo{$c_{0}$}{Velocidade do som};
@@ -28,19 +28,15 @@ Em relação aos parâmetros discutidos acima, a solução exata, obtida atravé
 
 \begin{figure}[ht!]
 \centering
-  \includegraphics[width=.8\linewidth]{figuras/abs_r_comparacao.pdf}
-  \caption[Magnitudes do coeficiente de reflexão $R_{r}$]{Resultados analíticos exatos para magnitude do coeficiente de reflexão $R_{r}$ ao final de um duto não flangeado. A linha contínua apresenta o resultado sem escoamento de \citeonline{levine1948radiation} e a linha tracejada apresenta o resultado com escoamento de Mach = 0,15 de \citeonline{munt1990acoustic}.}
-  \label{fig:comp1}
+  \input{figuras/abs_r_comparacao.tex}
 \end{figure}
 
 \newpage
-Como é mostrado na Figura \ref{fig:comp1}, a magnitude do coeficiente de reflexão $R_{r}$ aumenta consideravelmente na presença de um escoamento subsônico. Além disso, pode-se perceber que, em algumas frequências, $R_{r}$ torna-se maior do que a unidade, implicando que a amplitude da onda refletida torna-se maior do que a da onda incidente. Este fenômeno ocorre, sobretudo, pela interação do escoamento com a borda do duto, a qual transforma energia cinética rotacional em energia acústica, como discutido por \citeonline{peters1993}. Além disso vale ressaltar que o maior valor de $R_{r}$ está associado com a frequência de desprendimento de vórtices na saída do duto. Em outras palavras, quando o número de Strouhal ($St$) atinge o valor de $\frac{\pi}{2}$, o tempo necessário para o vórtice desprendido na saída do duto propagar a distância de um diâmetro é igual ao período do campo acústico no interior do duto, causando assim o ponto máximo do coeficiente de reflexão.
+Como é mostrado na Figura \ref{fig:comp1}, a magnitude do coeficiente de reflexão $|R_{r}|$\simbolo{$|R_{r}|$}{Magnitude do coeficiente de reflexão na terminação do duto} aumenta consideravelmente na presença de um escoamento subsônico. Além disso, pode-se perceber que, em algumas frequências, $|R_{r}|$ torna-se maior do que a unidade, implicando que a amplitude da onda refletida torna-se maior do que a da onda incidente. Este fenômeno ocorre, sobretudo, pela interação do escoamento com a borda do duto, a qual transforma energia cinética rotacional em energia acústica, como discutido por \citeonline{peters1993}. Além disso vale ressaltar que o maior valor de $|R_{r}|$ está associado com a frequência de desprendimento de vórtices na saída do duto. Em outras palavras, quando o número de Strouhal ($St$) atinge o valor de $\frac{\pi}{2}$, o tempo necessário para o vórtice desprendido na saída do duto propagar a distância de um diâmetro é igual ao período do campo acústico no interior do duto, causando assim o ponto máximo do coeficiente de reflexão.
 
 \begin{figure}[ht!]
 \centering
-  \includegraphics[width=.8\linewidth]{figuras/loa_comparacao.pdf}
-  \caption[Coeficientes de correção de terminação $l/a$]{Resultados analíticos exatos para o coeficiente de correção da terminação normalizado pelo raio $l/a$ de um duto não flangeado. A linha contínua apresenta o resultado sem escoamento de \citeonline{levine1948radiation} e a linha tracejada apresenta o resultado com escoamento de Mach = 0,15 de \citeonline{munt1990acoustic}.}
-  \label{fig:comp2}
+  \input{figuras/loa_comparacao.tex}
 \end{figure}
 
 \newpage
@@ -81,10 +77,10 @@ Na mesma linha de investigação, \citeonline{davies1987} investigou o coeficien
 
 Dos trabalhos citados com escoamento sugado nota-se a consolidação do comportamento do coeficiente de reflexão para baixas frequências. Esse comportamento ocorre pelo surgimento de uma \textit{vena} contracta, descolamento de fluido da parede do duto que, dependendo do número de Mach, se estende mais ou menos para dentro do duto. De acordo com o trablaho de \citeonline{davies1987}, para baixas frequências ($ka$ $<$ $0,25$) o coeficiente de reflexão muda com relação ao Mach e é modelado de acordo com a equação
     \begin{equation}
-        R_{M}\simbolo{$R_{M}$}{Coeficiente de reflexão em relação ao Mach} = R_{0}\bigg[\frac{(1 - M)}{(1 + M)}\bigg]^{0,9},
+        |R_{M}|\simbolo{$R_{M}$}{Coeficiente de reflexão em relação ao Mach} = |R_{0}|\bigg[\frac{(1 - M)}{(1 + M)}\bigg]^{0,9},
         \label{eq:R_M}
     \end{equation}
-    sendo $R_{0}$ módulo do coeficiente de reflexão sem escoamento obtido a partir do trabalho de \citeonline{levine1948radiation}. 
+    sendo $|R_{0}|$ módulo do coeficiente de reflexão sem escoamento obtido a partir do trabalho de \citeonline{levine1948radiation}. 
 
 
 
@@ -101,8 +97,8 @@ Dos trabalhos citados com escoamento sugado nota-se a consolidação do comporta
   \begin{tikzpicture}
   \begin{axis}[
       %axis lines = left,
-      xlabel = Número de Mach (M),
-      ylabel = Coeficiente de Reflexão ($R_{M}$),
+      xlabel = $M$,
+      ylabel = $|R_{M}|$,
       width=0.9\textwidth,
       height=0.45\textwidth,
       ytick distance=0.1,
@@ -141,8 +137,8 @@ A Figura \ref{fig:comp3} mostra o gráfico resultante da equação \ref{eq:R_M} 
   \begin{tikzpicture}
   \begin{axis}[
       %%axis lines = left,
-      xlabel = Número de Mach (M),
-      ylabel = Correção da Terminação ($l_{M}$),
+      xlabel = $M$,
+      ylabel = $l_{M}$,
       width=0.9\textwidth,
      height=0.45\textwidth,
       ytick distance=0.01,

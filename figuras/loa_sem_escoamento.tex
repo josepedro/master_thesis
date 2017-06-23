@@ -9,8 +9,8 @@
     ytick distance=0.05,
     grid=major, % Display a grid  
   %grid style={dashed,gray!90}, % Set the style
-  xlabel = \small{Número de Helmholtz ($ka$)},
-  ylabel = \small{Correção da Terminação ($l/a$)},
+  xlabel = \small{$ka$},
+  ylabel = \small{$l/a$},
   ]
  \addplot[color=black, thick] table[x index=0,y index=1] {dados/duto_sem_escoamento/analytical_data_loa.txt};
  \addplot[color=black, mark=o, only marks] table[x index=0,y index=1] {dados/duto_sem_escoamento/simulation_data_loa.txt};

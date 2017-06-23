@@ -1,0 +1,979 @@
+Latexmk: applying rule 'pdflatex'...
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex)
+ \write18 enabled.
+entering extended mode
+(./exemplo.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+(./ufscThesis.cls
+Document Class: ufscThesis 
+(./abnt.cls (./cvs-id.def)
+Document Class: abnt 2004/11/02 v1.27.2.1 Classe abnt (NBR6024, NBR6027, NBR602
+8, NBR14724)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty))
+(./ufscThesis/BUUFSCthesis.sty
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu)
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu)))
+(/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/carlisle/remreset.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty) (./abntcite.sty
+(./cvs-id.def) (./abntex-abrev.sty (./cvs-id.def) (./nbr10522-1988.def
+(./cvs-id.def)) (./abntex-abrev-pt_BR.def (./cvs-id.def))) (./nbr10520-2002.def
+ (./cvs-id.def)) (/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty))
+)) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def))
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty)))
+(/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex)) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
+.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_loader.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
+)
+Package pgfplots: loading complementary arithmetics for your pgf version...
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgflibraryfpu.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgfmathfloat.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructure.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructureext.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
+x.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
+d.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
+.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.te
+x
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.co
+de.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code
+.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
+fshading.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
+shading.pgfsys-pdftex.def)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.
+tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.t
+ex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.t
+ex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.cod
+e.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.
+tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.cod
+e.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex
+) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathmorphing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathmorphing.code.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathreplacing.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathreplacing.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryplotmarks.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
+de.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.un
+its.code.tex) (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/import/import.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty)) (./sagetex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz))
+(/usr/share/texlive/texmf-dist/tex/latex/makecmds/makecmds.sty)
+No file exemplo.sagetex.sout.
+) (/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/mnsymbol/MnSymbol.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu)))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/eufrak.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/wasysym/wasysym.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/filecontents/filecontents.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/gnuplottex/gnuplottex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/moreverb/moreverb.sty)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/catchfile.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty))))
+(./comandos.sty (/usr/share/texlive/texmf-dist/tex/latex/pstricks/pstricks.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex))))
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex
+`pst-fp' v0.05, 2010/01/17 (hv))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+`PSTricks' v2.64b  <2015/14/11> (tvz)
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.con))
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty))
+
+LaTeX Warning: Unused global option(s):
+    [cleardoublepage=plain].
+
+(./exemplo.aux) (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty))
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty))
+ABD: EveryShipout initializing macros
+Package pgfplots notification 'compat/show suggested version=true': you might b
+enefit from \pgfplotsset{compat=1.13} (current compat level: 1.9).
+
+(/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd) [1
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!
+Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+[0]
+Overfull \hbox (14.995pt too wide) in paragraph at lines 93--93
+\OT1/cmr/m/n/9 Grau de Mes-tre em En-ge-nha-ria Mec^anica. 
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+
+
+Overfull \hbox (3.33333pt too wide) in paragraph at lines 93--94
+[]
+[2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] (./exemplo.lof)
+[15] [16] (./exemplo.lot) [17] [18] (./exemplo.las) [19] [20] (./exemplo.lsb)
+[21] [22] (./exemplo.toc) [23] [24] (./capitulos/introducao.tex
+Cap\'{\i }tulo 1.
+
+LaTeX Warning: Citation `munjal' on page 25 undefined on input line 7.
+
+
+LaTeX Warning: Citation `munjal' on page 25 undefined on input line 10.
+
+[25]
+
+LaTeX Warning: Citation `levine1948radiation' on page 26 undefined on input lin
+e 26.
+
+
+LaTeX Warning: Citation `munt1990acoustic' on page 26 undefined on input line 2
+8.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [26]
+Overfull \hbox (9.12747pt too wide) in paragraph at lines 53--54
+[]\OT1/cmr/m/n/10 o Cap^^S^^Ptulo 2 apre-senta a re-vis~ao bi-bli-ogr^^Safica e
+n-vol-vendo os m^^Setodos
+) (./capitulos/revisao_bibliografica.tex [27] [28]
+Cap\'{\i }tulo 2.
+
+Overfull \hbox (2.29408pt too wide) in paragraph at lines 7--8
+\OT1/cmr/m/n/10 ante ao ad-vento de no-vas tec-no-lo-gias re-la-ci-o-na-das a s
+is-te-mas de exaust~ao
+
+LaTeX Warning: Citation `levine1948radiation' on page 29 undefined on input lin
+e 25.
+
+[29]
+
+LaTeX Warning: Citation `munt1990acoustic' on page 30 undefined on input line 2
+7.
+
+<figuras/abs_r_comparacao.pdf, id=116, 526.01273pt x 433.25569pt>
+<use figuras/abs_r_comparacao.pdf>
+
+LaTeX Warning: Citation `levine1948radiation' on page 30 undefined on input lin
+e 32.
+
+
+LaTeX Warning: Citation `munt1990acoustic' on page 30 undefined on input line 3
+2.
+
+
+LaTeX Warning: Citation `levine1948radiation' on page 30 undefined on input lin
+e 32.
+
+
+LaTeX Warning: Citation `munt1990acoustic' on page 30 undefined on input line 3
+2.
+
+[30 <./figuras/abs_r_comparacao.pdf>]
+
+LaTeX Warning: Citation `peters1993' on page 31 undefined on input line 37.
+
+
+Overfull \hbox (0.7293pt too wide) in paragraph at lines 37--38
+\OT1/cmr/m/n/10 onda re-fle-tida torna-se maior do que a da onda in-ci-dente. E
+ste fen^omeno
+<figuras/loa_comparacao.pdf, id=122, 548.85324pt x 454.26555pt>
+<use figuras/loa_comparacao.pdf>
+
+LaTeX Warning: Citation `levine1948radiation' on page 31 undefined on input lin
+e 42.
+
+
+LaTeX Warning: Citation `munt1990acoustic' on page 31 undefined on input line 4
+2.
+
+
+LaTeX Warning: Citation `levine1948radiation' on page 31 undefined on input lin
+e 42.
+
+
+LaTeX Warning: Citation `munt1990acoustic' on page 31 undefined on input line 4
+2.
+
+[31 <./figuras/loa_comparacao.pdf>]
+
+LaTeX Warning: Citation `peters1993' on page 32 undefined on input line 47.
+
+
+LaTeX Warning: Citation `carrier1955sound' on page 32 undefined on input line 5
+1.
+
+
+LaTeX Warning: Citation `mani1973refraction' on page 32 undefined on input line
+ 53.
+
+
+LaTeX Warning: Citation `carrier1955sound' on page 32 undefined on input line 5
+3.
+
+
+LaTeX Warning: Citation `carrier1955sound' on page 32 undefined on input line 5
+5.
+
+
+LaTeX Warning: Citation `savkar1975radiation' on page 32 undefined on input lin
+e 55.
+
+
+LaTeX Warning: Citation `carrier1955sound' on page 32 undefined on input line 5
+5.
+
+
+LaTeX Warning: Citation `hirschberg2014' on page 32 undefined on input line 57.
+
+
+
+LaTeX Warning: Citation `howe1979' on page 32 undefined on input line 57.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [32]
+
+LaTeX Warning: Citation `alfredson1970radiation' on page 33 undefined on input 
+line 63.
+
+
+LaTeX Warning: Citation `peters1993' on page 33 undefined on input line 65.
+
+
+LaTeX Warning: Citation `allam2006investigation' on page 33 undefined on input 
+line 67.
+
+
+LaTeX Warning: Citation `munt1990acoustic' on page 33 undefined on input line 6
+7.
+
+
+LaTeX Warning: Citation `english2010' on page 33 undefined on input line 69.
+
+
+LaTeX Warning: Citation `munt1990acoustic' on page 33 undefined on input line 6
+9.
+
+
+LaTeX Warning: Citation `allam2006investigation' on page 33 undefined on input 
+line 69.
+
+
+LaTeX Warning: Citation `allam2006investigation' on page 33 undefined on input 
+line 69.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [33]
+
+LaTeX Warning: Citation `tiikoja2014' on page 34 undefined on input line 72.
+
+
+LaTeX Warning: Citation `munt1990acoustic' on page 34 undefined on input line 7
+2.
+
+
+LaTeX Warning: Citation `ingard1975' on page 34 undefined on input line 78.
+
+
+LaTeX Warning: Citation `davies1987' on page 34 undefined on input line 80.
+
+
+LaTeX Warning: Citation `ingard1975' on page 34 undefined on input line 80.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [34]
+
+LaTeX Warning: Citation `davies1987' on page 35 undefined on input line 82.
+
+
+LaTeX Warning: Citation `levine1948radiation' on page 35 undefined on input lin
+e 87.
+
+
+LaTeX Warning: Citation `davies1987' on page 35 undefined on input line 91.
+
+
+LaTeX Warning: Citation `levine1948radiation' on page 35 undefined on input lin
+e 96.
+
+
+LaTeX Warning: Citation `davies1987' on page 35 undefined on input line 132.
+
+
+LaTeX Warning: Citation `davies1987' on page 35 undefined on input line 132.
+
+[35]
+
+LaTeX Warning: Citation `davies1987' on page 36 undefined on input line 172.
+
+
+LaTeX Warning: Citation `davies1987' on page 36 undefined on input line 172.
+
+
+LaTeX Warning: Citation `selamet2001wave' on page 36 undefined on input line 18
+1.
+
+[36]
+
+LaTeX Warning: Citation `dalmont2001radiation' on page 37 undefined on input li
+ne 190.
+
+
+LaTeX Warning: Citation `da2006lattice' on page 37 undefined on input line 192.
+
+
+
+LaTeX Warning: Citation `levine1948radiation' on page 37 undefined on input lin
+e 192.
+
+
+LaTeX Warning: Citation `da2009sound' on page 37 undefined on input line 194.
+
+
+LaTeX Warning: Citation `reis2007' on page 37 undefined on input line 194.
+
+
+LaTeX Warning: Citation `munt1990acoustic' on page 37 undefined on input line 1
+94.
+
+
+LaTeX Warning: Citation `allam2006investigation' on page 37 undefined on input 
+line 194.
+
+[37]
+
+LaTeX Warning: Citation `silva2012approximate' on page 38 undefined on input li
+ne 196.
+
+
+LaTeX Warning: Citation `levine1948radiation' on page 38 undefined on input lin
+e 196.
+
+
+LaTeX Warning: Citation `nomura1960' on page 38 undefined on input line 196.
+
+) (./capitulos/metodologia.tex [38]
+Cap\'{\i }tulo 3.
+
+LaTeX Warning: Citation `crouse2006fundamental' on page 39 undefined on input l
+ine 5.
+
+
+LaTeX Warning: Citation `kam2006non' on page 39 undefined on input line 7.
+
+
+LaTeX Warning: Citation `marie2009' on page 39 undefined on input line 9.
+
+
+LaTeX Warning: Citation `lew2010noise' on page 39 undefined on input line 11.
+
+
+LaTeX Warning: Citation `shi2013lattice' on page 39 undefined on input line 13.
+
+
+
+LaTeX Warning: Citation `levine1948radiation' on page 39 undefined on input lin
+e 13.
+
+
+LaTeX Warning: Citation `gabard2006' on page 39 undefined on input line 13.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [39]
+
+LaTeX Warning: Citation `viggen2013acoustic' on page 40 undefined on input line
+ 15.
+
+
+LaTeX Warning: Citation `da2015assessment' on page 40 undefined on input line 1
+7.
+
+
+LaTeX Warning: Citation `palabos' on page 40 undefined on input line 19.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [40]
+
+LaTeX Warning: Citation `grad1949kinetic' on page 41 undefined on input line 31
+.
+
+
+LaTeX Warning: Citation `bgk' on page 41 undefined on input line 31.
+
+
+LaTeX Warning: Citation `he1997theory' on page 41 undefined on input line 31.
+
+
+LaTeX Warning: Citation `he' on page 41 undefined on input line 37.
+
+
+Overfull \hbox (0.60677pt too wide) in paragraph at lines 37--38
+[]\OT1/cmr/m/n/10 O LBM, ba-se-ado em opera^^Xc~oes de co-lis~ao e pro-paga^^Xc
+~ao de fun^^Xc~oes
+
+Underfull \vbox (badness 10000) has occurred while \output is active [41]
+
+LaTeX Warning: Citation `bgk' on page 42 undefined on input line 52.
+
+
+Overfull \hbox (3.7142pt too wide) in paragraph at lines 56--58
+\OT1/cmr/m/n/10 tal que $\OML/cmm/m/it/10 ^^\$[] \OT1/cmr/m/n/10 ^^Se o per^^S^
+^Podo de co-lis~ao, per^^S^^Podo m^^Sedio de co-lis~ao en-tre part^^S^^Pculas,
+
+LaTeX Warning: Citation `wolf' on page 42 undefined on input line 59.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [42]
+
+LaTeX Warning: Citation `da2016prediction' on page 43 undefined on input line 9
+5.
+
+
+LaTeX Font Warning: Font shape `U/wasy/b/n' in size <7> not available
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 105.
+
+
+LaTeX Font Warning: Font shape `U/wasy/b/n' in size <5> not available
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 105.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [43]
+
+LaTeX Warning: Citation `qian1992lattice' on page 44 undefined on input line 14
+1.
+
+<figuras/d3q19.pdf, id=170, 677.53125pt x 557.83406pt> <use figuras/d3q19.pdf>
+
+LaTeX Warning: Citation `premnath2013investigation' on page 44 undefined on inp
+ut line 180.
+
+
+LaTeX Warning: Citation `premnath2013investigation' on page 44 undefined on inp
+ut line 180.
+
+[44]
+
+LaTeX Warning: Text page 45 contains only floats.
+
+[45 <./figuras/d3q19.pdf>]
+
+LaTeX Warning: Citation `lallemand2000theory' on page 46 undefined on input lin
+e 187.
+
+
+LaTeX Warning: Citation `viggen2014lattice' on page 46 undefined on input line 
+187.
+
+
+LaTeX Warning: Citation `d1994generalized' on page 46 undefined on input line 1
+89.
+
+
+LaTeX Warning: Citation `lallemand2000theory' on page 46 undefined on input lin
+e 189.
+
+
+LaTeX Warning: Citation `d1994generalized' on page 46 undefined on input line 1
+99.
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 210.
+
+
+Overfull \hbox (9.898pt too wide) detected at line 231
+[] \U/MnSymbolD/m/n/5 ^^@ []\OML/cmm/m/it/5 ;
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <> not available
+(Font)              size <5> substituted on input line 231.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 231.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 231.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <> not available
+(Font)              size <5> substituted on input line 231.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.7> not available
+(Font)              size <5> substituted on input line 231.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.5> not available
+(Font)              size <5> substituted on input line 231.
+
+
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <> not available
+(Font)              size <5> substituted on input line 231.
+
+
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <0.7> not available
+(Font)              size <5> substituted on input line 231.
+
+
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <0.5> not available
+(Font)              size <5> substituted on input line 231.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active [46]
+
+LaTeX Warning: Citation `viggen2014lattice' on page 47 undefined on input line 
+256.
+
+(./figuras/bounceback_2.pdf_tex
+<figuras/bounceback_2.pdf, id=186, page=1, 1081.05896pt x 819.68501pt>
+<use figuras/bounceback_2.pdf, page 1>)
+
+LaTeX Warning: Citation `viggen2014lattice' on page 47 undefined on input line 
+271.
+
+
+LaTeX Warning: Citation `viggen2014lattice' on page 47 undefined on input line 
+271.
+
+[47]
+
+LaTeX Warning: Citation `kam2006non' on page 48 undefined on input line 287.
+
+[48 <./figuras/bounceback_2.pdf>]
+<figuras/abc.pdf, id=197, 572.0184pt x 638.63539pt> <use figuras/abc.pdf>
+
+LaTeX Warning: Citation `da2008numerical' on page 49 undefined on input line 30
+2.
+
+
+LaTeX Warning: Citation `da2008numerical' on page 49 undefined on input line 30
+2.
+
+[49 <./figuras/abc.pdf>]
+
+LaTeX Warning: Citation `lattice_1' on page 50 undefined on input line 330.
+
+
+LaTeX Warning: Citation `lattice_2' on page 50 undefined on input line 330.
+
+
+LaTeX Warning: Citation `lattice_3' on page 50 undefined on input line 330.
+
+
+LaTeX Warning: Citation `lattice_4' on page 50 undefined on input line 330.
+
+
+LaTeX Warning: Citation `lattice_5' on page 50 undefined on input line 330.
+
+
+LaTeX Warning: Citation `numeric_palabos' on page 50 undefined on input line 34
+7.
+
+
+LaTeX Warning: Citation `paraview' on page 50 undefined on input line 353.
+
+
+LaTeX Warning: Citation `palabos' on page 50 undefined on input line 357.
+
+
+LaTeX Warning: Citation `palabos_acoustic' on page 50 undefined on input line 3
+57.
+
+
+LaTeX Warning: Citation `palabos' on page 50 undefined on input line 357.
+
+[50]
+
+LaTeX Warning: Citation `kam2006non' on page 51 undefined on input line 363.
+
+
+LaTeX Warning: Citation `kam2006non' on page 51 undefined on input line 364.
+
+
+LaTeX Warning: Citation `allam2006investigation' on page 51 undefined on input 
+line 382.
+
+[51] <figuras/modelo_numerico_2.pdf, id=209, 1247.06013pt x 484.18246pt>
+<use figuras/modelo_numerico_2.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active [52 <./fig
+uras/modelo_numerico_2.pdf>]
+
+LaTeX Warning: Citation `shi2013lattice' on page 53 undefined on input line 422
+.
+
+
+Overfull \hbox (4.69128pt too wide) in paragraph at lines 428--429
+[]\OT1/cmr/m/n/10 No in-tuito de ava-liar a condi^^Xc~ao anec^^Soica nas fron-t
+ei-ras do dom^^S^^Pnio
+[53]
+
+LaTeX Warning: Citation `matlab' on page 54 undefined on input line 459.
+
+
+LaTeX Warning: Citation `octave' on page 54 undefined on input line 459.
+
+
+Overfull \hbox (1.59238pt too wide) in paragraph at lines 459--460
+\OT1/cmr/m/n/10 m^^Sedia es-pa-cial $[]$ sal-vos em disco r^^S^^Pgido, um \OT1/
+cmr/m/it/10 script \OT1/cmr/m/n/10 de p^^Sos-processamento
+
+Overfull \hbox (0.50206pt too wide) in paragraph at lines 469--470
+[]\OT1/cmr/m/n/10 a trans-for-mada r^^Sapida de Fou-rier, \OT1/cmr/m/it/10 Fast
+ Fou-rier Trans-form \OT1/cmr/m/n/10 (FFT)[],
+[54]) (./capitulos/resultados.tex [55] [56]
+Cap\'{\i }tulo 4.
+(./figuras/impedancia_A.tex) (./figuras/reflexao_A.tex) [57]
+(./figuras/impedancia_B.tex) (./figuras/reflexao_B.tex) [58]
+
+LaTeX Warning: Citation `selamet2001wave' on page 59 undefined on input line 82
+.
+
+(./figuras/impedancia_C.tex) (./figuras/reflexao_C.tex)
+(./figuras/impedancia_D.tex) (./figuras/reflexao_D.tex) [59] [60]
+(./figuras/abs_r_sem_escoamento.tex) (./figuras/loa_sem_escoamento.tex)
+
+LaTeX Warning: Citation `levine1948radiation' on page 61 undefined on input lin
+e 118.
+
+
+LaTeX Warning: Citation `levine1948radiation' on page 61 undefined on input lin
+e 118.
+
+[61] (./figuras/abs_r_exaustao_007.tex) (./figuras/loa_exaustao_007.tex)
+
+LaTeX Warning: Citation `munt1990acoustic' on page 62 undefined on input line 1
+35.
+
+
+LaTeX Warning: Citation `munt1990acoustic' on page 62 undefined on input line 1
+35.
+
+[62] (./figuras/abs_r_exaustao_010.tex) (./figuras/loa_exaustao_010.tex)
+
+LaTeX Warning: Citation `munt1990acoustic' on page 63 undefined on input line 1
+48.
+
+
+LaTeX Warning: Citation `munt1990acoustic' on page 63 undefined on input line 1
+48.
+
+[63] (./figuras/abs_r_exaustao_015.tex) (./figuras/loa_exaustao_015.tex)
+
+LaTeX Warning: Citation `munt1990acoustic' on page 64 undefined on input line 1
+63.
+
+
+LaTeX Warning: Citation `munt1990acoustic' on page 64 undefined on input line 1
+63.
+
+[64] (./figuras/abs_r_exaustao_020.tex) (./figuras/loa_exaustao_020.tex)
+
+LaTeX Warning: Citation `munt1990acoustic' on page 65 undefined on input line 1
+77.
+
+
+LaTeX Warning: Citation `munt1990acoustic' on page 65 undefined on input line 1
+77.
+
+[65] (./figuras/abs_r_exaustao_strouhal.tex) [66]
+(./figuras/abs_r_exaustao_strouhal_mach.tex) [67] (./figuras/abs_r_sugado.tex
+Overfull \hbox (7.72932pt too wide) in paragraph at lines 27--28
+[][] 
+) (./figuras/loa_sugado.tex
+Overfull \hbox (2.7293pt too wide) in paragraph at lines 27--28
+[][] 
+)
+
+LaTeX Warning: Citation `davies1987' on page 68 undefined on input line 204.
+
+
+LaTeX Warning: Citation `davies1987' on page 68 undefined on input line 204.
+
+[68] (./figuras/abs_r_sugado_strouhal.tex) [69]
+(./figuras/loa_sugado_strouhal.tex) [70]
+(./figuras/abs_r_sugado_strouhal_mach.tex) [71]
+(./figuras/loa_sugado_strouhal_mach.tex)
+
+LaTeX Warning: Overwriting file `./data.txt'.
+
+
+[72]) (./capitulos/conclusoes.tex [73] [74]
+Cap\'{\i }tulo 5.
+
+LaTeX Warning: Reference `fig_cronograma' on page 75 undefined on input line 2.
+
+
+<figuras/cronograma.png, id=293, 796.9775pt x 400.49625pt>
+<use figuras/cronograma.png>) (./exemplo.bbl [75 <./figuras/cronograma.png>]
+[76] [77] [78] [79] [80]) (./capitulos/apendices.tex [81] [82] [83] [84]
+Apendice A.
+
+LaTeX Warning: Citation `palabos_acoustic' on page 85 undefined on input line 3
+.
+
+
+LaTeX Warning: Reference `fig:palabos_fluxo' on page 85 undefined on input line
+ 11.
+
+<figuras/palabos_modelo_fluxo.pdf, id=327, 380.45247pt x 488.79149pt>
+<use figuras/palabos_modelo_fluxo.pdf>
+
+LaTeX Warning: Reference `fig:palabos_fluxo' on page 85 undefined on input line
+ 21.
+
+[85] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty) [86 <./figuras/p
+alabos_modelo_fluxo.pdf>]
+(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd)
+
+LaTeX Warning: Citation `matlab' on page 87 undefined on input line 55.
+
+
+LaTeX Warning: Citation `octave' on page 87 undefined on input line 55.
+
+
+LaTeX Warning: Citation `matlab' on page 87 undefined on input line 55.
+
+
+LaTeX Warning: Citation `octave' on page 87 undefined on input line 55.
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty))
++-------------------------------------------------------------------+
+| Comentario, sugestao ou critica sobre o abnTeX? Entre em contato: |
+|                  http://abntex.codigolivre.org.br                 |
++-------------------------------------------------------------------+
+*********************************************************************
+
+! Package catchfile Error: File `exemplo.gnuploterrors' not found.
+
+See the catchfile package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.134 \end{document}
+                    
+? )
+Runaway argument?
+\ifx \gnuploterrors@ \@empty \else \PackageWarningNoLine {gnuplottex}\ETC.
+! File ended while scanning use of \gnuploterrors@eatpar.
+<inserted text> 
+                \par 
+<*> exemplo.tex
+               
+? 
+*
+! Emergency stop.
+<*> exemplo.tex
+               
+!  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on exemplo.log.
+Latexmk: Errors, so I did not complete making targets

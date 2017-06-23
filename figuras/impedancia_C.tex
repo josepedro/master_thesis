@@ -10,8 +10,8 @@
     xtick distance=0.5,
     grid=major, % Display a grid	
  	%grid style={dashed,gray!90}, % Set the style
-	xlabel = \small{Número de Helmholtz ($ka$)},
-	ylabel = \small{Impedância ($Z_{\textbf{C}}$)},
+	xlabel = \small{$ka$},
+	ylabel = \small{$Z_{\textbf{C}}$},
   ]
  \addplot[color=black, thick] table[x index=0,y index=1] {dados/coeficiente_reflexao_anecoica/C_real.txt};
    \addplot[color=black,dashed,  thick] table[x index=0,y index=1] {dados/coeficiente_reflexao_anecoica/C_imag.txt};

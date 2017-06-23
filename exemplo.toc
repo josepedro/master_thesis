@@ -30,6 +30,6 @@
 \contentsline {subsection}{\numberline {4.3.3}Mach = 0,15}{64}
 \contentsline {subsection}{\numberline {4.3.4}Mach 0,2}{65}
 \contentsline {section}{\numberline {4.4}Duto com Escoamento Sugado}{68}
-\contentsline {chapter}{\numberline {5}\MakeUppercase {Conclus\IeC {\~o}es}}{71}
-\contentsline {chapter}{REFER\IeC {\^E}NCIAS}{73}
-\contentsline {chapter}{\MakeUppercase {Ap\^endice{}} A{} -$\tmspace -\thinmuskip {.1667em}$-{} Manual de Funcionamento do Palabos Acoustic}{81}
+\contentsline {chapter}{\numberline {5}\MakeUppercase {Conclus\IeC {\~o}es}}{75}
+\contentsline {chapter}{REFER\IeC {\^E}NCIAS}{77}
+\contentsline {chapter}{\MakeUppercase {Ap\^endice{}} A{} -$\tmspace -\thinmuskip {.1667em}$-{} Manual de Funcionamento do Palabos Acoustic}{85}

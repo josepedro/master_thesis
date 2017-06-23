@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  12 JUN 2017 04:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  23 JUN 2017 02:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1370,8 +1370,12 @@ Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
 LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
 (Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
 LaTeX Font Info:    Redeclaring math symbol \invneg on input line 239.
-) (./comandos.sty
-(/usr/share/texlive/texmf-dist/tex/latex/pstricks/pstricks.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/filecontents/filecontents.sty
+Package: filecontents 2011/10/08 v1.3 Create an external file from within a LaT
+eX document
+)
+(./comandos.sty (/usr/share/texlive/texmf-dist/tex/latex/pstricks/pstricks.sty
 Package: pstricks 2015/11/14 v0.62 LaTeX wrapper for `PSTricks' (RN,HV)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.tex
@@ -1480,31 +1484,27 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 LaTeX Warning: Unused global option(s):
     [cleardoublepage=plain].
 
-(./exemplo.aux
-
-LaTeX Warning: Label `fig:abs_r_exaustao_strouhal_mach' multiply defined.
-
-)
+(./exemplo.aux)
 \openout1 = `exemplo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 87.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 87.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 88.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 88.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    ... okay on input line 88.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1619,7 +1619,7 @@ enefit from \pgfplotsset{compat=1.13} (current compat level: 1.9).
 \ST@sf=\write5
 \openout5 = `exemplo.sagetex.sage'.
 
-LaTeX Font Info:    Try loading font information for U+wasy on input line 90.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 91.
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 ) [1
@@ -1637,22 +1637,22 @@ Non-PDF special ignored!
 [0
 
 ]
-Overfull \hbox (14.995pt too wide) in paragraph at lines 91--91
+Overfull \hbox (14.995pt too wide) in paragraph at lines 92--92
 \OT1/cmr/m/n/9 Grau de Mes-tre em En-ge-nha-ria Mec^anica. 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 
  []
 
 [1]
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
 
  []
 
 
-Overfull \hbox (3.33333pt too wide) in paragraph at lines 91--92
+Overfull \hbox (3.33333pt too wide) in paragraph at lines 92--93
 []
  []
 
@@ -1674,18 +1674,21 @@ Overfull \hbox (3.33333pt too wide) in paragraph at lines 91--92
 
 ] [14
 
-] (./exemplo.lof)
+] (./exemplo.lof
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15])
 \tf@lof=\write6
 \openout6 = `exemplo.lof'.
 
 
-[15] [16
-
-] (./exemplo.lot)
+[16] (./exemplo.lot)
 \tf@lot=\write7
 \openout7 = `exemplo.lot'.
 
- [17] [18
+ [17
+
+] [18
 
 ] (./exemplo.las)
 \tf@las=\write8
@@ -1741,26 +1744,20 @@ Overfull \hbox (2.29408pt too wide) in paragraph at lines 7--8
 is-te-mas de exaust~ao
  []
 
-[29] <figuras/abs_r_comparacao.pdf, id=117, 526.01273pt x 433.25569pt>
-File: figuras/abs_r_comparacao.pdf Graphic file (type pdf)
-
-<use figuras/abs_r_comparacao.pdf>
-Package pdftex.def Info: figuras/abs_r_comparacao.pdf used on input line 31.
-(pdftex.def)             Requested size: 245.83275pt x 202.4865pt.
- [30 <./figuras/abs_r_comparacao.pdf>]
-Overfull \hbox (0.7293pt too wide) in paragraph at lines 37--38
-\OT1/cmr/m/n/10 onda re-fle-tida torna-se maior do que a da onda in-ci-dente. E
-ste fen^omeno
+[29] (./figuras/abs_r_comparacao.tex
+PGFPlots: reading {dados/outros_dados/abs_r_LS.txt}
+PGFPlots: reading {dados/outros_dados/abs_r_munt.txt}
+) [30]
+Overfull \hbox (9.29414pt too wide) in paragraph at lines 35--36
+\OT1/cmr/m/n/10 do duto, a qual trans-forma ener-gia cin^^Setica ro-ta-ci-o-nal
+ em ener-gia ac^^Sustica,
  []
 
-<figuras/loa_comparacao.pdf, id=123, 548.85324pt x 454.26555pt>
-File: figuras/loa_comparacao.pdf Graphic file (type pdf)
-
-<use figuras/loa_comparacao.pdf>
-Package pdftex.def Info: figuras/loa_comparacao.pdf used on input line 41.
-(pdftex.def)             Requested size: 245.83275pt x 203.46797pt.
- [31 <./figuras/loa_comparacao.pdf>]
-Overfull \hbox (11.01637pt too wide) in paragraph at lines 53--54
+(./figuras/loa_comparacao.tex
+PGFPlots: reading {dados/outros_dados/loa_LS.txt}
+PGFPlots: reading {dados/outros_dados/loa_munt.txt}
+) [31]
+Overfull \hbox (11.01637pt too wide) in paragraph at lines 49--50
 \OT1/cmr/m/n/10 on-das pla-nas, por^^Sem con-si-de-rando des-lo-ca-mento trans-
 ver-sais de part^^S^^Pculas
  []
@@ -1785,7 +1782,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [35]
-Underfull \vbox (badness 1077) has occurred while \output is active []
+Underfull \vbox (badness 1137) has occurred while \output is active []
 
  [36]
 [37]) (./capitulos/metodologia.tex [38]
@@ -1826,7 +1823,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [43]
-<figuras/d3q19.pdf, id=170, 677.53125pt x 557.83406pt>
+<figuras/d3q19.pdf, id=167, 677.53125pt x 557.83406pt>
 File: figuras/d3q19.pdf Graphic file (type pdf)
  <use figuras/d3q19.pdf>
 Package pdftex.def Info: figuras/d3q19.pdf used on input line 179.
@@ -1887,7 +1884,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [46]
 (./figuras/bounceback_2.pdf_tex
-<figuras/bounceback_2.pdf, id=186, page=1, 1081.05896pt x 819.68501pt>
+<figuras/bounceback_2.pdf, id=182, page=1, 1081.05896pt x 819.68501pt>
 File: figuras/bounceback_2.pdf Graphic file (type pdf)
 
 <use figuras/bounceback_2.pdf, page 1>
@@ -1901,7 +1898,7 @@ m/it/10 per-fec-tly mat-ched layers\OT1/cmr/m/n/10 ")
  []
 
 [48 <./figuras/bounceback_2.pdf>]
-<figuras/abc.pdf, id=197, 572.0184pt x 638.63539pt>
+<figuras/abc.pdf, id=194, 572.0184pt x 638.63539pt>
 File: figuras/abc.pdf Graphic file (type pdf)
  <use figuras/abc.pdf>
 Package pdftex.def Info: figuras/abc.pdf used on input line 301.
@@ -1910,7 +1907,7 @@ Package pdftex.def Info: figuras/abc.pdf used on input line 301.
 Underfull \vbox (badness 3000) has occurred while \output is active []
 
  [49 <./figuras/abc.pdf>] [50] [51]
-<figuras/modelo_numerico_2.pdf, id=209, 1247.06013pt x 484.18246pt>
+<figuras/modelo_numerico_2.pdf, id=206, 1247.06013pt x 484.18246pt>
 File: figuras/modelo_numerico_2.pdf Graphic file (type pdf)
 
 <use figuras/modelo_numerico_2.pdf>
@@ -2012,7 +2009,7 @@ PGFPlots: reading {dados/duto_exaustao/abs_r_strouhal_mach.txt}
 PGFPlots: reading {dados/duto_sugado/davis_analytical.txt}
 PGFPlots: reading {dados/duto_sugado/davis_simulation.txt}
 
-Overfull \hbox (7.72932pt too wide) in paragraph at lines 27--28
+Overfull \hbox (7.7271pt too wide) in paragraph at lines 27--28
 [][] 
  []
 
@@ -2020,7 +2017,7 @@ Overfull \hbox (7.72932pt too wide) in paragraph at lines 27--28
 PGFPlots: reading {dados/duto_sugado/davis_analytical_loa.txt}
 PGFPlots: reading {dados/duto_sugado/davis_simulation_loa.txt}
 
-Overfull \hbox (2.7293pt too wide) in paragraph at lines 27--28
+Overfull \hbox (1.01338pt too wide) in paragraph at lines 27--28
 [][] 
  []
 
@@ -2031,36 +2028,58 @@ PGFPlots: reading {dados/duto_sugado/abs_010_strouhal.txt}
 PGFPlots: reading {dados/duto_sugado/abs_015_strouhal.txt}
 PGFPlots: reading {dados/duto_sugado/abs_020_strouhal.txt}
 ) [69]
+(./figuras/loa_sugado_strouhal.tex
+PGFPlots: reading {dados/duto_sugado/loa_005_strouhal.txt}
+PGFPlots: reading {dados/duto_sugado/loa_007_strouhal.txt}
+PGFPlots: reading {dados/duto_sugado/loa_010_strouhal.txt}
+PGFPlots: reading {dados/duto_sugado/loa_015_strouhal.txt}
+PGFPlots: reading {dados/duto_sugado/loa_020_strouhal.txt}
+) [70]
 (./figuras/abs_r_sugado_strouhal_mach.tex
 PGFPlots: reading {dados/duto_sugado/abs_r_strouhal_mach.txt}
-)) (./capitulos/conclusoes.tex
-[70]
+) [71]
+(./figuras/loa_sugado_strouhal_mach.tex
+PGFPlots: reading {dados/duto_sugado/loa_strouhal_mach.txt}
+) [72] (./figuras/abs_r_sugado_kp.tex
+PGFPlots: reading {dados/duto_sugado/abs_049_kp.txt}
+PGFPlots: reading {dados/duto_sugado/abs_059_kp.txt}
+PGFPlots: reading {dados/duto_sugado/abs_071_kp.txt}
+PGFPlots: reading {dados/duto_sugado/abs_074_kp.txt}
+PGFPlots: reading {dados/duto_sugado/abs_075_kp.txt}
+)
+[73] (./figuras/loa_sugado_kp.tex
+PGFPlots: reading {dados/duto_sugado/loa_049_kp.txt}
+PGFPlots: reading {dados/duto_sugado/loa_059_kp.txt}
+PGFPlots: reading {dados/duto_sugado/loa_071_kp.txt}
+PGFPlots: reading {dados/duto_sugado/loa_074_kp.txt}
+PGFPlots: reading {dados/duto_sugado/loa_075_kp.txt}
+)) (./capitulos/conclusoes.tex [74]
 Cap\'{\i }tulo 5.
-<figuras/cronograma.png, id=280, 796.9775pt x 400.49625pt>
+<figuras/cronograma.png, id=287, 796.9775pt x 400.49625pt>
 File: figuras/cronograma.png Graphic file (type png)
 
 <use figuras/cronograma.png>
 Package pdftex.def Info: figuras/cronograma.png used on input line 6.
 (pdftex.def)             Requested size: 284.52756pt x 142.98076pt.
-) (./exemplo.bbl [71
+) (./exemplo.bbl [75
 
  <./figuras/cronograma.png>]
-[72
+[76
 
-] [73] [74] [75] [76]) (./capitulos/apendices.tex [77] [78
+] [77] [78] [79] [80]) (./capitulos/apendices.tex [81] [82
 
-] [79] [80
+] [83] [84
 
 ]
 Apendice A.
-<figuras/palabos_modelo_fluxo.pdf, id=314, 380.45247pt x 488.79149pt>
+<figuras/palabos_modelo_fluxo.pdf, id=321, 380.45247pt x 488.79149pt>
 File: figuras/palabos_modelo_fluxo.pdf Graphic file (type pdf)
 
 <use figuras/palabos_modelo_fluxo.pdf>
 Package pdftex.def Info: figuras/palabos_modelo_fluxo.pdf used on input line 16
 .
 (pdftex.def)             Requested size: 245.83275pt x 315.84612pt.
- [81]
+ [85]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
@@ -2069,7 +2088,7 @@ File: lstlang2.sty 2015/06/04 1.6 listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-) [82 <./figuras/palabos_modelo_fluxo.pdf>]
+) [86 <./figuras/palabos_modelo_fluxo.pdf>]
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 44.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
@@ -2086,20 +2105,17 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
 *********************************************************************
-[83] (./exemplo.aux)
+[87] (./exemplo.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.5pt have occurred.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 34023 strings out of 493029
- 749686 string characters out of 6136233
- 983413 words of memory out of 5000000
- 36644 multiletter control sequences out of 15000+600000
+ 34140 strings out of 493029
+ 752404 string characters out of 6136233
+ 1082354 words of memory out of 5000000
+ 36701 multiletter control sequences out of 15000+600000
  30485 words of font info for 103 fonts, out of 8000000 for 9000
  1149 hyphenation exceptions out of 8191
  62i,16n,83p,1507b,2094s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2130,10 +2146,10 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/
 public/cm-super/sfrm1000.pfb>
-Output written on exemplo.pdf (85 pages, 713394 bytes).
+Output written on exemplo.pdf (89 pages, 713575 bytes).
 PDF statistics:
- 420 PDF objects out of 1000 (max. 8388607)
- 295 compressed objects within 3 object streams
+ 426 PDF objects out of 1000 (max. 8388607)
+ 299 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

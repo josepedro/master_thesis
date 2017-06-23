@@ -9,8 +9,8 @@
     ytick distance=0.1,
     grid=major, % Display a grid  
   %grid style={dashed,gray!90}, % Set the style
-  xlabel = \small{Número de Helmholtz ($ka$)},
-  ylabel = \small{Coeficiente de Reflexão ($R_{r}$)},
+  xlabel = \small{$ka$},
+  ylabel = \small{$|R_{r}|$},
   ]
  \addplot[color=black, thick] table[x index=0,y index=1] {dados/duto_exaustao/abs_r_020_analytical.txt};
  \addplot[color=black, mark=o, only marks] table[x index=0,y index=1] {dados/duto_exaustao/abs_r_020_simulation.txt};

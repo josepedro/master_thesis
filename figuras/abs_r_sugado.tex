@@ -17,8 +17,8 @@
   xtick distance=0.05,
   grid=major, % Display a grid  
   %grid style={dashed,gray!90}, % Set the style
-  xlabel = \small{Número de Mach ($M$)},
-  ylabel = \small{Coeficiente de Reflexão ($R_{M}$)},
+  xlabel = \small{$M$},
+  ylabel = \small{$|R_{M}|$},
   ]
  \addplot[color=black, thick] table[x index=0,y index=1] {dados/duto_sugado/davis_analytical.txt};
  \addplot[color=black, mark=o, only marks] table[x index=0,y index=1] {dados/duto_sugado/davis_simulation.txt};

@@ -17,13 +17,13 @@
   xtick distance=0.03,
   grid=major, % Display a grid  
   %grid style={dashed,gray!90}, % Set the style
-  xlabel = Número de Mach ($M$),
-  ylabel = Coeficiente de Reflexão ($R_{r}$),
+  xlabel = $M$,
+  ylabel = $|R_{r}|$,
   ]
  \addplot[color=black, thick] table[x index=0,y index=1] {dados/duto_exaustao/abs_r_strouhal_mach.txt};
 
   \end{axis}
   \end{tikzpicture}
-  \caption[Coeficiente de reflexão $R_{r}$ com escoamento de exaustão em relação ao número de Mach ($M$) no Strouhal $St = \pi/2$]{Resultado de magnitudes do coeficiente de reflexão $R_{r}$ fixados no Strouhal $St = \pi/2$ em relação ao número de Mach ($M$) para escoamentos de exaustão. Os resultados foram calculados no ponto $\textbf{P}$ na terminação do duto.}
+  \caption[Coeficiente de reflexão $R_{r}$ com escoamento de exaustão em relação ao número de Mach ($M$) no Strouhal $St = \pi/2$]{Resultado de magnitudes do coeficiente de reflexão $|R_{r}|$ fixados no Strouhal $St = \pi/2$ em relação ao número de Mach ($M$) para escoamentos de exaustão. Os resultados foram calculados no ponto $\textbf{P}$ na terminação do duto.}
 
   \label{fig:abs_r_exaustao_strouhal_mach}

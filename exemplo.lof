@@ -1,5 +1,5 @@
 \select@language {brazil}
-\contentsline {figure}{\numberline {1}{\ignorespaces Magnitudes do coeficiente de reflex\IeC {\~a}o $R_{r}$}}{30}
+\contentsline {figure}{\numberline {1}{\ignorespaces Magnitudes do coeficiente de reflex\IeC {\~a}o $|R_{r}|$}}{30}
 \contentsline {figure}{\numberline {2}{\ignorespaces Coeficientes de corre\IeC {\c c}\IeC {\~a}o de termina\IeC {\c c}\IeC {\~a}o $l/a$}}{31}
 \contentsline {figure}{\numberline {3}{\ignorespaces Coeficiente de reflex\IeC {\~a}o $R_{M}$ com escoamento sugado}}{36}
 \contentsline {figure}{\numberline {4}{\ignorespaces Coeficiente de corre\IeC {\c c}\IeC {\~a}o da termina\IeC {\c c}\IeC {\~a}o $l_{M}$}}{36}
@@ -11,15 +11,19 @@
 \contentsline {figure}{\numberline {10}{\ignorespaces Resultados de reflex\IeC {\~a}o no ponto \textbf {\mathversion {bold}B}}}{59}
 \contentsline {figure}{\numberline {11}{\ignorespaces Resultados de reflex\IeC {\~a}o no ponto \textbf {\mathversion {bold}C}}}{60}
 \contentsline {figure}{\numberline {12}{\ignorespaces Resultados de reflex\IeC {\~a}o no ponto \textbf {\mathversion {bold}D}}}{60}
-\contentsline {figure}{\numberline {13}{\ignorespaces Resultados de $R_{r}$ e $l/a$ sem escoamento}}{61}
-\contentsline {figure}{\numberline {14}{\ignorespaces Resultados de $R_{r}$ e $l/a$ com escoamento de exaust\IeC {\~a}o ($M =$ 0,07 e $Re =$ 1930,23)}}{62}
-\contentsline {figure}{\numberline {15}{\ignorespaces Resultados de $R_{r}$ e $l/a$ com escoamento de exaust\IeC {\~a}o ($M =$ 0,10 e $Re =$ 2757,42)}}{63}
-\contentsline {figure}{\numberline {16}{\ignorespaces Resultados de $R_{r}$ e $l/a$ com escoamento de exaust\IeC {\~a}o (M $=$ 0,15 e Re $=$ 2057,71)}}{64}
-\contentsline {figure}{\numberline {17}{\ignorespaces Resultados de $R_{r}$ e $l/a$ com escoamento de exaust\IeC {\~a}o (M $=$ 0,2 e Re $=$ 5514,82)}}{65}
+\contentsline {figure}{\numberline {13}{\ignorespaces Resultados de $|R_{r}|$ e $l/a$ sem escoamento}}{61}
+\contentsline {figure}{\numberline {14}{\ignorespaces Resultados de $|R_{r}|$ e $l/a$ com escoamento de exaust\IeC {\~a}o ($M =$ 0,07 e $Re =$ 1930,23)}}{62}
+\contentsline {figure}{\numberline {15}{\ignorespaces Resultados de $|R_{r}|$ e $l/a$ com escoamento de exaust\IeC {\~a}o ($M =$ 0,10 e $Re =$ 2757,42)}}{63}
+\contentsline {figure}{\numberline {16}{\ignorespaces Resultados de $|R_{r}|$ e $l/a$ com escoamento de exaust\IeC {\~a}o (M $=$ 0,15 e Re $=$ 2057,71)}}{64}
+\contentsline {figure}{\numberline {17}{\ignorespaces Resultados de $|R_{r}|$ e $l/a$ com escoamento de exaust\IeC {\~a}o (M $=$ 0,2 e Re $=$ 5514,82)}}{65}
 \contentsline {figure}{\numberline {18}{\ignorespaces Coeficiente de reflex\IeC {\~a}o $R_{r}$ com escoamento de exaust\IeC {\~a}o em rela\IeC {\c c}\IeC {\~a}o ao n\IeC {\'u}mero de Strouhal ($St$)}}{66}
 \contentsline {figure}{\numberline {19}{\ignorespaces Coeficiente de reflex\IeC {\~a}o $R_{r}$ com escoamento de exaust\IeC {\~a}o em rela\IeC {\c c}\IeC {\~a}o ao n\IeC {\'u}mero de Mach ($M$) no Strouhal $St = \pi /2$}}{67}
-\contentsline {figure}{\numberline {20}{\ignorespaces Resultados de $R_{M}$ e $l/a$ em rela\IeC {\c c}\IeC {\~a}o ao Mach para baixas frequ\IeC {\^e}ncias ($ka$ $<$ $0,25$) com escoamento sugado}}{68}
-\contentsline {figure}{\numberline {21}{\ignorespaces Coeficiente de reflex\IeC {\~a}o $R_{r}$ com escoamento sugado em rela\IeC {\c c}\IeC {\~a}o ao n\IeC {\'u}mero de Strouhal ($St$)}}{69}
-\contentsline {figure}{\numberline {22}{\ignorespaces Coeficiente de reflex\IeC {\~a}o $R_{r}$ com escoamento de exaust\IeC {\~a}o em rela\IeC {\c c}\IeC {\~a}o ao n\IeC {\'u}mero de Mach ($M$) no Strouhal $St = \pi /2$}}{70}
-\contentsline {figure}{\numberline {23}{\ignorespaces Elaborado pelo autor.\relax }}{71}
-\contentsline {figure}{\numberline {24}{\ignorespaces Fluxograma de um modelo num\IeC {\'e}rico no Palabos}}{82}
+\contentsline {figure}{\numberline {20}{\ignorespaces Resultados de $|R_{M}|$ e $l/a$ em rela\IeC {\c c}\IeC {\~a}o ao Mach para baixas frequ\IeC {\^e}ncias ($ka$ $<$ $0,25$) com escoamento sugado}}{68}
+\contentsline {figure}{\numberline {21}{\ignorespaces Coeficiente de reflex\IeC {\~a}o $|R_{r}|$ com escoamento sugado em rela\IeC {\c c}\IeC {\~a}o ao n\IeC {\'u}mero de Strouhal ($St$)}}{69}
+\contentsline {figure}{\numberline {22}{\ignorespaces Coeficiente de corre\IeC {\c c}\IeC {\~a}o da termina\IeC {\c c}\IeC {\~a}o $l/a$ com escoamento sugado em rela\IeC {\c c}\IeC {\~a}o ao n\IeC {\'u}mero de Strouhal ($St$)}}{70}
+\contentsline {figure}{\numberline {23}{\ignorespaces Coeficiente de reflex\IeC {\~a}o $R_{r}$ com escoamento de exaust\IeC {\~a}o em rela\IeC {\c c}\IeC {\~a}o ao n\IeC {\'u}mero de Mach ($M$) no Strouhal $St = \pi /2$}}{71}
+\contentsline {figure}{\numberline {24}{\ignorespaces Coeficiente de corre\IeC {\c c}\IeC {\~a}o da termina\IeC {\c c}\IeC {\~a}o $l/a$ com escoamento de exaust\IeC {\~a}o em rela\IeC {\c c}\IeC {\~a}o ao n\IeC {\'u}mero de Mach ($M$) no Strouhal $St = \pi /2$}}{72}
+\contentsline {figure}{\numberline {25}{\ignorespaces Coeficiente de reflex\IeC {\~a}o $|R_{r}|$ com escoamento sugado em rela\IeC {\c c}\IeC {\~a}o ao n\IeC {\'u}mero de Strouhal ($St$)}}{73}
+\contentsline {figure}{\numberline {26}{\ignorespaces Coeficiente de reflex\IeC {\~a}o $|R_{r}|$ com escoamento sugado em rela\IeC {\c c}\IeC {\~a}o ao n\IeC {\'u}mero de Strouhal ($St$)}}{74}
+\contentsline {figure}{\numberline {27}{\ignorespaces Elaborado pelo autor.\relax }}{75}
+\contentsline {figure}{\numberline {28}{\ignorespaces Fluxograma de um modelo num\IeC {\'e}rico no Palabos}}{86}

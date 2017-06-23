@@ -1,0 +1,11 @@
+# Fdb version 3
+["pdflatex"] 1497619207 "eg1.tex" "eg1.pdf" "eg1" 1497619207
+  "/etc/texmf/web2c/texmf.cnf" 1476809299 1101 af7716885e081ab43982cab7b4672c1a ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1458942643 31351 b32c45dce4a01cb7b53ed90c546614ca ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1458942643 31351 b32c45dce4a01cb7b53ed90c546614ca ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1476809524 3858640 840b346915f085a3046716bfb2d9dbfb ""
+  "eg1.aux" 1497619152 8 a94a2480d3289e625eea47cd1b285758 ""
+  "eg1.tex" 1497619042 16610 bd3e6bb6bccffb0116a3fda69ecda8bd ""
+  (generated)
+  "eg1.log"
+  "eg1.pdf"
