@@ -71,25 +71,21 @@ Já o trabalho de \citeonline{tiikoja2014} focou na influência da temperatura n
 
 \subsection{Escoamento Sugado}
 
-Em relação a trabalhos experimentais, \citeonline{ingard1975} investigaram o coeficiente de reflexão em dutos quadrados em regime de escoamento succionado de Mach 0,4. O método de medição se baseou na técnica de dois microfones e os mesmos foram ajustados para números de Helmholtz ($ka$) menores que 0,5. Em vista desse contexto experimental, o autor desenvolveu uma fórmula semi-empírica para baixas frequências do coeficiente de reflexão.
+Em relação a trabalhos experimentais, \citeonline{ingard1975} investigaram o coeficiente de reflexão em dutos quadrados em regime de escoamento succionado de Mach 0,4. O método de medição se baseou na técnica de dois microfones e os mesmos foram ajustados para números de Helmholtz ($ka$) menores que 0,5. Em vista desse contexto experimental, o autor desenvolveu uma fórmula semi-empírica para baixas frequências do coeficiente de reflexão e é modelada na forma
+\begin{equation}
+        |R_{r}| = |R_{0}|\bigg[\frac{(1 - M)}{(1 + M)}\bigg]^{n},
+    \label{eq:R_r_ingard}
+\end{equation}
+sendo que $n$ é uma constante no valor aproximado de 1,33 e $|R_{0}|$ é o módulo do coeficiente de reflexão sem escoamento obtido a partir do trabalho de \citeonline{levine1948radiation}. 
 
-Na mesma linha de investigação, \citeonline{davies1987} investigou o coeficiente de reflexão para baixas frequências ($0,01$ $<$ $ka$ $<$ $0,25$) e Machs subsônicos ($M$ $<$ $0,3$), porém com dutos circulares não-flangeados, flangeados e com difusores na borda. O autor destaca que a disposição geométrica da terminação do duto, quando submetida a fenômenos de escoamentos succionados, desenvolve uma ``\textit{vena} contracta'', que pode ser estimada e associada com o fator de perda $Kp$\simbolo{$Kp$}{Fator de perda}. Em vista dos procedimentos desse trabalho, o autor compara os resultados com o estudo de \citeonline{ingard1975} e sugere um aperfeiçoamento na equação analítica do cálculo do coeficiente de reflexão.
+Na mesma linha de investigação, \citeonline{davies1987} investigou o coeficiente de reflexão para baixas frequências ($0,01$ $<$ $ka$ $<$ $0,25$) e Machs subsônicos ($M$ $<$ $0,3$), porém com dutos circulares não-flangeados, flangeados e com difusores na borda. O autor destaca que a disposição geométrica da terminação do duto, quando submetida a fenômenos de escoamentos succionados, desenvolve uma ``\textit{vena} contracta'', que pode ser estimada e associada com o fator de perda $Kp$\simbolo{$Kp$}{Fator de perda}. Em vista dos procedimentos desse trabalho, o autor compara os resultados com o estudo de \citeonline{ingard1975} e sugere que o termo $n$ da equação \ref{eq:R_r_ingard} tenha o valor aproximado de 0,9 para casos de dutos circulares. 
 
-Dos trabalhos citados com escoamento sugado nota-se a consolidação do comportamento do coeficiente de reflexão para baixas frequências. Esse comportamento ocorre pelo surgimento de uma \textit{vena} contracta, descolamento de fluido da parede do duto que, dependendo do número de Mach, se estende mais ou menos para dentro do duto. De acordo com o trablaho de \citeonline{davies1987}, para baixas frequências ($ka$ $<$ $0,25$) o coeficiente de reflexão muda com relação ao Mach e é modelado de acordo com a equação
-    \begin{equation}
-        |R_{M}|\simbolo{$R_{M}$}{Coeficiente de reflexão em relação ao Mach} = |R_{0}|\bigg[\frac{(1 - M)}{(1 + M)}\bigg]^{0,9},
-        \label{eq:R_M}
-    \end{equation}
-    sendo $|R_{0}|$ módulo do coeficiente de reflexão sem escoamento obtido a partir do trabalho de \citeonline{levine1948radiation}. 
-
-
-
-    De forma análoga o trabalho de \citeonline{davies1987} também sugere uma equação para o coeficiente de correção da terminação o qual é proposto a partir da seguinte equação
-    \begin{equation}
-        l_{M}\simbolo{$l_{M}$}{Coeficiente de correção da terminação em relação ao Mach} = l_{0}(1 - M^{2}),
-        \label{eq:l_M}
-    \end{equation} 
-    sendo $l_{0}$ módulo do coeficiente de correção da terminação sem escoamento obtido a partir do trabalho de \citeonline{levine1948radiation}.
+Mesmo na ausência de uma investigação sistemática focando o coeficiente de correção da terminação, o trabalho de \citeonline{davies1987} também sugere uma equação para o qual é proposto na seguinte forma
+\begin{equation}
+    l/a = l_{0}(1 - M^{2}),
+    \label{eq:l_M}
+\end{equation} 
+sendo $l_{0}$ módulo do coeficiente de correção da terminação sem escoamento obtido a partir do trabalho de \citeonline{levine1948radiation}.
 
 
 \begin{figure}[h!]
@@ -98,7 +94,7 @@ Dos trabalhos citados com escoamento sugado nota-se a consolidação do comporta
   \begin{axis}[
       %axis lines = left,
       xlabel = $M$,
-      ylabel = $|R_{M}|$,
+      ylabel = $|R_{r}|$,
       width=0.9\textwidth,
       height=0.45\textwidth,
       ytick distance=0.1,
@@ -111,7 +107,7 @@ Dos trabalhos citados com escoamento sugado nota-se a consolidação do comporta
     },
     xmin=0,
     xmax=0.3,
-    ymin=0.55,
+    ymin=0.43,
     ymax=1,
     grid=major
   ]
@@ -122,14 +118,22 @@ Dos trabalhos citados com escoamento sugado nota-se a consolidação do comporta
       color=black
   ]
   {((1 - x)/(1 + x))^0.9};
+
+  \addplot [
+      domain=0:0.3, 
+      samples=100, 
+      color=black,
+      dashed
+  ]
+  {((1 - x)/(1 + x))^1.333};
    
   \end{axis}
   \end{tikzpicture}
-  \caption[Coeficiente de reflexão $R_{M}$ com escoamento sugado]{Resultado do coeficiente de reflexão $R_{M}$ em relação ao Mach para baixas frequências ($ka$ $<$ $0,25$) com escoamento sugado. A linha contínua apresenta o cálculo obtido com a equação \ref{eq:R_M} do trabalho de \citeonline{davies1987}.}
+  \caption[Coeficiente de reflexão $|R_{r}|$ com escoamento sugado]{Resultado da magnitude do coeficiente de reflexão $|R_{r}|$ em relação ao Mach para baixas frequências com escoamento sugado. A linha contínua apresenta o cálculo obtido a partir do trabalho de \citeonline{davies1987} e a linha tracejada apresenta o resultado obtido a partir do trabalho de \citeonline{ingard1975}.}
   \label{fig:comp3}
 \end{figure}
 
-A Figura \ref{fig:comp3} mostra o gráfico resultante da equação \ref{eq:R_M} e pode-se perceber que $R_{M}$ decai de acordo com o aumento do Mach, em outras palavras, para baixas frequências, a onda plana possui maior facilidade de se radiar para o meio externo a medida que o Mach é aumentado. 
+A Figura \ref{fig:comp3} mostra o gráfico resultante da equação \ref{eq:R_r_ingard} para os estudos de \citeonline{ingard1975} e  \citeonline{davies1987}. Pode-se perceber que $|R_{r}|$ decai de acordo com o aumento do Mach, em outras palavras, para baixas frequências, a onda plana possui maior facilidade de se radiar para o meio externo a medida que o Mach é aumentado. 
 
 
 \begin{figure}[h!]
@@ -138,7 +142,7 @@ A Figura \ref{fig:comp3} mostra o gráfico resultante da equação \ref{eq:R_M} 
   \begin{axis}[
       %%axis lines = left,
       xlabel = $M$,
-      ylabel = $l_{M}$,
+      ylabel = $l/a$,
       width=0.9\textwidth,
      height=0.45\textwidth,
       ytick distance=0.01,
@@ -165,7 +169,7 @@ A Figura \ref{fig:comp3} mostra o gráfico resultante da equação \ref{eq:R_M} 
    
   \end{axis}
   \end{tikzpicture}
-  \caption[Coeficiente de correção da terminação $l_{M}$]{Resultado do coeficiente de correção da terminação $l_{M}$ em relação ao Mach para baixas frequências ($ka$ $<$ $0,25$). A linha contínua apresenta o cálculo obtido com a equação \ref{eq:l_M} do trabalho de \citeonline{davies1987}.}
+  \caption[Coeficiente de correção da terminação $l/a$]{Resultado do coeficiente de correção da terminação $l/a$ em relação ao Mach para baixas frequências ($ka$ $<$ $0,25$). A linha contínua apresenta o cálculo obtido com a equação \ref{eq:l_M} do trabalho de \citeonline{davies1987}.}
   \label{fig:comp4}
 \end{figure}
 
