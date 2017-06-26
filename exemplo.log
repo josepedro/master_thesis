@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  23 JUN 2017 02:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.10)  25 JUN 2017 21:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1772,20 +1772,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [34]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [35]
-Underfull \vbox (badness 1137) has occurred while \output is active []
-
- [36]
-[37]) (./capitulos/metodologia.tex [38]
+[35] [36] [37]) (./capitulos/metodologia.tex [38]
 Cap\'{\i }tulo 3.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2112,10 +2099,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 34140 strings out of 493029
- 752404 string characters out of 6136233
- 1082354 words of memory out of 5000000
- 36701 multiletter control sequences out of 15000+600000
+ 34142 strings out of 493029
+ 752449 string characters out of 6136234
+ 1082357 words of memory out of 5000000
+ 36703 multiletter control sequences out of 15000+600000
  30485 words of font info for 103 fonts, out of 8000000 for 9000
  1149 hyphenation exceptions out of 8191
  62i,16n,83p,1507b,2094s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2146,7 +2133,7 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/
 public/cm-super/sfrm1000.pfb>
-Output written on exemplo.pdf (89 pages, 713575 bytes).
+Output written on exemplo.pdf (89 pages, 714955 bytes).
 PDF statistics:
  426 PDF objects out of 1000 (max. 8388607)
  299 compressed objects within 3 object streams

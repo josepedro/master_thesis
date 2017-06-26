@@ -1,8 +1,8 @@
 \select@language {brazil}
 \contentsline {figure}{\numberline {1}{\ignorespaces Magnitudes do coeficiente de reflex\IeC {\~a}o $|R_{r}|$}}{30}
 \contentsline {figure}{\numberline {2}{\ignorespaces Coeficientes de corre\IeC {\c c}\IeC {\~a}o de termina\IeC {\c c}\IeC {\~a}o $l/a$}}{31}
-\contentsline {figure}{\numberline {3}{\ignorespaces Coeficiente de reflex\IeC {\~a}o $R_{M}$ com escoamento sugado}}{36}
-\contentsline {figure}{\numberline {4}{\ignorespaces Coeficiente de corre\IeC {\c c}\IeC {\~a}o da termina\IeC {\c c}\IeC {\~a}o $l_{M}$}}{36}
+\contentsline {figure}{\numberline {3}{\ignorespaces Coeficiente de reflex\IeC {\~a}o $|R_{r}|$ com escoamento sugado}}{35}
+\contentsline {figure}{\numberline {4}{\ignorespaces Coeficiente de corre\IeC {\c c}\IeC {\~a}o da termina\IeC {\c c}\IeC {\~a}o $l/a$}}{36}
 \contentsline {figure}{\numberline {5}{\ignorespaces Esquem\IeC {\'a}tico do D3Q19}}{45}
 \contentsline {figure}{\numberline {6}{\ignorespaces Funcionamento do \textit {bounceback} \textit {no-slip}}}{48}
 \contentsline {figure}{\numberline {7}{\ignorespaces Funcionamento da condi\IeC {\c c}\IeC {\~a}o de contorno anec\IeC {\'o}ica}}{49}
