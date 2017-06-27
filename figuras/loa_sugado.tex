@@ -18,13 +18,13 @@
   grid=major, % Display a grid  
   %grid style={dashed,gray!90}, % Set the style
   xlabel = \small{$M$},
-  ylabel = \small{$l_{M}$},
+  ylabel = \small{$l/a$},
   ]
  \addplot[color=black, thick] table[x index=0,y index=1] {dados/duto_sugado/davis_analytical_loa.txt};
  \addplot[color=black, mark=o, only marks] table[x index=0,y index=1] {dados/duto_sugado/davis_simulation_loa.txt};
    
   \end{axis}
   \end{tikzpicture}
-  \caption[Coeficiente de correção da terminação ($l_{M}$) com escoamento sugado]{}
+  \caption[Coeficiente de correção da terminação ($l/a$) com escoamento sugado]{}
 
   \label{fig:loa_sugado}
