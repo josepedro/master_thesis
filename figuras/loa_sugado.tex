@@ -6,7 +6,7 @@
       /pgf/number format/.cd,
           fixed,
           fixed zerofill,
-          precision=2,
+          precision=2, set decimal separator={,},
       /tikz/.cd
   },
   xmin=0,
@@ -19,6 +19,10 @@
   %grid style={dashed,gray!90}, % Set the style
   xlabel = \small{$M$},
   ylabel = \small{$l/a$},
+   y tick label style={/pgf/number format/.cd,%
+          scaled y ticks = false,
+          set decimal separator={,},
+          fixed}
   ]
  \addplot[color=black, thick] table[x index=0,y index=1] {dados/duto_sugado/davis_analytical_loa.txt};
  \addplot[color=black, mark=o, only marks] table[x index=0,y index=1] {dados/duto_sugado/davis_simulation_loa.txt};

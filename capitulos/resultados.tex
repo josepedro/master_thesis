@@ -45,11 +45,15 @@ Com a finalidade de mensurar e analisar o comportamento da condição de contorn
 % \end{center}
 % \end{figure}
 
-\newcommand\scalex{1}
-\newcommand\scaley{1}
+\newcommand\scalex{0.8}
+\newcommand\scaley{0.8}
 \newcommand\scaleA{0.5}
 
-\begin{figure}
+\newpage
+
+A Figura \ref{fig:resultados_A} mostra os resultados de parâmetros de caracterização de reflexão no ponto \textbf{A}, ou seja, num ponto que está a frente da terminação do duto. Pode-se observar pela Figura \ref{fig:A_impedancia} que a parte real da impedância converge para o valor de $\rho_{0} c_{0}$ de referência na literatura, que em unidades do LBM possui o valor igual 0,57735. A parte imaginária da Figura \ref{fig:A_impedancia} converge num valor bem abaixo, porém ainda distante de 0 como é o ideal de uma situação totalmente anecóica. A Figura \ref{fig:A_reflexao} confirma o fato que se vê na Figura \ref{fig:A_impedancia}, ou seja, vê-se a mesma tendência do coeficiente de reflexão na parte imaginária do gráfico de impedância, ocasionando aproxidamente 15\% de reflexão. Vale ressaltar também da Figura \ref{fig:A_reflexao} que para baixas frequências há uma alta reflexão. 
+
+\begin{figure}[ht!]
 \begin{subfigure}{\scaleA \textwidth}
   \input{figuras/impedancia_A.tex}
 \end{subfigure}%
@@ -60,10 +64,7 @@ Com a finalidade de mensurar e analisar o comportamento da condição de contorn
 \label{fig:resultados_A}
 \end{figure}
 
-\newpage
-A Figura \ref{fig:resultados_A} mostra os resultados de parâmetros de caracterização de reflexão no ponto \textbf{A}, ou seja, num ponto que está a frente da terminação do duto. Pode-se observar pela Figura \ref{fig:A_impedancia} que a parte real da impedância converge para o valor de $\rho_{0} c_{0}$ de referência na literatura, que em unidades do LBM possui o valor igual 0,57735. A parte imaginária da Figura \ref{fig:A_impedancia} converge num valor bem abaixo, porém ainda distante de 0 como é o ideal de uma situação totalmente anecóica. A Figura \ref{fig:A_reflexao} confirma o fato que se vê na Figura \ref{fig:A_impedancia}, ou seja, vê-se a mesma tendência do coeficiente de reflexão na parte imaginária do gráfico de impedância, ocasionando aproxidamente 15\% de reflexão. Vale ressaltar também da Figura \ref{fig:A_reflexao} que para baixas frequências há uma alta reflexão. 
-
-A Figura \ref{fig:resultados_B} mostra os resultados de parâmetros de caracterização de reflexão no ponto \textbf{B}, ou seja, numa região de descontinuidade na direção $z$ e $y$. Pode-se observar pela Figura \ref{fig:B_impedancia} que a parte real e imaginária da impedância diverge consideravelmente de uma condição anecóica ideal. Tal fato pode ser verificado na Figura \ref{fig:B_reflexao} que, embora o coeficiente de reflexão não convirja para 1, há a presença de reflexões principalmente em baixas frequências. Mesmo o ponto \textbf{B} tendo uma tendência distoante de uma condição anecóica ideal, considera-se tal fato como desprezível visto que há poucas regiões descontínuas dessa condição de contorno no modelo numérico.   
+A Figura \ref{fig:resultados_B} mostra os resultados de parâmetros de caracterização de reflexão no ponto \textbf{B}, ou seja, numa região de descontinuidade na direção $z$ e $y$. Pode-se observar pela Figura \ref{fig:B_impedancia} que a parte real e imaginária da impedância diverge consideravelmente de uma condição anecóica ideal. Tal fato pode ser verificado na Figura \ref{fig:B_reflexao} que, embora o coeficiente de reflexão não convirja para 1, há a presença de reflexões principalmente em baixas frequências. Mesmo o ponto \textbf{B} tendo uma tendência distoante de uma condição anecóica ideal, considera-se tal fato como desprezível visto que há poucas regiões descontínuas dessa condição de contorno no modelo numérico. 
 
 \begin{figure}
 \begin{subfigure}{\scaleA \textwidth}
@@ -207,6 +208,19 @@ Em vista do que foi exposto através de uma análise de reflexão acústica nos 
 
 \newpage
 \begin{figure}[ht!]
+  \centering
+  \input{figuras/abs_r_sugado_kp.tex}
+\end{figure}
+
+\newpage
+\begin{figure}[ht!]
+  \centering
+  \input{figuras/loa_sugado_kp.tex}
+\end{figure}
+
+
+\newpage
+\begin{figure}[ht!]
 \centering
   \input{figuras/abs_r_sugado_strouhal.tex}
 \end{figure}
@@ -235,14 +249,3 @@ Em vista do que foi exposto através de uma análise de reflexão acústica nos 
 %0.1 = 0.71
 %0.15 = 0.74
 %0.2 = 0.75
-\newpage
-\begin{figure}[ht!]
-  \centering
-  \input{figuras/abs_r_sugado_kp.tex}
-\end{figure}
-
-\newpage
-\begin{figure}[ht!]
-  \centering
-  \input{figuras/loa_sugado_kp.tex}
-\end{figure}

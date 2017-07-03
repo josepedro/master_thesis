@@ -12,6 +12,14 @@
  	%grid style={dashed,gray!90}, % Set the style
 	xlabel = \small{$ka$},
 	ylabel = \small{$|R_{\textbf{C}}|$},
+  y tick label style={/pgf/number format/.cd,%
+          scaled y ticks = false,
+          set decimal separator={,},
+          fixed},
+      x tick label style={/pgf/number format/.cd,%
+          scaled x ticks = false,
+          set decimal separator={,},
+          fixed}%
   ]
  \addplot[color=black, thick] table[x index=0,y index=1] {dados/coeficiente_reflexao_anecoica/C_abs.txt};
    

@@ -19,6 +19,14 @@
   %grid style={dashed,gray!90}, % Set the style
   xlabel = $St$,
   ylabel = $l/a$,
+  y tick label style={/pgf/number format/.cd,%
+          scaled y ticks = false,
+          set decimal separator={,},
+          fixed},
+      x tick label style={/pgf/number format/.cd,%
+          scaled x ticks = false,
+          set decimal separator={,},
+          fixed}%
   ]
  \addplot[color=black, mark=o] table[x index=0,y index=1] {dados/duto_sugado/loa_005_strouhal.txt};
  \addplot[color=black, mark=square] table[x index=0,y index=1] {dados/duto_sugado/loa_007_strouhal.txt};

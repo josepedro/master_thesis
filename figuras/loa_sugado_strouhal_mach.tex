@@ -19,11 +19,19 @@
   %grid style={dashed,gray!90}, % Set the style
   xlabel = $M$,
   ylabel = $l/a$,
+  y tick label style={/pgf/number format/.cd,%
+          scaled y ticks = false,
+          set decimal separator={,},
+          fixed},
+      x tick label style={/pgf/number format/.cd,%
+          scaled x ticks = false,
+          set decimal separator={,},
+          fixed}%
   ]
  \addplot[color=black, thick] table[x index=0,y index=1] {dados/duto_sugado/loa_strouhal_mach.txt};
 
   \end{axis}
   \end{tikzpicture}
-  \caption[Coeficiente de correção da terminação $l/a$ com escoamento de exaustão em relação ao número de Mach ($M$) no Strouhal $St = \pi/2$]{Resultado de coeficientes de correção da terminação $l/a$ fixados no Strouhal $St = \pi/2$ em relação ao número de Mach ($M$) para escoamentos sugados. Os resultados foram calculados no ponto $\textbf{P}$ na terminação do duto.}
+  \caption[Coeficiente de correção da terminação $l/a$ com escoamento de exaustão em relação ao número de Mach ($M$) no Strouhal $St = \pi/2$]{Resultado de coeficientes de correção da terminação $l/a$ fixados no Strouhal $St \sim \pi/2$ em relação ao número de Mach ($M$) para escoamentos sugados. Os resultados foram calculados no ponto $\textbf{P}$ na terminação do duto.}
 
   \label{fig:loa_sugado_strouhal_mach}

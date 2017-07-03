@@ -4,13 +4,21 @@
   height=\scaley \textwidth,
   xmin=0,
   xmax=1.8,
-    ymin=0.4,
+    ymin=0.3,
     ymax=1.2,
     ytick distance=0.1,
     grid=major, % Display a grid  
   %grid style={dashed,gray!90}, % Set the style
   xlabel = \small{$ka$},
   ylabel = \small{$|R_{r}|$},
+  y tick label style={/pgf/number format/.cd,%
+          scaled y ticks = false,
+          set decimal separator={,},
+          fixed},
+      x tick label style={/pgf/number format/.cd,%
+          scaled x ticks = false,
+          set decimal separator={,},
+          fixed}%
   ]
  \addplot[color=black, thick] table[x index=0,y index=1] {dados/duto_exaustao/abs_r_010_analytical.txt};
  \addplot[color=black, mark=o, only marks] table[x index=0,y index=1] {dados/duto_exaustao/abs_r_010_simulation.txt};
