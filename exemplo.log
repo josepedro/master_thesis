@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  3 JUL 2017 18:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.10)  3 JUL 2017 22:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3520,31 +3520,40 @@ PGFPlots: reading {dados/duto_exaustao/abs_r_020_simulation_strouhal.txt}
 PGFPlots: reading {dados/duto_exaustao/abs_r_strouhal_mach.txt}
 ) [67] (./figuras/abs_r_sugado.tex
 PGFPlots: reading {dados/duto_sugado/davis_simulation.txt}
-)
-(./figuras/loa_sugado.tex
+
+Overfull \hbox (4.94872pt too wide) in paragraph at lines 44--45
+[][] 
+ []
+
+) (./figuras/loa_sugado.tex
 PGFPlots: reading {dados/duto_sugado/davis_analytical_loa.txt}
 PGFPlots: reading {dados/duto_sugado/davis_simulation_loa.txt}
+
+Overfull \hbox (4.94872pt too wide) in paragraph at lines 31--32
+[][] 
+ []
+
 ) [68] (./figuras/abs_r_sugado_kp.tex
 PGFPlots: reading {dados/duto_sugado/abs_049_kp.txt}
 PGFPlots: reading {dados/duto_sugado/abs_059_kp.txt}
 PGFPlots: reading {dados/duto_sugado/abs_071_kp.txt}
 PGFPlots: reading {dados/duto_sugado/abs_074_kp.txt}
 PGFPlots: reading {dados/duto_sugado/abs_075_kp.txt}
-) [69]
-(./figuras/loa_sugado_kp.tex
+) [69] (./figuras/loa_sugado_kp.tex
 PGFPlots: reading {dados/duto_sugado/loa_049_kp.txt}
 PGFPlots: reading {dados/duto_sugado/loa_059_kp.txt}
 PGFPlots: reading {dados/duto_sugado/loa_071_kp.txt}
 PGFPlots: reading {dados/duto_sugado/loa_074_kp.txt}
 PGFPlots: reading {dados/duto_sugado/loa_075_kp.txt}
-) [70] (./figuras/abs_r_sugado_strouhal.tex
+)
+[70] (./figuras/abs_r_sugado_strouhal.tex
 PGFPlots: reading {dados/duto_sugado/abs_005_strouhal.txt}
 PGFPlots: reading {dados/duto_sugado/abs_007_strouhal.txt}
 PGFPlots: reading {dados/duto_sugado/abs_010_strouhal.txt}
 PGFPlots: reading {dados/duto_sugado/abs_015_strouhal.txt}
 PGFPlots: reading {dados/duto_sugado/abs_020_strouhal.txt}
-)
-[71] (./figuras/loa_sugado_strouhal.tex
+) [71]
+(./figuras/loa_sugado_strouhal.tex
 PGFPlots: reading {dados/duto_sugado/loa_005_strouhal.txt}
 PGFPlots: reading {dados/duto_sugado/loa_007_strouhal.txt}
 PGFPlots: reading {dados/duto_sugado/loa_010_strouhal.txt}
@@ -3615,10 +3624,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 44388 strings out of 493029
- 990524 string characters out of 6136233
- 1256982 words of memory out of 5000000
- 46903 multiletter control sequences out of 15000+600000
+ 44390 strings out of 493029
+ 990538 string characters out of 6136234
+ 1257001 words of memory out of 5000000
+ 46905 multiletter control sequences out of 15000+600000
  32667 words of font info for 112 fonts, out of 8000000 for 9000
  1149 hyphenation exceptions out of 8191
  62i,16n,83p,10401b,2102s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3649,7 +3658,7 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/
 public/cm-super/sfrm1000.pfb>
-Output written on exemplo.pdf (89 pages, 715464 bytes).
+Output written on exemplo.pdf (89 pages, 716100 bytes).
 PDF statistics:
  426 PDF objects out of 1000 (max. 8388607)
  299 compressed objects within 3 object streams
