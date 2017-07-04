@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.10)  3 JUL 2017 23:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  4 JUL 2017 19:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1824,7 +1824,11 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 LaTeX Warning: Unused global option(s):
     [cleardoublepage=plain].
 
-(./exemplo.aux)
+(./exemplo.aux
+
+LaTeX Warning: Label `table:modelos' multiply defined.
+
+)
 \openout1 = `exemplo.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
@@ -3486,6 +3490,9 @@ PGFPlots: reading {dados/duto_sem_escoamento/analise_convergencia_5_abs_r.txt}
 ) (./figuras/loa_sem_escoamento.tex
 PGFPlots: reading {dados/duto_sem_escoamento/analytical_data_loa.txt}
 PGFPlots: reading {dados/duto_sem_escoamento/simulation_data_loa.txt}
+PGFPlots: reading {dados/duto_sem_escoamento/analise_convergencia_10_la.txt}
+PGFPlots: reading {dados/duto_sem_escoamento/analise_convergencia_15_la.txt}
+PGFPlots: reading {dados/duto_sem_escoamento/analise_convergencia_5_la.txt}
 )
 [61] (./figuras/abs_r_exaustao_007.tex
 PGFPlots: reading {dados/duto_exaustao/abs_r_007_analytical.txt}
@@ -3627,12 +3634,15 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.5pt have occurred.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 44399 strings out of 493029
- 990934 string characters out of 6136234
- 1381352 words of memory out of 5000000
- 46908 multiletter control sequences out of 15000+600000
+ 44408 strings out of 493029
+ 991303 string characters out of 6136233
+ 1257040 words of memory out of 5000000
+ 46911 multiletter control sequences out of 15000+600000
  32667 words of font info for 112 fonts, out of 8000000 for 9000
  1149 hyphenation exceptions out of 8191
  62i,16n,83p,10401b,2102s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3663,7 +3673,7 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/
 public/cm-super/sfrm1000.pfb>
-Output written on exemplo.pdf (89 pages, 733553 bytes).
+Output written on exemplo.pdf (89 pages, 718081 bytes).
 PDF statistics:
  426 PDF objects out of 1000 (max. 8388607)
  299 compressed objects within 3 object streams

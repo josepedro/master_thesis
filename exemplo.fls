@@ -1,4 +1,4 @@
-PWD /home/pedro/master_thesis
+PWD /home/josepedro/master_thesis
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
@@ -575,6 +575,9 @@ INPUT figuras/loa_sem_escoamento.tex
 INPUT figuras/loa_sem_escoamento.tex
 INPUT dados/duto_sem_escoamento/analytical_data_loa.txt
 INPUT dados/duto_sem_escoamento/simulation_data_loa.txt
+INPUT dados/duto_sem_escoamento/analise_convergencia_10_la.txt
+INPUT dados/duto_sem_escoamento/analise_convergencia_15_la.txt
+INPUT dados/duto_sem_escoamento/analise_convergencia_5_la.txt
 INPUT figuras/abs_r_exaustao_007.tex
 INPUT figuras/abs_r_exaustao_007.tex
 INPUT dados/duto_exaustao/abs_r_007_analytical.txt

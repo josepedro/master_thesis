@@ -5,8 +5,8 @@
   xmin=0,
   xmax=1.8,
     ymin=0,
-    ymax=0.8,
-    ytick distance=0.1,
+    ymax=2,
+    ytick distance=0.5,
     grid=major, % Display a grid  
   %grid style={dashed,gray!90}, % Set the style
   xlabel = \small{$ka$},
@@ -22,7 +22,11 @@
   ]
  \addplot[color=black, thick] table[x index=0,y index=1] {dados/duto_sem_escoamento/analytical_data_loa.txt};
  \addplot[color=black, mark=o, only marks] table[x index=0,y index=1] {dados/duto_sem_escoamento/simulation_data_loa.txt};
-   
+  \addplot[color=black, mark=square, only marks] table[x index=0,y index=1] {dados/duto_sem_escoamento/analise_convergencia_10_la.txt};
+ \addplot[color=black, mark=triangle, only marks] table[x index=0,y index=1] {dados/duto_sem_escoamento/analise_convergencia_15_la.txt};
+ \addplot[color=black, mark=x, only marks] table[x index=0,y index=1] {dados/duto_sem_escoamento/analise_convergencia_5_la.txt};
+ 
+
   \end{axis}
   \end{tikzpicture}
   \caption[Coeficiente de Correção da Terminação $l/a$ sem Escoamento]{}
