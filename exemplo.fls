@@ -568,6 +568,9 @@ INPUT figuras/abs_r_sem_escoamento.tex
 INPUT figuras/abs_r_sem_escoamento.tex
 INPUT dados/duto_sem_escoamento/analytical_data_abs_r.txt
 INPUT dados/duto_sem_escoamento/simulation_data_abs_r.txt
+INPUT dados/duto_sem_escoamento/analise_convergencia_10_abs_r.txt
+INPUT dados/duto_sem_escoamento/analise_convergencia_15_abs_r.txt
+INPUT dados/duto_sem_escoamento/analise_convergencia_5_abs_r.txt
 INPUT figuras/loa_sem_escoamento.tex
 INPUT figuras/loa_sem_escoamento.tex
 INPUT dados/duto_sem_escoamento/analytical_data_loa.txt

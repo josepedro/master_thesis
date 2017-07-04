@@ -1,0 +1,28 @@
+correlation =
+
+    0.7226
+
+
+correlation =
+
+    0.7217
+
+
+correlation =
+
+    0.8608
+
+
+correlation =
+
+    0.8584
+
+
+correlation =
+
+    0.9053
+
+
+correlation =
+
+    0.8990
