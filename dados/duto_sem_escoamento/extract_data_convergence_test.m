@@ -27,7 +27,7 @@ result_simulation_interp_abs_r_15(end-4) = mean(result_simulation_interp_abs_r_1
 correlation = corrcoef(result_simulation_interp_abs_r_15, analytical_data_abs_r(:,2));
 correlation = correlation(1,2)
 
-result_simulation_interp_la_15 = interp1(ka_picos_15,abs_15,analytical_data_la(:,1));
+result_simulation_interp_la_15 = interp1(ka_picos_15,abs_15,analytical_data_loa(:,1));
 result_simulation_interp_la_15(1) = mean(result_simulation_interp_la_15(10:12));
 result_simulation_interp_la_15(2) = mean(result_simulation_interp_la_15(10:13));
 result_simulation_interp_la_15(3) = mean(result_simulation_interp_la_15(10:14));
@@ -69,7 +69,7 @@ result_simulation_interp_abs_r_10(end-4) = mean(result_simulation_interp_abs_r_1
 correlation = corrcoef(result_simulation_interp_abs_r_10, analytical_data_abs_r(:,2));
 correlation = correlation(1,2)
 
-result_simulation_interp_la_10 = interp1(ka_picos_10,abs_10,analytical_data_la(:,1));
+result_simulation_interp_la_10 = interp1(ka_picos_10,abs_10,analytical_data_loa(:,1));
 result_simulation_interp_la_10(1) = mean(result_simulation_interp_la_10(10:12));
 result_simulation_interp_la_10(2) = mean(result_simulation_interp_la_10(10:13));
 result_simulation_interp_la_10(3) = mean(result_simulation_interp_la_10(10:14));
@@ -110,7 +110,7 @@ result_simulation_interp_abs_r_5(end-4) = mean(result_simulation_interp_abs_r_5(
 correlation = corrcoef(result_simulation_interp_abs_r_5, analytical_data_abs_r(:,2));
 correlation = correlation(1,2)
 
-result_simulation_interp_la_5 = interp1(ka_picos_5,abs_5,analytical_data_la(:,1));
+result_simulation_interp_la_5 = interp1(ka_picos_5,abs_5,analytical_data_loa(:,1));
 result_simulation_interp_la_5(1) = mean(result_simulation_interp_la_5(10:12));
 result_simulation_interp_la_5(2) = mean(result_simulation_interp_la_5(10:13));
 result_simulation_interp_la_5(3) = mean(result_simulation_interp_la_5(10:14));
