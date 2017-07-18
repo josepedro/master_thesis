@@ -25,11 +25,7 @@
 \contentsline {section}{\numberline {4.1}An\IeC {\'a}lise da Condi\IeC {\c c}\IeC {\~a}o Anec\IeC {\'o}ica}{57}
 \contentsline {section}{\numberline {4.2}Duto sem Escoamento}{61}
 \contentsline {section}{\numberline {4.3}Duto com Escoamento de Exaust\IeC {\~a}o}{62}
-\contentsline {subsection}{\numberline {4.3.1}Mach = 0,07}{62}
-\contentsline {subsection}{\numberline {4.3.2}Mach = 0,10}{63}
-\contentsline {subsection}{\numberline {4.3.3}Mach = 0,15}{64}
-\contentsline {subsection}{\numberline {4.3.4}Mach 0,2}{65}
 \contentsline {section}{\numberline {4.4}Duto com Escoamento Sugado}{68}
-\contentsline {chapter}{\numberline {5}\MakeUppercase {Conclus\IeC {\~o}es}}{75}
-\contentsline {chapter}{REFER\IeC {\^E}NCIAS}{77}
-\contentsline {chapter}{\MakeUppercase {Ap\^endice{}} A{} -$\tmspace -\thinmuskip {.1667em}$-{} Manual de Funcionamento do Palabos Acoustic}{85}
+\contentsline {chapter}{\numberline {5}\MakeUppercase {Conclus\IeC {\~o}es}}{73}
+\contentsline {chapter}{REFER\IeC {\^E}NCIAS}{75}
+\contentsline {chapter}{\MakeUppercase {Ap\^endice{}} A{} -$\tmspace -\thinmuskip {.1667em}$-{} Manual de Funcionamento do Palabos Acoustic}{83}
