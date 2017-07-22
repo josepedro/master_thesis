@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.10)  13 JUL 2017 11:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.10)  22 JUL 2017 17:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1824,7 +1824,11 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 LaTeX Warning: Unused global option(s):
     [cleardoublepage=plain].
 
-(./exemplo.aux)
+(./exemplo.aux
+
+LaTeX Warning: Label `fig:abs_r_sugado_strouhal' multiply defined.
+
+)
 \openout1 = `exemplo.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
@@ -3201,21 +3205,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ] (./exemplo.lsb
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21])
-\tf@lsb=\write9
-\openout9 = `exemplo.lsb'.
-
-
-[22] (./exemplo.toc
+ [21]
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <7> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 31.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 36.
 
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <5> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 31.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 36.
 
 )
+\tf@lsb=\write9
+\openout9 = `exemplo.lsb'.
+
+ [22] (./exemplo.toc)
 \tf@toc=\write10
 \openout10 = `exemplo.toc'.
 
@@ -3447,11 +3450,17 @@ Overfull \hbox (0.50206pt too wide) in paragraph at lines 469--470
  Fou-rier Trans-form \OT1/cmr/m/n/10 (FFT)[],
  []
 
-[54]) (./capitulos/resultados.tex [55] [56
+[54]
+Overfull \hbox (1.62744pt too wide) in paragraph at lines 498--499
+\OT1/cmr/m/n/10 vem des-pren-di-mento de v^^Sortices s~ao muito pe-cu-li-a-res 
+pelo fato do campo
+ []
 
-]
+[55]) (./capitulos/resultados.tex [56]
 Cap\'{\i }tulo 4.
-[57] (./figuras/impedancia_A.tex
+[57
+
+] (./figuras/impedancia_A.tex
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/A_real.txt}
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/A_imag.txt}
 ) (./figuras/reflexao_A.tex
@@ -3563,11 +3572,18 @@ PGFPlots: reading {dados/duto_sugado/abs_007_strouhal.txt}
 PGFPlots: reading {dados/duto_sugado/abs_010_strouhal.txt}
 PGFPlots: reading {dados/duto_sugado/abs_015_strouhal.txt}
 PGFPlots: reading {dados/duto_sugado/abs_020_strouhal.txt}
-) [70]
+) [70] [71]
+(./figuras/energy_abs_r_sugado_strouhal.tex
+PGFPlots: reading {dados/duto_sugado/abs_005_strouhal_energy.txt}
+PGFPlots: reading {dados/duto_sugado/abs_007_strouhal_energy.txt}
+PGFPlots: reading {dados/duto_sugado/abs_010_strouhal_energy.txt}
+PGFPlots: reading {dados/duto_sugado/abs_015_strouhal_energy.txt}
+PGFPlots: reading {dados/duto_sugado/abs_020_strouhal_energy.txt}
+)
 (./figuras/abs_r_sugado_strouhal_mach.tex
 PGFPlots: reading {dados/duto_sugado/abs_r_strouhal_mach.txt}
 )) (./capitulos/conclusoes.tex
-[71] [72
+[72] [73] [74
 
 ]
 Cap\'{\i }tulo 5.
@@ -3580,24 +3596,24 @@ nto ac^^Sustico
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [73]
-(./exemplo.bbl [74] [75
+ [75]
+(./exemplo.bbl [76] [77
 
-] [76] [77] [78]) (./capitulos/apendices.tex [79]
-[80
+] [78] [79] [80]) (./capitulos/apendices.tex [81]
+[82
 
-] [81] [82
+] [83] [84
 
 ]
 Apendice A.
-<figuras/palabos_modelo_fluxo.pdf, id=313, 380.45247pt x 488.79149pt>
+<figuras/palabos_modelo_fluxo.pdf, id=320, 380.45247pt x 488.79149pt>
 File: figuras/palabos_modelo_fluxo.pdf Graphic file (type pdf)
 
 <use figuras/palabos_modelo_fluxo.pdf>
 Package pdftex.def Info: figuras/palabos_modelo_fluxo.pdf used on input line 16
 .
 (pdftex.def)             Requested size: 245.83275pt x 315.84612pt.
- [83]
+ [85]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
@@ -3606,7 +3622,7 @@ File: lstlang2.sty 2015/06/04 1.6 listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-) [84 <./figuras/palabos_modelo_fluxo.pdf>]
+) [86 <./figuras/palabos_modelo_fluxo.pdf>]
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 44.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
@@ -3623,17 +3639,20 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
 *********************************************************************
-[85] (./exemplo.aux)
+[87] (./exemplo.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.5pt have occurred.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 44363 strings out of 493029
- 990190 string characters out of 6136234
- 1259649 words of memory out of 5000000
- 46886 multiletter control sequences out of 15000+600000
+ 44392 strings out of 493029
+ 991076 string characters out of 6136234
+ 1258721 words of memory out of 5000000
+ 46902 multiletter control sequences out of 15000+600000
  32667 words of font info for 112 fonts, out of 8000000 for 9000
  1149 hyphenation exceptions out of 8191
  62i,16n,83p,10401b,2101s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3664,10 +3683,10 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/
 public/cm-super/sfrm1000.pfb>
-Output written on exemplo.pdf (87 pages, 707764 bytes).
+Output written on exemplo.pdf (89 pages, 721104 bytes).
 PDF statistics:
- 419 PDF objects out of 1000 (max. 8388607)
- 295 compressed objects within 3 object streams
+ 425 PDF objects out of 1000 (max. 8388607)
+ 299 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

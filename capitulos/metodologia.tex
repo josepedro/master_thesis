@@ -483,7 +483,7 @@ Com os arquivos de dados temporais dos pontos $\textbf{A}$, $\textbf{B}$, $\text
 
 Para fins de comparação dos resultados obtidos nesse estudo com resultados da literatura foi usado o coeficiente de correlação de Pearson na forma
 \begin{equation}
-  r = \Bigg|\frac{\sum_{n=1}^{N} (x_{n} - \overline{x})(y_{n} - \overline{y})}{\sqrt{\sum_{n=1}^{N} (x_{n} - \overline{x})} \sqrt{\sum_{n=1}^{N} (y_{n} - \overline{y})}}\Bigg| \times 100,
+  r = \Bigg|\frac{\sum_{n=1}^{N} (x_{n} - \overline{x})(y_{n} - \overline{y})}{\sqrt{\sum_{n=1}^{N} (x_{n} - \overline{x})^{2}} \sqrt{\sum_{n=1}^{N} (y_{n} - \overline{y})^{2}}}\Bigg| \times 100,
 \end{equation}
 tal que $r$ está em porcentagem e varia no intervalo [0, 100] sendo que quanto maior o valor mais correlacionado o resultado estará, $N$ é o número total de pontos, $x_{n}$ e $y_{n}$ são valores de dois conjuntos de pontos na posição $n$ a serem comparados e $\overline{x}$ e $\overline{y}$ são as médias definidas nas formas
 \begin{equation}
@@ -492,3 +492,18 @@ tal que $r$ está em porcentagem e varia no intervalo [0, 100] sendo que quanto 
 \begin{equation}
   \overline{y} = \frac{\sum_{n=1}^{N} y_{n}}{N}. 
 \end{equation}
+
+\section{Colorário de Howe}
+
+Em vista da literatura vigente, fenômenos acústicos que envolvem desprendimento de vórtices são muito peculiares pelo fato do campo acústico ser alterado pela transferência de energia cinética vorticial para energia acústica. Para investigar tal fenomenologia é preciso de uma ferramenta matemática capaz de correlacionar o comportamento vorticial do fluido com o campo acústico por ele produzido e para isso o colorário de Howe se torna uma opção promissora.
+
+De acordo com o estudo de \citeonline{howe1984absorption} o colorário de Howe é uma descrição formal da transferência da energia cinética vorticial para o campo acústico num contexto de baixos números de Mach ($M << 1$) e escoamentos isoentrópicos. Tal formulação é expressa por 
+
+\begin{equation}
+  <P> = -\rho_{0}\int_{V}< \boldsymbol{\xi} > dV,
+\end{equation}
+tal que $<P>$\simbolo{$<P>$}{Potência acústica} é a potência acústica dados um período de tempo e um volume $V$, $\rho_{0}$ é a densidade média do fluido e $\boldsymbol{\xi}$\simbolo{$\boldsymbol{\xi}$}{Energia acústica} é a energia acústica instantânea gerada a partir da energia cinética vorticial. A energia acústica se dá na forma 
+\begin{equation}
+  \boldsymbol{\xi} = \textbf{u}_{ac} \cdot ( \boldsymbol{\omega} \times \textbf{u}),
+\end{equation}
+tal que $\textbf{u}_{ac}$\simbolo{$\textbf{u}_{ac}$}{Velocidade de partícula} é a velocidade de partícula, $\boldsymbol{\omega}$\simbolo{$\boldsymbol{\omega}$}{Rotacional do fluido} é o rotacional do fluido e $\textbf{u}$ é a velocidade do fluido. Vale ressaltar que a energia acústica $\xi$ num período de oscilação da onda oferece uma análise do surgimento e dissipação da mesma no tempo e no espaço dentro do duto. Para o uso do colorário de Howe foi implementada uma classe dentro do núcleo do \textit{software} Palabos, sendo ativada e instanciada no final de cada simulação do modelo numérico.     

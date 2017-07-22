@@ -437,9 +437,6 @@ INPUT exemplo.lsb
 INPUT exemplo.lsb
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
-OUTPUT exemplo.lsb
-INPUT exemplo.toc
-INPUT exemplo.toc
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm
@@ -462,6 +459,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/mnsymbol/MnSymbolD-Bold10.t
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/mnsymbol/MnSymbolD-Bold7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/mnsymbol/MnSymbolD-Bold5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/wasy/wasyb10.tfm
+OUTPUT exemplo.lsb
+INPUT exemplo.toc
+INPUT exemplo.toc
 OUTPUT exemplo.toc
 INPUT capitulos/introducao.tex
 INPUT capitulos/introducao.tex
@@ -647,6 +647,13 @@ INPUT dados/duto_sugado/abs_007_strouhal.txt
 INPUT dados/duto_sugado/abs_010_strouhal.txt
 INPUT dados/duto_sugado/abs_015_strouhal.txt
 INPUT dados/duto_sugado/abs_020_strouhal.txt
+INPUT figuras/energy_abs_r_sugado_strouhal.tex
+INPUT figuras/energy_abs_r_sugado_strouhal.tex
+INPUT dados/duto_sugado/abs_005_strouhal_energy.txt
+INPUT dados/duto_sugado/abs_007_strouhal_energy.txt
+INPUT dados/duto_sugado/abs_010_strouhal_energy.txt
+INPUT dados/duto_sugado/abs_015_strouhal_energy.txt
+INPUT dados/duto_sugado/abs_020_strouhal_energy.txt
 INPUT figuras/abs_r_sugado_strouhal_mach.tex
 INPUT figuras/abs_r_sugado_strouhal_mach.tex
 INPUT dados/duto_sugado/abs_r_strouhal_mach.txt
