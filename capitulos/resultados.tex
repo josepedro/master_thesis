@@ -128,7 +128,7 @@ A primeira etapa de validação do modelo numérico abordado nesse trabalho cons
 
 \begin{table}[ht!]
 \centering
-\caption{Tamanho do Raio, Números de Elementos Representativos para $ka = 1,8$ e Correlações}
+\caption{Tamanho do raio, números de elementos representativos para $ka = 1,8$ e correlações.}
 \label{table:discretizacao}
     \begin{tabular}{|l|l|l|l|}
         \hline
@@ -289,29 +289,122 @@ A Figura \ref{fig:loa_sugado_kp} apresenta resultados do coeficiente de correç�
   \input{figuras/abs_r_sugado_strouhal.tex}
 \end{figure}
 
- A Figura \ref{fig:abs_r_sugado_strouhal} apresenta resultados de magnitudes do coeficiente de reflexão $|R_{r}|$ em relação ao número de Strouhal ($St$) calculados no ponto $\textbf{P}$ na terminação do duto com vários escoamentos sugados. Pode-se perceber que os picos de amplificação de $|R_{r}|$ se alinham em $St \sim \pi/2$. Esse fato ocorre por essa amplificação estar relacionada a frequência de desprendimentos de vórtices na saída do duto, ou seja, a energia rotacional do fluido é transformada em energia acústica pois o tempo de desprendimento de vórtices é aproximadamente igual ao período da onda acústica. 
+ A Figura \ref{fig:abs_r_sugado_strouhal} apresenta resultados de magnitudes do coeficiente de reflexão $|R_{r}|$ em relação ao número de Strouhal ($St$) calculados no ponto $\textbf{P}$ na terminação do duto com vários escoamentos sugados. Pode-se perceber que os picos de amplificação de $|R_{r}|$ se alinham em $St \sim \pi/2$.
 
+A Figura \ref{fig:abs_r_sugado_strouhal_energy} apresenta resultados do coeficiente de reflexão de energia acústica $|R_{e}|$\simbolo{$|R_{e}|$}{Coeficiente de reflexão de energia acústica} em relação ao número de Strouhal ($St$) definida por \citeonline{da2009sound} como $|R_{e}| = |R_{r}|^{2}((1 - M)(1 + M))^{2}$. Pode-se observar que há uma amplificação de $|R_{e}|$ em todos os tipos de escoamento de sucção, especificamente para $M = 0,07$ a amplificação do coeficiente de energia acústica assume o valor maior que valor unitário. Esse fato ocorre por essa amplificação estar relacionada a frequência de desprendimentos de vórtices na saída do duto, ou seja, a energia rotacional do fluido é transformada em energia acústica, pois o tempo de desprendimento de vórtices é aproximadamente igual ao período da fonte acústica. 
 
-\newpage
 \begin{figure}[ht!]
 \centering
   \input{figuras/energy_abs_r_sugado_strouhal.tex}
 \end{figure}
 
-%\newpage
-%\begin{figure}[ht!]
-%\centering
-  %\input{figuras/loa_sugado_strouhal.tex}
-%\end{figure}
+Visto que o período de desprendimento de vórtices é aproximadamente igual ao período da fonte acústica e considerando a velocidade do vórtice como $\textbf{u}_{v} = \frac{\textbf{u}}{2}$\simbolo{$\textbf{u}_{v}$}{Velocidade do vórtice} segundo \citeonline{da2009sound}, a distância a ser percorrida pelo vórtice é de aproximadamente $2a/\pi$. A Figura \ref{fig:energia_turbulenta} apresenta a energia turbulenta para $M = 0,07$ calculada na camada limite ao longo do duto, começando da terminação e indo para o interior do duto. Pode-se verificar a partir dela que o pico ocorre em $(x - \Delta)/a \sim 0,65$ que é aproximadamente $2a/\pi$.
 
-Fixando o valor de Strouhal $St = \frac{\pi}{2}$ e analisando $|R_{r}|$ em relação aos números de Mach pode-se obter o comportamento do pico máximo de $|R_{r}|$ para cada número de Mach. A Figura \ref{fig:abs_r_sugado_strouhal_mach} apresenta esse resultado, mostrando um comportamento não monotônico, ou seja, $|R_{r}|$ se comporta de forma não regular a medida que o número de Mach aumenta. Tal fato é importante de se considerar pois difere significativamente do escoamento de exaustão. Vale ressaltar também que há um máximo em $M \sim 0,07$, esse fenômeno pode ser explicado pela natureza do desprendimento de vórtices numa vena contracta.
+\newpage
+\begin{figure}[ht!]
+\centering
+  \input{figuras/energia_turbulenta_grafico.tex}
+\end{figure}
 
+Usando o colorário de Howe é possível calcular a potência acústica gerada para um período de oscilação. Para analisar a amplificação ocorrida para o Mach succionado $M = 0,07$ foi calculado a potência sonora para dois números de Strouhal: $\pi/2$ e $6,8$, que são os pontos de alta e baixa amplificação de $|R_{e}|$ respectivamente. A tabela \ref{table:potencia} mostra os resultados do procedimento citado e é possível observar que para $St = \pi/2$ há uma amplificação e para $St = 6,8$ há atenuação de energia acústica. 
 
+\begin{table}[ht!]
+\centering
+\caption{Potência acústica calculada ao longo de um período de onda para $M = 0,07$ e diferentes números de Strouhal.}
+\label{table:potencia}
+    \begin{tabular}{|l|l|l|l|}
+        \hline
+        $St$ & $<P>$ \\ \hline
+        $\pi/2$ & 7.7594e-09  \\ \hline  
+        6,8 & -2.2114e-08 \\ \hline
+    \end{tabular}
+\end{table} 
+
+A Figura \ref{fig:max_007} apresenta a energia acústica calculada usando o colorário de Howe para $M = 0,07$ e $St = \pi/2$.  
+As Figuras \ref{fig:max_007_1} e \ref{fig:max_007_3} apresentam energia acústica no instante de vale e crista da onda respectivamente. É visível o vórtice com alta energia acústica se propagando e percorrendo a distância de $2a/\pi$, causando o fenômeno da amplificação.
+
+Já a Figura \ref{fig:min_007} apresenta a energia acústica calculada usando o colorário de Howe para $M = 0,07$ e $St = 6,8$. As Figuras \ref{fig:min_007_1} e \ref{fig:min_007_3} apresentam energia acústica no instante de crista e vale da onda respectivamente. Como para essa frequência não há amplificação, não há fenômeno de desprendimento de vórtices gerando energia acústica.   
+
+\newpage
+\vfill
+\begin{figure}[ht!]
+\begin{subfigure}{0.9 \textwidth}
+  \includegraphics[width=1.\linewidth]{figuras/max_007_1.png}
+  \caption[]{}
+  \label{fig:max_007_1}
+\end{subfigure}\par\medskip
+\begin{subfigure}{0.9 \textwidth}
+  \includegraphics[width=1.\linewidth]{figuras/max_007_3.png}
+  \caption[]{}
+  \label{fig:max_007_3}
+\end{subfigure}\par\medskip
+\caption[Energia acústica para $M = 0,07$ e $St = \pi/2$.]{Energia acústica no interior do duto para $M = 0,07$ e $St = \pi/2$. A Figura \ref{fig:max_007_1} apresenta energia acústica no instante de vale da onda. A Figura \ref{fig:max_007_3} apresenta energia acústica no instante de crista da onda.}\label{fig:max_007}
+\end{figure}
+
+\vfill
+\clearpage
+
+\newpage
+\vfill
+
+ \begin{figure}[ht!]
+ \begin{subfigure}{0.9 \textwidth}
+   \includegraphics[width=1.\linewidth]{figuras/min_007_1.png}
+   \caption[]{}
+   \label{fig:min_007_1}
+ \end{subfigure}\par\medskip
+ \begin{subfigure}{0.9 \textwidth}
+   \includegraphics[width=1.\linewidth]{figuras/min_007_3.png}
+   \caption[]{}
+   \label{fig:min_007_3}
+ \end{subfigure}\par\medskip
+ \caption[Energia acústica para $M = 0,07$ e $St = 6,8$.]{Energia acústica no interior do duto para $M = 0,07$ e $St = 6,8$. A Figura \ref{fig:min_007_1} apresenta energia acústica no instante de crista da onda. A Figura \ref{fig:min_007_3} apresenta energia acústica no instante de vale da onda.}
+ \label{fig:min_007}
+ \end{figure}
+
+\vfill
+\clearpage
+
+\newpage
 \begin{figure}[ht!]
 \centering
   \input{figuras/abs_r_sugado_strouhal_mach.tex}
 \end{figure}
 
+Fixando o valor de Strouhal $St = \frac{\pi}{2}$ e analisando $|R_{r}|$ em relação aos números de Mach pode-se obter o comportamento do pico máximo de $|R_{r}|$ para cada número de Mach. A Figura \ref{fig:abs_r_sugado_strouhal_mach} apresenta esse resultado, mostrando um comportamento não monotônico, ou seja, $|R_{r}|$ se comporta de forma não regular a medida que o número de Mach aumenta. Tal fato é importante de se considerar pois difere significativamente do escoamento de exaustão. Vale ressaltar também que há um máximo em $M \sim 0,07$ e a medida que se aumenta o Mach além desse valor $|R_{r}|$ vai dimiuindo.
+
+Tal fenômeno pode ser analisado e investigado através do colorário de Howe, calculando a potência acústica gerada para $M = 0,07$ e $M = 0,1$. A tabela \ref{table:potencia_mach} mostra esse procedimento fixando o número de Strouhal em $\pi/2$. Pode-se perceber que o fenômeno da amplificação é atenuado quando o número de Mach é maior que $0,07$.    
+
+\begin{table}[ht!]
+\centering
+\caption{Potência acústica calculada ao longo de um período de onda para $St = \pi/2$ e diferentes números de Mach.}
+\label{table:potencia_mach}
+    \begin{tabular}{|l|l|l|l|}
+        \hline
+        $M$ & $<P>$ \\ \hline
+        $0,07$ & 7.7594e-09  \\ \hline  
+        $0,1$ & 4.3443e-09 \\ \hline
+    \end{tabular}
+\end{table}
+
+A Figura \ref{fig:max_01_1} apresenta a energia acústica para $M = 0,1$ e $St = \pi/2$ no instante de vale de onda. É perceptível o surgimento do vórtice de amplificação do campo acústico, assim como ocorre na Figura \ref{fig:max_007_1}.
+
+\begin{figure}[ht!]
+\centering
+  \includegraphics[width=1.\linewidth]{figuras/max_01_1.png}
+  \caption[Energia acústica para $M = 0,1$ e $St = \pi/2$ no instante de vale de onda.]{Energia acústica para $M = 0,1$ e $St = \pi/2$ no instante de vale de onda.}
+  \label{fig:max_01_1}
+\end{figure}
+
+A Figura \ref{fig:max_01_3} apresenta a energia acústica para $M = 0,1$ e $St = \pi/2$ no instante de crista de onda. Há um fenômeno que difere do caso da Figura \ref{fig:max_01_3}, há a apresença de desprendimento de vórtice com absorção de energia acústica. Esse vórtice se desprende da terminação e alcança a distância de $2a/\pi$. Tal fato é responsável pelo declínio e não monotonocidade do gráfico da Figura \ref{fig:abs_r_sugado_strouhal_mach} e estima-se que o vórtice aumenta de energia com o aumento da velocidade de escoamento e, consequentemente, aumentando a absorção do campo acústico.   
+
+\newpage
+\begin{figure}[ht!]
+\centering
+  \includegraphics[width=1.\linewidth]{figuras/max_01_3.png}
+  \caption[Energia acústica para $M = 0,1$ e $St = \pi/2$ no instante de vale de onda.]{Energia acústica para $M = 0,1$ e $St = \pi/2$ no instante de vale de onda.}
+  \label{fig:max_01_3}
+\end{figure}
 
 
 %\newpage

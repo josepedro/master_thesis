@@ -27,6 +27,6 @@
 \contentsline {section}{\numberline {4.2}Duto sem Escoamento}{61}
 \contentsline {section}{\numberline {4.3}Duto com Escoamento de Exaust\IeC {\~a}o}{62}
 \contentsline {section}{\numberline {4.4}Duto com Escoamento Sugado}{68}
-\contentsline {chapter}{\numberline {5}\MakeUppercase {Conclus\IeC {\~o}es}}{75}
-\contentsline {chapter}{REFER\IeC {\^E}NCIAS}{77}
-\contentsline {chapter}{\MakeUppercase {Ap\^endice{}} A{} -$\tmspace -\thinmuskip {.1667em}$-{} Manual de Funcionamento do Palabos Acoustic}{85}
+\contentsline {chapter}{\numberline {5}\MakeUppercase {Conclus\IeC {\~o}es}}{79}
+\contentsline {chapter}{REFER\IeC {\^E}NCIAS}{81}
+\contentsline {chapter}{\MakeUppercase {Ap\^endice{}} A{} -$\tmspace -\thinmuskip {.1667em}$-{} Manual de Funcionamento do Palabos Acoustic}{89}

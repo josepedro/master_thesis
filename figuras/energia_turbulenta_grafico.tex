@@ -1,0 +1,37 @@
+\begin{tikzpicture}
+  \begin{axis}[
+  width=0.9\textwidth,
+  height=0.5\textwidth,
+  y tick label style={
+      /pgf/number format/.cd,
+          fixed,
+          fixed zerofill,
+          precision=3,
+      /tikz/.cd
+  },
+  xmin=0,
+  xmax=7,
+  ymin=0,
+  ymax=0.0045,
+  ytick distance=0.001,
+  xtick distance=1,
+  grid=major, % Display a grid  
+  %grid style={dashed,gray!90}, % Set the style
+  xlabel = $(x - \Delta)/a$,
+  ylabel = $(u')rms/Mc_{s}$,
+  y tick label style={/pgf/number format/.cd,%
+          scaled y ticks = false,
+          set decimal separator={,},
+          fixed},
+      x tick label style={/pgf/number format/.cd,%
+          scaled x ticks = false,
+          set decimal separator={,},
+          fixed}%
+  ]
+ \addplot[color=black, thick] table[x index=0,y index=1] {dados/duto_sugado/energia_turbulenta.txt};
+
+  \end{axis}
+  \end{tikzpicture}
+  \caption[Energia turbulenta para $M = 0,07$]{Energia turbulenta calculada na camada limite para $M = 0,07$ em relação a distância da terminação para o interior interior do duto.}
+
+  \label{fig:energia_turbulenta}
