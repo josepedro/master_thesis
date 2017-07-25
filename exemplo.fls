@@ -1,4 +1,4 @@
-PWD /home/pedro/master_thesis
+PWD /home/josepedro/master_thesis
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
@@ -669,6 +669,12 @@ INPUT ./figuras/min_007_1.png
 INPUT figuras/min_007_3.png
 INPUT ./figuras/min_007_3.png
 INPUT ./figuras/min_007_3.png
+INPUT figuras/max_007_media.png
+INPUT ./figuras/max_007_media.png
+INPUT ./figuras/max_007_media.png
+INPUT figuras/min_007_media.png
+INPUT ./figuras/min_007_media.png
+INPUT ./figuras/min_007_media.png
 INPUT figuras/abs_r_sugado_strouhal_mach.tex
 INPUT figuras/abs_r_sugado_strouhal_mach.tex
 INPUT dados/duto_sugado/abs_r_strouhal_mach.txt

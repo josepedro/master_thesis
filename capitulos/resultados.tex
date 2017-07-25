@@ -315,15 +315,14 @@ Usando o colorário de Howe é possível calcular a potência acústica gerada p
     \begin{tabular}{|l|l|l|l|}
         \hline
         $St$ & $<P>$ \\ \hline
-        $\pi/2$ & 7.7594e-09  \\ \hline  
-        6,8 & -2.2114e-08 \\ \hline
+        $\pi/2$ & 4.6173e-06  \\ \hline  
+        6,8 & -6.6410e-09 \\ \hline
     \end{tabular}
 \end{table} 
 
-A Figura \ref{fig:max_007} apresenta a energia acústica calculada usando o colorário de Howe para $M = 0,07$ e $St = \pi/2$.  
-As Figuras \ref{fig:max_007_1} e \ref{fig:max_007_3} apresentam energia acústica no instante de vale e crista da onda respectivamente. É visível o vórtice com alta energia acústica se propagando e percorrendo a distância de $2a/\pi$, causando o fenômeno da amplificação.
 
-Já a Figura \ref{fig:min_007} apresenta a energia acústica calculada usando o colorário de Howe para $M = 0,07$ e $St = 6,8$. As Figuras \ref{fig:min_007_1} e \ref{fig:min_007_3} apresentam energia acústica no instante de crista e vale da onda respectivamente. Como para essa frequência não há amplificação, não há fenômeno de desprendimento de vórtices gerando energia acústica.   
+A Figura \ref{fig:max_007} apresenta a energia acústica instantânea através do colorário de Howe para $M = 0,07$ e $St = \pi/2$.  
+As Figuras \ref{fig:max_007_1} e \ref{fig:max_007_3} apresentam energia acústica no instante de vale e crista da onda respectivamente. É visível o vórtice com alta energia acústica se propagando e percorrendo a distância de $2a/\pi$, causando o fenômeno da amplificação. Já a Figura \ref{fig:min_007} apresenta a energia acústica instantânea através do colorário de Howe para $M = 0,07$ e $St = 6,8$. As Figuras \ref{fig:min_007_1} e \ref{fig:min_007_3} apresentam energia acústica no instante de crista e vale da onda respectivamente. Como para essa frequência não há amplificação, não há fenômeno de desprendimento de vórtices gerando energia acústica.   
 
 \newpage
 \vfill
@@ -340,7 +339,6 @@ Já a Figura \ref{fig:min_007} apresenta a energia acústica calculada usando o 
 \end{subfigure}\par\medskip
 \caption[Energia acústica para $M = 0,07$ e $St = \pi/2$.]{Energia acústica no interior do duto para $M = 0,07$ e $St = \pi/2$. A Figura \ref{fig:max_007_1} apresenta energia acústica no instante de vale da onda. A Figura \ref{fig:max_007_3} apresenta energia acústica no instante de crista da onda.}\label{fig:max_007}
 \end{figure}
-
 \vfill
 \clearpage
 
@@ -366,6 +364,28 @@ Já a Figura \ref{fig:min_007} apresenta a energia acústica calculada usando o 
 \clearpage
 
 \newpage
+\vfill
+A Figura \ref{fig:max_007_media} apresenta a média da energia acústica para $M = 0,07$ e $St = \pi/2$ ao longo de um período de oscilação. Pode-se observar o surgimento de energia acústica causado pelos vórtices na distância de $2a/\pi$ da terminação do duto.
+
+\begin{figure}[ht!]
+\centering
+  \includegraphics[width=0.62\linewidth]{figuras/max_007_media.png}
+  \caption[Média da energia acústica para $M = 0,07$ e $St = \pi/2$.]{Média da energia acústica para $M = 0,07$ e $St = \pi/2$ ao longo de um período de oscilação.}
+  \label{fig:max_007_media}
+\end{figure}
+
+Já a Figura \ref{fig:min_007_media} apresenta a média da energia acústica para $M = 0,07$ e $St = 6,8$ ao longo de um período de oscilação. Pode-se observar que não há amplificação e nem absorção de energia acústica pois nessa frequência o período de oscilação da onda acústica é diferente do período de desprendimento de vórtices. 
+
+\begin{figure}[ht!]
+\centering
+  \includegraphics[width=0.62\linewidth]{figuras/min_007_media.png}
+  \caption[Média da energia acústica para $M = 0,07$ e $St = \pi/2$.]{Média da energia acústica para $M = 0,07$ e $St = 6,8$ ao longo de um período de oscilação.}
+  \label{fig:min_007_media}
+\end{figure}
+\vfill
+\clearpage
+
+\newpage
 \begin{figure}[ht!]
 \centering
   \input{figuras/abs_r_sugado_strouhal_mach.tex}
@@ -382,12 +402,12 @@ Tal fenômeno pode ser analisado e investigado através do colorário de Howe, c
     \begin{tabular}{|l|l|l|l|}
         \hline
         $M$ & $<P>$ \\ \hline
-        $0,07$ & 7.7594e-09  \\ \hline  
-        $0,1$ & 4.3443e-09 \\ \hline
+        $0,07$ & 4.6173e-06  \\ \hline  
+        $0,1$ & 6.1312e-07 \\ \hline
     \end{tabular}
 \end{table}
 
-A Figura \ref{fig:max_01_1} apresenta a energia acústica para $M = 0,1$ e $St = \pi/2$ no instante de vale de onda. É perceptível o surgimento do vórtice de amplificação do campo acústico, assim como ocorre na Figura \ref{fig:max_007_1}.
+A Figura \ref{fig:max_01_1} apresenta a energia acústica instantânea para $M = 0,1$ e $St = \pi/2$ no instante de vale de onda. É perceptível o surgimento do vórtice de amplificação do campo acústico, assim como ocorre na Figura \ref{fig:max_007_1}.
 
 \begin{figure}[ht!]
 \centering
@@ -396,7 +416,7 @@ A Figura \ref{fig:max_01_1} apresenta a energia acústica para $M = 0,1$ e $St =
   \label{fig:max_01_1}
 \end{figure}
 
-A Figura \ref{fig:max_01_3} apresenta a energia acústica para $M = 0,1$ e $St = \pi/2$ no instante de crista de onda. Há um fenômeno que difere do caso da Figura \ref{fig:max_01_3}, há a apresença de desprendimento de vórtice com absorção de energia acústica. Esse vórtice se desprende da terminação e alcança a distância de $2a/\pi$.
+A Figura \ref{fig:max_01_3} apresenta a energia acústica instantânea para $M = 0,1$ e $St = \pi/2$ no instante de crista de onda. Há um fenômeno que difere do caso da Figura \ref{fig:max_01_3}, há a apresença de desprendimento de vórtice com absorção de energia acústica. Esse vórtice se desprende da terminação e alcança a distância de $2a/\pi$.
 
 \newpage
 \begin{figure}[ht!]

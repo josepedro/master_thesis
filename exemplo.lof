@@ -26,7 +26,9 @@
 \contentsline {figure}{\numberline {25}{\ignorespaces Energia turbulenta para $M = 0,07$}}{72}
 \contentsline {figure}{\numberline {26}{\ignorespaces Energia ac\IeC {\'u}stica para $M = 0,07$ e $St = \pi /2$.}}{73}
 \contentsline {figure}{\numberline {27}{\ignorespaces Energia ac\IeC {\'u}stica para $M = 0,07$ e $St = 6,8$.}}{74}
-\contentsline {figure}{\numberline {28}{\ignorespaces Coeficiente de reflex\IeC {\~a}o $R_{r}$ com escoamento de exaust\IeC {\~a}o em rela\IeC {\c c}\IeC {\~a}o ao n\IeC {\'u}mero de Mach ($M$) no Strouhal $St = \pi /2$}}{75}
-\contentsline {figure}{\numberline {29}{\ignorespaces Energia ac\IeC {\'u}stica para $M = 0,1$ e $St = \pi /2$ no instante de vale de onda.}}{76}
-\contentsline {figure}{\numberline {30}{\ignorespaces Energia ac\IeC {\'u}stica para $M = 0,1$ e $St = \pi /2$ no instante de vale de onda.}}{77}
-\contentsline {figure}{\numberline {31}{\ignorespaces Fluxograma de um modelo num\IeC {\'e}rico no Palabos}}{90}
+\contentsline {figure}{\numberline {28}{\ignorespaces M\IeC {\'e}dia da energia ac\IeC {\'u}stica para $M = 0,07$ e $St = \pi /2$.}}{75}
+\contentsline {figure}{\numberline {29}{\ignorespaces M\IeC {\'e}dia da energia ac\IeC {\'u}stica para $M = 0,07$ e $St = \pi /2$.}}{75}
+\contentsline {figure}{\numberline {30}{\ignorespaces Coeficiente de reflex\IeC {\~a}o $R_{r}$ com escoamento de exaust\IeC {\~a}o em rela\IeC {\c c}\IeC {\~a}o ao n\IeC {\'u}mero de Mach ($M$) no Strouhal $St = \pi /2$}}{76}
+\contentsline {figure}{\numberline {31}{\ignorespaces Energia ac\IeC {\'u}stica para $M = 0,1$ e $St = \pi /2$ no instante de vale de onda.}}{77}
+\contentsline {figure}{\numberline {32}{\ignorespaces Energia ac\IeC {\'u}stica para $M = 0,1$ e $St = \pi /2$ no instante de vale de onda.}}{78}
+\contentsline {figure}{\numberline {33}{\ignorespaces Fluxograma de um modelo num\IeC {\'e}rico no Palabos}}{90}

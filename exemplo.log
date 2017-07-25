@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.10)  24 JUL 2017 01:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  24 JUL 2017 20:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3588,59 +3588,74 @@ a pot^encia ac^^Sustica
 File: figuras/max_007_1.png Graphic file (type png)
 
 <use figuras/max_007_1.png>
-Package pdftex.def Info: figuras/max_007_1.png used on input line 332.
+Package pdftex.def Info: figuras/max_007_1.png used on input line 331.
 (pdftex.def)             Requested size: 276.55891pt x 207.41403pt.
 
 <figuras/max_007_3.png, id=282, 578.16pt x 433.62pt>
 File: figuras/max_007_3.png Graphic file (type png)
 
 <use figuras/max_007_3.png>
-Package pdftex.def Info: figuras/max_007_3.png used on input line 337.
+Package pdftex.def Info: figuras/max_007_3.png used on input line 336.
 (pdftex.def)             Requested size: 276.55891pt x 207.41403pt.
 
 
-LaTeX Warning: Float too large for page by 18.90479pt on input line 342.
+LaTeX Warning: Float too large for page by 18.90479pt on input line 341.
 
 [73 <./figuras/max_007_1.png (PNG copy)> <./figuras/max_007_3.png (PNG copy)>]
 <figuras/min_007_1.png, id=286, 578.16pt x 433.62pt>
 File: figuras/min_007_1.png Graphic file (type png)
 
 <use figuras/min_007_1.png>
-Package pdftex.def Info: figuras/min_007_1.png used on input line 352.
+Package pdftex.def Info: figuras/min_007_1.png used on input line 350.
 (pdftex.def)             Requested size: 276.55891pt x 207.41403pt.
 
 <figuras/min_007_3.png, id=287, 578.16pt x 433.62pt>
 File: figuras/min_007_3.png Graphic file (type png)
 
 <use figuras/min_007_3.png>
-Package pdftex.def Info: figuras/min_007_3.png used on input line 357.
+Package pdftex.def Info: figuras/min_007_3.png used on input line 355.
 (pdftex.def)             Requested size: 276.55891pt x 207.41403pt.
 
 
-LaTeX Warning: Float too large for page by 18.90479pt on input line 363.
+LaTeX Warning: Float too large for page by 18.90479pt on input line 361.
 
 [74 <./figuras/min_007_1.png (PNG copy)> <./figuras/min_007_3.png (PNG copy)>]
+<figuras/max_007_media.png, id=291, 578.16pt x 433.62pt>
+File: figuras/max_007_media.png Graphic file (type png)
+
+<use figuras/max_007_media.png>
+Package pdftex.def Info: figuras/max_007_media.png used on input line 372.
+(pdftex.def)             Requested size: 190.51816pt x 142.88332pt.
+
+<figuras/min_007_media.png, id=292, 578.16pt x 433.62pt>
+File: figuras/min_007_media.png Graphic file (type png)
+
+<use figuras/min_007_media.png>
+Package pdftex.def Info: figuras/min_007_media.png used on input line 381.
+(pdftex.def)             Requested size: 190.51816pt x 142.88332pt.
+ [75
+
+
+ <./figuras/max_007_media.png (PNG copy)> <./figuras/min_007_media.png (PNG cop
+y)>]
 (./figuras/abs_r_sugado_strouhal_mach.tex
 PGFPlots: reading {dados/duto_sugado/abs_r_strouhal_mach.txt}
-)
-<figuras/max_01_1.png, id=291, 578.16pt x 433.62pt>
-File: figuras/max_01_1.png Graphic file (type png)
- <use figuras/max_01_1.png>
-Package pdftex.def Info: figuras/max_01_1.png used on input line 394.
-(pdftex.def)             Requested size: 307.28978pt x 230.46591pt.
-
-[75
-
-
-] [76 <./figuras/max_01_1.png (PNG copy)>]
-<figuras/max_01_3.png, id=298, 578.16pt x 433.62pt>
-File: figuras/max_01_3.png Graphic file (type png)
- <use figuras/max_01_3.png>
-Package pdftex.def Info: figuras/max_01_3.png used on input line 404.
-(pdftex.def)             Requested size: 307.28978pt x 230.46591pt.
-) (./capitulos/conclusoes.tex [77 <./figuras/max_01_3.png (PNG copy)>] [78
+) [76
 
 ]
+<figuras/max_01_1.png, id=299, 578.16pt x 433.62pt>
+File: figuras/max_01_1.png Graphic file (type png)
+ <use figuras/max_01_1.png>
+Package pdftex.def Info: figuras/max_01_1.png used on input line 414.
+(pdftex.def)             Requested size: 307.28978pt x 230.46591pt.
+
+[77 <./figuras/max_01_1.png (PNG copy)>]
+<figuras/max_01_3.png, id=304, 578.16pt x 433.62pt>
+File: figuras/max_01_3.png Graphic file (type png)
+ <use figuras/max_01_3.png>
+Package pdftex.def Info: figuras/max_01_3.png used on input line 424.
+(pdftex.def)             Requested size: 307.28978pt x 230.46591pt.
+) (./capitulos/conclusoes.tex [78 <./figuras/max_01_3.png (PNG copy)>]
 Cap\'{\i }tulo 5.
 
 Overfull \hbox (4.44136pt too wide) in paragraph at lines 9--10
@@ -3651,7 +3666,9 @@ nto ac^^Sustico
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [79]
+ [79
+
+]
 (./exemplo.bbl [80] [81
 
 ] [82] [83] [84]) (./capitulos/apendices.tex [85]
@@ -3661,7 +3678,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 Apendice A.
-<figuras/palabos_modelo_fluxo.pdf, id=338, 380.45247pt x 488.79149pt>
+<figuras/palabos_modelo_fluxo.pdf, id=340, 380.45247pt x 488.79149pt>
 File: figuras/palabos_modelo_fluxo.pdf Graphic file (type pdf)
 
 <use figuras/palabos_modelo_fluxo.pdf>
@@ -3701,10 +3718,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 44452 strings out of 493029
- 992380 string characters out of 6136234
- 1259839 words of memory out of 5000000
- 46950 multiletter control sequences out of 15000+600000
+ 44464 strings out of 493029
+ 992690 string characters out of 6136233
+ 1258858 words of memory out of 5000000
+ 46960 multiletter control sequences out of 15000+600000
  32667 words of font info for 112 fonts, out of 8000000 for 9000
  1149 hyphenation exceptions out of 8191
  62i,16n,83p,10401b,2101s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3735,10 +3752,10 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/
 public/cm-super/sfrm1000.pfb>
-Output written on exemplo.pdf (93 pages, 850731 bytes).
+Output written on exemplo.pdf (93 pages, 885874 bytes).
 PDF statistics:
- 445 PDF objects out of 1000 (max. 8388607)
+ 447 PDF objects out of 1000 (max. 8388607)
  308 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
