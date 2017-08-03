@@ -1,6 +1,6 @@
 \chapter{Revisão Bibliográfica}
 
-Nesse capítulo será apresentada uma revisão bibliográfica dos tópicos concernentes a acústica interna de dutos circulares. Os tópicos estão separados em modelos analíticos exatos, modelos analíticos aproximados, trabalhos experimentais, modelos numéricos e trabalhos relacionados ao desenvolvimento e aplicação do método de \textit{lattice} Boltzmann para problemas de acústica.
+Nesse capítulo será apresentada uma revisão bibliográfica dos tópicos concernentes à acústica interna de dutos circulares, limitamdo-se a modos normais. Os tópicos estão separados em modelos analíticos exatos, modelos analíticos aproximados, trabalhos experimentais, modelos numéricos e trabalhos relacionados ao desenvolvimento e aplicação do método de \textit{lattice} Boltzmann para problemas de acústica.
 
 \section{Modelos Analíticos Exatos} 
 
@@ -22,9 +22,9 @@ A propagação de modos normais (ondas planas) é um problema clássico em acús
     sendo o número de onda $k = \frac{\omega}{c_0}$\simbolo{$k$}{Número de onda} e $\omega$\simbolo{$\omega$}{Frequência angular em radianos} a frequência angular em radianos.
 \end{itemize}
 
-Em relação aos parâmetros discutidos acima, a solução exata, obtida através da técnica de Wiener-Hopf, para o problema de um duto não flangeado na ausência de escoamento foi proposta por \citeonline{levine1948radiation}. Esse modelo assume um duto semi-infinito com paredes infinitamente finas, fluido invíscido e presença somente de ondas planas. 
+Em relação aos parâmetros discutidos acima, a solução exata para o coeficiente de reflexão e correção da terminação, obtida através da técnica de Wiener-Hopf, para o problema de um duto não flangeado na ausência de escoamento foi proposta por \citeonline{levine1948radiation}. Esse modelo assume um duto semi-infinito com paredes infinitamente finas, fluido invíscido e presença somente de ondas planas. 
 
- Porém em boa parte das aplicações práticas dutos transportam escoamentos médios. Para tais circunstâncias, \citeonline{munt1990acoustic} propôs um modelo analítico exato, também baseado na técnica de Wiener-Hopf, em que se considera a presença de um escoamento subsônico no interior do duto. Considera-se nesse modelo as premissas de que o escoamento é uniforme, invíscido e que a camada cisalhante do jato é infinitamente fina. Além disso, o modelo considera a condição de Kutta na borda do duto para lidar com a singularidade da velocidade de partícula nesta região. As Figuras \ref{fig:comp1} e \ref{fig:comp2} apresentam as comparações entre casos com e sem escoamento para um duto não flangeado em termos de $R_{r}$ e $l/a$.
+ Porém em boa parte das aplicações práticas dutos transportam escoamentos fluidodinâmicos. Para tais circunstâncias, \citeonline{munt1990acoustic} propôs um modelo analítico exato, também baseado na técnica de Wiener-Hopf, em que se considera a presença de um escoamento subsônico no interior do duto. Considera-se nesse modelo as premissas de que o escoamento é uniforme, invíscido e que a camada cisalhante do jato é infinitamente fina. Além disso, o modelo considera a condição de Kutta na borda do duto para lidar com a singularidade da velocidade de partícula nesta região. As Figuras \ref{fig:comp1} e \ref{fig:comp2} apresentam as comparações entre casos com e sem escoamento para um duto não flangeado em termos de $\|R_{r}\|$ e $l/a$.
 
 \begin{figure}[ht!]
 \centering
@@ -32,7 +32,7 @@ Em relação aos parâmetros discutidos acima, a solução exata, obtida atravé
 \end{figure}
 
 \newpage
-Como é mostrado na Figura \ref{fig:comp1}, a magnitude do coeficiente de reflexão $|R_{r}|$\simbolo{$|R_{r}|$}{Magnitude do coeficiente de reflexão na terminação do duto} aumenta consideravelmente na presença de um escoamento subsônico. Além disso, pode-se perceber que, em algumas frequências, $|R_{r}|$ torna-se maior do que a unidade, implicando que a amplitude da onda refletida torna-se maior do que a da onda incidente. Este fenômeno ocorre, sobretudo, pela interação do escoamento com a borda do duto, a qual transforma energia cinética rotacional em energia acústica, como discutido por \citeonline{peters1993}. Além disso vale ressaltar que o maior valor de $|R_{r}|$ está associado com a frequência de desprendimento de vórtices na saída do duto. Em outras palavras, quando o número de Strouhal ($St$) atinge o valor de $\frac{\pi}{2}$, o tempo necessário para o vórtice desprendido na saída do duto propagar a distância de um diâmetro é igual ao período do campo acústico no interior do duto, causando assim o ponto máximo do coeficiente de reflexão.
+Como é mostrado na Figura \ref{fig:comp1}, a magnitude do coeficiente de reflexão $|R_{r}|$\simbolo{$|R_{r}|$}{Magnitude do coeficiente de reflexão na terminação do duto} aumenta consideravelmente na presença de um escoamento subsônico. Além disso, pode-se perceber que, em algumas frequências, $|R_{r}|$ torna-se maior do que a unidade, implicando que a amplitude da onda refletida torna-se maior do que a da onda incidente. Este fenômeno ocorre, sobretudo, pela interação entre o escoamento e o campo acústico na borda do duto, a qual transforma energia cinética rotacional em energia acústica, como discutido por \citeonline{peters1993}. Além disso vale ressaltar que o maior valor de $|R_{r}|$ está associado com a frequência de desprendimento de vórtices na saída do duto.
 
 \begin{figure}[ht!]
 \centering
@@ -40,7 +40,7 @@ Como é mostrado na Figura \ref{fig:comp1}, a magnitude do coeficiente de reflex
 \end{figure}
 
 \newpage
-De acordo com a Figura \ref{fig:comp2}, a correção normalizada da terminação $l/a$ torna-se consideravelmente menor do que aquela obtida na ausência de escoamento, sobretudo para baixos números de Helmholtz ($ka$)\simbolo{$ka$}{Número de Helmholtz}. Em outras palavras, para baixas frequências e na presença de um escoamento a onda acústica é refletida em uma região mais próxima da abertura, em comparação à situação sem escoamento. Isso acontece porque o efeito de inércia provocado pela massa de fluido na saída do duto é diminuída pela presença de escoamento. De fato, este fenômeno pode ser observado pela diminuição da parte imaginária da impedância nas baixas frequência, como observado por \citeonline{peters1993}.
+De acordo com a Figura \ref{fig:comp2}, a correção normalizada da terminação $l/a$ torna-se consideravelmente menor do que aquela obtida na ausência de escoamento, sobretudo para baixos números de Helmholtz ($ka$)\simbolo{$ka$}{Número de Helmholtz}. Em outras palavras, para baixas frequências e na presença de um escoamento a onda acústica é refletida em uma região mais próxima da abertura, em comparação à situação sem escoamento. Isso acontece porque o efeito de inércia provocado pela massa de fluido na saída do duto é diminuída pela presença de escoamento. De fato, este fenômeno pode ser observado pela diminuição da parte imaginária da impedância de radiação nas baixas frequências, como observado por \citeonline{peters1993}.
 
 \section{Modelos Analíticos Aproximados}
 
