@@ -56,8 +56,8 @@ Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1007/s11242-014-0412-6}.}
 \emph{Journal of sound and vibration}, Academic Press, v.~115, n.~3, p.
   560--564, 1987.}
 
-\bibitem[d'Humieres 1994]{d1994generalized}
-\abntrefinfo{d'Humieres}{D'HUMIERES}{1994}
+\bibitem[D'Humieres 1994]{d1994generalized}
+\abntrefinfo{D'Humieres}{D'HUMIERES}{1994}
 {D'HUMIERES, D. Generalized lattice-boltzmann equations.
 \emph{Progress in Astronautics and Aeronautics}, AMERICAN INST OF AERONAUTICS
   AND ASTRONAUTICS, v.~159, p. 450--450, 1994.}
@@ -67,11 +67,6 @@ Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1007/s11242-014-0412-6}.}
 {ENGLISH, E.~J.
 \emph{A measurement based study of the acoustics of pipe systems with flow}.
 Tese (Doutorado) --- University of Southampton, 2010.}
-
-\bibitem[FlowKit 2017]{numeric_palabos}
-\abntrefinfo{FlowKit}{FLOWKIT}{2017}
-{FLOWKIT, I. \emph{Lattice Boltzmann in various languages}. 2017.
-Dispon{\'\i}vel em: \url{http://wiki.palabos.org/numerics:codes}.}
 
 \bibitem[Gabard e Astley 2006]{gabard2006}
 \abntrefinfo{Gabard e Astley}{GABARD; ASTLEY}{2006}
@@ -88,12 +83,6 @@ Dispon{\'\i}vel em: \url{http://wiki.palabos.org/numerics:codes}.}
   models.
 \emph{Journal of Power Sources}, v.~296, p. 440 -- 453, 2015.
 Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.jpowsour.2015.07.034}.}
-
-\bibitem[Grad 1949]{grad1949kinetic}
-\abntrefinfo{Grad}{GRAD}{1949}
-{GRAD, H. On the kinetic theory of rarefied gases.
-\emph{Communications on pure and applied mathematics}, Wiley Online Library,
-  v.~2, n.~4, p. 331--407, 1949.}
 
 \bibitem[He e Luo 1997]{he1997theory}
 \abntrefinfo{He e Luo}{HE; LUO}{1997a}
@@ -212,11 +201,6 @@ Dispon{\'\i}vel em: \url{https://www.gnu.org/software/octave}.}
 \abntrefinfo{Palabos-Acoustic}{PALABOS-ACOUSTIC}{2017}
 {PALABOS-ACOUSTIC, P. \emph{Repositório do Projeto Palabos Acoustic}. 2017.
 Dispon{\'\i}vel em: \url{https://github.com/josepedro/palabos_acoustic}.}
-
-\bibitem[Palabos 2017]{palabos}
-\abntrefinfo{Palabos}{PALABOS}{2017}
-{PALABOS, P. \emph{Palabos Home page}. 2017.
-Dispon{\'\i}vel em: \url{http://www.palabos.org}.}
 
 \bibitem[Papenkort e Voigtmann 2015]{lattice_2}
 \abntrefinfo{Papenkort e Voigtmann}{PAPENKORT; VOIGTMANN}{2015}

@@ -12,29 +12,29 @@
 \contentsline {simb}{\hbox to\@tempdima {$|R_{r}|$\hfil }{Magnitude do coeficiente de reflex\IeC {\~a}o na termina\IeC {\c c}\IeC {\~a}o do duto}}{31}
 \contentsline {simb}{\hbox to\@tempdima {$ka$\hfil }{N\IeC {\'u}mero de Helmholtz}}{32}
 \contentsline {simb}{\hbox to\@tempdima {$M$\hfil }{N\IeC {\'u}mero de Mach}}{32}
-\contentsline {simb}{\hbox to\@tempdima {$Kp$\hfil }{Fator de perda}}{35}
+\contentsline {simb}{\hbox to\@tempdima {$Kp$\hfil }{Fator de perda de carga}}{35}
 \contentsline {simb}{\hbox to\@tempdima {$St$\hfil }{N\IeC {\'u}mero de Strouhal}}{37}
-\contentsline {simb}{\hbox to\@tempdima {$f_{i}$\hfil }{Fun\IeC {\c c}\IeC {\~a}o de distribui\IeC {\c c}\IeC {\~a}o LBM na dire\IeC {\c c}\IeC {\~a}o $i$}}{42}
-\contentsline {simb}{\hbox to\@tempdima {$i$\hfil }{Dire\IeC {\c c}\IeC {\~a}o de propaga\IeC {\c c}\IeC {\~a}o LBM}}{42}
-\contentsline {simb}{\hbox to\@tempdima {$c_{i}$\hfil }{Velocidades de propaga\IeC {\c c}\IeC {\~a}o na dire\IeC {\c c}\IeC {\~a}o $i$}}{42}
-\contentsline {simb}{\hbox to\@tempdima {$\textbf {\mathversion {bold}x}$\hfil }{Localiza\IeC {\c c}\IeC {\~a}o espacial de uma c\IeC {\'e}lula LBM}}{42}
-\contentsline {simb}{\hbox to\@tempdima {$t$\hfil }{Localiza\IeC {\c c}\IeC {\~a}o temporal de uma c\IeC {\'e}lula LBM}}{42}
-\contentsline {simb}{\hbox to\@tempdima {$\Delta t$\hfil }{Incremento discreto de tempo}}{42}
-\contentsline {simb}{\hbox to\@tempdima {$\Omega _{i}$\hfil }{Operador de colis\IeC {\~a}o LBM}}{42}
+\contentsline {simb}{\hbox to\@tempdima {$f_{i}$\hfil }{Fun\IeC {\c c}\IeC {\~a}o de distribui\IeC {\c c}\IeC {\~a}o LBM na dire\IeC {\c c}\IeC {\~a}o $i$}}{41}
+\contentsline {simb}{\hbox to\@tempdima {$i$\hfil }{Dire\IeC {\c c}\IeC {\~a}o de propaga\IeC {\c c}\IeC {\~a}o LBM}}{41}
+\contentsline {simb}{\hbox to\@tempdima {$c_{i}$\hfil }{Velocidades de propaga\IeC {\c c}\IeC {\~a}o na dire\IeC {\c c}\IeC {\~a}o $i$}}{41}
+\contentsline {simb}{\hbox to\@tempdima {$\textbf {\mathversion {bold}x}$\hfil }{Localiza\IeC {\c c}\IeC {\~a}o espacial de uma c\IeC {\'e}lula LBM}}{41}
+\contentsline {simb}{\hbox to\@tempdima {$t$\hfil }{Localiza\IeC {\c c}\IeC {\~a}o temporal de uma c\IeC {\'e}lula LBM}}{41}
+\contentsline {simb}{\hbox to\@tempdima {$\Delta t$\hfil }{Incremento discreto de tempo}}{41}
+\contentsline {simb}{\hbox to\@tempdima {$\Omega _{i}$\hfil }{Operador de colis\IeC {\~a}o LBM}}{41}
 \contentsline {simb}{\hbox to\@tempdima {$\tau $\hfil }{Per\IeC {\'\i }odo de colis\IeC {\~a}o LBM}}{42}
 \contentsline {simb}{\hbox to\@tempdima {$f_{i}^{M}$\hfil }{Fun\IeC {\c c}\IeC {\~a}o de distribui\IeC {\c c}\IeC {\~a}o de Maxwell ou de equil\IeC {\'\i }brio}}{42}
-\contentsline {simb}{\hbox to\@tempdima {$\rho $\hfil }{Densidade local do fluido}}{43}
-\contentsline {simb}{\hbox to\@tempdima {$\varepsilon _{i}$\hfil }{Pesos de velocidades para cada dire\IeC {\c c}\IeC {\~a}o de propaga\IeC {\c c}\IeC {\~a}o $i$}}{43}
-\contentsline {simb}{\hbox to\@tempdima {$\textbf {\mathversion {bold}u}$\hfil }{Velocidade local do fluido}}{43}
-\contentsline {simb}{\hbox to\@tempdima {$c_{s}$\hfil }{Velocidade do som}}{43}
-\contentsline {simb}{\hbox to\@tempdima {$p$\hfil }{Press\IeC {\~a}o local do fluido}}{43}
-\contentsline {simb}{\hbox to\@tempdima {$\nu $\hfil }{Viscosidade cinem\IeC {\'a}tica do fluido}}{43}
-\contentsline {simb}{\hbox to\@tempdima {$f^{*}$\hfil }{Frequ\IeC {\^e}ncia f\IeC {\'\i }sica}}{44}
-\contentsline {simb}{\hbox to\@tempdima {$f$\hfil }{Frequ\IeC {\^e}ncia em LBM}}{44}
+\contentsline {simb}{\hbox to\@tempdima {$\rho $\hfil }{Densidade local do fluido}}{42}
+\contentsline {simb}{\hbox to\@tempdima {$\varepsilon _{i}$\hfil }{Pesos de velocidades para cada dire\IeC {\c c}\IeC {\~a}o de propaga\IeC {\c c}\IeC {\~a}o $i$}}{42}
+\contentsline {simb}{\hbox to\@tempdima {$\textbf {\mathversion {bold}u}$\hfil }{Velocidade local do fluido}}{42}
+\contentsline {simb}{\hbox to\@tempdima {$c_{s}$\hfil }{Velocidade do som}}{42}
+\contentsline {simb}{\hbox to\@tempdima {$p$\hfil }{Press\IeC {\~a}o local do fluido}}{42}
+\contentsline {simb}{\hbox to\@tempdima {$\nu $\hfil }{Viscosidade cinem\IeC {\'a}tica do fluido}}{42}
+\contentsline {simb}{\hbox to\@tempdima {$f^{*}$\hfil }{Frequ\IeC {\^e}ncia f\IeC {\'\i }sica}}{43}
+\contentsline {simb}{\hbox to\@tempdima {$f$\hfil }{Frequ\IeC {\^e}ncia em LBM}}{43}
 \contentsline {simb}{\hbox to\@tempdima {$f_{i}^{T}$\hfil }{Fun\IeC {\c c}\IeC {\~a}o de distribui\IeC {\c c}\IeC {\~a}o de amortecimento}}{48}
-\contentsline {simb}{\hbox to\@tempdima {$<P>$\hfil }{Pot\IeC {\^e}ncia ac\IeC {\'u}stica}}{56}
-\contentsline {simb}{\hbox to\@tempdima {$\boldsymbol {\xi }$\hfil }{Energia ac\IeC {\'u}stica}}{56}
-\contentsline {simb}{\hbox to\@tempdima {$\textbf {\mathversion {bold}u}_{ac}$\hfil }{Velocidade de part\IeC {\'\i }cula}}{56}
-\contentsline {simb}{\hbox to\@tempdima {$\boldsymbol {\omega }$\hfil }{Rotacional do fluido}}{56}
+\contentsline {simb}{\hbox to\@tempdima {$<P>$\hfil }{Pot\IeC {\^e}ncia ac\IeC {\'u}stica}}{55}
+\contentsline {simb}{\hbox to\@tempdima {$\boldsymbol {\xi }$\hfil }{Energia ac\IeC {\'u}stica}}{55}
+\contentsline {simb}{\hbox to\@tempdima {$\textbf {\mathversion {bold}u}_{ac}$\hfil }{Velocidade de part\IeC {\'\i }cula}}{55}
+\contentsline {simb}{\hbox to\@tempdima {$\boldsymbol {\omega }$\hfil }{Rotacional do escoamento}}{55}
 \contentsline {simb}{\hbox to\@tempdima {$|R_{e}|$\hfil }{Coeficiente de reflex\IeC {\~a}o de energia ac\IeC {\'u}stica}}{71}
 \contentsline {simb}{\hbox to\@tempdima {$\textbf {\mathversion {bold}u}_{v}$\hfil }{Velocidade do v\IeC {\'o}rtice}}{71}

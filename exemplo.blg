@@ -20,10 +20,6 @@ Warning--entry type for "palabos_acoustic" isn't style-file defined
 --line 61 of file bibliografia.bib
 Warning--entry type for "paraview" isn't style-file defined
 --line 68 of file bibliografia.bib
-Warning--entry type for "numeric_palabos" isn't style-file defined
---line 124 of file bibliografia.bib
-Warning--entry type for "palabos" isn't style-file defined
---line 306 of file bibliografia.bib
 Warning--I didn't find a database entry for "abnt-year-extra-label=yes"
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -36,45 +32,45 @@ Warning--faltando school em viggen2014lattice
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 58 entries,
+You've used 55 entries,
             6480 wiz_defined-function locations,
-            1481 strings with 17725 characters,
-and the built_in function-call counts, 46293 in all, are:
-= -- 3367
-> -- 1660
-< -- 151
-+ -- 663
-- -- 491
-* -- 3422
-:= -- 6071
-add.period$ -- 177
-call.type$ -- 60
-change.case$ -- 584
-chr.to.int$ -- 183
-cite$ -- 55
-duplicate$ -- 2344
-empty$ -- 3348
-format.name$ -- 2405
-if$ -- 10961
+            1466 strings with 17417 characters,
+and the built_in function-call counts, 44396 in all, are:
+= -- 3230
+> -- 1614
+< -- 147
++ -- 648
+- -- 476
+* -- 3298
+:= -- 5803
+add.period$ -- 166
+call.type$ -- 57
+change.case$ -- 565
+chr.to.int$ -- 177
+cite$ -- 52
+duplicate$ -- 2249
+empty$ -- 3173
+format.name$ -- 2336
+if$ -- 10509
 int.to.chr$ -- 4
 int.to.str$ -- 3
-missing$ -- 1001
-newline$ -- 283
-num.names$ -- 270
-pop$ -- 1167
+missing$ -- 954
+newline$ -- 268
+num.names$ -- 255
+pop$ -- 1111
 preamble$ -- 1
-purify$ -- 227
+purify$ -- 218
 quote$ -- 0
-skip$ -- 2667
+skip$ -- 2552
 stack$ -- 1
-substring$ -- 2002
-swap$ -- 1273
-text.length$ -- 109
+substring$ -- 1916
+swap$ -- 1231
+text.length$ -- 106
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 8
 warning$ -- 1
-while$ -- 418
+while$ -- 397
 width$ -- 0
-write$ -- 916
-(There were 8 warnings)
+write$ -- 870
+(There were 6 warnings)

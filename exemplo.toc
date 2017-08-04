@@ -13,15 +13,16 @@
 \contentsline {section}{\numberline {2.4}Modelos Num\IeC {\'e}ricos}{36}
 \contentsline {chapter}{\numberline {3}\MakeUppercase {Metodologia}}{39}
 \contentsline {section}{\numberline {3.1}O M\IeC {\'e}todo de Lattice Boltzmann}{40}
-\contentsline {subsection}{\numberline {3.1.1}Modelo BGK}{42}
-\contentsline {subsection}{\numberline {3.1.2}M\IeC {\'u}ltiplos Tempos de Relaxa\IeC {\c c}\IeC {\~a}o}{46}
+\contentsline {subsection}{\numberline {3.1.1}Modelo BGK}{41}
+\contentsline {subsection}{\numberline {3.1.2}M\IeC {\'u}ltiplos Tempos de Relaxa\IeC {\c c}\IeC {\~a}o}{45}
 \contentsline {subsection}{\numberline {3.1.3}Condi\IeC {\c c}\IeC {\~o}es de Contorno}{47}
 \contentsline {subsubsection}{\numberline {3.1.3.1}\textit {Bounceback}}{47}
 \contentsline {subsubsection}{\numberline {3.1.3.2}Condi\IeC {\c c}\IeC {\~a}o Anec\IeC {\'o}ica}{48}
-\contentsline {section}{\numberline {3.2}Palabos}{50}
-\contentsline {section}{\numberline {3.3}Modelo Num\IeC {\'e}rico}{51}
-\contentsline {section}{\numberline {3.4}P\IeC {\'o}s-processamento}{54}
-\contentsline {section}{\numberline {3.5}Color\IeC {\'a}rio de Howe}{55}
+\contentsline {section}{\numberline {3.2}Palabos}{49}
+\contentsline {section}{\numberline {3.3}Modelo Num\IeC {\'e}rico}{50}
+\contentsline {subsection}{\numberline {3.3.1}Verifica\IeC {\c c}\IeC {\~a}o da Condi\IeC {\c c}\IeC {\~a}o Anec\IeC {\'o}ica}{52}
+\contentsline {section}{\numberline {3.4}P\IeC {\'o}s-processamento}{53}
+\contentsline {section}{\numberline {3.5}Color\IeC {\'a}rio de Howe}{54}
 \contentsline {chapter}{\numberline {4}\MakeUppercase {Resultados}}{57}
 \contentsline {section}{\numberline {4.1}An\IeC {\'a}lise da Condi\IeC {\c c}\IeC {\~a}o Anec\IeC {\'o}ica}{57}
 \contentsline {section}{\numberline {4.2}Duto sem Escoamento}{61}

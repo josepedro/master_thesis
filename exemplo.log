@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.10)  3 AUG 2017 01:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.10)  4 AUG 2017 01:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3282,7 +3282,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [34]
-[35] [36] [37]) (./capitulos/metodologia.tex [38]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35]
+[36]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37])
+(./capitulos/metodologia.tex [38]
 Cap\'{\i }tulo 3.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3290,25 +3304,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [39
 
 ]
-Overfull \hbox (1.90523pt too wide) in paragraph at lines 15--16
-\OT1/cmr/m/n/10 Vig-gen (2013) in-ves-ti-gou os efei-tos da adi^^Xc~ao de ter-m
-os fon-tes no m^^Setodo
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [40]
-Overfull \hbox (0.60677pt too wide) in paragraph at lines 37--38
-[]\OT1/cmr/m/n/10 O LBM, ba-se-ado em opera^^Xc~oes de co-lis~ao e pro-paga^^Xc
-~ao de fun^^Xc~oes
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [41]
-Overfull \hbox (3.7142pt too wide) in paragraph at lines 56--58
+Overfull \hbox (3.7142pt too wide) in paragraph at lines 52--54
 \OT1/cmr/m/n/10 tal que $\OML/cmm/m/it/10 ^^\$[] \OT1/cmr/m/n/10 ^^Se o per^^S^
 ^Podo de co-lis~ao, per^^S^^Podo m^^Sedio de co-lis~ao en-tre part^^S^^Pculas,
  []
@@ -3323,82 +3325,78 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <figuras/d3q19.pdf, id=167, 677.53125pt x 557.83406pt>
 File: figuras/d3q19.pdf Graphic file (type pdf)
  <use figuras/d3q19.pdf>
-Package pdftex.def Info: figuras/d3q19.pdf used on input line 179.
+Package pdftex.def Info: figuras/d3q19.pdf used on input line 175.
 (pdftex.def)             Requested size: 230.46733pt x 189.7547pt.
 
-[44]
+[44] [45 <./figuras/d3q19.pdf>]
 
-LaTeX Warning: Text page 45 contains only floats.
-
-[45 <./figuras/d3q19.pdf>]
-
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 210.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 206.
 
 
-Overfull \hbox (9.898pt too wide) detected at line 231
+Overfull \hbox (9.898pt too wide) detected at line 227
 [] \U/MnSymbolD/m/n/5 ^^@ []\OML/cmm/m/it/5 ;
  []
 
-LaTeX Font Info:    Calculating math sizes for size <> on input line 231.
+LaTeX Font Info:    Calculating math sizes for size <> on input line 227.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <> not available
-(Font)              size <5> substituted on input line 231.
+(Font)              size <5> substituted on input line 227.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 231.
+(Font)              size <5> substituted on input line 227.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 231.
+(Font)              size <5> substituted on input line 227.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <> not available
-(Font)              size <5> substituted on input line 231.
+(Font)              size <5> substituted on input line 227.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.7> not available
-(Font)              size <5> substituted on input line 231.
+(Font)              size <5> substituted on input line 227.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <0.5> not available
-(Font)              size <5> substituted on input line 231.
+(Font)              size <5> substituted on input line 227.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <> not available
-(Font)              size <5> substituted on input line 231.
+(Font)              size <5> substituted on input line 227.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 231.
+(Font)              size <5> substituted on input line 227.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 231.
+(Font)              size <5> substituted on input line 227.
 
 
 LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <> not available
-(Font)              size <5> substituted on input line 231.
+(Font)              size <5> substituted on input line 227.
 
 
 LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 231.
+(Font)              size <5> substituted on input line 227.
 
 
 LaTeX Font Warning: Font shape `OT1/cmtt/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 231.
+(Font)              size <5> substituted on input line 227.
 
 
 LaTeX Font Warning: Font shape `U/wasy/m/n' in size <> not available
-(Font)              size <5> substituted on input line 231.
+(Font)              size <5> substituted on input line 227.
 
 
 LaTeX Font Warning: Font shape `U/wasy/m/n' in size <0.7> not available
-(Font)              size <5> substituted on input line 231.
+(Font)              size <5> substituted on input line 227.
 
 
 LaTeX Font Warning: Font shape `U/wasy/m/n' in size <0.5> not available
-(Font)              size <5> substituted on input line 231.
+(Font)              size <5> substituted on input line 227.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3412,60 +3410,48 @@ File: figuras/bounceback_2.pdf Graphic file (type pdf)
 Package pdftex.def Info: figuras/bounceback_2.pdf, page1 used on input line 52.
 
 (pdftex.def)             Requested size: 200.0pt x 151.63934pt.
-) [47]
-Overfull \hbox (2.55429pt too wide) in paragraph at lines 287--288
-\OT1/cmr/m/n/10 m^^Setodo das ca-ma-das per-fei-ta-mente ca-sa-das (``\OT1/cmr/
-m/it/10 per-fec-tly mat-ched layers\OT1/cmr/m/n/10 ")
- []
-
-[48 <./figuras/bounceback_2.pdf>]
-<figuras/abc.pdf, id=194, 572.0184pt x 638.63539pt>
+) [47 <./figuras/bounceback_2.pdf>]
+<figuras/abc.pdf, id=190, 572.0184pt x 638.63539pt>
 File: figuras/abc.pdf Graphic file (type pdf)
  <use figuras/abc.pdf>
-Package pdftex.def Info: figuras/abc.pdf used on input line 301.
+Package pdftex.def Info: figuras/abc.pdf used on input line 297.
 (pdftex.def)             Requested size: 92.18787pt x 102.9146pt.
 
-Underfull \vbox (badness 3000) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49 <./figuras/abc.pdf>] [50] [51]
-<figuras/modelo_numerico_2.pdf, id=206, 1247.06013pt x 484.18246pt>
+ [48]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [49 <./figuras/abc.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50]
+<figuras/modelo_numerico_2.pdf, id=203, 1247.06013pt x 484.18246pt>
 File: figuras/modelo_numerico_2.pdf Graphic file (type pdf)
 
 <use figuras/modelo_numerico_2.pdf>
-Package pdftex.def Info: figuras/modelo_numerico_2.pdf used on input line 396.
+Package pdftex.def Info: figuras/modelo_numerico_2.pdf used on input line 349.
 (pdftex.def)             Requested size: 307.28978pt x 119.30913pt.
 
-Underfull \vbox (badness 1895) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52 <./figuras/modelo_numerico_2.pdf>]
-Overfull \hbox (4.69128pt too wide) in paragraph at lines 428--429
+ [51 <./figuras/modelo_numerico_2.pdf>]
+Overfull \hbox (4.69128pt too wide) in paragraph at lines 383--384
 []\OT1/cmr/m/n/10 No in-tuito de ava-liar a condi^^Xc~ao anec^^Soica nas fron-t
 ei-ras do dom^^S^^Pnio
  []
 
-[53]
-Overfull \hbox (1.59238pt too wide) in paragraph at lines 459--460
+[52]
+Overfull \hbox (1.59238pt too wide) in paragraph at lines 414--415
 \OT1/cmr/m/n/10 m^^Sedia es-pa-cial $[]$ sal-vos em disco r^^S^^Pgido, um \OT1/
 cmr/m/it/10 script \OT1/cmr/m/n/10 de p^^Sos-processamento
  []
 
+[53] [54]) (./capitulos/resultados.tex [55] [56
 
-Overfull \hbox (0.50206pt too wide) in paragraph at lines 469--470
-[]\OT1/cmr/m/n/10 a trans-for-mada r^^Sapida de Fou-rier, \OT1/cmr/m/it/10 Fast
- Fou-rier Trans-form \OT1/cmr/m/n/10 (FFT)[],
- []
-
-[54]
-Overfull \hbox (1.62744pt too wide) in paragraph at lines 498--499
-\OT1/cmr/m/n/10 vem des-pren-di-mento de v^^Sortices s~ao muito pe-cu-li-a-res 
-pelo fato do campo
- []
-
-[55]) (./capitulos/resultados.tex [56]
+]
 Cap\'{\i }tulo 4.
-[57
-
-] (./figuras/impedancia_A.tex
+[57] (./figuras/impedancia_A.tex
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/A_real.txt}
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/A_imag.txt}
 ) (./figuras/reflexao_A.tex
@@ -3865,10 +3851,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 44579 strings out of 493029
- 995248 string characters out of 6136234
- 1260254 words of memory out of 5000000
- 47054 multiletter control sequences out of 15000+600000
+ 44564 strings out of 493029
+ 994952 string characters out of 6136234
+ 1260137 words of memory out of 5000000
+ 47039 multiletter control sequences out of 15000+600000
  35559 words of font info for 122 fonts, out of 8000000 for 9000
  1149 hyphenation exceptions out of 8191
  62i,16n,83p,10401b,2101s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3901,7 +3887,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/public/cm-sup
 er/sfrm1000.pfb>
-Output written on exemplo.pdf (93 pages, 1142438 bytes).
+Output written on exemplo.pdf (93 pages, 1139302 bytes).
 PDF statistics:
  468 PDF objects out of 1000 (max. 8388607)
  314 compressed objects within 4 object streams
