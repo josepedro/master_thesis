@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.10)  4 AUG 2017 01:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  7 AUG 2017 23:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3572,7 +3572,7 @@ PGFPlots: reading {dados/duto_sugado/abs_015_strouhal_energy.txt}
 PGFPlots: reading {dados/duto_sugado/abs_020_strouhal_energy.txt}
 ) [71]
 (./figuras/energia_turbulenta_grafico.tex
-PGFPlots: reading {dados/duto_sugado/energia_turbulenta.txt}
+PGFPlots: reading {dados/duto_sugado/intensidade_turbulenta_dados.txt}
 )
 Overfull \hbox (1.46895pt too wide) in paragraph at lines 309--310
 []\OT1/cmr/m/n/10 Usando o co-lor^^Sario de Howe ^^Se poss^^S^^Pvel cal-cu-lar 
@@ -3852,8 +3852,8 @@ LaTeX Font Warning: Size substitutions with differences
  ) 
 Here is how much of TeX's memory you used:
  44564 strings out of 493029
- 994952 string characters out of 6136234
- 1260137 words of memory out of 5000000
+ 994982 string characters out of 6136233
+ 1260136 words of memory out of 5000000
  47039 multiletter control sequences out of 15000+600000
  35559 words of font info for 122 fonts, out of 8000000 for 9000
  1149 hyphenation exceptions out of 8191
@@ -3887,7 +3887,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/public/cm-sup
 er/sfrm1000.pfb>
-Output written on exemplo.pdf (93 pages, 1139302 bytes).
+Output written on exemplo.pdf (93 pages, 1138332 bytes).
 PDF statistics:
  468 PDF objects out of 1000 (max. 8388607)
  314 compressed objects within 4 object streams

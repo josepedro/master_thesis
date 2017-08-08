@@ -1,4 +1,4 @@
-PWD /home/pedro/master_thesis
+PWD /home/josepedro/master_thesis
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
@@ -656,7 +656,7 @@ INPUT dados/duto_sugado/abs_015_strouhal_energy.txt
 INPUT dados/duto_sugado/abs_020_strouhal_energy.txt
 INPUT figuras/energia_turbulenta_grafico.tex
 INPUT figuras/energia_turbulenta_grafico.tex
-INPUT dados/duto_sugado/energia_turbulenta.txt
+INPUT dados/duto_sugado/intensidade_turbulenta_dados.txt
 INPUT figuras/max_ka_007_1.png
 INPUT ./figuras/max_ka_007_1.png
 INPUT ./figuras/max_ka_007_1.png
