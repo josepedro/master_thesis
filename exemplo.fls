@@ -528,9 +528,9 @@ INPUT ./figuras/bounceback_2.pdf
 INPUT figuras/abc.pdf
 INPUT ./figuras/abc.pdf
 INPUT ./figuras/abc.pdf
-INPUT figuras/modelo_numerico_2.pdf
-INPUT ./figuras/modelo_numerico_2.pdf
-INPUT ./figuras/modelo_numerico_2.pdf
+INPUT figuras/modelo_numerico_3.pdf
+INPUT ./figuras/modelo_numerico_3.pdf
+INPUT ./figuras/modelo_numerico_3.pdf
 INPUT capitulos/resultados.tex
 INPUT capitulos/resultados.tex
 INPUT figuras/impedancia_A.tex

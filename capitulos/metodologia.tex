@@ -332,7 +332,7 @@ Mesmo com várias funcionalidades citadas, o \textit{software} Palabos precisa t
 
 \section{Modelo Numérico}
 
-Com os arquivos de compilação e execução corretamente configurados, pode-se modelar numericamente o problema. A Figura \ref{fig:modelo} representa a vista do corte lateral do modelo numérico tridimensional. Para a definição do domínio foi utilizado uma abordagem paramétrica, ou seja, o raio externo do duto $a$ $=$ $20$ células foi a unidade de medida para as dimensões. As dimensões \textbf{Nx} e \textbf{Ny} são iguais e possuem $20a$ de comprimento (razão de aspecto não mantida no esquema para economia do espaço em folha). A dimensão \textbf{Nz} possui 79,5$a$ de comprimento e foi baseado no estudo de \citeonline{da2009sound}, que justifica a distância da saída do duto até a parede para capturar corretamente os efeitos de inércia e elasticidade produzidos pelo fluido estagnante ao redor do duto. Todo espaço de fluido do domínio foi preenchido em cada célula com frequência de relaxação $\frac{1}{\tau}$ $=$ $1,99$, $\rho$ $=$ $\rho_{0}$ $=$ $1$ e as velocidades para todos os sentidos $u_{x}$ $=$ $u_{y}$ $=$ $u_{z}$ $=$ $0$. As bordas do duto foram preenchidas com condição anecóica de espessura igual 1,5$a$ células.      
+Com os arquivos de compilação e execução corretamente configurados, pode-se modelar numericamente o problema. A Figura \ref{fig:modelo} representa a vista do corte lateral do modelo numérico tridimensional com o eixo de coordenadas localizado no ponto $(\frac{\textbf{Nx}}{2}, 0, 0)$. Para a definição do domínio foi utilizado uma abordagem paramétrica, ou seja, o raio externo do duto $a$ $=$ $20$ células foi a unidade de medida para as dimensões. As dimensões \textbf{Nx} e \textbf{Ny} são iguais e possuem $20a$ de comprimento (razão de aspecto não mantida no esquema para economia do espaço em folha). A dimensão \textbf{Nz} possui 79,5$a$ de comprimento e foi baseado no estudo de \citeonline{da2009sound}, que justifica a distância da saída do duto até a parede para capturar corretamente os efeitos de inércia e elasticidade produzidos pelo fluido estagnante ao redor do duto. Todo espaço de fluido do domínio foi preenchido em cada célula com frequência de relaxação $\frac{1}{\tau}$ $=$ $1,99$, $\rho$ $=$ $\rho_{0}$ $=$ $1$ e as velocidades para todos os sentidos $u_{x}$ $=$ $u_{y}$ $=$ $u_{z}$ $=$ $0$. As bordas do duto foram preenchidas com condição anecóica de espessura igual 1,5$a$ células.      
 
 Com relação ao duto, o mesmo possui o tamanho \textbf{L} $=$ $18a$ e é delimitado pela condição de contorno \textit{bounceback} \textit{no-slip}. O diâmetro externo mede $2a$ e parede com expessura de 0,1$a$. No começo do duto há uma condição anecóica com espessura igual a 1,5$a$, que é responsável pela absorção da onda refletida na abertura do duto. Ao lado da condição anecóica há uma condição de contorno de excitação do duto com espessura de 0,05$a$, responsável por excitar os modos axiais e impor escoamento.    
 
@@ -346,7 +346,7 @@ Com relação ao duto, o mesmo possui o tamanho \textbf{L} $=$ $18a$ e é delimi
 
 \begin{figure}[ht!]
 \centering
-  \includegraphics[width=1.\linewidth]{figuras/modelo_numerico_2.pdf}
+  \includegraphics[width=1.\linewidth]{figuras/modelo_numerico_3.pdf}
   \caption[Esquemático do modelo numérico]{Esquemático do modelo numérico: vista do corte lateral do modelo em 3D.}
   \label{fig:modelo}
 \end{figure}

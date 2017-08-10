@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.10)  9 AUG 2017 22:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.10)  9 AUG 2017 23:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3415,16 +3415,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [50]
-<figuras/modelo_numerico_2.pdf, id=203, 1247.06013pt x 484.18246pt>
-File: figuras/modelo_numerico_2.pdf Graphic file (type pdf)
+<figuras/modelo_numerico_3.pdf, id=204, 1311.29903pt x 522.75299pt>
+File: figuras/modelo_numerico_3.pdf Graphic file (type pdf)
 
-<use figuras/modelo_numerico_2.pdf>
-Package pdftex.def Info: figuras/modelo_numerico_2.pdf used on input line 349.
-(pdftex.def)             Requested size: 307.28978pt x 119.30913pt.
+<use figuras/modelo_numerico_3.pdf>
+Package pdftex.def Info: figuras/modelo_numerico_3.pdf used on input line 349.
+(pdftex.def)             Requested size: 307.28978pt x 122.49599pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51 <./figuras/modelo_numerico_2.pdf>]
+ [51 <./figuras/modelo_numerico_3.pdf>]
 Overfull \hbox (4.69128pt too wide) in paragraph at lines 383--384
 []\OT1/cmr/m/n/10 No in-tuito de ava-liar a condi^^Xc~ao anec^^Soica nas fron-t
 ei-ras do dom^^S^^Pnio
@@ -3568,21 +3568,21 @@ Overfull \hbox (1.46895pt too wide) in paragraph at lines 309--310
 a pot^encia ac^^Sustica
  []
 
-[72] <figuras/max_ka_007_1.png, id=281, 578.16pt x 433.62pt>
+[72] <figuras/max_ka_007_1.png, id=287, 578.16pt x 433.62pt>
 File: figuras/max_ka_007_1.png Graphic file (type png)
 
 <use figuras/max_ka_007_1.png>
 Package pdftex.def Info: figuras/max_ka_007_1.png used on input line 331.
 (pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
 
-<figuras/max_ka_007_2.png, id=282, 578.16pt x 433.62pt>
+<figuras/max_ka_007_2.png, id=288, 578.16pt x 433.62pt>
 File: figuras/max_ka_007_2.png Graphic file (type png)
 
 <use figuras/max_ka_007_2.png>
 Package pdftex.def Info: figuras/max_ka_007_2.png used on input line 336.
 (pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
 
-<figuras/max_ka_007_3.png, id=283, 578.16pt x 433.62pt>
+<figuras/max_ka_007_3.png, id=289, 578.16pt x 433.62pt>
 File: figuras/max_ka_007_3.png Graphic file (type png)
 
 <use figuras/max_ka_007_3.png>
@@ -3593,21 +3593,21 @@ Overfull \hbox (13.55212pt too wide) in paragraph at lines 330--345
 []$[]$ $[]$ $[]$ 
  []
 
-<figuras/max_ka_007_4.png, id=284, 578.16pt x 433.62pt>
+<figuras/max_ka_007_4.png, id=290, 578.16pt x 433.62pt>
 File: figuras/max_ka_007_4.png Graphic file (type png)
 
 <use figuras/max_ka_007_4.png>
 Package pdftex.def Info: figuras/max_ka_007_4.png used on input line 347.
 (pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
 
-<figuras/max_ka_007_5.png, id=285, 578.16pt x 433.62pt>
+<figuras/max_ka_007_5.png, id=291, 578.16pt x 433.62pt>
 File: figuras/max_ka_007_5.png Graphic file (type png)
 
 <use figuras/max_ka_007_5.png>
 Package pdftex.def Info: figuras/max_ka_007_5.png used on input line 352.
 (pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
 
-<figuras/max_ka_007_6.png, id=286, 578.16pt x 433.62pt>
+<figuras/max_ka_007_6.png, id=292, 578.16pt x 433.62pt>
 File: figuras/max_ka_007_6.png Graphic file (type png)
 
 <use figuras/max_ka_007_6.png>
@@ -3624,21 +3624,21 @@ LaTeX Warning: Float too large for page by 6.21477pt on input line 362.
 [73 <./figuras/max_ka_007_1.png (PNG copy)> <./figuras/max_ka_007_2.png (PNG co
 py)> <./figuras/max_ka_007_3.png (PNG copy)> <./figuras/max_ka_007_4.png (PNG c
 opy)> <./figuras/max_ka_007_5.png (PNG copy)> <./figuras/max_ka_007_6.png (PNG 
-copy)>] <figuras/min_ka_007_1.png, id=290, 578.16pt x 433.62pt>
+copy)>] <figuras/min_ka_007_1.png, id=296, 578.16pt x 433.62pt>
 File: figuras/min_ka_007_1.png Graphic file (type png)
 
 <use figuras/min_ka_007_1.png>
 Package pdftex.def Info: figuras/min_ka_007_1.png used on input line 373.
 (pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
 
-<figuras/min_ka_007_2.png, id=291, 578.16pt x 433.62pt>
+<figuras/min_ka_007_2.png, id=297, 578.16pt x 433.62pt>
 File: figuras/min_ka_007_2.png Graphic file (type png)
 
 <use figuras/min_ka_007_2.png>
 Package pdftex.def Info: figuras/min_ka_007_2.png used on input line 378.
 (pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
 
-<figuras/min_ka_007_3.png, id=292, 578.16pt x 433.62pt>
+<figuras/min_ka_007_3.png, id=298, 578.16pt x 433.62pt>
 File: figuras/min_ka_007_3.png Graphic file (type png)
 
 <use figuras/min_ka_007_3.png>
@@ -3649,21 +3649,21 @@ Overfull \hbox (13.55212pt too wide) in paragraph at lines 372--387
 []$[]$ $[]$ $[]$ 
  []
 
-<figuras/min_ka_007_4.png, id=293, 578.16pt x 433.62pt>
+<figuras/min_ka_007_4.png, id=299, 578.16pt x 433.62pt>
 File: figuras/min_ka_007_4.png Graphic file (type png)
 
 <use figuras/min_ka_007_4.png>
 Package pdftex.def Info: figuras/min_ka_007_4.png used on input line 389.
 (pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
 
-<figuras/min_ka_007_5.png, id=294, 578.16pt x 433.62pt>
+<figuras/min_ka_007_5.png, id=300, 578.16pt x 433.62pt>
 File: figuras/min_ka_007_5.png Graphic file (type png)
 
 <use figuras/min_ka_007_5.png>
 Package pdftex.def Info: figuras/min_ka_007_5.png used on input line 394.
 (pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
 
-<figuras/min_ka_007_6.png, id=295, 578.16pt x 433.62pt>
+<figuras/min_ka_007_6.png, id=301, 578.16pt x 433.62pt>
 File: figuras/min_ka_007_6.png Graphic file (type png)
 
 <use figuras/min_ka_007_6.png>
@@ -3680,14 +3680,14 @@ LaTeX Warning: Float too large for page by 6.21477pt on input line 404.
 [74 <./figuras/min_ka_007_1.png (PNG copy)> <./figuras/min_ka_007_2.png (PNG co
 py)> <./figuras/min_ka_007_3.png (PNG copy)> <./figuras/min_ka_007_4.png (PNG c
 opy)> <./figuras/min_ka_007_5.png (PNG copy)> <./figuras/min_ka_007_6.png (PNG 
-copy)>] <figuras/max_007_media.png, id=299, 578.16pt x 433.62pt>
+copy)>] <figuras/max_007_media.png, id=305, 578.16pt x 433.62pt>
 File: figuras/max_007_media.png Graphic file (type png)
 
 <use figuras/max_007_media.png>
 Package pdftex.def Info: figuras/max_007_media.png used on input line 414.
 (pdftex.def)             Requested size: 190.51816pt x 142.88332pt.
 
-<figuras/min_007_media.png, id=300, 578.16pt x 433.62pt>
+<figuras/min_007_media.png, id=306, 578.16pt x 433.62pt>
 File: figuras/min_007_media.png Graphic file (type png)
 
 <use figuras/min_007_media.png>
@@ -3707,7 +3707,7 @@ PGFPlots: reading {dados/duto_sugado/abs_r_strouhal_mach.txt}
 ) [76
 
 ]
-<figuras/max_01_media.png, id=307, 578.16pt x 433.62pt>
+<figuras/max_01_media.png, id=313, 578.16pt x 433.62pt>
 File: figuras/max_01_media.png Graphic file (type png)
 
 <use figuras/max_01_media.png>
@@ -3718,21 +3718,21 @@ File: figuras/max_007_media.png Graphic file (type png)
 Package pdftex.def Info: figuras/max_007_media.png used on input line 468.
 (pdftex.def)             Requested size: 153.64488pt x 115.23296pt.
  [77 <./figuras/max_01_media.png (PNG copy)>]
-<figuras/max_ka_01_1.png, id=314, 578.16pt x 433.62pt>
+<figuras/max_ka_01_1.png, id=320, 578.16pt x 433.62pt>
 File: figuras/max_ka_01_1.png Graphic file (type png)
 
 <use figuras/max_ka_01_1.png>
 Package pdftex.def Info: figuras/max_ka_01_1.png used on input line 482.
 (pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
 
-<figuras/max_ka_01_2.png, id=315, 578.16pt x 433.62pt>
+<figuras/max_ka_01_2.png, id=321, 578.16pt x 433.62pt>
 File: figuras/max_ka_01_2.png Graphic file (type png)
 
 <use figuras/max_ka_01_2.png>
 Package pdftex.def Info: figuras/max_ka_01_2.png used on input line 487.
 (pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
 
-<figuras/max_ka_01_3.png, id=316, 578.16pt x 433.62pt>
+<figuras/max_ka_01_3.png, id=322, 578.16pt x 433.62pt>
 File: figuras/max_ka_01_3.png Graphic file (type png)
 
 <use figuras/max_ka_01_3.png>
@@ -3743,21 +3743,21 @@ Overfull \hbox (13.55212pt too wide) in paragraph at lines 481--496
 []$[]$ $[]$ $[]$ 
  []
 
-<figuras/max_ka_01_4.png, id=317, 578.16pt x 433.62pt>
+<figuras/max_ka_01_4.png, id=323, 578.16pt x 433.62pt>
 File: figuras/max_ka_01_4.png Graphic file (type png)
 
 <use figuras/max_ka_01_4.png>
 Package pdftex.def Info: figuras/max_ka_01_4.png used on input line 498.
 (pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
 
-<figuras/max_ka_01_5.png, id=318, 578.16pt x 433.62pt>
+<figuras/max_ka_01_5.png, id=324, 578.16pt x 433.62pt>
 File: figuras/max_ka_01_5.png Graphic file (type png)
 
 <use figuras/max_ka_01_5.png>
 Package pdftex.def Info: figuras/max_ka_01_5.png used on input line 503.
 (pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
 
-<figuras/max_ka_01_6.png, id=319, 578.16pt x 433.62pt>
+<figuras/max_ka_01_6.png, id=325, 578.16pt x 433.62pt>
 File: figuras/max_ka_01_6.png Graphic file (type png)
 
 <use figuras/max_ka_01_6.png>
@@ -3800,7 +3800,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 Apendice A.
-<figuras/palabos_modelo_fluxo.pdf, id=355, 380.45247pt x 488.79149pt>
+<figuras/palabos_modelo_fluxo.pdf, id=361, 380.45247pt x 488.79149pt>
 File: figuras/palabos_modelo_fluxo.pdf Graphic file (type pdf)
 
 <use figuras/palabos_modelo_fluxo.pdf>
@@ -3876,10 +3876,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/public/cm-sup
 er/sfrm1000.pfb>
-Output written on exemplo.pdf (93 pages, 1140752 bytes).
+Output written on exemplo.pdf (93 pages, 1143170 bytes).
 PDF statistics:
- 468 PDF objects out of 1000 (max. 8388607)
- 314 compressed objects within 4 object streams
+ 474 PDF objects out of 1000 (max. 8388607)
+ 318 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
