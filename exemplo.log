@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.10.18)  7 AUG 2017 23:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.10)  9 AUG 2017 22:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3203,11 +3203,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [21]
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <7> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 36.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 38.
 
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <5> not available
-(Font)              Font shape `U/wasy/m/n' tried instead on input line 36.
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 38.
 
 )
 \tf@lsb=\write9
@@ -3248,10 +3248,13 @@ Overfull \hbox (2.29408pt too wide) in paragraph at lines 7--8
 is-te-mas de exaust~ao
  []
 
-[29
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29
 
 ]
-Overfull \hbox (8.62733pt too wide) in paragraph at lines 27--28
+Overfull \hbox (8.62733pt too wide) in paragraph at lines 40--41
 \OT1/cmr/m/n/10 Wiener-Hopf, em que se con-si-dera a pre-sen^^Xca de um es-co-a
 -mento subs^onico
  []
@@ -3259,15 +3262,12 @@ Overfull \hbox (8.62733pt too wide) in paragraph at lines 27--28
 (./figuras/abs_r_comparacao.tex
 PGFPlots: reading {dados/outros_dados/abs_r_LS.txt}
 PGFPlots: reading {dados/outros_dados/abs_r_munt.txt}
-)
-Underfull \vbox (badness 2057) has occurred while \output is active []
-
- [30]
-(./figuras/loa_comparacao.tex
+) [30] (./figuras/loa_comparacao.tex
 PGFPlots: reading {dados/outros_dados/loa_LS.txt}
 PGFPlots: reading {dados/outros_dados/loa_munt.txt}
 ) [31]
-Overfull \hbox (11.01637pt too wide) in paragraph at lines 49--50
+[32]
+Overfull \hbox (11.01637pt too wide) in paragraph at lines 62--63
 \OT1/cmr/m/n/10 on-das pla-nas, por^^Sem con-si-de-rando des-lo-ca-mento trans-
 ver-sais de part^^S^^Pculas
  []
@@ -3275,28 +3275,17 @@ ver-sais de part^^S^^Pculas
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [33]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [34]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [35]
-[36]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37])
-(./capitulos/metodologia.tex [38]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[36] [37]) (./capitulos/metodologia.tex [38]
 Cap\'{\i }tulo 3.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -3851,10 +3840,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 44564 strings out of 493029
- 994982 string characters out of 6136233
- 1260136 words of memory out of 5000000
- 47039 multiletter control sequences out of 15000+600000
+ 44565 strings out of 493029
+ 994990 string characters out of 6136234
+ 1260149 words of memory out of 5000000
+ 47040 multiletter control sequences out of 15000+600000
  35559 words of font info for 122 fonts, out of 8000000 for 9000
  1149 hyphenation exceptions out of 8191
  62i,16n,83p,10401b,2101s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3887,7 +3876,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/public/cm-sup
 er/sfrm1000.pfb>
-Output written on exemplo.pdf (93 pages, 1138332 bytes).
+Output written on exemplo.pdf (93 pages, 1140752 bytes).
 PDF statistics:
  468 PDF objects out of 1000 (max. 8388607)
  314 compressed objects within 4 object streams

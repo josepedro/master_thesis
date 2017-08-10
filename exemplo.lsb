@@ -1,19 +1,21 @@
 \contentsline {simb}{\hbox to\@tempdima {$\delimiter "0359359 R_{r}\delimiter "0359359 $\hfil }{Magnitude do coeficiente de reflex\IeC {\~a}o}}{25}
 \contentsline {simb}{\hbox to\@tempdima {$l$\hfil }{Coeficiente de corre\IeC {\c c}\IeC {\~a}o da termina\IeC {\c c}\IeC {\~a}o}}{25}
 \contentsline {simb}{\hbox to\@tempdima {$a$\hfil }{Raio do duto}}{25}
-\contentsline {simb}{\hbox to\@tempdima {$R_{r}$\hfil }{Coeficiente de reflex\IeC {\~a}o na termina\IeC {\c c}\IeC {\~a}o do duto}}{29}
-\contentsline {simb}{\hbox to\@tempdima {$Z_{r}$\hfil }{Imped\IeC {\^a}ncia de radia\IeC {\c c}\IeC {\~a}o}}{29}
-\contentsline {simb}{\hbox to\@tempdima {$Z_{0}$\hfil }{Imped\IeC {\^a}ncia caracter\IeC {\'\i }stica do meio}}{29}
-\contentsline {simb}{\hbox to\@tempdima {$\rho _{0}$\hfil }{Densidade m\IeC {\'e}dia do meio}}{29}
-\contentsline {simb}{\hbox to\@tempdima {$c_{0}$\hfil }{Velocidade do som}}{29}
-\contentsline {simb}{\hbox to\@tempdima {$j$\hfil }{Unidade imagin\IeC {\'a}ria}}{29}
 \contentsline {simb}{\hbox to\@tempdima {$k$\hfil }{N\IeC {\'u}mero de onda}}{29}
 \contentsline {simb}{\hbox to\@tempdima {$\omega $\hfil }{Frequ\IeC {\^e}ncia angular em radianos}}{29}
+\contentsline {simb}{\hbox to\@tempdima {$R_{r}$\hfil }{Coeficiente de reflex\IeC {\~a}o na termina\IeC {\c c}\IeC {\~a}o do duto}}{30}
+\contentsline {simb}{\hbox to\@tempdima {$Z_{r}$\hfil }{Imped\IeC {\^a}ncia de radia\IeC {\c c}\IeC {\~a}o}}{30}
+\contentsline {simb}{\hbox to\@tempdima {$Z_{0}$\hfil }{Imped\IeC {\^a}ncia caracter\IeC {\'\i }stica do meio}}{30}
+\contentsline {simb}{\hbox to\@tempdima {$\rho _{0}$\hfil }{Densidade m\IeC {\'e}dia do meio}}{30}
+\contentsline {simb}{\hbox to\@tempdima {$c_{0}$\hfil }{Velocidade do som}}{30}
+\contentsline {simb}{\hbox to\@tempdima {$j$\hfil }{Unidade imagin\IeC {\'a}ria}}{30}
+\contentsline {simb}{\hbox to\@tempdima {$k$\hfil }{N\IeC {\'u}mero de onda}}{30}
+\contentsline {simb}{\hbox to\@tempdima {$\omega $\hfil }{Frequ\IeC {\^e}ncia angular em radianos}}{30}
 \contentsline {simb}{\hbox to\@tempdima {$|R_{r}|$\hfil }{Magnitude do coeficiente de reflex\IeC {\~a}o na termina\IeC {\c c}\IeC {\~a}o do duto}}{31}
 \contentsline {simb}{\hbox to\@tempdima {$ka$\hfil }{N\IeC {\'u}mero de Helmholtz}}{32}
-\contentsline {simb}{\hbox to\@tempdima {$M$\hfil }{N\IeC {\'u}mero de Mach}}{32}
+\contentsline {simb}{\hbox to\@tempdima {$M$\hfil }{N\IeC {\'u}mero de Mach}}{33}
 \contentsline {simb}{\hbox to\@tempdima {$Kp$\hfil }{Fator de perda de carga}}{35}
-\contentsline {simb}{\hbox to\@tempdima {$St$\hfil }{N\IeC {\'u}mero de Strouhal}}{37}
+\contentsline {simb}{\hbox to\@tempdima {$St$\hfil }{N\IeC {\'u}mero de Strouhal}}{38}
 \contentsline {simb}{\hbox to\@tempdima {$f_{i}$\hfil }{Fun\IeC {\c c}\IeC {\~a}o de distribui\IeC {\c c}\IeC {\~a}o LBM na dire\IeC {\c c}\IeC {\~a}o $i$}}{41}
 \contentsline {simb}{\hbox to\@tempdima {$i$\hfil }{Dire\IeC {\c c}\IeC {\~a}o de propaga\IeC {\c c}\IeC {\~a}o LBM}}{41}
 \contentsline {simb}{\hbox to\@tempdima {$c_{i}$\hfil }{Velocidades de propaga\IeC {\c c}\IeC {\~a}o na dire\IeC {\c c}\IeC {\~a}o $i$}}{41}
