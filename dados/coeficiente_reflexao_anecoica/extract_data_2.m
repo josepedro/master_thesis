@@ -29,30 +29,30 @@ D_real = D_real(1:number_downsample:end);
 D_imag = D_imag(1:number_downsample:end); 
 D_abs = D_abs(1:number_downsample:end); 
 
-A_real_1 = [kas' A_real'];
+A_real_1 = [kas(find(kas < 2.5))' A_real'];
 save('A_real_1.txt', 'A_real_1', '-ascii', '-double');
-A_imag_1 = [kas' A_imag'];
+A_imag_1 = [kas(find(kas < 2.5))' A_imag'];
 save('A_imag_1.txt', 'A_imag_1', '-ascii', '-double');
-A_abs_1 = [kas' A_abs'];
+A_abs_1 = [kas(find(kas < 2.5))' A_abs'];
 save('A_abs_1.txt', 'A_abs_1', '-ascii', '-double');
 
-B_real_1 = [kas' B_real'];
+B_real_1 = [kas(find(kas < 2.5))' B_real'];
 save('B_real_1.txt', 'B_real_1', '-ascii', '-double');
-B_imag_1 = [kas' B_imag'];
+B_imag_1 = [kas(find(kas < 2.5))' B_imag'];
 save('B_imag_1.txt', 'B_imag_1', '-ascii', '-double');
-B_abs_1 = [kas' B_abs'];
+B_abs_1 = [kas(find(kas < 2.5))' B_abs'];
 save('B_abs_1.txt', 'B_abs_1', '-ascii', '-double');
 
-C_real_1 = [kas' C_real'];
+C_real_1 = [kas(find(kas < 2.5))' C_real'];
 save('C_real_1.txt', 'C_real_1', '-ascii', '-double');
-C_imag_1 = [kas' C_imag'];
+C_imag_1 = [kas(find(kas < 2.5))' C_imag'];
 save('C_imag_1.txt', 'C_imag_1', '-ascii', '-double');
-C_abs_1 = [kas' C_abs'];
+C_abs_1 = [kas(find(kas < 2.5))' C_abs'];
 save('C_abs_1.txt', 'C_abs_1', '-ascii', '-double');
 
-D_real_1 = [kas' D_real'];
+D_real_1 = [kas(find(kas < 2.5))' D_real'];
 save('D_real_1.txt', 'D_real_1', '-ascii', '-double');
-D_imag_1 = [kas' D_imag'];
+D_imag_1 = [kas(find(kas < 2.5))' D_imag'];
 save('D_imag_1.txt', 'D_imag_1', '-ascii', '-double');
-D_abs_1 = [kas' D_abs'];
+D_abs_1 = [kas(find(kas < 2.5))' D_abs'];
 save('D_abs_1.txt', 'D_abs_1', '-ascii', '-double');
