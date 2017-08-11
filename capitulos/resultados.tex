@@ -1,12 +1,15 @@
 \chapter{Resultados}
 
-Em vista da teoria vigente na literatura e pelo que foi exposto no ponto de vista metodológico, obteve-se resultados nos seguintes contextos:
-\begin{itemize}
-  \item análise da condição anecóica: a partir dos históricos temporais de pressão e velocidade de partícula nas fronteiras do modelo numérico, foram feitas análises críticas de reflexão acústica;
-  \item duto sem escoamento: a partir dos históricos temporais de pressão e velocidade de partícula na terminação do duto, foram feitas validações e análises críticas dos parâmetros caracterizadores da acústica interna do duto sem escoamento;
-  \item duto com escoamento de exaustão: a partir dos históricos temporais de pressão e velocidade de partícula na terminação do duto, foram feitas validações e análises críticas dos parâmetros caracterizadores da acústica interna do duto com escoamento de exaustão para regimes subsônicos ($M$ $\leq$ 0,2);
-  \item duto com escoamento sugado: a partir dos históricos temporais de pressão e velocidade de partícula na terminação do duto, foram feitas validações, análises críticas e investigação dos parâmetros caracterizadores da acústica interna do duto com escoamento succionado para regimes subsônicos ($M$ $\leq$ 0,2).
-\end{itemize} 
+Em vista da teoria vigente na literatura e pelo que foi exposto no ponto de vista metodológico, obteve-se resultados e a análises nos contextos de condição anecóica, duto sem escoamento, duto com escoamento de exaustão e duto com escoamento sugado. Para todos os resultados foi utilizada uma fonte acústica de natureza estacionária no começo do duto assim como é apresentada na Seção \ref{sec:modelo_numerico}.
+
+Para análises da condição anecóica, históricos temporais de pressão e velocidade de partícula nas fronteiras do modelo numérico foram obtidos e usados para calcular coeficientes de reflexão. Esse procedimento foi realizado em vários pontos da camada de absorção acústica para melhor verificação de sua integridade acústica.
+
+No que diz respeito a análises no contexto de duto sem escoamento, os parâmetros $|R_{r}|$ e $l/a$ foram calculados a partir dos históricos temporais de pressão e velocidade de partícula na terminação. Foi realizado também análise de convergência de malha para a obteção da melhor acurácia frente a limitações computacionais.
+
+Com uma malha definida e resultados validados no contexto sem escoamento, foram realizadas validações e análises com escoamento de exaustão. Para tanto, os parâmetros $|R_{r}|$ e $l/a$ foram calculados a partir dos históricos temporais de pressão e velocidade de partícula na terminação para regimes subsônicos ($M$ $\leq$ 0,2). Isso possibilitou análises de $|R_{r}|$ com relação ao número de Strouhal e explorar criticamente a amplificação acústica originada a partir de um fenômeno fluidodinâmico. 
+
+Em vista das fenomenologias fluidodinâmica e acústica validadas e analisadas no contexto de escoamento de exaustão, foram realizadas validações e análises para a situação de escoamento de sucção. Para tal fim, os parâmetros $|R_{r}|$ e $l/a$ foram calculados a partir dos históricos temporais de pressão e velocidade de partícula na terminação para regimes subsônicos ($M$ $\leq$ 0,2). Por carência de estudos que abordam o fenômeno de escoamento sugado, vale ressaltar que o coloário de Howe foi utilizado para a investigação dos comportamentos de $|R_{r}|$ frente a diferentes números de Mach.
+
 
 \section{Análise da Condição Anecóica}
 
@@ -50,6 +53,19 @@ Com a finalidade de mensurar e analisar o comportamento da condição de contorn
 \newcommand\scalex{1}
 \newcommand\scaley{1}
 \newcommand\scaleA{0.5}
+
+\begin{figure}[ht!]
+\begin{subfigure}{\scaleA \textwidth}
+  \input{figuras/parte_real_impedancia_anecoica.tex}
+\end{subfigure}%
+\begin{subfigure}{\scaleA \textwidth}
+  \input{figuras/parte_imaginaria_impedancia_anecoica.tex}
+\end{subfigure}
+\caption[Resultados de reflexão no ponto \textbf{A}]{Resultados da impedância $Z_{\textbf{A}}$ (\ref{fig:A_impedancia}) e módulo do coeficiente de reflexão $|R_{\textbf{A}}|$ (\ref{fig:A_reflexao}) calculados no ponto $\textbf{A}$. Na Figura (\ref{fig:A_impedancia}) a linha contínua representa a parte real e a linha tracejada representa a parte imaginária.}
+\label{fig:resultados_A}
+\end{figure}
+
+
 
 \newpage
 

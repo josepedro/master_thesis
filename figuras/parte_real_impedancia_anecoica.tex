@@ -1,0 +1,35 @@
+% parte real impedancia 
+\begin{tikzpicture}
+\begin{axis}[
+width=\scalexA \textwidth,
+height=\scaleyA \textwidth,
+xmin=0,
+xmax=2.5,
+ymin=0,
+ymax=1,
+ytick distance=0.1,
+xtick distance=0.5,
+grid=major, % Display a grid  
+%grid style={dashed,gray!90}, % Set the style
+xlabel = \small{$ka$},
+ylabel = \small{$\Re(Z)$},
+ y tick label style={/pgf/number format/.cd,%
+          scaled y ticks = false,
+          set decimal separator={,},
+          fixed},
+      x tick label style={/pgf/number format/.cd,%
+          scaled x ticks = false,
+          set decimal separator={,},
+          fixed}%
+]
+
+\addplot[color=black, mark=o, only marks] table[x index=0,y index=1] {dados/coeficiente_reflexao_anecoica/A_real_1.txt};
+% \addplot[color=black, mark=square, only marks] table[x index=0,y index=1] {dados/coeficiente_reflexao_anecoica/B_real_1.txt};
+ %\addplot[color=black, mark=triangle, only marks] table[x index=0,y index=1] {dados/coeficiente_reflexao_anecoica/C_real_1.txt};
+ %\addplot[color=black, mark=x, only marks] table[x index=0,y index=1] {dados/coeficiente_reflexao_anecoica/D_real_1.txt};
+
+\end{axis}
+\end{tikzpicture}
+\caption[Impedância $Z_{\textbf{A}}$]{}
+\label{fig:parte_real}
+%\caption[Impedância $Z_{\textbf{A}}$]{Resultado da impedância calculada no ponto $\textbf{A}$, próximo da condição anecóica localizada nas fronteiras do modelo numérico. A linha contínua representa a parte real e a linha tracejada representa a parte imaginária.}

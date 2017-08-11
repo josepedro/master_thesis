@@ -1,9 +1,9 @@
 % how to extract data from .fig
 
-% s=hgload('impedance.fig');
-% h = findobj(s,'Type','line');
-% x=get(h,'xdata');
-% y=get(h,'ydata');
+s=hgload('impedance.fig');
+h = findobj(s,'Type','line');
+x=get(h,'xdata');
+y=get(h,'ydata');
 
 % save('kas.txt', 'kas', '-ascii', '-double');
 % save('coeficiente_reflexao_anecoica/kas.txt', 'kas', '-ascii', '-double');
