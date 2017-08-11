@@ -535,7 +535,7 @@ INPUT capitulos/resultados.tex
 INPUT capitulos/resultados.tex
 INPUT figuras/parte_real_impedancia_anecoica.tex
 INPUT figuras/parte_real_impedancia_anecoica.tex
-INPUT dados/coeficiente_reflexao_anecoica/A_real_1.txt
+INPUT dados/coeficiente_reflexao_anecoica/A_real.txt
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT figuras/parte_imaginaria_impedancia_anecoica.tex
 INPUT figuras/parte_imaginaria_impedancia_anecoica.tex

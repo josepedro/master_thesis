@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.10)  10 AUG 2017 22:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.10)  10 AUG 2017 22:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3455,7 +3455,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [57]
 (./figuras/parte_real_impedancia_anecoica.tex
-PGFPlots: reading {dados/coeficiente_reflexao_anecoica/A_real_1.txt}
+PGFPlots: reading {dados/coeficiente_reflexao_anecoica/A_real.txt}
 )
 (./figuras/parte_imaginaria_impedancia_anecoica.tex
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/A_imag_1.txt}
@@ -3863,10 +3863,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 44594 strings out of 493029
- 995733 string characters out of 6136234
- 1260648 words of memory out of 5000000
- 47059 multiletter control sequences out of 15000+600000
+ 44591 strings out of 493029
+ 995653 string characters out of 6136234
+ 1259648 words of memory out of 5000000
+ 47058 multiletter control sequences out of 15000+600000
  35559 words of font info for 122 fonts, out of 8000000 for 9000
  1149 hyphenation exceptions out of 8191
  62i,16n,83p,10401b,2101s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3899,7 +3899,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/public/cm-sup
 er/sfrm1000.pfb>
-Output written on exemplo.pdf (95 pages, 1148439 bytes).
+Output written on exemplo.pdf (95 pages, 1157276 bytes).
 PDF statistics:
  480 PDF objects out of 1000 (max. 8388607)
  322 compressed objects within 4 object streams

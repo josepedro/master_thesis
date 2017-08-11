@@ -58,18 +58,23 @@ save('D_imag.txt', 'D_imag', '-ascii', '-double');
 
 %-------------------------
 
-a = yabs{12};
+s=hgload('abs_r.fig');
+h = findobj(s,'Type','line');
+x=get(h,'xdata');
+y=get(h,'ydata');
+
+a = y{12};
 A_abs = [kas(find(kas < 2.5))' a(find(kas < 2.5))'];
 save('A_abs.txt', 'A_abs', '-ascii', '-double');
 
-a = yabs{11};
+a = y{11};
 B_abs = [kas(find(kas < 2.5))' a(find(kas < 2.5))'];
 save('B_abs.txt', 'B_abs', '-ascii', '-double');
 
-a = yabs{10};
+a = y{10};
 C_abs = [kas(find(kas < 2.5))' a(find(kas < 2.5))'];
 save('C_abs.txt', 'C_abs', '-ascii', '-double');
 
-a = yabs{9};
+a = y{9};
 D_abs = [kas(find(kas < 2.5))' a(find(kas < 2.5))'];
 save('D_abs.txt', 'D_abs', '-ascii', '-double');
