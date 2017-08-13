@@ -423,6 +423,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 OUTPUT exemplo.pdf
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT figuras/ficha_dissertacao.png
+INPUT ./figuras/ficha_dissertacao.png
+INPUT ./figuras/ficha_dissertacao.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT exemplo.lof
 INPUT exemplo.lof
