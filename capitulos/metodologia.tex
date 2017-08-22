@@ -448,17 +448,19 @@ tal que $r$ é um percentual, sendo que quanto maior o valor mais correlacionado
   \overline{y} = \frac{\sum_{j=1}^{J} y_{j}}{J}. 
 \end{equation}
 
-\section{Colorário de Howe}
+\section{Integral de Energia de Howe}
 
-Em vista da literatura vigente, fenômenos aeroacústicos envolvendo baixos números de Reynolds são muito peculiares pelo fato do campo acústico ser alterado pela transferência de energia cinética vorticial em energia acústica e vice-versa. Para investigar tal fenomenologia, o corolário de energia de Howe apresenta-se como uma ferramenta apelativa.
+Em vista da literatura vigente, fenômenos aeroacústicos envolvendo baixos números de Reynolds são muito peculiares pelo fato do campo acústico ser alterado pela transferência de energia cinética vorticial em energia acústica e vice-versa. Para investigar tal fenomenologia, a integral de energia de Howe apresenta-se como uma ferramenta apelativa.
 
-De acordo com o estudo de \citeonline{howe1984absorption} o colorário é uma descrição formal da transferência da energia cinética vorticial para o campo acústico e vice-versa num contexto de baixos números de Mach ($M << 1$) e escoamentos isoentrópicos. Tal formulação é expressa por 
+De acordo com o estudo de \citeonline{howe1984absorption} a integral de energia de Howe é uma descrição formal da transferência da energia cinética vorticial para o campo acústico e vice-versa num contexto de baixos números de Mach ($M << 1$) e escoamentos isoentrópicos. Tal formulação é expressa por 
 
 \begin{equation}
   <P> = -\rho_{0}\int_{V}< \boldsymbol{\xi} > dV,
+  \label{eq:integral_howe_1}
 \end{equation}
 tal que $<P>$\simbolo{$<P>$}{Potência acústica} é a potência acústica média ao longo de um ciclo de oscilação em torno de um volume $V$, $\rho_{0}$ é a densidade média do fluido e $\boldsymbol{\xi}$\simbolo{$\boldsymbol{\xi}$}{Potência acústica instantânea por unidade de volume} é a potência acústica instantânea por unidade de volume gerada a partir da energia cinética vorticial. Potência acústica instantânea por unidade de volume é expressa por 
 \begin{equation}
   \boldsymbol{\xi} = \textbf{u}_{ac} \cdot ( \boldsymbol{\omega} \times \textbf{u}),
+  \label{eq:integral_howe_2}
 \end{equation}
-tal que $\textbf{u}_{ac}$\simbolo{$\textbf{u}_{ac}$}{Velocidade de partícula} é a velocidade de partícula, $\boldsymbol{\omega}$\simbolo{$\boldsymbol{\omega}$}{Rotacional do escoamento} é o rotacional do escoamento e $\textbf{u}$ é a velocidade do escoamento. Para o uso do colorário de Howe, foi implementada uma classe dentro do núcleo do \textit{software} Palabos, sendo ativada e instanciada no final de cada simulação do modelo numérico.     
+tal que $\textbf{u}_{ac}$\simbolo{$\textbf{u}_{ac}$}{Velocidade de partícula} é a velocidade de partícula, $\boldsymbol{\omega}$\simbolo{$\boldsymbol{\omega}$}{Rotacional do escoamento} é o rotacional do escoamento e $\textbf{u}$ é a velocidade do escoamento. Para o uso da integral de energia de Howe, foi implementada uma classe dentro do núcleo do \textit{software} Palabos, sendo ativada e instanciada no final de cada simulação do modelo numérico.     

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.10)  13 AUG 2017 08:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.10)  21 AUG 2017 23:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3163,47 +3163,49 @@ Package pdftex.def Info: figuras/ficha_dissertacao.png used on input line 119.
 
 ] [7] [8
 
+] [9] [10
+
 ]
 Overfull \hbox (2.65063pt too wide) in paragraph at lines 123--123
 []\OT1/cmr/m/n/9 Muitos acham que o som ^^Se um corpo r^^S^^Pgido
  []
 
-[9] [10
-
-] [11
-
-] [12
+[11] [12
 
 ] [13
 
 ] [14
 
+] [15
+
+] [16
+
 ] (./exemplo.lof
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15])
+ [17])
 \tf@lof=\write6
 \openout6 = `exemplo.lof'.
 
 
-[16] (./exemplo.lot)
+[18] (./exemplo.lot)
 \tf@lot=\write7
 \openout7 = `exemplo.lot'.
 
- [17
+ [19
 
-] [18
+] [20
 
 ] (./exemplo.las)
 \tf@las=\write8
 \openout8 = `exemplo.las'.
 
- [19] [20
+ [21] [22
 
 ] (./exemplo.lsb
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21]
+ [23]
 
 LaTeX Font Warning: Font shape `U/wasy/b/n' in size <7> not available
 (Font)              Font shape `U/wasy/m/n' tried instead on input line 38.
@@ -3216,28 +3218,25 @@ LaTeX Font Warning: Font shape `U/wasy/b/n' in size <5> not available
 \tf@lsb=\write9
 \openout9 = `exemplo.lsb'.
 
- [22] (./exemplo.toc)
+ [24] (./exemplo.toc)
 \tf@toc=\write10
 \openout10 = `exemplo.toc'.
 
- [23
+ [25
 
-] [24
+] [26
 
 ] (./capitulos/introducao.tex
 Cap\'{\i }tulo 1.
-[25
+[27
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [26]
-Overfull \hbox (1.90524pt too wide) in paragraph at lines 55--56
+] [28]
+Overfull \hbox (1.90524pt too wide) in paragraph at lines 56--57
 []\OT1/cmr/m/n/10 Cap^^S^^Ptulo 2 apre-senta a re-vis~ao bi-bli-ogr^^Safica en-
 vol-vendo os m^^Setodos
  []
 
-[27]) (./capitulos/revisao_bibliografica.tex [28]
+[29]) (./capitulos/revisao_bibliografica.tex [30]
 Cap\'{\i }tulo 2.
 
 Overfull \hbox (0.29408pt too wide) in paragraph at lines 3--4
@@ -3254,7 +3253,7 @@ is-te-mas de exaust~ao
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29
+ [31
 
 ]
 Overfull \hbox (8.62733pt too wide) in paragraph at lines 40--41
@@ -3265,11 +3264,11 @@ Overfull \hbox (8.62733pt too wide) in paragraph at lines 40--41
 (./figuras/abs_r_comparacao.tex
 PGFPlots: reading {dados/outros_dados/abs_r_LS.txt}
 PGFPlots: reading {dados/outros_dados/abs_r_munt.txt}
-) [30] (./figuras/loa_comparacao.tex
+) [32] (./figuras/loa_comparacao.tex
 PGFPlots: reading {dados/outros_dados/loa_LS.txt}
 PGFPlots: reading {dados/outros_dados/loa_munt.txt}
-) [31]
-[32]
+) [33]
+[34]
 Overfull \hbox (11.01637pt too wide) in paragraph at lines 62--63
 \OT1/cmr/m/n/10 on-das pla-nas, por^^Sem con-si-de-rando des-lo-ca-mento trans-
 ver-sais de part^^S^^Pculas
@@ -3278,30 +3277,30 @@ ver-sais de part^^S^^Pculas
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [34]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [35]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[36] [37]) (./capitulos/metodologia.tex [38]
+[38] [39]) (./capitulos/metodologia.tex [40]
 Cap\'{\i }tulo 3.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39
+ [41
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40]
+ [42]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41]
+ [43]
 Overfull \hbox (3.7142pt too wide) in paragraph at lines 52--54
 \OT1/cmr/m/n/10 tal que $\OML/cmm/m/it/10 ^^\$[] \OT1/cmr/m/n/10 ^^Se o per^^S^
 ^Podo de co-lis~ao, per^^S^^Podo m^^Sedio de co-lis~ao en-tre part^^S^^Pculas,
@@ -3310,17 +3309,17 @@ Overfull \hbox (3.7142pt too wide) in paragraph at lines 52--54
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42]
+ [44]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43]
-<figuras/d3q19.pdf, id=168, 677.53125pt x 557.83406pt>
+ [45]
+<figuras/d3q19.pdf, id=174, 677.53125pt x 557.83406pt>
 File: figuras/d3q19.pdf Graphic file (type pdf)
  <use figuras/d3q19.pdf>
 Package pdftex.def Info: figuras/d3q19.pdf used on input line 175.
 (pdftex.def)             Requested size: 230.46733pt x 189.7547pt.
 
-[44] [45 <./figuras/d3q19.pdf>]
+[46] [47 <./figuras/d3q19.pdf>]
 
 LaTeX Font Warning: Command \tiny invalid in math mode on input line 206.
 
@@ -3393,17 +3392,17 @@ LaTeX Font Warning: Font shape `U/wasy/m/n' in size <0.5> not available
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46]
+ [48]
 (./figuras/bounceback_2.pdf_tex
-<figuras/bounceback_2.pdf, id=183, page=1, 1081.05896pt x 819.68501pt>
+<figuras/bounceback_2.pdf, id=191, page=1, 1081.05896pt x 819.68501pt>
 File: figuras/bounceback_2.pdf Graphic file (type pdf)
 
 <use figuras/bounceback_2.pdf, page 1>
 Package pdftex.def Info: figuras/bounceback_2.pdf, page1 used on input line 52.
 
 (pdftex.def)             Requested size: 200.0pt x 151.63934pt.
-) [47 <./figuras/bounceback_2.pdf>]
-<figuras/abc.pdf, id=191, 572.0184pt x 638.63539pt>
+) [49 <./figuras/bounceback_2.pdf>]
+<figuras/abc.pdf, id=197, 572.0184pt x 638.63539pt>
 File: figuras/abc.pdf Graphic file (type pdf)
  <use figuras/abc.pdf>
 Package pdftex.def Info: figuras/abc.pdf used on input line 297.
@@ -3411,14 +3410,14 @@ Package pdftex.def Info: figuras/abc.pdf used on input line 297.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [49 <./figuras/abc.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [50]
-<figuras/modelo_numerico_3.pdf, id=205, 1311.29903pt x 522.75299pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51 <./figuras/abc.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [52]
+<figuras/modelo_numerico_3.pdf, id=211, 1311.29903pt x 522.75299pt>
 File: figuras/modelo_numerico_3.pdf Graphic file (type pdf)
 
 <use figuras/modelo_numerico_3.pdf>
@@ -3427,19 +3426,19 @@ Package pdftex.def Info: figuras/modelo_numerico_3.pdf used on input line 350.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51 <./figuras/modelo_numerico_3.pdf>]
+ [53 <./figuras/modelo_numerico_3.pdf>]
 Overfull \hbox (4.69128pt too wide) in paragraph at lines 384--385
 []\OT1/cmr/m/n/10 No in-tuito de ava-liar a condi^^Xc~ao anec^^Soica nas fron-t
 ei-ras do dom^^S^^Pnio
  []
 
-[52]
+[54]
 Overfull \hbox (1.59238pt too wide) in paragraph at lines 415--416
 \OT1/cmr/m/n/10 m^^Sedia es-pa-cial $[]$ sal-vos em disco r^^S^^Pgido, um \OT1/
 cmr/m/it/10 script \OT1/cmr/m/n/10 de p^^Sos-processamento
  []
 
-[53] [54]) (./capitulos/resultados.tex [55] [56
+[55] [56]) (./capitulos/resultados.tex [57] [58
 
 ]
 Cap\'{\i }tulo 4.
@@ -3452,7 +3451,7 @@ em-po-rais de press~ao
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57]
+ [59]
 (./figuras/parte_real_impedancia_anecoica.tex
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/A_real.txt}
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/B_real.txt}
@@ -3473,12 +3472,12 @@ Overfull \hbox (2.44872pt too wide) in paragraph at lines 32--33
 [][] 
  []
 
-) [58] (./figuras/abs_r_anecoica.tex
+) [60] (./figuras/abs_r_anecoica.tex
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/A_abs.txt}
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/B_abs.txt}
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/C_abs.txt}
 PGFPlots: reading {dados/coeficiente_reflexao_anecoica/D_abs.txt}
-) [59] (./figuras/abs_r_sem_escoamento.tex
+) [61] (./figuras/abs_r_sem_escoamento.tex
 PGFPlots: reading {dados/duto_sem_escoamento/analytical_data_abs_r.txt}
 PGFPlots: reading {dados/duto_sem_escoamento/simulation_data_abs_r.txt}
 PGFPlots: reading {dados/duto_sem_escoamento/analise_convergencia_10_abs_r.txt}
@@ -3492,20 +3491,20 @@ PGFPlots: reading {dados/duto_sem_escoamento/simulation_data_loa.txt}
 PGFPlots: reading {dados/duto_sem_escoamento/analise_convergencia_10_la.txt}
 PGFPlots: reading {dados/duto_sem_escoamento/analise_convergencia_15_la.txt}
 PGFPlots: reading {dados/duto_sem_escoamento/analise_convergencia_5_la.txt}
-) [60] [61] (./figuras/abs_r_exaustao_007.tex
+) [62] [63] (./figuras/abs_r_exaustao_007.tex
 PGFPlots: reading {dados/duto_exaustao/abs_r_007_analytical.txt}
 PGFPlots: reading {dados/duto_exaustao/abs_r_007_simulation.txt}
 ) (./figuras/loa_exaustao_007.tex
 PGFPlots: reading {dados/duto_exaustao/loa_007_analytical.txt}
 PGFPlots: reading {dados/duto_exaustao/loa_007_simulation.txt}
-) [62] (./figuras/abs_r_exaustao_010.tex
+) [64] (./figuras/abs_r_exaustao_010.tex
 PGFPlots: reading {dados/duto_exaustao/abs_r_010_analytical.txt}
 PGFPlots: reading {dados/duto_exaustao/abs_r_010_simulation.txt}
 )
 (./figuras/loa_exaustao_010.tex
 PGFPlots: reading {dados/duto_exaustao/loa_010_analytical.txt}
 PGFPlots: reading {dados/duto_exaustao/loa_010_simulation.txt}
-) [63] (./figuras/abs_r_exaustao_015.tex
+) [65] (./figuras/abs_r_exaustao_015.tex
 PGFPlots: reading {dados/duto_exaustao/abs_r_015_analytical.txt}
 PGFPlots: reading {dados/duto_exaustao/abs_r_015_simulation.txt}
 )
@@ -3519,10 +3518,10 @@ PGFPlots: reading {dados/duto_exaustao/abs_r_020_simulation.txt}
 (./figuras/loa_exaustao_020.tex
 PGFPlots: reading {dados/duto_exaustao/loa_020_analytical.txt}
 PGFPlots: reading {dados/duto_exaustao/loa_020_simulation.txt}
-) [64]
+) [66]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [65]
+ [67]
 (./figuras/abs_r_exaustao_strouhal.tex
 PGFPlots: reading {dados/duto_exaustao/abs_r_007_simulation_strouhal.txt}
 PGFPlots: reading {dados/duto_exaustao/abs_r_010_simulation_strouhal.txt}
@@ -3531,7 +3530,7 @@ PGFPlots: reading {dados/duto_exaustao/abs_r_020_simulation_strouhal.txt}
 )
 (./figuras/abs_r_exaustao_strouhal_mach.tex
 PGFPlots: reading {dados/duto_exaustao/abs_r_strouhal_mach.txt}
-) [66] (./figuras/abs_r_sugado.tex
+) [68] (./figuras/abs_r_sugado.tex
 PGFPlots: reading {dados/duto_sugado/davis_simulation.txt}
 
 Overfull \hbox (4.94872pt too wide) in paragraph at lines 44--45
@@ -3546,13 +3545,13 @@ Overfull \hbox (4.94872pt too wide) in paragraph at lines 31--32
 [][] 
  []
 
-) [67] (./figuras/abs_r_sugado_kp.tex
+) [69] (./figuras/abs_r_sugado_kp.tex
 PGFPlots: reading {dados/duto_sugado/abs_049_kp.txt}
 PGFPlots: reading {dados/duto_sugado/abs_059_kp.txt}
 PGFPlots: reading {dados/duto_sugado/abs_071_kp.txt}
 PGFPlots: reading {dados/duto_sugado/abs_074_kp.txt}
 PGFPlots: reading {dados/duto_sugado/abs_075_kp.txt}
-) [68] (./figuras/loa_sugado_kp.tex
+) [70] (./figuras/loa_sugado_kp.tex
 PGFPlots: reading {dados/duto_sugado/loa_049_kp.txt}
 PGFPlots: reading {dados/duto_sugado/loa_059_kp.txt}
 PGFPlots: reading {dados/duto_sugado/loa_071_kp.txt}
@@ -3565,242 +3564,242 @@ PGFPlots: reading {dados/duto_sugado/abs_007_strouhal.txt}
 PGFPlots: reading {dados/duto_sugado/abs_010_strouhal.txt}
 PGFPlots: reading {dados/duto_sugado/abs_015_strouhal.txt}
 PGFPlots: reading {dados/duto_sugado/abs_020_strouhal.txt}
-) [69]
+) [71]
 (./figuras/energy_abs_r_sugado_strouhal.tex
 PGFPlots: reading {dados/duto_sugado/abs_005_strouhal_energy.txt}
 PGFPlots: reading {dados/duto_sugado/abs_007_strouhal_energy.txt}
 PGFPlots: reading {dados/duto_sugado/abs_010_strouhal_energy.txt}
 PGFPlots: reading {dados/duto_sugado/abs_015_strouhal_energy.txt}
 PGFPlots: reading {dados/duto_sugado/abs_020_strouhal_energy.txt}
-) [70]
+) [72]
+(./figuras/abs_r_sugado_strouhal_mach.tex
+PGFPlots: reading {dados/duto_sugado/abs_r_strouhal_mach.txt}
+)
 (./figuras/energia_turbulenta_grafico.tex
 PGFPlots: reading {dados/duto_sugado/intensidade_turbulenta_dados.txt}
-)
-Overfull \hbox (14.40529pt too wide) in paragraph at lines 347--348
-\OT1/cmr/m/n/10 longo da ca-mada li-mite lo-ca-li-zada a 5 c^^Selulas da pa-red
-e do duto, come^^Xcando
- []
-
-
-Overfull \hbox (1.46895pt too wide) in paragraph at lines 350--351
-[]\OT1/cmr/m/n/10 Usando o co-lor^^Sario de Howe ^^Se poss^^S^^Pvel cal-cu-lar 
-a pot^encia ac^^Sustica
- []
-
-[71] [72] <figuras/max_ka_007_1.png, id=287, 578.16pt x 433.62pt>
-File: figuras/max_ka_007_1.png Graphic file (type png)
-
-<use figuras/max_ka_007_1.png>
-Package pdftex.def Info: figuras/max_ka_007_1.png used on input line 379.
-(pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
-
-<figuras/max_ka_007_2.png, id=288, 578.16pt x 433.62pt>
-File: figuras/max_ka_007_2.png Graphic file (type png)
-
-<use figuras/max_ka_007_2.png>
-Package pdftex.def Info: figuras/max_ka_007_2.png used on input line 384.
-(pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
-
-<figuras/max_ka_007_3.png, id=289, 578.16pt x 433.62pt>
-File: figuras/max_ka_007_3.png Graphic file (type png)
-
-<use figuras/max_ka_007_3.png>
-Package pdftex.def Info: figuras/max_ka_007_3.png used on input line 389.
-(pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
-
-Overfull \hbox (13.55212pt too wide) in paragraph at lines 378--393
-[]$[]$ $[]$ $[]$ 
- []
-
-<figuras/max_ka_007_4.png, id=290, 578.16pt x 433.62pt>
-File: figuras/max_ka_007_4.png Graphic file (type png)
-
-<use figuras/max_ka_007_4.png>
-Package pdftex.def Info: figuras/max_ka_007_4.png used on input line 395.
-(pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
-
-<figuras/max_ka_007_5.png, id=291, 578.16pt x 433.62pt>
-File: figuras/max_ka_007_5.png Graphic file (type png)
-
-<use figuras/max_ka_007_5.png>
-Package pdftex.def Info: figuras/max_ka_007_5.png used on input line 400.
-(pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
-
-<figuras/max_ka_007_6.png, id=292, 578.16pt x 433.62pt>
-File: figuras/max_ka_007_6.png Graphic file (type png)
-
-<use figuras/max_ka_007_6.png>
-Package pdftex.def Info: figuras/max_ka_007_6.png used on input line 405.
-(pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
-
-Overfull \hbox (13.55212pt too wide) in paragraph at lines 394--409
-[]$[]$ $[]$ $[]$ 
- []
-
-
-LaTeX Warning: Float too large for page by 6.21477pt on input line 410.
-
-[73 <./figuras/max_ka_007_1.png (PNG copy)> <./figuras/max_ka_007_2.png (PNG co
-py)> <./figuras/max_ka_007_3.png (PNG copy)> <./figuras/max_ka_007_4.png (PNG c
-opy)> <./figuras/max_ka_007_5.png (PNG copy)> <./figuras/max_ka_007_6.png (PNG 
-copy)>] <figuras/min_ka_007_1.png, id=296, 578.16pt x 433.62pt>
-File: figuras/min_ka_007_1.png Graphic file (type png)
-
-<use figuras/min_ka_007_1.png>
-Package pdftex.def Info: figuras/min_ka_007_1.png used on input line 421.
-(pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
-
-<figuras/min_ka_007_2.png, id=297, 578.16pt x 433.62pt>
-File: figuras/min_ka_007_2.png Graphic file (type png)
-
-<use figuras/min_ka_007_2.png>
-Package pdftex.def Info: figuras/min_ka_007_2.png used on input line 426.
-(pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
-
-<figuras/min_ka_007_3.png, id=298, 578.16pt x 433.62pt>
-File: figuras/min_ka_007_3.png Graphic file (type png)
-
-<use figuras/min_ka_007_3.png>
-Package pdftex.def Info: figuras/min_ka_007_3.png used on input line 431.
-(pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
-
-Overfull \hbox (13.55212pt too wide) in paragraph at lines 420--435
-[]$[]$ $[]$ $[]$ 
- []
-
-<figuras/min_ka_007_4.png, id=299, 578.16pt x 433.62pt>
-File: figuras/min_ka_007_4.png Graphic file (type png)
-
-<use figuras/min_ka_007_4.png>
-Package pdftex.def Info: figuras/min_ka_007_4.png used on input line 437.
-(pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
-
-<figuras/min_ka_007_5.png, id=300, 578.16pt x 433.62pt>
-File: figuras/min_ka_007_5.png Graphic file (type png)
-
-<use figuras/min_ka_007_5.png>
-Package pdftex.def Info: figuras/min_ka_007_5.png used on input line 442.
-(pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
-
-<figuras/min_ka_007_6.png, id=301, 578.16pt x 433.62pt>
-File: figuras/min_ka_007_6.png Graphic file (type png)
-
-<use figuras/min_ka_007_6.png>
-Package pdftex.def Info: figuras/min_ka_007_6.png used on input line 447.
-(pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
-
-Overfull \hbox (13.55212pt too wide) in paragraph at lines 436--451
-[]$[]$ $[]$ $[]$ 
- []
-
-
-LaTeX Warning: Float too large for page by 6.21477pt on input line 452.
-
-[74 <./figuras/min_ka_007_1.png (PNG copy)> <./figuras/min_ka_007_2.png (PNG co
-py)> <./figuras/min_ka_007_3.png (PNG copy)> <./figuras/min_ka_007_4.png (PNG c
-opy)> <./figuras/min_ka_007_5.png (PNG copy)> <./figuras/min_ka_007_6.png (PNG 
-copy)>] <figuras/max_007_media.png, id=305, 578.16pt x 433.62pt>
+) [73]
+<figuras/max_007_media.png, id=290, 578.16pt x 433.62pt>
 File: figuras/max_007_media.png Graphic file (type png)
 
 <use figuras/max_007_media.png>
-Package pdftex.def Info: figuras/max_007_media.png used on input line 460.
-(pdftex.def)             Requested size: 261.19818pt x 195.89471pt.
+Package pdftex.def Info: figuras/max_007_media.png used on input line 377.
+(pdftex.def)             Requested size: 169.0103pt x 126.75229pt.
 
-<figuras/min_007_media.png, id=306, 578.16pt x 433.62pt>
+Overfull \hbox (15.36542pt too wide) in paragraph at lines 377--378
+ [][] 
+ []
+
+<figuras/min_007_media.png, id=291, 578.16pt x 433.62pt>
 File: figuras/min_007_media.png Graphic file (type png)
 
 <use figuras/min_007_media.png>
-Package pdftex.def Info: figuras/min_007_media.png used on input line 469.
-(pdftex.def)             Requested size: 261.19818pt x 195.89471pt.
- [75
+Package pdftex.def Info: figuras/min_007_media.png used on input line 383.
+(pdftex.def)             Requested size: 169.0103pt x 126.75229pt.
+
+Overfull \hbox (15.36542pt too wide) in paragraph at lines 383--384
+ [][] 
+ []
+
+[74] [75 <./figuras/max_007_media.png (PNG copy)> <./figuras/min_007_media.png 
+(PNG copy)>] <figuras/max_ka_007_1.png, id=301, 578.16pt x 433.62pt>
+File: figuras/max_ka_007_1.png Graphic file (type png)
+
+<use figuras/max_ka_007_1.png>
+Package pdftex.def Info: figuras/max_ka_007_1.png used on input line 401.
+(pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
+
+<figuras/max_ka_007_2.png, id=302, 578.16pt x 433.62pt>
+File: figuras/max_ka_007_2.png Graphic file (type png)
+
+<use figuras/max_ka_007_2.png>
+Package pdftex.def Info: figuras/max_ka_007_2.png used on input line 406.
+(pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
+
+<figuras/max_ka_007_3.png, id=303, 578.16pt x 433.62pt>
+File: figuras/max_ka_007_3.png Graphic file (type png)
+
+<use figuras/max_ka_007_3.png>
+Package pdftex.def Info: figuras/max_ka_007_3.png used on input line 411.
+(pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
+
+Overfull \hbox (13.55212pt too wide) in paragraph at lines 400--415
+[]$[]$ $[]$ $[]$ 
+ []
+
+<figuras/max_ka_007_4.png, id=304, 578.16pt x 433.62pt>
+File: figuras/max_ka_007_4.png Graphic file (type png)
+
+<use figuras/max_ka_007_4.png>
+Package pdftex.def Info: figuras/max_ka_007_4.png used on input line 417.
+(pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
+
+<figuras/max_ka_007_5.png, id=305, 578.16pt x 433.62pt>
+File: figuras/max_ka_007_5.png Graphic file (type png)
+
+<use figuras/max_ka_007_5.png>
+Package pdftex.def Info: figuras/max_ka_007_5.png used on input line 422.
+(pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
+
+<figuras/max_ka_007_6.png, id=306, 578.16pt x 433.62pt>
+File: figuras/max_ka_007_6.png Graphic file (type png)
+
+<use figuras/max_ka_007_6.png>
+Package pdftex.def Info: figuras/max_ka_007_6.png used on input line 427.
+(pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
+
+Overfull \hbox (13.55212pt too wide) in paragraph at lines 416--431
+[]$[]$ $[]$ $[]$ 
+ []
 
 
+LaTeX Warning: Float too large for page by 6.21477pt on input line 432.
+
+[76 <./figuras/max_ka_007_1.png (PNG copy)> <./figuras/max_ka_007_2.png (PNG co
+py)> <./figuras/max_ka_007_3.png (PNG copy)> <./figuras/max_ka_007_4.png (PNG c
+opy)> <./figuras/max_ka_007_5.png (PNG copy)> <./figuras/max_ka_007_6.png (PNG 
+copy)>] <figuras/min_ka_007_1.png, id=310, 578.16pt x 433.62pt>
+File: figuras/min_ka_007_1.png Graphic file (type png)
+
+<use figuras/min_ka_007_1.png>
+Package pdftex.def Info: figuras/min_ka_007_1.png used on input line 443.
+(pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
+
+<figuras/min_ka_007_2.png, id=311, 578.16pt x 433.62pt>
+File: figuras/min_ka_007_2.png Graphic file (type png)
+
+<use figuras/min_ka_007_2.png>
+Package pdftex.def Info: figuras/min_ka_007_2.png used on input line 448.
+(pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
+
+<figuras/min_ka_007_3.png, id=312, 578.16pt x 433.62pt>
+File: figuras/min_ka_007_3.png Graphic file (type png)
+
+<use figuras/min_ka_007_3.png>
+Package pdftex.def Info: figuras/min_ka_007_3.png used on input line 453.
+(pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
+
+Overfull \hbox (13.55212pt too wide) in paragraph at lines 442--457
+[]$[]$ $[]$ $[]$ 
+ []
+
+<figuras/min_ka_007_4.png, id=313, 578.16pt x 433.62pt>
+File: figuras/min_ka_007_4.png Graphic file (type png)
+
+<use figuras/min_ka_007_4.png>
+Package pdftex.def Info: figuras/min_ka_007_4.png used on input line 459.
+(pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
+
+<figuras/min_ka_007_5.png, id=314, 578.16pt x 433.62pt>
+File: figuras/min_ka_007_5.png Graphic file (type png)
+
+<use figuras/min_ka_007_5.png>
+Package pdftex.def Info: figuras/min_ka_007_5.png used on input line 464.
+(pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
+
+<figuras/min_ka_007_6.png, id=315, 578.16pt x 433.62pt>
+File: figuras/min_ka_007_6.png Graphic file (type png)
+
+<use figuras/min_ka_007_6.png>
+Package pdftex.def Info: figuras/min_ka_007_6.png used on input line 469.
+(pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
+
+Overfull \hbox (13.55212pt too wide) in paragraph at lines 458--473
+[]$[]$ $[]$ $[]$ 
+ []
 
 
+LaTeX Warning: Float too large for page by 6.21477pt on input line 474.
 
-
- <./figuras/max_007_media.png (PNG copy)> <./figuras/min_007_media.png (PNG cop
-y)>]
-(./figuras/abs_r_sugado_strouhal_mach.tex
-PGFPlots: reading {dados/duto_sugado/abs_r_strouhal_mach.txt}
-) [76
-
-]
-<figuras/max_01_media.png, id=313, 578.16pt x 433.62pt>
+[77 <./figuras/min_ka_007_1.png (PNG copy)> <./figuras/min_ka_007_2.png (PNG co
+py)> <./figuras/min_ka_007_3.png (PNG copy)> <./figuras/min_ka_007_4.png (PNG c
+opy)> <./figuras/min_ka_007_5.png (PNG copy)> <./figuras/min_ka_007_6.png (PNG 
+copy)>] <figuras/max_01_media.png, id=320, 578.16pt x 433.62pt>
 File: figuras/max_01_media.png Graphic file (type png)
 
 <use figuras/max_01_media.png>
-Package pdftex.def Info: figuras/max_01_media.png used on input line 506.
-(pdftex.def)             Requested size: 184.37338pt x 138.27823pt.
+Package pdftex.def Info: figuras/max_01_media.png used on input line 498.
+(pdftex.def)             Requested size: 169.0103pt x 126.75229pt.
 
-Overfull \hbox (30.7285pt too wide) in paragraph at lines 506--507
+Overfull \hbox (15.36542pt too wide) in paragraph at lines 498--499
  [][] 
  []
 
 File: figuras/max_007_media.png Graphic file (type png)
 <use figuras/max_007_media.png>
-Package pdftex.def Info: figuras/max_007_media.png used on input line 512.
-(pdftex.def)             Requested size: 184.37338pt x 138.27823pt.
+Package pdftex.def Info: figuras/max_007_media.png used on input line 504.
+(pdftex.def)             Requested size: 169.0103pt x 126.75229pt.
 
-Overfull \hbox (30.7285pt too wide) in paragraph at lines 512--513
+Overfull \hbox (15.36542pt too wide) in paragraph at lines 504--505
  [][] 
  []
 
-[77 <./figuras/max_01_media.png (PNG copy)>]
-<figuras/max_ka_01_1.png, id=320, 578.16pt x 433.62pt>
+[78
+
+
+
+
+
+
+ <./figuras/max_01_media.png (PNG copy)>]
+Overfull \hbox (4.5246pt too wide) in paragraph at lines 515--516
+[]\OT1/cmr/m/n/10 Pode-se tamb^^Sem, com o uso da Equa^^Xc~ao (3.34[]), cal-cu-
+lar a pot^encia
+ []
+
+[79] <figuras/max_ka_01_1.png, id=327, 578.16pt x 433.62pt>
 File: figuras/max_ka_01_1.png Graphic file (type png)
 
 <use figuras/max_ka_01_1.png>
-Package pdftex.def Info: figuras/max_ka_01_1.png used on input line 528.
+Package pdftex.def Info: figuras/max_ka_01_1.png used on input line 524.
 (pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
 
-<figuras/max_ka_01_2.png, id=321, 578.16pt x 433.62pt>
+<figuras/max_ka_01_2.png, id=328, 578.16pt x 433.62pt>
 File: figuras/max_ka_01_2.png Graphic file (type png)
 
 <use figuras/max_ka_01_2.png>
-Package pdftex.def Info: figuras/max_ka_01_2.png used on input line 533.
+Package pdftex.def Info: figuras/max_ka_01_2.png used on input line 529.
 (pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
 
-<figuras/max_ka_01_3.png, id=322, 578.16pt x 433.62pt>
+<figuras/max_ka_01_3.png, id=329, 578.16pt x 433.62pt>
 File: figuras/max_ka_01_3.png Graphic file (type png)
 
 <use figuras/max_ka_01_3.png>
-Package pdftex.def Info: figuras/max_ka_01_3.png used on input line 538.
+Package pdftex.def Info: figuras/max_ka_01_3.png used on input line 534.
 (pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
 
-Overfull \hbox (13.55212pt too wide) in paragraph at lines 527--542
+Overfull \hbox (13.55212pt too wide) in paragraph at lines 523--538
 []$[]$ $[]$ $[]$ 
  []
 
-<figuras/max_ka_01_4.png, id=323, 578.16pt x 433.62pt>
+<figuras/max_ka_01_4.png, id=330, 578.16pt x 433.62pt>
 File: figuras/max_ka_01_4.png Graphic file (type png)
 
 <use figuras/max_ka_01_4.png>
-Package pdftex.def Info: figuras/max_ka_01_4.png used on input line 544.
+Package pdftex.def Info: figuras/max_ka_01_4.png used on input line 540.
 (pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
 
-<figuras/max_ka_01_5.png, id=324, 578.16pt x 433.62pt>
+<figuras/max_ka_01_5.png, id=331, 578.16pt x 433.62pt>
 File: figuras/max_ka_01_5.png Graphic file (type png)
 
 <use figuras/max_ka_01_5.png>
-Package pdftex.def Info: figuras/max_ka_01_5.png used on input line 549.
+Package pdftex.def Info: figuras/max_ka_01_5.png used on input line 545.
 (pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
 
-<figuras/max_ka_01_6.png, id=325, 578.16pt x 433.62pt>
+<figuras/max_ka_01_6.png, id=332, 578.16pt x 433.62pt>
 File: figuras/max_ka_01_6.png Graphic file (type png)
 
 <use figuras/max_ka_01_6.png>
-Package pdftex.def Info: figuras/max_ka_01_6.png used on input line 554.
+Package pdftex.def Info: figuras/max_ka_01_6.png used on input line 550.
 (pdftex.def)             Requested size: 169.01031pt x 126.75229pt.
 
-Overfull \hbox (13.55212pt too wide) in paragraph at lines 543--558
+Overfull \hbox (13.55212pt too wide) in paragraph at lines 539--554
 []$[]$ $[]$ $[]$ 
  []
 
 
-LaTeX Warning: Float too large for page by 6.21477pt on input line 559.
+LaTeX Warning: Float too large for page by 6.21477pt on input line 555.
 
-[78 <./figuras/max_ka_01_1.png (PNG copy)> <./figuras/max_ka_01_2.png (PNG copy
+[80 <./figuras/max_ka_01_1.png (PNG copy)> <./figuras/max_ka_01_2.png (PNG copy
 )> <./figuras/max_ka_01_3.png (PNG copy)> <./figuras/max_ka_01_4.png (PNG copy)
 > <./figuras/max_ka_01_5.png (PNG copy)> <./figuras/max_ka_01_6.png (PNG copy)>
 ]) (./capitulos/conclusoes.tex
@@ -3811,32 +3810,35 @@ Overfull \hbox (4.44136pt too wide) in paragraph at lines 9--10
 nto ac^^Sustico
  []
 
-)
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [79
+ [81
 
 
 
 
 ]
-(./exemplo.bbl [80] [81
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [82] [83] [84] [85]) (./capitulos/apendices.tex
-[86] [87
+ [82])
+(./exemplo.bbl [83] [84
 
-] [88
+] [85] [86] [87] [88] [89]) (./capitulos/apendices.tex
+[90] [91
+
+] [92
 
 ]
 Apendice A.
-<figuras/palabos_modelo_fluxo.pdf, id=361, 380.45247pt x 488.79149pt>
+<figuras/palabos_modelo_fluxo.pdf, id=375, 380.45247pt x 488.79149pt>
 File: figuras/palabos_modelo_fluxo.pdf Graphic file (type pdf)
 
 <use figuras/palabos_modelo_fluxo.pdf>
 Package pdftex.def Info: figuras/palabos_modelo_fluxo.pdf used on input line 16
 .
 (pdftex.def)             Requested size: 245.83275pt x 315.84612pt.
- [89]
+ [93]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
@@ -3845,7 +3847,7 @@ File: lstlang2.sty 2015/06/04 1.6 listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-) [90 <./figuras/palabos_modelo_fluxo.pdf>]
+) [94 <./figuras/palabos_modelo_fluxo.pdf>]
 LaTeX Font Info:    Try loading font information for OML+cmr on input line 44.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
@@ -3862,17 +3864,17 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
 *********************************************************************
-[91] (./exemplo.aux)
+[95] (./exemplo.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 4.5pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 44515 strings out of 493029
- 994278 string characters out of 6136234
- 1256274 words of memory out of 5000000
- 47006 multiletter control sequences out of 15000+600000
+ 44530 strings out of 493029
+ 994659 string characters out of 6136234
+ 1256463 words of memory out of 5000000
+ 47021 multiletter control sequences out of 15000+600000
  34939 words of font info for 120 fonts, out of 8000000 for 9000
  1149 hyphenation exceptions out of 8191
  62i,13n,83p,10401b,2100s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3904,10 +3906,10 @@ ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/public
 /cm-super/sfrm1000.pfb>
-Output written on exemplo.pdf (93 pages, 1217376 bytes).
+Output written on exemplo.pdf (97 pages, 1226095 bytes).
 PDF statistics:
- 471 PDF objects out of 1000 (max. 8388607)
- 315 compressed objects within 4 object streams
+ 486 PDF objects out of 1000 (max. 8388607)
+ 326 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  136 words of extra memory for PDF output out of 10000 (max. 10000000)
 

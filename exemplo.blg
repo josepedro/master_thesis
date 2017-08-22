@@ -13,13 +13,13 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: abnt-options.bib
 Database file #2: bibliografia.bib
 Warning--entry type for "matlab" isn't style-file defined
---line 58 of file bibliografia.bib
+--line 80 of file bibliografia.bib
 Warning--entry type for "octave" isn't style-file defined
---line 65 of file bibliografia.bib
+--line 87 of file bibliografia.bib
 Warning--entry type for "palabos_acoustic" isn't style-file defined
---line 72 of file bibliografia.bib
+--line 94 of file bibliografia.bib
 Warning--entry type for "paraview" isn't style-file defined
---line 79 of file bibliografia.bib
+--line 101 of file bibliografia.bib
 Warning--I didn't find a database entry for "abnt-year-extra-label=yes"
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -32,45 +32,45 @@ Warning--faltando school em viggen2014lattice
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 56 entries,
+You've used 58 entries,
             6480 wiz_defined-function locations,
-            1474 strings with 17675 characters,
-and the built_in function-call counts, 45287 in all, are:
-= -- 3303
-> -- 1630
-< -- 151
-+ -- 654
-- -- 481
-* -- 3354
-:= -- 5911
-add.period$ -- 172
-call.type$ -- 58
-change.case$ -- 573
-chr.to.int$ -- 181
-cite$ -- 53
-duplicate$ -- 2301
-empty$ -- 3263
-format.name$ -- 2359
-if$ -- 10734
+            1488 strings with 17942 characters,
+and the built_in function-call counts, 46777 in all, are:
+= -- 3409
+> -- 1662
+< -- 159
++ -- 664
+- -- 491
+* -- 3458
+:= -- 6107
+add.period$ -- 178
+call.type$ -- 60
+change.case$ -- 587
+chr.to.int$ -- 189
+cite$ -- 55
+duplicate$ -- 2391
+empty$ -- 3385
+format.name$ -- 2405
+if$ -- 11082
 int.to.chr$ -- 4
 int.to.str$ -- 3
-missing$ -- 972
-newline$ -- 272
-num.names$ -- 260
-pop$ -- 1136
+missing$ -- 1006
+newline$ -- 282
+num.names$ -- 270
+pop$ -- 1168
 preamble$ -- 1
-purify$ -- 221
+purify$ -- 227
 quote$ -- 0
-skip$ -- 2599
+skip$ -- 2681
 stack$ -- 1
-substring$ -- 1967
-swap$ -- 1260
-text.length$ -- 109
+substring$ -- 2067
+swap$ -- 1312
+text.length$ -- 115
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 8
 warning$ -- 1
-while$ -- 406
+while$ -- 424
 width$ -- 0
-write$ -- 889
+write$ -- 925
 (There were 6 warnings)

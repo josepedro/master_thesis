@@ -1,7 +1,7 @@
 \chapter{Resultados}
 
 Em vista da teoria vigente na literatura e pelo que foi exposto no ponto de vista metodológico, 
-obteve-se resultados e a análises nos contextos de condição anecóica, duto sem escoamento, 
+obtiveram-se resultados e a análises nos contextos de condição anecóica, duto sem escoamento, 
 duto com escoamento de exaustão e duto com escoamento sugado.
 
 Para todos os resultados foi utilizada uma fonte acústica de 
@@ -144,13 +144,12 @@ Em vista do que foi exposto, a camada de absorção acústica localizada nas fro
  possui um comportamento anecóico considerável. Mesmo no ponto \textbf{B} possuir divergências, 
  essa camada possui um comportamento aproximadamente anecóico em todo o restante dos pontos.
  Vale ressaltar também que, segundo o estudo de \citeonline{allam2006investigation}, 
- mesmo com paredes totalmente rígidas e refletoras, a acústica interna do duto possui 
- um comportamento estável quando a terminação está a uma distância de aproximadamente $79,5a$ da parede, sendo $a$ o raio do duto.  
+ mesmo com paredes totalmente rígidas e refletoras, a acústica interna não é influenciada pelas reflexões do ambiente quando a terminação está a uma distância maior ou igual a de aproximadamente $79,5a$ da parede, sendo $a$ o raio do duto.  
 
 \newpage
 \section{Duto sem Escoamento}
 
-A primeira etapa de validação do modelo numérico abordado nesse trabalho consiste num duto sem escoamento e com fonte acústica variando nos valores de $0 \leq ka \leq 1,8$. Nessa etapa são calculados os coeficientes de reflexão e correção da terminação (ponto \textbf{P}) e comparados com os resultados de \citeonline{levine1948radiation}. Porém, considerando que para cada razão elemento por comprimento de onda terá um custo computacional e acurácia nos resultados, é preciso realizar uma análise de convergência para mensurar qual discretização é mais adequada. Portanto foram avaliadas quatro tipos de discretização para representar o raio do duto: 20, 15, 10 e 5 células. Não foi possível realizar com raio maior que 20 devido a limitação de memória. A Figura \ref{fig:resultados_sem_escoamento} apresenta os resultados com as discretizações citadas.
+A primeira etapa de validação do modelo numérico abordado nesse trabalho consiste num duto sem escoamento e com fonte acústica variando nos valores de $0 \leq ka \leq 1,8$. Nessa etapa são calculados os coeficientes de reflexão e correção da terminação (ponto \textbf{P}) e comparados com os resultados de \citeonline{levine1948radiation}. Porém, considerando que para cada razão de elemento por comprimento de onda terá um custo computacional e acurácia nos resultados, é preciso realizar uma análise de convergência para mensurar qual discretização é mais adequada. Portanto foram avaliadas quatro tipos de discretização para representar o raio do duto: 20, 15, 10 e 5 células. Não foi possível realizar com raio maior que 20 devido a limitação de memória. A Figura \ref{fig:resultados_sem_escoamento} apresenta os resultados com as discretizações citadas.
 
 \begin{figure}[h!]
 \begin{subfigure}{\scaleA \textwidth}
@@ -159,7 +158,7 @@ A primeira etapa de validação do modelo numérico abordado nesse trabalho cons
 \begin{subfigure}{\scaleA \textwidth}
   \input{figuras/loa_sem_escoamento.tex}
 \end{subfigure}
-\caption[Resultados de $|R_{r}|$ e $l/a$ sem escoamento]{Resultados de $|R_{r}|$ (\ref{fig:abs_r_sem_escoamento}) e $l/a$ (\ref{fig:loa_sem_escoamento}) para duto sem escoamento. As linhas contínuas representam os resultados do estudo de \citeonline{levine1948radiation} e os pontos $\bigcirc$, $\bigtriangleup$, $\square$ e $\times$ apresentam os resultados para 20, 15, 10 e 5 elementos de discretização para representar o raio do duto respectivamente.}
+\caption[Resultados de $|R_{r}|$ e $l/a$ sem escoamento]{Resultados de $|R_{r}|$ (\ref{fig:abs_r_sem_escoamento}) e $l/a$ (\ref{fig:loa_sem_escoamento}) para duto sem escoamento. As linhas contínuas representam os resultados do modelo analítico exato de \citeonline{levine1948radiation} e os pontos $\bigcirc$, $\bigtriangleup$, $\square$ e $\times$ apresentam os resultados para 20, 15, 10 e 5 elementos de discretização para representar o raio do duto respectivamente.}
 \label{fig:resultados_sem_escoamento}
 \end{figure}
 
@@ -228,9 +227,8 @@ Visto que o modelo numérico abordado está validado num contexto sem escoamento
 \label{fig:resultados_exaustao_007}
 \end{figure}
 
-A Figura \ref{fig:resultados_exaustao_007} apresenta os resultados da magnitude do coeficiente de reflexão $|R_{r}|$ (\ref{fig:abs_r_exaustao_007}) e do coeficiente de correção da terminação $l/a$ (\ref{fig:loa_exaustao_007}), calculados no ponto $\textbf{P}$ na terminação do duto com escoamento de exaustão: número de Mach $M =$ 0,07 e número de Reynolds $Re =$ 1930,23.  As correlações entre os resultados foram de 99,83 \% para o coeficiente de reflexão $|R_{r}|$ (\ref{fig:abs_r_exaustao_007}) e 87,76 \% para o coeficiente de correção da terminação $l/a$ (\ref{fig:loa_exaustao_007}). Apesar da Figura \ref{fig:loa_exaustao_007} apresentar boa correlação com os resultados analíticos exatos do estudo de \citeonline{munt1990acoustic}, há uma divergência para baixas frequências que pode ser explicada pelo fato da parede do duto ser de duas células, o contrario da parede com espessura nula do modelo.
+A Figura \ref{fig:resultados_exaustao_007} apresenta os resultados da magnitude do coeficiente de reflexão $|R_{r}|$ (\ref{fig:abs_r_exaustao_007}) e do coeficiente de correção da terminação $l/a$ (\ref{fig:loa_exaustao_007}), calculados no ponto $\textbf{P}$ na terminação do duto com escoamento de exaustão: número de Mach $M =$ 0,07 e número de Reynolds $Re =$ 1930,23.  As correlações entre os resultados foram de 99,83 \% para o coeficiente de reflexão $|R_{r}|$ (\ref{fig:abs_r_exaustao_007}) e 87,76 \% para o coeficiente de correção da terminação $l/a$ (\ref{fig:loa_exaustao_007}). Apesar da Figura \ref{fig:loa_exaustao_007} apresentar boa correlação com os resultados analíticos exatos do estudo de \citeonline{munt1990acoustic}, há uma divergência para baixas frequências que pode ser explicada pelo fato da parede do duto ter a espessura de 10\% do raio do duto, o contrário da parede com espessura nula do modelo. Tal fato é abordado nos trabalhos de \citeonline{ando1969sound}, \citeonline{peters1993} e \citeonline{english2010}, que apresentam mudanças significativas de $l/a$ tendo em vista espessuras maiores do que o modelo de \citeonline{munt1990acoustic}.
 
-\newpage
 A Figura \ref{fig:resultados_exaustao_010} apresenta os resultados da magnitude do coeficiente de reflexão $|R_{r}|$ (\ref{fig:abs_r_exaustao_010}) e do coeficiente de correção da terminação $l/a$ (\ref{fig:loa_exaustao_010}), calculados no ponto $\textbf{P}$ na terminação do duto com escoamento de exaustão: número de Mach $M =$ 0,10 e número de Reynolds $Re =$ 2757,42.  As correlações entre os resultados foram de 99,85 \% para o coeficiente de reflexão $|R_{r}|$ (\ref{fig:abs_r_exaustao_010}) e 95,02 \% para o coeficiente de correção da terminação $l/a$ (\ref{fig:loa_exaustao_010}). Apesar da Figura \ref{fig:loa_exaustao_010} apresentar boa correlação com os resultados analíticos exatos do estudo de \citeonline{munt1990acoustic}, há uma divergência nas baixas frequências ocasinada pela mesma razão já comentada na Figura \ref{fig:resultados_exaustao_007}. Pode-se ressaltar ainda que o pico da Figura \ref{fig:abs_r_exaustao_010} é maior que o da Figura \ref{fig:abs_r_exaustao_007} e se localiza numa região de mais alta frequência.
 
 \begin{figure}[ht!]
@@ -244,7 +242,7 @@ A Figura \ref{fig:resultados_exaustao_010} apresenta os resultados da magnitude 
 \label{fig:resultados_exaustao_010}
 \end{figure}
 
-A Figura \ref{fig:resultados_exaustao_015} apresenta os resultados de $|R_{r}|$ (\ref{fig:abs_r_exaustao_015}) e  $l/a$ (\ref{fig:loa_exaustao_015}) nas mesmas condições das Figuras \ref{fig:resultados_exaustao_007} e \ref{fig:resultados_exaustao_010}, porém para o número de Mach $M =$ 0,15 e número de Reynolds $Re =$ 2057,71.  As correlações entre os resultados foram de 99,80 \% para o coeficiente de reflexão $|R_{r}|$ (\ref{fig:abs_r_exaustao_015}) e 94,28 \% para o coeficiente de correção da terminação $l/a$ (\ref{fig:loa_exaustao_015}). A Figura \ref{fig:loa_exaustao_015} apresenta as mesmas divergências ocorridas nas Figuras \ref{fig:loa_exaustao_007} e \ref{fig:loa_exaustao_010}, eclodidas pelas mesmas razões. Vale ressaltar que apesar do número de Mach dos resultados da Figura \ref{fig:resultados_exaustao_015} ser maior que dos resultados da Figura \ref{fig:resultados_exaustao_010}, o número de Reynolds é menor, ou seja, com objetivo de verificar a influência do número de Reynolds a viscosidade do fluido foi alterada, inserindo a frequência de colisão como 1,98. Nesse sentido, subtende-se que os coeficientes de reflexão e de correção da terminação são insensíveis ao número de Reynolds. Tal fato é ratificado pelo fato das correlações serem congruentes entre si: 99,85 \% e 99,80 \% para $|R_{r}|$ e 95,02 \% e 94,28 \% para $l/a$.
+A Figura \ref{fig:resultados_exaustao_015} apresenta os resultados de $|R_{r}|$ (\ref{fig:abs_r_exaustao_015}) e  $l/a$ (\ref{fig:loa_exaustao_015}) nas mesmas condições das Figuras \ref{fig:resultados_exaustao_007} e \ref{fig:resultados_exaustao_010}, porém para o número de Mach $M =$ 0,15 e número de Reynolds $Re =$ 2057,71.  As correlações entre os resultados foram de 99,80 \% para o coeficiente de reflexão $|R_{r}|$ (\ref{fig:abs_r_exaustao_015}) e 94,28 \% para o coeficiente de correção da terminação $l/a$ (\ref{fig:loa_exaustao_015}). A Figura \ref{fig:loa_exaustao_015} apresenta as mesmas divergências ocorridas nas Figuras \ref{fig:loa_exaustao_007} e \ref{fig:loa_exaustao_010}, eclodidas pelas mesmas razões. Vale ressaltar que apesar do número de Mach dos resultados da Figura \ref{fig:resultados_exaustao_015} serem maiores do que dos resultados da Figura \ref{fig:resultados_exaustao_010}, o número de Reynolds é menor, ou seja, com objetivo de verificar a influência do número de Reynolds a viscosidade do fluido foi alterada, inserindo a frequência de colisão como 1,98. Nesse sentido, subtende-se que os coeficientes de reflexão e de correção da terminação são insensíveis ao número de Reynolds. Tal fato é ratificado pelo fato das correlações serem congruentes entre si: 99,85 \% e 99,80 \% para $|R_{r}|$ e 95,02 \% e 94,28 \% para $l/a$.
 
 \begin{figure}[ht!]
 \begin{subfigure}{\scaleA \textwidth}
@@ -273,7 +271,7 @@ A Figura \ref{fig:resultados_exaustao_020} apresenta os resultados de $|R_{r}|$ 
 \end{figure}
 
 \newpage
-Observa-se dos resultados das Figuras \ref{fig:resultados_exaustao_007}, \ref{fig:resultados_exaustao_010}, \ref{fig:resultados_exaustao_015} e \ref{fig:resultados_exaustao_020} que $|R_{r}|$ possui um valor de pico que excede o valor unitário. Esse fenômeno ocorre, sobretudo, pela interação do escoamento com a borda do duto, a qual transforma energia cinética rotacional em energia acústica, assim como é discutido pela literatura vigente. Além disso percebe-se também que $l/a$ para baixas frequências começa num valor menor que $0,6$ e vai aumentando quando se aumenta a frequência, ou seja, a onda acústica é refletida em uma região mais próxima da abertura em relação ao caso sem escoamento. Isso acontece porque o efeito de inércia provocado pela massa de fluido na saída do duto é diminuída pela presença de escoamento assim como mostra a literatura vigente.
+Observa-se dos resultados das Figuras \ref{fig:resultados_exaustao_007}, \ref{fig:resultados_exaustao_010}, \ref{fig:resultados_exaustao_015} e \ref{fig:resultados_exaustao_020} que $|R_{r}|$ possui um valor de pico que excede o valor unitário. Esse fenômeno ocorre, sobretudo, pela interação do escoamento com a borda do duto, a qual transforma energia cinética rotacional em energia acústica, assim como é discutido pela literatura vigente. Além disso percebe-se também que $l/a$ para baixas frequências começa num valor menor que $0,6$ e aumenta com a frequência, ou seja, a onda acústica é refletida em uma região mais próxima da abertura em relação ao caso sem escoamento. Isso acontece porque o efeito de inércia provocado pela massa de fluido na saída do duto é diminuída pela presença de escoamento assim como mostra a literatura vigente.
 
 O aumento do coeficiente de reflexão para valores maiores que a unidade está associado a um acoplamento entre a frequência de desprendimento de vórtices e a frequência do campo acústico. Tal fato é confirmado pela Figura \ref{fig:abs_r_exaustao_strouhal} que apresenta os resultados de magnitudes do coeficiente de reflexão $|R_{r}|$, calculados no ponto $\textbf{P}$ na terminação do duto com vários escoamentos de exaustão, em relação ao número de Strouhal $St = \frac{2af}{U}$, sendo $a$ o raio do duto, $f$ a frequência da fonte e $U$ a velocidade do escoamento. Em outras palavras, quando o número de Strouhal ($St$) atinge o valor de $\frac{\pi}{2}$, o tempo necessário para o vórtice desprendido na saída do duto propagar a distância de um diâmetro é igual ao período do campo acústico no interior do duto, causando assim o ponto máximo do coeficiente de reflexão.
 
@@ -301,11 +299,11 @@ Visto que o modelo numérico abordado está validado e analisado num contexto se
 \begin{subfigure}{\scaleA \textwidth}
   \input{figuras/loa_sugado.tex}
 \end{subfigure}
-\caption[Resultados de $|R_{r}|$ e $l/a$ em relação ao número de Mach para baixas frequências com escoamento sugado]{Resultados de $|R_{r}|$ (\ref{fig:abs_r_sugado}) e $l/a$ (\ref{fig:loa_sugado}) em relação ao Mach para $ka < 0,25$ com escoamento sugado. As linhas contínuas representam os resultados de \citeonline{davies1987}, as linhas tracejadas representam os resutados de \citeonline{ingard1975} e os pontos circulares representam os resultados para $ka = 0,1079$ calculados pelo modelo numérico.}
+\caption[Resultados de $|R_{r}|$ e $l/a$ em relação ao número de Mach para baixas frequências com escoamento sugado]{Resultados de $|R_{r}|$ (\ref{fig:abs_r_sugado}) e $l/a$ (\ref{fig:loa_sugado}) em relação ao Mach para $ka < 0,25$ com escoamento sugado. As linhas contínuas representam os resultados da Equação \ref{eq:R_r_ingard} para o trabalho de \citeonline{davies1987}, as linhas tracejadas representam os resultados dessa mesma equação porém com os parâmetros do trabalho de \citeonline{ingard1975} e os pontos circulares representam os resultados para $ka = 0,1079$ calculados pelo modelo numérico.}
 \label{fig:resultados_sugado}
 \end{figure}
 
-A Figura \ref{fig:resultados_sugado} apresenta os resultados da magnitude do coeficiente de reflexão $|R_{r}|$ (\ref{fig:abs_r_sugado}) e do coeficiente de correção da terminação $l/a$ (\ref{fig:loa_sugado}) em relação ao número de Mach com escoamento sugado. O resultado analítico funciona para frequências com $ka < 0,25$ e o resultado numérico foi calculado para $ka = 0,1079$. Os resultados numéricos foram calculados no ponto $\textbf{P}$ na terminação do duto com escoamento sugado com números de Reynolds $Re \leq$ 5514,82. As correlações entre os resultados foram de 98,35 \% e 95,45 \% para o coeficiente de reflexão $|R_{r}|$ (\ref{fig:abs_r_sugado}) nos resultados de \citeonline{davies1987} e \citeonline{ingard1975} respectivamente e 62,53 \% para o coeficiente de correção da terminação $l/a$ (\ref{fig:loa_sugado}). No que diz respeito a Figura \ref{fig:abs_r_sugado}, observa-se uma correlação maior com os resultados de \citeonline{davies1987} e tal fato pode ser explicado devido a esse estudo abordar dutos com seção transversal circular em vez de retangular, como aborda o estudo de \citeonline{ingard1975}. Já na Figura \ref{fig:loa_sugado} os resultados divergem consideravelmente. Isso pode ser explicado pelo fato do duto uma espessura de parede finita de duas células (cerca de 10\% do raio do duto), causando bastante influência no coeficiente de correção da terminação assim como é discutido no estudo de \citeonline{peters1993}. Vale ressaltar que o resultado da literatura é obtido de forma indireta a partir de duas expressões dadas pelo estudo de \citeonline{howe1981role}, em outras palavras, há dúvidas sobre a acurácia e validade pois o autor não apresenta uma validação do comportamento de $l/a$ para esse contexto.
+A Figura \ref{fig:resultados_sugado} apresenta os resultados da magnitude do coeficiente de reflexão $|R_{r}|$ (\ref{fig:abs_r_sugado}) e do coeficiente de correção da terminação $l/a$ (\ref{fig:loa_sugado}) em relação ao número de Mach com escoamento sugado. O resultado analítico funciona para frequências com $ka < 0,25$ e o resultado numérico foi calculado para $ka = 0,1079$. Os resultados numéricos foram calculados no ponto $\textbf{P}$ na terminação do duto com escoamento sugado com números de Reynolds $Re \leq$ 5514,82. As correlações entre os resultados foram de 98,35 \% e 95,45 \% para o coeficiente de reflexão $|R_{r}|$ (\ref{fig:abs_r_sugado}) nos resultados de \citeonline{davies1987} e \citeonline{ingard1975} respectivamente e 62,53 \% para o coeficiente de correção da terminação $l/a$ (\ref{fig:loa_sugado}). No que diz respeito a Figura \ref{fig:abs_r_sugado}, observa-se uma correlação maior com os resultados de \citeonline{davies1987} e tal fato pode ser explicado devido a esse estudo abordar dutos com seção transversal circular em vez de retangular, como aborda o estudo de \citeonline{ingard1975}. Já na Figura \ref{fig:loa_sugado} os resultados divergem consideravelmente. Isso pode ser explicado devido ao resultado da literatura ser obtido de forma indireta a partir de duas expressões dadas pelo estudo de \citeonline{howe1981role}. Em outras palavras, há dúvidas sobre a acurácia e validade pois o autor não apresenta uma validação do comportamento de $l/a$ para esse contexto.
 
 \begin{figure}[ht!]
   \centering
@@ -314,7 +312,7 @@ A Figura \ref{fig:resultados_sugado} apresenta os resultados da magnitude do coe
 
 A Figura \ref{fig:abs_r_sugado_kp} apresenta resultados de magnitudes do coeficiente de reflexão $|R_{r}|$ calculados no ponto $\textbf{P}$ na terminação do duto com vários escoamentos sugados. Pode-se perceber que há uma amplificação com $|R_{r}| > 1$ para faixa de frequência $ka < 0,7$, esse fenômeno ocorre devido a interação dos vórtices na terminação do duto com o campo acústico.
 
-A Figura \ref{fig:loa_sugado_kp} apresenta resultados do coeficiente de correção da terminação $l/a$ calculados no ponto $\textbf{P}$ na terminação do duto para diferentes números de Mach com escoamento sugado. É possível perceber que $l/a$ possui comportamento coincidente para diferentes números de Mach. Somente a curva de $M = 0,2$ para $ka < 0,2$ divergiu devido a um erro numérico ocasionado pelo limite de estabilidade que o modelo começa a ter quando o número de Mach $M = 0,2$, para $M > 0,2$ o modelo é completamente instável. Tal fato corrobora com o estudo de \citeonline{davies1987} que argumenta que $l/a$ é insensível a variação do número de Mach.  
+A Figura \ref{fig:loa_sugado_kp} apresenta resultados do coeficiente de correção da terminação $l/a$ calculados no ponto $\textbf{P}$ na terminação do duto para diferentes números de Mach com escoamento sugado. É possível perceber que $l/a$ possui comportamento coincidente para diferentes números de Mach. Somente a curva de $M = 0,2$ para $ka < 0,2$ observa-se uma divergência devido a um erro numérico ocasionado pelo limite de estabilidade que o modelo começa a ter quando o número de Mach $M = 0,2$, para $M > 0,2$ o modelo tornar-se completamente instável. Tal fato corrobora com o estudo de \citeonline{davies1987} que argumenta que $l/a$ é insensível a variação do número de Mach.  
 
 \begin{figure}[ht!]
   \centering
@@ -328,28 +326,39 @@ A Figura \ref{fig:loa_sugado_kp} apresenta resultados do coeficiente de correç�
 
  A Figura \ref{fig:abs_r_sugado_strouhal} apresenta resultados de magnitudes do coeficiente de reflexão $|R_{r}|$ em relação ao número de Strouhal ($St$) calculados no ponto $\textbf{P}$ na terminação do duto com vários escoamentos sugados. Pode-se perceber que os picos de amplificação de $|R_{r}|$ se alinham em $St \sim \pi/2$.
 
-A Figura \ref{fig:abs_r_sugado_strouhal_energy} apresenta resultados do coeficiente de reflexão de energia acústica $|R_{e}|$\simbolo{$|R_{e}|$}{Coeficiente de reflexão de energia acústica} em relação ao número de Strouhal ($St$). O coeficiente de reflexão de energia acústica é definido por \citeonline{da2009sound} como $|R_{e}| = |R_{r}|^{2}((1 - M)(1 + M))^{2}$. Pode-se observar que há uma amplificação de $|R_{e}|$ para $M = 0,07$, ou seja, a amplificação do coeficiente de energia acústica assume o valor maior que o valor unitário. Semelhantemente ao caso do escoamento de exaustão, a máxima amplificação ocorre quando o tempo necessário para que o vórtice despreendido no interior do duto se propague uma distância igual a $2a/\pi$ seja igual ao período de oscilação da fonte. 
+A Figura \ref{fig:abs_r_sugado_strouhal_energy} apresenta resultados do coeficiente de reflexão de energia acústica $|R_{e}|$\simbolo{$|R_{e}|$}{Coeficiente de reflexão de energia acústica} em relação ao número de Strouhal ($St$). O coeficiente de reflexão de energia acústica é definido como 
+\begin{equation}
+ |R_{e}| = |R_{r}|^{2}((1 - M)(1 + M))^{2}, 
+\end{equation}
+sendo $|R_{r}|$ o coeficiente de reflexão na terminação e $M$ o número de Mach. Pode-se observar que há uma amplificação de $|R_{e}|$ para $M = 0,07$, ou seja, a amplificação do coeficiente de energia acústica assume o valor maior que o valor unitário. Semelhantemente ao caso do escoamento de exaustão, a máxima amplificação ocorre quando o tempo necessário para que o vórtice despreendido no interior do duto se propague uma distância igual a $2a/\pi$ seja igual ao período de oscilação da fonte, assumindo, de acordo com o estudo de \citeonline{freymuth1966transition}, que a velocidade de propagação do vórtice é $\sim U/2$, sendo $U$ a velocidade média do escoamento. 
 
 \begin{figure}[ht!]
 \centering
   \input{figuras/energy_abs_r_sugado_strouhal.tex}
 \end{figure}
 
-\newpage
+Fixando o valor de Strouhal $St = \frac{\pi}{2}$ e analisando $|R_{r}|$ em relação aos números de Mach pode-se obter o comportamento do pico máximo de $|R_{r}|$ para cada número de Mach. A Figura \ref{fig:abs_r_sugado_strouhal_mach} apresenta esse resultado, mostrando um comportamento não monotônico, ou seja, $|R_{r}|$ se comporta de forma não regular a medida que o número de Mach aumenta. Tal fato é importante de se considerar pois difere significativamente do escoamento de exaustão. Vale ressaltar também que há um máximo em $M \sim 0,07$ e a medida que se aumenta o Mach além desse valor $|R_{r}|$ vai dimiuindo.
+
+\begin{figure}[ht!]
+\centering
+  \input{figuras/abs_r_sugado_strouhal_mach.tex}
+\end{figure}
+
+Em vista do que foi exposto, há duas perguntas concernentes aos resultados das Figuras \ref{fig:abs_r_sugado_strouhal_energy} e \ref{fig:abs_r_sugado_strouhal_mach} respectivamente:
+\begin{itemize}
+  \item Em virtude do coeficiente de reflexão de energia acústica ($|R_{e}|$) em relação ao número de Strouhal ($St$) para o Mach 0,07, por que há uma amplificação na região de $St \sim \pi/2$ e para outros valores de $St$ não há?
+  \item Tendo em vista o coeficiente de reflexão ($|R_{r}|$), fixado na região de $St \sim \pi/2$, em relação ao número de Mach ($M$), por que o valor máximo ocorre em $M \sim 0,07$?
+\end{itemize}
+
+Com relação a primeira pergunta, pode-se investigar o citado mecanismo de geração de som via desprendimento de vórtices pelo cálculo da intensidade turbulenta. A Figura \ref{fig:energia_turbulenta} apresenta a intensidade turbulenta ($\text{rms}(u')/Mc_{s}$) para $M = 0,07$ calculada ao longo da camada limite localizada a 5 células da parede do duto, começando da terminação e indo para o interior do duto. Pode-se verificar que o primeiro pico ocorre em $(x - \Delta)/a \sim 0,65$ que é aproximadamente $2a/\pi$, ratificando a hipótese relatada. Há um outro pico com amplitude maior na região $(x - \Delta)/a \sim 2,5$ e subentende-se o mesmo estar relacionado a desprendimento de vortices não coerentes, que não geram som.      
 
 \begin{figure}[ht!]
 \centering
   \input{figuras/energia_turbulenta_grafico.tex}
 \end{figure}
 
-Considerando a velocidade do vórtice como $\textbf{u}_{v} \sim \frac{\textbf{u}}{2}$\simbolo{$\textbf{u}_{v}$}{Velocidade do vórtice} segundo \citeonline{da2009sound}, a distância a ser percorrida pelo vórtice é de aproximadamente $2a/\pi$. 
+Usando a integral de energia de Howe explicitada na Equação (\ref{eq:integral_howe_1}) é possível calcular a potência acústica média gerada ao longo de um ciclo de oscilação da fonte na região interna do duto entre a terminação e $2a/\pi$. Para analisar a amplificação ocorrida para o Mach succionado $M = 0,07$ foi calculado a potência sonora para dois números de Strouhal: $\pi/2$ e $6,8$, que são os pontos de alta e baixa amplificação de $|R_{e}|$, apresentados na Figura \ref{fig:abs_r_sugado_strouhal_energy} para o valor de número de Mach $M = 0,07$. A Tabela \ref{table:potencia} mostra os resultados do procedimento citado e é possível observar que para $St = \pi/2$ há geração e para $St = 6,8$ há absorção média de energia acústica. 
 
-Para entender melhor esse mecanismo, a Figura \ref{fig:energia_turbulenta} apresenta a intensidade turbulenta ($\text{rms}(u')/Mc_{s}$) para $M = 0,07$ calculada ao longo da camada limite localizada a 5 células da parede do duto, começando da terminação e indo para o interior do duto. Pode-se verificar a partir dessa Figura que o primeiro pico ocorre em $(x - \Delta)/a \sim 0,65$ que é aproximadamente $2a/\pi$.
-
-
-Usando o colorário de Howe é possível calcular a potência acústica média gerada ao longo de um ciclo de oscilação da fonte. Para analisar a amplificação ocorrida para o Mach succionado $M = 0,07$ foi calculado a potência sonora para dois números de Strouhal: $\pi/2$ e $6,8$, que são os pontos de alta e baixa amplificação de $|R_{e}|$, apresentados na Figura \ref{fig:abs_r_sugado_strouhal_energy} para o valor de número de Mach $M = 0,07$. A Tabela \ref{table:potencia} mostra os resultados do procedimento citado e é possível observar que para $St = \pi/2$ há geração e para $St = 6,8$ há absorção de energia acústica. 
-
-\newpage
 \begin{table}[ht!]
 \centering
 \caption{Potência acústica calculada ao longo de um período de onda para $M = 0,07$ e diferentes números de Strouhal.}
@@ -357,19 +366,32 @@ Usando o colorário de Howe é possível calcular a potência acústica média g
     \begin{tabular}{|l|l|l|l|}
         \hline
         $St$ & $<P>$ \\ \hline
-        $\pi/2$ & 4.6173e-06  \\ \hline  
-        6,8 & -6.6410e-09 \\ \hline
+        $\pi/2$ & 4,6173e-06  \\ \hline  
+        6,8 & -6,6410e-09 \\ \hline
     \end{tabular}
-\end{table} 
+\end{table}
 
+\begin{figure}[ht!]
+\begin{subfigure}{0.5\textwidth}
+  \centering
+  \includegraphics[width=1.1\linewidth]{figuras/max_007_media.png}
+  \caption{$St = \pi/2$}
+  \label{fig:comparacao_007_max}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+  \centering
+  \includegraphics[width=1.1\linewidth]{figuras/min_007_media.png}
+  \caption{$St = 6,8$}
+  \label{fig:comparacao_007_min}
+\end{subfigure}
+\caption[Comparação da média da potência acústica por unidade de volume ao longo de um período de oscilação para $M = 0,07$ e números de Strouhal $St = \pi/2$ e $St = 6,8$.]{Comparação da média da potência acústica por unidade de volume ao longo de um período de oscilação para $M = 0,07$ e números de Strouhal $St = \pi/2$ (\ref{fig:comparacao_007_max}) e $St = 6,8$ (\ref{fig:comparacao_007_min}).}
+\label{fig:comparacao_007_media}
+\end{figure}
 
-A Figura \ref{fig:max_007} apresenta a potência acústica instantânea por unidade de volume através do colorário de Howe para $M = 0,07$ e $St = \pi/2$. É visível o vórtice com alta energia acústica se propagando e percorrendo a distância de $2a/\pi$, causando o fenômeno da amplificação. Já a Figura \ref{fig:min_007} apresenta a energia acústica instantânea através do colorário de Howe para $M = 0,07$ e $St = 6,8$. Como para essa frequência não há amplificação, não há fenômeno de desprendimento de vórtices gerando energia acústica.   
+\newpage
+Também pode-se calcular a média da potência acústica por unidade de volume ao longo de um período de oscilação através da Equação (\ref{eq:integral_howe_2}). A Figura \ref{fig:comparacao_007_media} apresenta os resultados desse cálculo para $M = 0,07$ e números de Strouhal $St = \pi/2$ e $St = 6,8$. As regiões tendendo para o branco e as regiões tendendo para o preto equivalem a regiões de geração e absorção de energia acústica respectivamente. É possível observar na Figura \ref{fig:comparacao_007_max} a geração de energia acústica na região de $2a/\pi$, como também outras regiões com geração e absorção de energia acústica não relacionadas ao fenômento abordado de desprendimento de vórtices. Quanto a Figura \ref{fig:comparacao_007_min} observa-se um comportamento homogêneo ao longo de toda região de análise.    
 
-A Figura \ref{fig:max_007_media} apresenta a média da energia acústica para $M = 0,07$ e $St = \pi/2$ ao longo de um período de oscilação. Pode-se observar o surgimento de energia acústica causado pelos vórtices na distância de $2a/\pi$ da terminação do duto.
-
-Já a Figura \ref{fig:min_007_media} apresenta a média da energia acústica para $M = 0,07$ e $St = 6,8$ ao longo de um período de oscilação. Pode-se observar que não há amplificação e nem absorção de energia acústica pois nessa frequência o período de oscilação da onda acústica é diferente do período de desprendimento de vórtices. 
-
-
+Novamente, com o uso da Equação (\ref{eq:integral_howe_2}), é possível calcular a potência acústica instantânea por unidade de volume em cada instante de tempo num mapa de valores, referenciando regiões de geração e absorção de energia acústica como áreas tendendo para o branco e o preto respectivamente. A Figura \ref{fig:max_007} apresenta  esse cálculo para $M = 0,07$ e $St = \pi/2$. É visível zonas de geração e absorção de energia acústica ao longo de cada instante. Já a Figura \ref{fig:min_007} apresenta a energia acústica instantânea para $M = 0,07$ e $St = 6,8$ e, como nessa frequência não há o desenvolvimento do fenômeno abordado, há a ausência de regiões de geração e absorção de energia acústica, principalmente nas regiões citadas anteriormente.
 
 \begin{landscape}
 \newpage
@@ -406,7 +428,7 @@ Já a Figura \ref{fig:min_007_media} apresenta a média da energia acústica par
   \caption[]{}
   \label{fig:max_007_6}
 \end{subfigure}
-\caption[Energia acústica para $M = 0,07$ e $St = \pi/2$.]{Energia acústica no interior do duto para $M = 0,07$ e $St = \pi/2$.}\label{fig:max_007}
+\caption[Potência acústica instantânea por unidade de volume para $M = 0,07$ e $St = \pi/2$.]{Potência acústica instantânea por unidade de volume no interior do duto para $M = 0,07$ e $St = \pi/2$.}\label{fig:max_007}
 \end{figure}
 \vfill
 \clearpage
@@ -448,40 +470,15 @@ Já a Figura \ref{fig:min_007_media} apresenta a média da energia acústica par
   \caption[]{}
   \label{fig:min_007_6}
 \end{subfigure}
-\caption[Energia acústica para $M = 0,07$ e $St = \pi/2$.]{Energia acústica no interior do duto para $M = 0,07$ e $St = \pi/2$.}\label{fig:min_007}
+\caption[Potência acústica instantânea por unidade de volume para $M = 0,07$ e $St = 6,8$.]{Potência acústica instantânea por unidade de volume no interior do duto para $M = 0,07$ e $St = 6,8$.}\label{fig:min_007}
 \end{figure}
 \vfill
 \clearpage
 \end{landscape}
 
+Em vista do que foi exposto e concernente a primeira pergunta, o fenômeno da amplificação de $|R_{e}|$ para $M = 0,07$ e $St \sim \pi/2$, constatado na Figura \ref{fig:abs_r_sugado_strouhal_energy}, ocorre devido ao surgimento de zonas de geração de energia acústica dentro do duto próximas a região $2a/\pi$. Tal fenômeno não ocorre quando $St \neq \pi/2$. Esse fato corrobora com a hipótese de que a energia vorticial do fluido é convertida em energia acústica nesse contexto.
 
-\begin{figure}[ht!]
-\centering
-  \includegraphics[width=0.85\linewidth]{figuras/max_007_media.png}
-  \caption[Média da energia acústica para $M = 0,07$ e $St = \pi/2$.]{Média da energia acústica para $M = 0,07$ e $St = \pi/2$ ao longo de um período de oscilação.}
-  \label{fig:max_007_media}
-\end{figure}
-
-
-
-\begin{figure}[ht!]
-\centering
-  \includegraphics[width=0.85\linewidth]{figuras/min_007_media.png}
-  \caption[Média da energia acústica para $M = 0,07$ e $St = 6,8$.]{Média da energia acústica para $M = 0,07$ e $St = 6,8$ ao longo de um período de oscilação.}
-  \label{fig:min_007_media}
-\end{figure}
-\vfill
-\clearpage
-
-\newpage
-\begin{figure}[ht!]
-\centering
-  \input{figuras/abs_r_sugado_strouhal_mach.tex}
-\end{figure}
-
-Fixando o valor de Strouhal $St = \frac{\pi}{2}$ e analisando $|R_{r}|$ em relação aos números de Mach pode-se obter o comportamento do pico máximo de $|R_{r}|$ para cada número de Mach. A Figura \ref{fig:abs_r_sugado_strouhal_mach} apresenta esse resultado, mostrando um comportamento não monotônico, ou seja, $|R_{r}|$ se comporta de forma não regular a medida que o número de Mach aumenta. Tal fato é importante de se considerar pois difere significativamente do escoamento de exaustão. Vale ressaltar também que há um máximo em $M \sim 0,07$ e a medida que se aumenta o Mach além desse valor $|R_{r}|$ vai dimiuindo.
-
-Tal fenômeno pode ser analisado e investigado através do colorário de Howe, calculando a potência acústica gerada para $M = 0,07$ e $M = 0,1$. A tabela \ref{table:potencia_mach} mostra esse procedimento fixando o número de Strouhal em $\pi/2$. Pode-se perceber que o fenômeno da amplificação é atenuado quando o número de Mach é maior que $0,07$.    
+Com relação a segunda pergunta, pode-se investigar o efeito de $|R_{r}|$ fixado em $St \sim \pi/2$ com relação aos números de Mach através da integral de energia de Howe apresentada na Equação (\ref{eq:integral_howe_1}). Em vista disso, a potência acústica média gerada ao longo de um período para $M = 0,07$ e $M = 0,1$, calculada na região entre a terminação e $2a/\pi$ para o interior do duto, é apresentada na Tabela \ref{table:potencia_mach}. Pode-se perceber que o fenômeno da amplificação é atenuado quando o número de Mach é maior que $0,07$. 
 
 \begin{table}[ht!]
 \centering
@@ -490,35 +487,34 @@ Tal fenômeno pode ser analisado e investigado através do colorário de Howe, c
     \begin{tabular}{|l|l|l|l|}
         \hline
         $M$ & $<P>$ \\ \hline
-        $0,07$ & 4.6173e-06  \\ \hline  
-        $0,1$ & 6.1312e-07 \\ \hline
+        $0,07$ & 4,6173e-06  \\ \hline  
+        $0,1$ & 6,1312e-07 \\ \hline
     \end{tabular}
 \end{table}
-
-\newpage
-
-A Figura \ref{fig:comparacao_007_01} apresenta a comparação entre as médias temporais ao longo de um período das energias acústicas dos números de Mach $M = 0,1$ (\ref{fig:comparacao_01}) e $M = 0,07$ (\ref{fig:comparacao_01}) para $St = \pi/2$. Pode-se observar que \ref{fig:comparacao_01} possui uma energia menor na região de $2a/\pi$ de distância, ou seja, há mais energia acústica sendo gerada para $M = 0,07$ do que $M = 0,1$.    
-
 
 \begin{figure}[ht!]
 \begin{subfigure}{0.5\textwidth}
   \centering
-  \includegraphics[width=1.2\linewidth]{figuras/max_01_media.png}
+  \includegraphics[width=1.1\linewidth]{figuras/max_01_media.png}
   \caption{$M = 0,1$}
   \label{fig:comparacao_01}
 \end{subfigure}%
 \begin{subfigure}{0.5\textwidth}
   \centering
-  \includegraphics[width=1.2\linewidth]{figuras/max_007_media.png}
+  \includegraphics[width=1.1\linewidth]{figuras/max_007_media.png}
   \caption{$M = 0,07$}
   \label{fig:comparacao_007}
 \end{subfigure}
-\caption[Comparação da média de energia acústica entre $M = 0,1$ e $M = 0,07$ para $St = \pi/2.$]{Comparação da média de energia acústica entre $M = 0,1$ e $M = 0,07$ para $St = \pi/2$ ao longo de um período.}
+\caption[Comparação da média da potência acústica por unidade de volume ao longo de um período entre $M = 0,1$ e $M = 0,07$ para $St = \pi/2.$]{Comparação da média da potência acústica por unidade de volume ao longo de um período entre $M = 0,1$ (\ref{fig:comparacao_01}) e $M = 0,07$ (\ref{fig:comparacao_007}) para $St = \pi/2.$}
 \label{fig:comparacao_007_01}
 \end{figure}
 
+\newpage
+Usando a Equação (\ref{eq:integral_howe_2}), pode-se obter a média da potência acústica por unidade de volume ao longo de um período de oscilação. A Figura \ref{fig:comparacao_007_01} mostra a comparação desse parâmetro em mapas de valores, sendo zonas de geração e absorção de energia acústica as regiões brancas e pretas respectivamente. Pode-se observar que \ref{fig:comparacao_01} possui uma energia menor na região de $2a/\pi$ de distância, ou seja, há mais energia acústica sendo gerada para $M = 0,07$ do que $M = 0,1$. Pode-se observar também que, para outras regiões do duto, \ref{fig:comparacao_01} possui mais zonas de geração de energia acústica do que \ref{fig:comparacao_007}, entretanto subentende-se que esse fenômeno não está relacionado diretamente com a fenomenologia abordada nos resultados da Figura \ref{fig:abs_r_sugado_strouhal_mach}.   
 
-A Figura \ref{fig:max_01} apresenta a energia acústica instantânea através do colorário de Howe para $M = 0,1$ e $St = \pi/2$. É perceptível o surgimento do vórtice de amplificação do campo acústico, assim como ocorre na Figura \ref{fig:max_007}. Todavia há um fenômeno que difere, há a apresença de desprendimento de vórtice com absorção de energia acústica. Esse vórtice se desprende da terminação e alcança a distância de $2a/\pi$. Tal fato é responsável pelo declínio e não monotonocidade da Figura da Figura \ref{fig:abs_r_sugado_strouhal_mach} e estima-se que o vórtice aumenta de energia com o aumento da velocidade de escoamento e, consequentemente, aumentando a absorção do campo acústico.
+Pode-se também, com o uso da Equação (\ref{eq:integral_howe_2}), calcular a potência acústica instantânea por unidade de volume em cada instante de tempo num mapa de valores, referenciando regiões tendendo para o branco e para o preto como zonas de geração e absorção de energia acústica respectivamente. A Figura \ref{fig:max_01} apresenta esse cálculo para $M = 0,10$ e $St = \pi/2$ e é possível observar zonas de geração e absorção de energia acústica ao longo de cada instante. Vale ressaltar que nas Figuras \ref{fig:max_01_5} e \ref{fig:max_01_6} apresentam um fenômeno que é ausente nos resultados da Figura \ref{fig:max_007} para $M = 0,07$: o surgimento de uma zona de absorção acústica na região de $2a/\pi$ de distância em relação a terminação. Tal fato ocasiona uma redução significativa na média da potência acústica apresentada na Tabela \ref{table:potencia_mach}, eclodindo no comportamento de declínio e não monotonocidade da Figura \ref{fig:abs_r_sugado_strouhal_mach}.
+
+Em vista do que foi apresentado e concernente a segunda pergunta, infere-se que o valor máximo de $|R_{r}|$ para $St \sim \pi/2$, constatado na Figura \ref{fig:abs_r_sugado_strouhal_mach}, ocorre devido ao surgimento de zonas de absorção de energia acústica dentro do duto próximas a região $2a/\pi$, apresentadas nas Figuras \ref{fig:max_01_5} e \ref{fig:max_01_6}. Tal fenômeno ocorre a partir do número de $M = 0,10$ e subentende-se que se intensifica a medida que o número Mach aumenta, ocasionando no declínio do módulo do coeficiente reflexão na terminação quando $St = \pi/2$.
 
 \begin{landscape}
 \newpage
