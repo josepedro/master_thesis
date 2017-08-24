@@ -15,17 +15,17 @@
 \contentsline {figure}{\numberline {14}{\ignorespaces Resultados de $|R_{r}|$ e $l/a$ com escoamento de exaust\IeC {\~a}o (M $=$ 0,15 e Re $=$ 2057,71)}}{64}
 \contentsline {figure}{\numberline {15}{\ignorespaces Resultados de $|R_{r}|$ e $l/a$ com escoamento de exaust\IeC {\~a}o (M $=$ 0,2 e Re $=$ 5514,82)}}{65}
 \contentsline {figure}{\numberline {16}{\ignorespaces Coeficiente de reflex\IeC {\~a}o $|R_{r}|$ com escoamento de exaust\IeC {\~a}o em rela\IeC {\c c}\IeC {\~a}o ao n\IeC {\'u}mero de Strouhal ($St$)}}{66}
-\contentsline {figure}{\numberline {17}{\ignorespaces Coeficiente de reflex\IeC {\~a}o $R_{r}$ com escoamento de exaust\IeC {\~a}o em rela\IeC {\c c}\IeC {\~a}o ao n\IeC {\'u}mero de Mach ($M$) no Strouhal $St = \pi /2$}}{66}
-\contentsline {figure}{\numberline {18}{\ignorespaces Resultados de $|R_{r}|$ e $l/a$ em rela\IeC {\c c}\IeC {\~a}o ao n\IeC {\'u}mero de Mach para baixas frequ\IeC {\^e}ncias com escoamento sugado}}{67}
-\contentsline {figure}{\numberline {19}{\ignorespaces Coeficiente de reflex\IeC {\~a}o $|R_{r}|$ com escoamentos sugados}}{68}
+\contentsline {figure}{\numberline {17}{\ignorespaces Coeficiente de reflex\IeC {\~a}o $R_{r}$ com escoamento de exaust\IeC {\~a}o em rela\IeC {\c c}\IeC {\~a}o ao n\IeC {\'u}mero de Mach ($M$) no Strouhal $St = \pi /2$}}{67}
+\contentsline {figure}{\numberline {18}{\ignorespaces Resultados de $|R_{r}|$ e $l/a$ em rela\IeC {\c c}\IeC {\~a}o ao n\IeC {\'u}mero de Mach para baixas frequ\IeC {\^e}ncias com escoamento sugado}}{68}
+\contentsline {figure}{\numberline {19}{\ignorespaces Coeficiente de reflex\IeC {\~a}o $|R_{r}|$ com escoamentos sugados}}{69}
 \contentsline {figure}{\numberline {20}{\ignorespaces Coeficiente de corre\IeC {\c c}\IeC {\~a}o da termina\IeC {\c c}\IeC {\~a}o $l/a$ com escoamentos sugados}}{69}
-\contentsline {figure}{\numberline {21}{\ignorespaces Coeficiente de reflex\IeC {\~a}o $|R_{r}|$ com escoamento sugado em rela\IeC {\c c}\IeC {\~a}o ao n\IeC {\'u}mero de Strouhal ($St$)}}{69}
-\contentsline {figure}{\numberline {22}{\ignorespaces $|R_{e}|$ com escoamento sugado em rela\IeC {\c c}\IeC {\~a}o ao n\IeC {\'u}mero de Strouhal ($St$)}}{70}
+\contentsline {figure}{\numberline {21}{\ignorespaces Coeficiente de reflex\IeC {\~a}o $|R_{r}|$ com escoamento sugado em rela\IeC {\c c}\IeC {\~a}o ao n\IeC {\'u}mero de Strouhal ($St$)}}{70}
+\contentsline {figure}{\numberline {22}{\ignorespaces $|R_{e}|$ com escoamento sugado em rela\IeC {\c c}\IeC {\~a}o ao n\IeC {\'u}mero de Strouhal ($St$)}}{71}
 \contentsline {figure}{\numberline {23}{\ignorespaces Coeficiente de reflex\IeC {\~a}o $R_{r}$ com escoamento de exaust\IeC {\~a}o em rela\IeC {\c c}\IeC {\~a}o ao n\IeC {\'u}mero de Mach ($M$) no Strouhal $St = \pi /2$}}{71}
 \contentsline {figure}{\numberline {24}{\ignorespaces Intensidade turbulenta para $M = 0,07$}}{72}
 \contentsline {figure}{\numberline {25}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o da m\IeC {\'e}dia da pot\IeC {\^e}ncia ac\IeC {\'u}stica por unidade de volume ao longo de um per\IeC {\'\i }odo de oscila\IeC {\c c}\IeC {\~a}o para $M = 0,07$ e n\IeC {\'u}meros de Strouhal $St = \pi /2$ e $St = 6,8$.}}{73}
-\contentsline {figure}{\numberline {26}{\ignorespaces Pot\IeC {\^e}ncia ac\IeC {\'u}stica instant\IeC {\^a}nea por unidade de volume para $M = 0,07$ e $St = \pi /2$.}}{74}
-\contentsline {figure}{\numberline {27}{\ignorespaces Pot\IeC {\^e}ncia ac\IeC {\'u}stica instant\IeC {\^a}nea por unidade de volume para $M = 0,07$ e $St = 6,8$.}}{75}
-\contentsline {figure}{\numberline {28}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o da m\IeC {\'e}dia da pot\IeC {\^e}ncia ac\IeC {\'u}stica por unidade de volume ao longo de um per\IeC {\'\i }odo entre $M = 0,1$ e $M = 0,07$ para $St = \pi /2.$}}{76}
-\contentsline {figure}{\numberline {29}{\ignorespaces Energia ac\IeC {\'u}stica para $M = 0,07$ e $St = \pi /2$.}}{78}
-\contentsline {figure}{\numberline {30}{\ignorespaces Fluxograma de um modelo num\IeC {\'e}rico no Palabos}}{92}
+\contentsline {figure}{\numberline {26}{\ignorespaces Pot\IeC {\^e}ncia ac\IeC {\'u}stica instant\IeC {\^a}nea por unidade de volume para $M = 0,07$ e $St = \pi /2$.}}{75}
+\contentsline {figure}{\numberline {27}{\ignorespaces Pot\IeC {\^e}ncia ac\IeC {\'u}stica instant\IeC {\^a}nea por unidade de volume para $M = 0,07$ e $St = 6,8$.}}{76}
+\contentsline {figure}{\numberline {28}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o da m\IeC {\'e}dia da pot\IeC {\^e}ncia ac\IeC {\'u}stica por unidade de volume ao longo de um per\IeC {\'\i }odo entre $M = 0,1$ e $M = 0,07$ para $St = \pi /2.$}}{77}
+\contentsline {figure}{\numberline {29}{\ignorespaces Energia ac\IeC {\'u}stica para $M = 0,07$ e $St = \pi /2$.}}{79}
+\contentsline {figure}{\numberline {30}{\ignorespaces Fluxograma de um modelo num\IeC {\'e}rico no Palabos}}{94}
