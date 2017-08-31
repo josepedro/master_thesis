@@ -1,0 +1,42 @@
+\begin{tikzpicture}
+  \begin{axis}[
+  width=0.8\textwidth,
+  height=0.4\textwidth,
+  % x tick label style={
+  %     /pgf/number format/.cd,
+  %         fixed,
+  %         fixed zerofill,
+  %         precision=1,
+  %     /tikz/.cd
+  % },
+  xmin=0,
+  xmax=2.4,
+  ymin=0,
+  ymax=1.4,
+  ytick distance=0.2,
+  xtick distance=0.5,
+  grid=major, % Display a grid  
+  %grid style={dashed,gray!90}, % Set the style
+  xlabel = $ka$,
+  ylabel = $|R|$,
+   y tick label style={/pgf/number format/.cd,%
+          scaled y ticks = false,
+          set decimal separator={,},
+          fixed},
+      x tick label style={/pgf/number format/.cd,%
+          scaled x ticks = false,
+          set decimal separator={,},
+          fixed}%
+  ]
+ \addplot[color=black, mark=o] table[x index=0,y index=1] {dados/coeficiente_reflexao_anecoica/A_abs.txt};
+ \addplot[color=black, mark=square] table[x index=0,y index=1] {dados/coeficiente_reflexao_anecoica/B_abs.txt};
+ \addplot[color=black, mark=triangle] table[x index=0,y index=1] {dados/coeficiente_reflexao_anecoica/C_abs.txt};
+ \addplot[color=black, mark=x] table[x index=0,y index=1] {dados/coeficiente_reflexao_anecoica/D_abs.txt};
+
+  \end{axis}
+  \end{tikzpicture}
+  \caption[Coeficiente de reflexão $|R|$ na condição anecóica.]{Resultados do coeficiente de reflexão $|R|$ na condição anecóica localizada nas fronteiras do 
+ modelo numérico. Os pontos com $\bigcirc$, $\square$, $\bigtriangleup$ e $\times$  
+ apresentam os resultados para os pontos 
+ \textbf{A}, \textbf{B}, \textbf{C} e \textbf{D} respectivamente.}
+  \label{fig:abs_r_anecoica}
