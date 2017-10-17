@@ -1,6 +1,6 @@
 \chapter{Metodologia}
 
-Tal como foi discutido no capítulo anterior, para a investigação do coeficiente de reflexão na presença de escoamento, faz-se ncessária a utilização de esquemas numéricos que integrem na mesma estrutura a parte fluido dinâmica e acústica. Neste sentido, o método de lattice Boltzmann mostra-se adequado, sobretudo quando são considerados baixos números de Mach ($M$ $<$ 0,2) e baixos números de Reynolds ($Re$ $<$ 5515). Nesse sentido, há traballhos que validam, aplicam e desenvolvem metodologias de \textit{lattice} Boltzmann no campo de estudo da aeroacústica.
+Tal como foi discutido no capítulo anterior, para a investigação do coeficiente de reflexão na presença de escoamento, faz-se necessária a utilização de esquemas numéricos que integrem na mesma estrutura a parte fluido dinâmica e acústica. Neste sentido, o método de lattice Boltzmann mostra-se adequado, sobretudo quando são considerados baixos números de Mach ($M$ $<$ 0,2) e baixos números de Reynolds ($Re$ $<$ 5515). Nesse sentido, há traballhos que validam, aplicam e desenvolvem metodologias de \textit{lattice} Boltzmann no campo de estudo da aeroacústica.
 
 Um desses estudos é o de \citeonline{crouse2006fundamental}, que mostraram a eficácia do método de \textit{lattice} Boltzmann em recuperar as equações de Navier-Stokes para baixas compressibilidades ($M$ $<$ 0,3). Há de se ressaltar que validaram também o modelo numérico de um ressonador de Helmholtz com um modelo experimental do mesmo, demonstrando assim a viabilidade da aplicação para problemas de acústica.
 
@@ -12,7 +12,7 @@ No que diz respeito a aplicação do método de \textit{lattice} Boltzmann num p
 
 Também na área de aeroacústica computacional, o trabalho de \citeonline{shi2013lattice} propõe um modelo em \textit{lattice} Boltzmann para obter dados de diretividade da radiação sonora num duto circular submetido a escoamento subsônico. Os resultados de diretividade foram comparados com os modelos de \citeonline{levine1948radiation} e \citeonline{gabard2006}, mostrando uma boa convergência principalmente nas baixas frequências.
 
-Já no sentido de tratamento de fenômenos da acústica básica, \citeonline{viggen2013acoustic} adicionou termos fonte na equação de \textit{lattice} Boltzmann para que o método possa permitir o surgimento de dipolos, quadrupolos e outras superposições de multipolos. Além disso, esses termos foram mapeados nos parâmetros macroscópicos através da ferramenta matemática de expansão de Chapman-Enskog. Como resultado, conseguiu reproduzir fenômenos de diretivade de monopolos, dipolos e quadrupolos.
+Já no sentido de tratamento de fenômenos da acústica básica, \citeonline{viggen2013acoustic} adicionou termos fonte na equação de \textit{lattice} Boltzmann para que o método possa permitir o surgimento de dipolos, quadrupolos e outras superposições de multipolos. Além disso, esses termos foram mapeados nos parâmetros macroscópicos através da ferramenta matemática de expansão de Chapman-Enskog. Como resultado, conseguiu reproduzir fenômenos de diretividade de monopolos, dipolos e quadrupolos.
 
 \citeonline{da2015assessment} abordaram também o uso do método de \textit{lattice} Boltzmann em conjunto com a técnica de \textit{Large} \textit{Eddy} \textit{Simulation} (LES) na investigação do ruído gerado na interação do escoamento de um jato com uma placa plana. Os dados de níveis de pressão sonora em campo distante foram obtidos usando uma superfície de Ffowcs-Williams e Hawkings (FW-H)\abreviatura{FW-H}{Superfície de Ffowcs-Williams e Hawkings} e comparados com dados experimentais.
 
@@ -23,8 +23,6 @@ O presente Capítulo apresenta o método de lattice Boltzmann utilizado neste tr
 O método de \textit{lattice} Boltzmann possui bastante utilidade quando se trata de problemas aeroacústicos, envolvendo pequenas flutuações de pressão e fenômentos de turbulência. Isso se deve ao fato do método ter surgido de uma outra abordagem de fenômenos mecânicos aplicados a fluidos - uma abordagem microscópica de interações entre moléculas.
 
 Uma solução para resolver problemas fluidodinâmicos através de interações entre moléculas é abordar o fenômeno físico pelo ponto de vista de distribuição de moléculas, a qual se convêm chamar de partícula. Nesse caso, cada partícula é descrita a partir de uma função de distribuição, a qual indica a probabilidade de se encontrar numa dada região espacial e em um determinado instante de tempo, um conjunto de moléculas que compartilham a mesma velocidade e direção de propagação. A equação de transporte que rege a propagação das partículas e a difusão da quantidade de movimento das mesmas a partir de suas colisões é a Equação de Boltzmann que, ao ser discretizada, pode ser resolvida numericamente originando assim o método de \textit{lattice} Boltzmann ou \textit{lattice} \textit{Boltzmann} \textit{Method} (LBM)\abreviatura{LBM}{\textit{Lattice} \textit{Boltzmann} \textit{Method}}. 
-
-Historicamente o método de \textit{lattice} Boltzmann se originou nos anos 90 através de trabalhos como de \citeonline{he1997theory}, que mostraram que a forma discreta da equação de Boltzmann também recupera as equações de Navier Stokes para baixas compressibilidades (baixos números de Mach). Isto fornece uma ligação formal entre as equações macroscópicas de lattice Boltzmann e as equações de Navier-Stokes para baixas compressibilidades, além de possibilitar a implementação computacional desse método.
 
 O LBM possui muitas vantagens em relação a técnicas tradicionais de fluido dinâmica computacional aplicadas a aeroacústica: resolve o campo acústico e o campo fluido dinâmico numa mesma iteração em cada incremento de tempo, extração direta do campo de pressão e fácil implementação paralela elevando assim a performance frente a outros métodos.
 
@@ -50,9 +48,9 @@ Uma das formas de calcular o operador de colisão $\Omega_{i}$ é usar a formula
 	\Omega_{i} = -\frac{1}{\tau}(f_{i} - f_{i}^{M}),
     \label{eq:omega_i}
 \end{equation}
-tal que $\tau$\simbolo{$\tau$}{Período de colisão LBM} é o período de colisão, período médio de colisão entre partículas, e $f_{i}^{M}$\simbolo{$f_{i}^{M}$}{Função de distribuição de Maxwell ou de equilíbrio} é a função de distribuição de Maxwell ou função de distribuição de equilíbrio.
+tal que $\tau$\simbolo{$\tau$}{Período de colisão LBM} é o período de colisão, período médio de colisão entre partículas, e $f_{i}^{M}$\simbolo{$f_{i}^{M}$}{Função de distribuição de equilíbrio} é a função de distribuição de equilíbrio.
 
-A função de distribuição de Maxwell $f_{i}^{M}$ pode ser calculada aplicando o princípio de máxima entropia de acordo com as retrições das leis de conservação de massa e quantidade de movimento, assim como é proposto por \citeonline{wolf}. Dessa forma a função de distribuição de Maxwell é definida por
+A função de distribuição de equilíbrio $f_{i}^{M}$ pode ser calculada aplicando o princípio de máxima entropia de acordo com as retrições das leis de conservação de massa e quantidade de movimento, assim como é proposto por \citeonline{wolf}. Dessa forma a função de distribuição de equilíbrio é definida por
 \begin{equation}
 	f_{i}^{M} = \rho \varepsilon _{i}\bigg( 1 + \frac{\textbf{u}.c_{i}}{c_{s}^{2}} + \frac{\textbf{u}.c_{i}^{2} - c_{s}^{2}\textbf{u}}{2c_{s}^{4}}\bigg),
     \label{eq:f_i_M}
@@ -134,9 +132,9 @@ Com os parâmetros $c^{*}$ e $\Delta x$ pode-se realizar as seguintes conversõe
 
 tal que $f^{*}$ e $f$ são unidades de frequências física e do LBM respectivamente\simbolo{$f^{*}$}{Frequência física}\simbolo{$f$}{Frequência em LBM}.
 
-Há várias geometrias de células, o grupo do tipo $D_{n}Q_{b}$ ($n$ dimensões e $b$ direções de propagação ou velocidades) é um dos mais usados e foi proposto por \citeonline{qian1992lattice}. A tabela \ref{table:modelos} mostra os parâmetros para cada um dos modelos do tipo $D_{n}Q_{b}$, seus diferentes vetores de velocidades de propagação ($c_{i}$), seus respectivos pesos $\varepsilon_{i}$ e as suas constantes de velocidade do som ($c_{s}$). Esses valores são obtidos para cada geometria, de forma que se mantenham a conservação da massa e da quantidade de movimento. Portanto com esses parâmetros já se torna possível calcular a função de Maxwell ($f_{i}^{M}$) para cada operação de colisão em cada iteração de tempo.
+Há várias geometrias de células, o grupo do tipo $D_{n}Q_{b}$ ($n$ dimensões e $b$ direções de propagação ou velocidades) é um dos mais usados e foi proposto por \citeonline{qian1992lattice}. A tabela \ref{table:modelos} mostra os parâmetros para cada um dos modelos do tipo $D_{n}Q_{b}$, seus diferentes vetores de velocidades de propagação ($c_{i}$), seus respectivos pesos $\varepsilon_{i}$ e as suas constantes de velocidade do som ($c_{s}$). Esses valores são obtidos para cada geometria, de forma que se mantenham a conservação da massa e da quantidade de movimento. Portanto com esses parâmetros já se torna possível calcular a função de equilíbrio ($f_{i}^{M}$) para cada operação de colisão em cada iteração de tempo.
 
-Para esse trabalho usou-se o modelo D3Q19 e a Figura \ref{fig:d3q19} ilustra um esquemático desse tipo de célula e é possível visualizar espacialmente as direções de propagação. Vale ressaltar que para cada direção há o cáculo da função de Maxwell ($f_{i}^{M}$) e, por conseguinte, a operação de propagação das funções de distribuição para a célula adjacente no sentido de cada direção.
+Para esse trabalho usou-se o modelo D3Q19 e a Figura \ref{fig:d3q19} ilustra um esquemático desse tipo de célula e é possível visualizar espacialmente as direções de propagação. Vale ressaltar que para cada direção há o cáculo da função de equilíbrio ($f_{i}^{M}$) e, por conseguinte, a operação de propagação das funções de distribuição para a célula adjacente no sentido de cada direção.
 
 \begin{table}[ht!]
 \centering
