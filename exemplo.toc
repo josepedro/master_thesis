@@ -15,20 +15,20 @@
 \contentsline {section}{\numberline {3.1}O M\IeC {\'e}todo de Lattice Boltzmann}{40}
 \contentsline {subsection}{\numberline {3.1.1}Modelo BGK}{41}
 \contentsline {subsection}{\numberline {3.1.2}M\IeC {\'u}ltiplos Tempos de Relaxa\IeC {\c c}\IeC {\~a}o}{45}
-\contentsline {subsection}{\numberline {3.1.3}Condi\IeC {\c c}\IeC {\~o}es de Contorno}{47}
-\contentsline {subsubsection}{\numberline {3.1.3.1}\textit {Bounceback}}{47}
-\contentsline {subsubsection}{\numberline {3.1.3.2}Condi\IeC {\c c}\IeC {\~a}o Anec\IeC {\'o}ica}{48}
+\contentsline {subsection}{\numberline {3.1.3}Condi\IeC {\c c}\IeC {\~o}es de Contorno}{46}
+\contentsline {subsubsection}{\numberline {3.1.3.1}\textit {Bounceback}}{46}
+\contentsline {subsubsection}{\numberline {3.1.3.2}Condi\IeC {\c c}\IeC {\~a}o Anec\IeC {\'o}ica}{47}
 \contentsline {section}{\numberline {3.2}Palabos}{49}
-\contentsline {section}{\numberline {3.3}Modelo Num\IeC {\'e}rico}{50}
+\contentsline {section}{\numberline {3.3}Modelo Num\IeC {\'e}rico}{49}
 \contentsline {subsection}{\numberline {3.3.1}Verifica\IeC {\c c}\IeC {\~a}o da Condi\IeC {\c c}\IeC {\~a}o Anec\IeC {\'o}ica}{52}
-\contentsline {section}{\numberline {3.4}P\IeC {\'o}s-processamento}{53}
+\contentsline {section}{\numberline {3.4}P\IeC {\'o}s-processamento}{52}
 \contentsline {section}{\numberline {3.5}Integral de Energia de Howe}{54}
-\contentsline {chapter}{\numberline {4}\MakeUppercase {Resultados}}{57}
-\contentsline {section}{\numberline {4.1}An\IeC {\'a}lise da Condi\IeC {\c c}\IeC {\~a}o Anec\IeC {\'o}ica}{58}
-\contentsline {section}{\numberline {4.2}Duto sem Escoamento}{60}
-\contentsline {section}{\numberline {4.3}Duto com Escoamento Subs\IeC {\^o}nico de Exaust\IeC {\~a}o}{62}
-\contentsline {section}{\numberline {4.4}Duto com Escoamento Sugado}{67}
-\contentsline {chapter}{\numberline {5}\MakeUppercase {Conclus\IeC {\~o}es}}{81}
-\contentsline {section}{\numberline {5.1}Trabalhos Futuros}{82}
-\contentsline {chapter}{REFER\IeC {\^E}NCIAS}{85}
-\contentsline {chapter}{\MakeUppercase {Ap\^endice{}} A{} -$\tmspace -\thinmuskip {.1667em}$-{} Manual de Funcionamento do Palabos Acoustic}{93}
+\contentsline {chapter}{\numberline {4}\MakeUppercase {Resultados}}{55}
+\contentsline {section}{\numberline {4.1}An\IeC {\'a}lise da Condi\IeC {\c c}\IeC {\~a}o Anec\IeC {\'o}ica}{56}
+\contentsline {section}{\numberline {4.2}Duto sem Escoamento}{58}
+\contentsline {section}{\numberline {4.3}Duto com Escoamento Subs\IeC {\^o}nico de Exaust\IeC {\~a}o}{60}
+\contentsline {section}{\numberline {4.4}Duto com Escoamento Sugado}{65}
+\contentsline {chapter}{\numberline {5}\MakeUppercase {Conclus\IeC {\~o}es}}{79}
+\contentsline {section}{\numberline {5.1}Trabalhos Futuros}{80}
+\contentsline {chapter}{REFER\IeC {\^E}NCIAS}{83}
+\contentsline {chapter}{\MakeUppercase {Ap\^endice{}} A{} -$\tmspace -\thinmuskip {.1667em}$-{} Manual de Funcionamento do Palabos Acoustic}{91}

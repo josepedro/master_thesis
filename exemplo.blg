@@ -32,45 +32,45 @@ Warning--faltando school em viggen2014lattice
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex.codigolivre.org.br                        |
 +---------------------------------------------------------+
-You've used 58 entries,
+You've used 57 entries,
             6480 wiz_defined-function locations,
-            1488 strings with 17942 characters,
-and the built_in function-call counts, 46777 in all, are:
-= -- 3409
-> -- 1662
-< -- 159
-+ -- 664
-- -- 491
-* -- 3458
-:= -- 6107
-add.period$ -- 178
-call.type$ -- 60
-change.case$ -- 587
-chr.to.int$ -- 189
-cite$ -- 55
-duplicate$ -- 2391
-empty$ -- 3385
-format.name$ -- 2405
-if$ -- 11082
-int.to.chr$ -- 4
+            1487 strings with 17930 characters,
+and the built_in function-call counts, 45939 in all, are:
+= -- 3349
+> -- 1629
+< -- 155
++ -- 651
+- -- 481
+* -- 3395
+:= -- 6001
+add.period$ -- 175
+call.type$ -- 59
+change.case$ -- 576
+chr.to.int$ -- 186
+cite$ -- 54
+duplicate$ -- 2343
+empty$ -- 3331
+format.name$ -- 2358
+if$ -- 10883
+int.to.chr$ -- 3
 int.to.str$ -- 3
-missing$ -- 1006
-newline$ -- 282
-num.names$ -- 270
-pop$ -- 1168
+missing$ -- 988
+newline$ -- 277
+num.names$ -- 265
+pop$ -- 1147
 preamble$ -- 1
-purify$ -- 227
+purify$ -- 223
 quote$ -- 0
-skip$ -- 2681
+skip$ -- 2635
 stack$ -- 1
-substring$ -- 2067
-swap$ -- 1312
-text.length$ -- 115
+substring$ -- 2041
+swap$ -- 1284
+text.length$ -- 112
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 8
 warning$ -- 1
-while$ -- 424
+while$ -- 417
 width$ -- 0
-write$ -- 925
+write$ -- 907
 (There were 6 warnings)
